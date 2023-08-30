@@ -1,0 +1,129 @@
+{
+  "Files": [
+    {
+      "Id": "/Users/azizjonabdugafforov/Desktop/Code/level 6/BIS_project/BIS_project/wwwroot/Drivers/images/33748cb3-c000-4631-a6a0-b79e6c765406.jpg",
+      "PackagePath": "staticwebassets/Drivers/images/33748cb3-c000-4631-a6a0-b79e6c765406.jpg"
+    },
+    {
+      "Id": "/Users/azizjonabdugafforov/Desktop/Code/level 6/BIS_project/BIS_project/wwwroot/Drivers/images/5deff0b4-22ee-4757-87ed-4aebe6bd3a5e.png",
+      "PackagePath": "staticwebassets/Drivers/images/5deff0b4-22ee-4757-87ed-4aebe6bd3a5e.png"
+    },
+    {
+      "Id": "/Users/azizjonabdugafforov/Desktop/Code/level 6/BIS_project/BIS_project/wwwroot/Drivers/images/709b29e8-0116-4595-afe0-a40af81b00fa.jpg",
+      "PackagePath": "staticwebassets/Drivers/images/709b29e8-0116-4595-afe0-a40af81b00fa.jpg"
+    },
+    {
+      "Id": "/Users/azizjonabdugafforov/Desktop/Code/level 6/BIS_project/BIS_project/wwwroot/Drivers/images/863b72a4-bb24-4b85-88e3-91a97f3a4fec.png",
+      "PackagePath": "staticwebassets/Drivers/images/863b72a4-bb24-4b85-88e3-91a97f3a4fec.png"
+    },
+    {
+      "Id": "/Users/azizjonabdugafforov/Desktop/Code/level 6/BIS_project/BIS_project/wwwroot/assets/images/ada800ba-9821-434d-b788-82151a26e882.jpeg",
+      "PackagePath": "staticwebassets/assets/images/ada800ba-9821-434d-b788-82151a26e882.jpeg"
+    },
+    {
+      "Id": "/Users/azizjonabdugafforov/Desktop/Code/level 6/BIS_project/BIS_project/wwwroot/employees/0711c604-6f7b-4775-b00b-fdd73a1497fe-azimjon (1).jpg",
+      "PackagePath": "staticwebassets/employees/0711c604-6f7b-4775-b00b-fdd73a1497fe-azimjon (1).jpg"
+    },
+    {
+      "Id": "/Users/azizjonabdugafforov/Desktop/Code/level 6/BIS_project/BIS_project/wwwroot/employees/47dd588f-7480-4358-b9e5-b2214fa0595fazimjon (1).jpg",
+      "PackagePath": "staticwebassets/employees/47dd588f-7480-4358-b9e5-b2214fa0595fazimjon (1).jpg"
+    },
+    {
+      "Id": "/Users/azizjonabdugafforov/Desktop/Code/level 6/BIS_project/BIS_project/wwwroot/employees/508dc245-2c7a-4eff-a610-34567cb0d46c.jpg",
+      "PackagePath": "staticwebassets/employees/508dc245-2c7a-4eff-a610-34567cb0d46c.jpg"
+    },
+    {
+      "Id": "/Users/azizjonabdugafforov/Desktop/Code/level 6/BIS_project/BIS_project/wwwroot/employees/a8f1816d-0be2-4fcb-90d2-56b9010fc1e5.jpg",
+      "PackagePath": "staticwebassets/employees/a8f1816d-0be2-4fcb-90d2-56b9010fc1e5.jpg"
+    },
+    {
+      "Id": "/Users/azizjonabdugafforov/Desktop/Code/level 6/BIS_project/BIS_project/wwwroot/employees/ce8005a9-2b64-49bf-aa39-4d37d59e5889-azimjon (1).jpg",
+      "PackagePath": "staticwebassets/employees/ce8005a9-2b64-49bf-aa39-4d37d59e5889-azimjon (1).jpg"
+    },
+    {
+      "Id": "/Users/azizjonabdugafforov/Desktop/Code/level 6/BIS_project/BIS_project/wwwroot/employees/images/6ed38353-f432-49d5-b3a6-16892b17fef1.jpg",
+      "PackagePath": "staticwebassets/employees/images/6ed38353-f432-49d5-b3a6-16892b17fef1.jpg"
+    },
+    {
+      "Id": "/Users/azizjonabdugafforov/Desktop/Code/level 6/BIS_project/BIS_project/wwwroot/employees/images/808f7d0c-49c1-4326-817c-c8b4e76c6958-azimjon (1).jpg",
+      "PackagePath": "staticwebassets/employees/images/808f7d0c-49c1-4326-817c-c8b4e76c6958-azimjon (1).jpg"
+    },
+    {
+      "Id": "/Users/azizjonabdugafforov/Desktop/Code/level 6/BIS_project/BIS_project/wwwroot/employees/images/a5991729-5bc6-42d6-b636-f370566f38d4-azimjon (1).jpg",
+      "PackagePath": "staticwebassets/employees/images/a5991729-5bc6-42d6-b636-f370566f38d4-azimjon (1).jpg"
+    },
+    {
+      "Id": "/Users/azizjonabdugafforov/Desktop/Code/level 6/BIS_project/BIS_project/wwwroot/employees/images/a86bf8a2-434a-4560-be76-60ef5b3bdc13-phones.jpeg",
+      "PackagePath": "staticwebassets/employees/images/a86bf8a2-434a-4560-be76-60ef5b3bdc13-phones.jpeg"
+    },
+    {
+      "Id": "/Users/azizjonabdugafforov/Desktop/Code/level 6/BIS_project/BIS_project/wwwroot/employees/images/c64e782b-b4d2-4617-8ee2-540a67ae4ba1.jpg",
+      "PackagePath": "staticwebassets/employees/images/c64e782b-b4d2-4617-8ee2-540a67ae4ba1.jpg"
+    },
+    {
+      "Id": "/Users/azizjonabdugafforov/Desktop/Code/level 6/BIS_project/BIS_project/wwwroot/employees/images/d04cb10d-6b3d-4114-abca-31c70d07fba2-phones.jpeg",
+      "PackagePath": "staticwebassets/employees/images/d04cb10d-6b3d-4114-abca-31c70d07fba2-phones.jpeg"
+    },
+    {
+      "Id": "/Users/azizjonabdugafforov/Desktop/Code/level 6/BIS_project/BIS_project/wwwroot/employees/images/ed616f14-0d32-4955-9eeb-46ee5ca72620-phones.jpeg",
+      "PackagePath": "staticwebassets/employees/images/ed616f14-0d32-4955-9eeb-46ee5ca72620-phones.jpeg"
+    },
+    {
+      "Id": "/Users/azizjonabdugafforov/Desktop/Code/level 6/BIS_project/BIS_project/wwwroot/employees/images/fb35b884-2dff-48c4-a326-653e921c2355-azimjon (1).jpg",
+      "PackagePath": "staticwebassets/employees/images/fb35b884-2dff-48c4-a326-653e921c2355-azimjon (1).jpg"
+    },
+    {
+      "Id": "/Users/azizjonabdugafforov/Desktop/Code/level 6/BIS_project/BIS_project/wwwroot/employees/images/fcb28ddc-e997-4fce-bdf5-97a1edca73bc.jpg",
+      "PackagePath": "staticwebassets/employees/images/fcb28ddc-e997-4fce-bdf5-97a1edca73bc.jpg"
+    },
+    {
+      "Id": "/Users/azizjonabdugafforov/Desktop/Code/level 6/BIS_project/BIS_project/wwwroot/truck/images/0b744b0d-4d89-4f71-bc2f-3cbde47f632b.jpg",
+      "PackagePath": "staticwebassets/truck/images/0b744b0d-4d89-4f71-bc2f-3cbde47f632b.jpg"
+    },
+    {
+      "Id": "/Users/azizjonabdugafforov/Desktop/Code/level 6/BIS_project/BIS_project/wwwroot/truck/images/0d0120be-60d5-44eb-b8c1-87871e39dc8f.jpg",
+      "PackagePath": "staticwebassets/truck/images/0d0120be-60d5-44eb-b8c1-87871e39dc8f.jpg"
+    },
+    {
+      "Id": "/Users/azizjonabdugafforov/Desktop/Code/level 6/BIS_project/BIS_project/wwwroot/truck/images/0eac6fd5-653d-4780-9fc4-9ae33dc1474c.jpeg",
+      "PackagePath": "staticwebassets/truck/images/0eac6fd5-653d-4780-9fc4-9ae33dc1474c.jpeg"
+    },
+    {
+      "Id": "/Users/azizjonabdugafforov/Desktop/Code/level 6/BIS_project/BIS_project/wwwroot/truck/images/1bc2541f-020a-4e70-a7fd-df4bfdb46d46.jpg",
+      "PackagePath": "staticwebassets/truck/images/1bc2541f-020a-4e70-a7fd-df4bfdb46d46.jpg"
+    },
+    {
+      "Id": "/Users/azizjonabdugafforov/Desktop/Code/level 6/BIS_project/BIS_project/wwwroot/truck/images/1e2f7cc0-977c-49e2-aee6-09f563243974.jpg",
+      "PackagePath": "staticwebassets/truck/images/1e2f7cc0-977c-49e2-aee6-09f563243974.jpg"
+    },
+    {
+      "Id": "/Users/azizjonabdugafforov/Desktop/Code/level 6/BIS_project/BIS_project/wwwroot/truck/images/2bfedf47-b9d7-4a1a-a04e-18a75891a78d.jpg",
+      "PackagePath": "staticwebassets/truck/images/2bfedf47-b9d7-4a1a-a04e-18a75891a78d.jpg"
+    },
+    {
+      "Id": "/Users/azizjonabdugafforov/Desktop/Code/level 6/BIS_project/BIS_project/wwwroot/truck/images/4e43ca5a-41ca-4b35-9764-bdf46e1d845e.jpg",
+      "PackagePath": "staticwebassets/truck/images/4e43ca5a-41ca-4b35-9764-bdf46e1d845e.jpg"
+    },
+    {
+      "Id": "/Users/azizjonabdugafforov/Desktop/Code/level 6/BIS_project/BIS_project/wwwroot/truck/images/7c85a947-4f7a-416d-9501-9acf29b0e2f5.jpg",
+      "PackagePath": "staticwebassets/truck/images/7c85a947-4f7a-416d-9501-9acf29b0e2f5.jpg"
+    },
+    {
+      "Id": "obj/Debug/net7.0/staticwebassets/msbuild.BIS_project.Microsoft.AspNetCore.StaticWebAssets.props",
+      "PackagePath": "build\\Microsoft.AspNetCore.StaticWebAssets.props"
+    },
+    {
+      "Id": "obj/Debug/net7.0/staticwebassets/msbuild.build.BIS_project.props",
+      "PackagePath": "build\\BIS_project.props"
+    },
+    {
+      "Id": "obj/Debug/net7.0/staticwebassets/msbuild.buildMultiTargeting.BIS_project.props",
+      "PackagePath": "buildMultiTargeting\\BIS_project.props"
+    },
+    {
+      "Id": "obj/Debug/net7.0/staticwebassets/msbuild.buildTransitive.BIS_project.props",
+      "PackagePath": "buildTransitive\\BIS_project.props"
+    }
+  ],
+  "ElementsToRemove": []
+}
