@@ -1,0 +1,49 @@
+2023-09-01 10:00:58.039 +05:00 [INF] User profile is available. Using '/Users/azizjonabdugafforov/.aspnet/DataProtection-Keys' as key repository; keys will not be encrypted at rest.
+2023-09-01 10:00:58.099 +05:00 [INF] Now listening on: http://localhost:5279
+2023-09-01 10:00:58.100 +05:00 [INF] Application started. Press Ctrl+C to shut down.
+2023-09-01 10:00:58.100 +05:00 [INF] Hosting environment: Development
+2023-09-01 10:00:58.100 +05:00 [INF] Content root path: /Users/azizjonabdugafforov/Desktop/Code/level 6/BIS_project/BIS_project
+2023-09-01 10:00:58.626 +05:00 [INF] Request starting HTTP/1.1 GET http://localhost:5279/swagger/index.html - -
+2023-09-01 10:00:58.697 +05:00 [INF] Request finished HTTP/1.1 GET http://localhost:5279/swagger/index.html - - - 200 - text/html;charset=utf-8 72.1726ms
+2023-09-01 10:00:58.709 +05:00 [INF] Request starting HTTP/1.1 GET http://localhost:5279/swagger/swagger-ui-bundle.js - -
+2023-09-01 10:00:58.709 +05:00 [INF] Request starting HTTP/1.1 GET http://localhost:5279/swagger/swagger-ui-standalone-preset.js - -
+2023-09-01 10:00:58.710 +05:00 [INF] Request starting HTTP/1.1 GET http://localhost:5279/swagger/swagger-ui.css - -
+2023-09-01 10:00:58.726 +05:00 [INF] Request starting HTTP/1.1 GET http://localhost:5279/swagger/swagger-ui-standalone-preset.js - -
+2023-09-01 10:00:58.726 +05:00 [INF] Sending file. Request path: '/swagger-ui-bundle.js'. Physical path: 'N/A'
+2023-09-01 10:00:58.726 +05:00 [INF] Sending file. Request path: '/swagger-ui.css'. Physical path: 'N/A'
+2023-09-01 10:00:58.727 +05:00 [INF] Sending file. Request path: '/swagger-ui-standalone-preset.js'. Physical path: 'N/A'
+2023-09-01 10:00:58.727 +05:00 [INF] Sending file. Request path: '/swagger-ui-standalone-preset.js'. Physical path: 'N/A'
+2023-09-01 10:00:58.728 +05:00 [INF] Request finished HTTP/1.1 GET http://localhost:5279/swagger/swagger-ui-bundle.js - - - 200 1061536 text/javascript 19.2959ms
+2023-09-01 10:00:58.729 +05:00 [INF] Request finished HTTP/1.1 GET http://localhost:5279/swagger/swagger-ui-standalone-preset.js - - - 200 312163 text/javascript 3.4877ms
+2023-09-01 10:00:58.729 +05:00 [INF] Request finished HTTP/1.1 GET http://localhost:5279/swagger/swagger-ui.css - - - 200 144929 text/css 18.6466ms
+2023-09-01 10:00:58.729 +05:00 [INF] Request finished HTTP/1.1 GET http://localhost:5279/swagger/swagger-ui-standalone-preset.js - - - 200 312163 text/javascript 20.3398ms
+2023-09-01 10:00:58.730 +05:00 [INF] Request starting HTTP/1.1 GET http://localhost:5279/swagger/swagger-ui-bundle.js - -
+2023-09-01 10:00:58.734 +05:00 [INF] Sending file. Request path: '/swagger-ui-bundle.js'. Physical path: 'N/A'
+2023-09-01 10:00:58.734 +05:00 [INF] Request finished HTTP/1.1 GET http://localhost:5279/swagger/swagger-ui-bundle.js - - - 200 1061536 text/javascript 4.5781ms
+2023-09-01 10:00:58.841 +05:00 [INF] Request starting HTTP/1.1 GET http://localhost:5279/swagger/v1/swagger.json - -
+2023-09-01 10:00:58.911 +05:00 [INF] Request finished HTTP/1.1 GET http://localhost:5279/swagger/v1/swagger.json - - - 200 - application/json;charset=utf-8 69.5350ms
+2023-09-01 10:04:10.745 +05:00 [INF] Application is shutting down...
+2023-09-01 10:04:12.471 +05:00 [INF] User profile is available. Using '/Users/azizjonabdugafforov/.aspnet/DataProtection-Keys' as key repository; keys will not be encrypted at rest.
+2023-09-01 10:04:12.528 +05:00 [INF] Now listening on: http://localhost:5279
+2023-09-01 10:04:12.528 +05:00 [INF] Application started. Press Ctrl+C to shut down.
+2023-09-01 10:04:12.528 +05:00 [INF] Hosting environment: Development
+2023-09-01 10:04:12.528 +05:00 [INF] Content root path: /Users/azizjonabdugafforov/Desktop/Code/level 6/BIS_project/BIS_project
+2023-09-01 10:04:13.174 +05:00 [INF] Request starting HTTP/1.1 GET http://localhost:5279/swagger/index.html - -
+2023-09-01 10:04:13.248 +05:00 [INF] Request finished HTTP/1.1 GET http://localhost:5279/swagger/index.html - - - 200 - text/html;charset=utf-8 75.7518ms
+2023-09-01 10:04:13.410 +05:00 [INF] Request starting HTTP/1.1 GET http://localhost:5279/swagger/v1/swagger.json - -
+2023-09-01 10:04:13.497 +05:00 [INF] Request finished HTTP/1.1 GET http://localhost:5279/swagger/v1/swagger.json - - - 200 - application/json;charset=utf-8 87.3246ms
+2023-09-01 10:09:03.321 +05:00 [INF] Application is shutting down...
+2023-09-01 10:09:04.853 +05:00 [INF] User profile is available. Using '/Users/azizjonabdugafforov/.aspnet/DataProtection-Keys' as key repository; keys will not be encrypted at rest.
+2023-09-01 10:09:04.906 +05:00 [INF] Now listening on: http://localhost:5279
+2023-09-01 10:09:04.907 +05:00 [INF] Application started. Press Ctrl+C to shut down.
+2023-09-01 10:09:04.907 +05:00 [INF] Hosting environment: Development
+2023-09-01 10:09:04.907 +05:00 [INF] Content root path: /Users/azizjonabdugafforov/Desktop/Code/level 6/BIS_project/BIS_project
+2023-09-01 10:09:05.559 +05:00 [INF] Request starting HTTP/1.1 GET http://localhost:5279/swagger/index.html - -
+2023-09-01 10:09:05.641 +05:00 [INF] Request finished HTTP/1.1 GET http://localhost:5279/swagger/index.html - - - 200 - text/html;charset=utf-8 83.8997ms
+2023-09-01 10:09:05.737 +05:00 [INF] Request starting HTTP/1.1 GET http://localhost:5279/swagger/v1/swagger.json - -
+2023-09-01 10:09:05.821 +05:00 [INF] Request finished HTTP/1.1 GET http://localhost:5279/swagger/v1/swagger.json - - - 200 - application/json;charset=utf-8 83.7919ms
+2023-09-01 20:19:58.538 +05:00 [INF] Request starting HTTP/1.1 GET http://localhost:5279/swagger/index.html - -
+2023-09-01 20:19:58.570 +05:00 [INF] Request finished HTTP/1.1 GET http://localhost:5279/swagger/index.html - - - 200 - text/html;charset=utf-8 37.1222ms
+2023-09-01 20:19:58.660 +05:00 [INF] Request starting HTTP/1.1 GET http://localhost:5279/swagger/v1/swagger.json - -
+2023-09-01 20:19:58.682 +05:00 [INF] Request finished HTTP/1.1 GET http://localhost:5279/swagger/v1/swagger.json - - - 200 - application/json;charset=utf-8 22.1212ms
+2023-09-01 20:20:02.435 +05:00 [INF] Application is shutting down...

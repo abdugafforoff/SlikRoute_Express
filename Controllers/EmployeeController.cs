@@ -29,7 +29,7 @@ public class EmployeeController : ControllerBase
     }
     
     [HttpPost(Name = "UploadEmployee")]
-    public async Task<IActionResult> UploadEmployee([FromForm] EmployeeModel model)
+    public async Task<IActionResult> CreateEmployee([FromForm] EmployeeModel model)
     {
         try
         {
@@ -76,7 +76,6 @@ public class EmployeeController : ControllerBase
             throw;
         }
     }
-    
     
     [HttpPut("{id}",Name = "UpdateEmployee")]
     public async Task<bool> UpdateEmployee(int id, [FromForm] EmployeeModel model)

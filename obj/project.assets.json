@@ -748,15 +748,15 @@
           }
         }
       },
-      "Serilog/2.12.0": {
+      "Serilog/3.0.2-dev-02044": {
         "type": "package",
         "compile": {
-          "lib/net6.0/Serilog.dll": {
+          "lib/net7.0/Serilog.dll": {
             "related": ".xml"
           }
         },
         "runtime": {
-          "lib/net6.0/Serilog.dll": {
+          "lib/net7.0/Serilog.dll": {
             "related": ".xml"
           }
         }
@@ -825,10 +825,10 @@
           }
         }
       },
-      "Serilog.Formatting.Compact/1.1.0": {
+      "Serilog.Formatting.Compact/1.1.1-dev-00944": {
         "type": "package",
         "dependencies": {
-          "Serilog": "2.8.0"
+          "Serilog": "2.9.0"
         },
         "compile": {
           "lib/netstandard2.0/Serilog.Formatting.Compact.dll": {
@@ -859,7 +859,7 @@
           }
         }
       },
-      "Serilog.Sinks.Console/4.0.1": {
+      "Serilog.Sinks.Console/4.2.0-dev-00918": {
         "type": "package",
         "dependencies": {
           "Serilog": "2.10.0"
@@ -2500,33 +2500,30 @@
         "scrutor.nuspec"
       ]
     },
-    "Serilog/2.12.0": {
-      "sha512": "xaiJLIdu6rYMKfQMYUZgTy8YK7SMZjB4Yk50C/u//Z4OsvxkUfSPJy4nknfvwAC34yr13q7kcyh4grbwhSxyZg==",
+    "Serilog/3.0.2-dev-02044": {
+      "sha512": "Hu+akoisb/A4lOcVmiY3IAfo9Ke0uPyCTvNDJXnpJrV8Am2YCHBC4s+KPlxGWX2qDClFNJBvT+y/TZgN7uAkuA==",
       "type": "package",
-      "path": "serilog/2.12.0",
+      "path": "serilog/3.0.2-dev-02044",
       "files": [
         ".nupkg.metadata",
         ".signature.p7s",
+        "README.md",
         "icon.png",
-        "lib/net45/Serilog.dll",
-        "lib/net45/Serilog.xml",
-        "lib/net46/Serilog.dll",
-        "lib/net46/Serilog.xml",
-        "lib/net47/Serilog.dll",
-        "lib/net47/Serilog.xml",
+        "lib/net462/Serilog.dll",
+        "lib/net462/Serilog.xml",
+        "lib/net471/Serilog.dll",
+        "lib/net471/Serilog.xml",
         "lib/net5.0/Serilog.dll",
         "lib/net5.0/Serilog.xml",
         "lib/net6.0/Serilog.dll",
         "lib/net6.0/Serilog.xml",
-        "lib/netstandard1.0/Serilog.dll",
-        "lib/netstandard1.0/Serilog.xml",
-        "lib/netstandard1.3/Serilog.dll",
-        "lib/netstandard1.3/Serilog.xml",
+        "lib/net7.0/Serilog.dll",
+        "lib/net7.0/Serilog.xml",
         "lib/netstandard2.0/Serilog.dll",
         "lib/netstandard2.0/Serilog.xml",
         "lib/netstandard2.1/Serilog.dll",
         "lib/netstandard2.1/Serilog.xml",
-        "serilog.2.12.0.nupkg.sha512",
+        "serilog.3.0.2-dev-02044.nupkg.sha512",
         "serilog.nuspec"
       ]
     },
@@ -2597,10 +2594,10 @@
         "serilog.extensions.logging.nuspec"
       ]
     },
-    "Serilog.Formatting.Compact/1.1.0": {
-      "sha512": "pNroKVjo+rDqlxNG5PXkRLpfSCuDOBY0ri6jp9PLe505ljqwhwZz8ospy2vWhQlFu5GkIesh3FcDs4n7sWZODA==",
+    "Serilog.Formatting.Compact/1.1.1-dev-00944": {
+      "sha512": "MgSyUm8OPAdde20nM6iq+IAIrmQ++cFvvG89BClPnQMpkj53x12Y3ONCbH0eIlmPICS/ZkbM+gMQnCFBVBrLHw==",
       "type": "package",
-      "path": "serilog.formatting.compact/1.1.0",
+      "path": "serilog.formatting.compact/1.1.1-dev-00944",
       "files": [
         ".nupkg.metadata",
         ".signature.p7s",
@@ -2610,7 +2607,7 @@
         "lib/netstandard1.1/Serilog.Formatting.Compact.xml",
         "lib/netstandard2.0/Serilog.Formatting.Compact.dll",
         "lib/netstandard2.0/Serilog.Formatting.Compact.xml",
-        "serilog.formatting.compact.1.1.0.nupkg.sha512",
+        "serilog.formatting.compact.1.1.1-dev-00944.nupkg.sha512",
         "serilog.formatting.compact.nuspec"
       ]
     },
@@ -2634,10 +2631,10 @@
         "serilog.settings.configuration.nuspec"
       ]
     },
-    "Serilog.Sinks.Console/4.0.1": {
-      "sha512": "apLOvSJQLlIbKlbx+Y2UDHSP05kJsV7mou+fvJoRGs/iR+jC22r8cuFVMjjfVxz/AD4B2UCltFhE1naRLXwKNw==",
+    "Serilog.Sinks.Console/4.2.0-dev-00918": {
+      "sha512": "/DJRnXBLbf4B+XNOyToa40KYQLeaQgNCdx6Zi3yfp9ZQKYv5mvztggaEZ9TjAmysFm/1CgDhpkCoJy75okeCAA==",
       "type": "package",
-      "path": "serilog.sinks.console/4.0.1",
+      "path": "serilog.sinks.console/4.2.0-dev-00918",
       "files": [
         ".nupkg.metadata",
         ".signature.p7s",
@@ -2650,7 +2647,7 @@
         "lib/netstandard1.3/Serilog.Sinks.Console.xml",
         "lib/netstandard2.0/Serilog.Sinks.Console.dll",
         "lib/netstandard2.0/Serilog.Sinks.Console.xml",
-        "serilog.sinks.console.4.0.1.nupkg.sha512",
+        "serilog.sinks.console.4.2.0-dev-00918.nupkg.sha512",
         "serilog.sinks.console.nuspec"
       ]
     },
@@ -3223,7 +3220,10 @@
       "Microsoft.EntityFrameworkCore.Tools >= 6.0.10",
       "Newtonsoft.Json >= 12.0.3",
       "Npgsql.EntityFrameworkCore.PostgreSQL >= 6.0.1",
+      "Serilog >= 3.0.2-dev-02044",
       "Serilog.AspNetCore >= 7.0.0",
+      "Serilog.Formatting.Compact >= 1.1.1-dev-00944",
+      "Serilog.Sinks.Console >= 4.2.0-dev-00918",
       "Swashbuckle.AspNetCore >= 6.5.0",
       "Swashbuckle.AspNetCore.Filters >= 7.0.6"
     ]
@@ -3302,9 +3302,21 @@
             "target": "Package",
             "version": "[6.0.1, )"
           },
+          "Serilog": {
+            "target": "Package",
+            "version": "[3.0.2-dev-02044, )"
+          },
           "Serilog.AspNetCore": {
             "target": "Package",
             "version": "[7.0.0, )"
+          },
+          "Serilog.Formatting.Compact": {
+            "target": "Package",
+            "version": "[1.1.1-dev-00944, )"
+          },
+          "Serilog.Sinks.Console": {
+            "target": "Package",
+            "version": "[4.2.0-dev-00918, )"
           },
           "Swashbuckle.AspNetCore": {
             "target": "Package",

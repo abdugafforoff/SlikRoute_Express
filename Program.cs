@@ -12,9 +12,7 @@ using Microsoft.OpenApi.Models;
 using Serilog;
 using Swashbuckle.AspNetCore.Filters;
 
-
 var builder = WebApplication.CreateBuilder(args);
-
 
 builder.Services.AddControllers();
 builder.Services.AddScoped<AuthService>();
@@ -36,26 +34,24 @@ builder.Services.AddSwaggerGen(options =>
         Name = "Authorization",
         Type = SecuritySchemeType.ApiKey
     });
-
     options.OperationFilter<SecurityRequirementsOperationFilter>();
     options.SwaggerDoc("v1", new OpenApiInfo { Title = "Startup", Version = "v1"});
 
 });
+
 builder.Host.UseSerilog((context, configuration) =>
-    configuration
-        .WriteTo.Console()
-        .MinimumLevel.Information()
-    ); 
-
-
-builder.Services.AddCors(options =>
 {
-    options.AddDefaultPolicy(builder =>
-    {
-        builder.AllowAnyOrigin()
-            .AllowAnyMethod()
-            .AllowAnyHeader();
-    });
+    var logDirectory = "/Users/azizjonabdugafforov/Desktop/Code/level 6/BIS_project/BIS_project/Logs";
+    var logFileName = $"log-{DateTime.Now:yyyy.MM.dd}.txt";
+
+    configuration
+        .WriteTo.File(
+            Path.Combine(logDirectory, logFileName),
+            rollingInterval: RollingInterval.Day,
+            outputTemplate: "{Timestamp:yyyy-MM-dd HH:mm:ss.fff zzz} [{Level:u3}] {Message:lj}{NewLine}{Exception}"
+        )
+        .WriteTo.Console()
+        .MinimumLevel.Information();
 });
 
 builder.Services.AddAuthentication(options =>
@@ -72,13 +68,12 @@ builder.Services.AddAuthentication(options =>
         ValidateIssuerSigningKey = true,
         IssuerSigningKey = new SymmetricSecurityKey(Encoding.UTF8
             .GetBytes(builder.Configuration.GetSection("AppSettings:Token").Value)),
-        ClockSkew = TimeSpan.Zero, // This ensures that the expiration time is checked exactly at the expiration time
+        ClockSkew = TimeSpan.Zero, 
         RequireExpirationTime = true,
         TokenDecryptionKey = new SymmetricSecurityKey(Encoding.UTF8.GetBytes(builder.Configuration.GetSection("AppSettings:Token").Value)),
         RequireSignedTokens = true
     };
 });
-    
 
 var connectionString = builder.Configuration.GetConnectionString("DefaultConnection");
 builder.Services.AddDbContext<DataContext>(options =>
@@ -97,7 +92,6 @@ if (app.Environment.IsDevelopment())
     app.UseSwagger();
     app.UseSwaggerUI();
 }
-
 app.UseStaticFiles();
 app.UseAuthentication();
 app.UseHttpsRedirection();

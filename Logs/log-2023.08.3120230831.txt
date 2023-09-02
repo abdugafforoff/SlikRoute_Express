@@ -1,0 +1,18 @@
+2023-08-31 16:27:50.939 +05:00 [INF] User profile is available. Using '/Users/azizjonabdugafforov/.aspnet/DataProtection-Keys' as key repository; keys will not be encrypted at rest.
+2023-08-31 16:27:50.986 +05:00 [INF] Now listening on: http://localhost:5279
+2023-08-31 16:27:50.986 +05:00 [INF] Application started. Press Ctrl+C to shut down.
+2023-08-31 16:27:50.986 +05:00 [INF] Hosting environment: Development
+2023-08-31 16:27:50.986 +05:00 [INF] Content root path: /Users/azizjonabdugafforov/Desktop/Code/level 6/BIS_project/BIS_project
+2023-08-31 16:27:51.671 +05:00 [INF] Request starting HTTP/1.1 GET http://localhost:5279/swagger/index.html - -
+2023-08-31 16:27:51.759 +05:00 [INF] Request finished HTTP/1.1 GET http://localhost:5279/swagger/index.html - - - 200 - text/html;charset=utf-8 91.0036ms
+2023-08-31 16:27:51.866 +05:00 [INF] Request starting HTTP/1.1 GET http://localhost:5279/swagger/v1/swagger.json - -
+2023-08-31 16:27:51.954 +05:00 [INF] Request finished HTTP/1.1 GET http://localhost:5279/swagger/v1/swagger.json - - - 200 - application/json;charset=utf-8 88.4678ms
+2023-08-31 16:27:57.626 +05:00 [INF] Request starting HTTP/1.1 GET http://localhost:5279/api/v1/Driver - -
+2023-08-31 16:27:57.673 +05:00 [WRN] Failed to determine the https port for redirect.
+2023-08-31 16:27:57.677 +05:00 [INF] Executing endpoint 'BIS_project.Controllers.DriverController.GetDrivers (BIS_project)'
+2023-08-31 16:27:57.691 +05:00 [INF] Route matched with {action = "GetDrivers", controller = "Driver"}. Executing controller action with signature System.Threading.Tasks.Task`1[BIS_project.Helper.APIResponse] GetDrivers() on controller BIS_project.Controllers.DriverController (BIS_project).
+2023-08-31 16:27:58.713 +05:00 [INF] Executing ObjectResult, writing value of type 'BIS_project.Helper.APIResponse'.
+2023-08-31 16:27:58.732 +05:00 [INF] Executed action BIS_project.Controllers.DriverController.GetDrivers (BIS_project) in 1038.4322ms
+2023-08-31 16:27:58.735 +05:00 [INF] Executed endpoint 'BIS_project.Controllers.DriverController.GetDrivers (BIS_project)'
+2023-08-31 16:27:58.744 +05:00 [INF] Request finished HTTP/1.1 GET http://localhost:5279/api/v1/Driver - - - 200 - application/json;+charset=utf-8 1117.9634ms
+2023-08-31 17:13:00.887 +05:00 [INF] Application is shutting down...

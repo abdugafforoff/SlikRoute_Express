@@ -30,6 +30,14 @@ public class EmployeeService : IEmployeeService
                 Image = img,
                 IsActive = true,
             };
+            var u = new User()
+            {
+                UserName = emp.UserName,
+                Password = "12345",
+                IsActive = true,
+            };
+            await _dataContext.Users.AddAsync(u);
+            
             await _dataContext.Employees.AddAsync(e);
             await _dataContext.SaveChangesAsync();
 
