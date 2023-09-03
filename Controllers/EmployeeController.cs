@@ -1,20 +1,13 @@
-using System.Runtime.InteropServices.JavaScript;
-using BIS_project.Dtos;
 using BIS_project.Helper;
 using BIS_project.Services;
 using Microsoft.AspNetCore.Authorization;
 using Microsoft.AspNetCore.Mvc;
-using System.IO;
-using System.Runtime.CompilerServices;
-using System.Security;
-using System.Text.Json;
-using System.Text.Json.Serialization;
-using BIS_project.Migrations;
 using BIS_project.Models;
 
 namespace BIS_project.Controllers;
 [Route("api/v1/[controller]")]
 [ApiController]
+[Authorize(Roles = "ADMIN")]
 public class EmployeeController : ControllerBase
 {
     private readonly IWebHostEnvironment environment;
@@ -28,7 +21,7 @@ public class EmployeeController : ControllerBase
         _fileSaver = saver;
     }
     
-    [HttpPost(Name = "UploadEmployee")]
+    [HttpPost(Name = "CreateEmployee")]
     public async Task<IActionResult> CreateEmployee([FromForm] EmployeeModel model)
     {
         try

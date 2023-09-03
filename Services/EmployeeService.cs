@@ -25,7 +25,6 @@ public class EmployeeService : IEmployeeService
                 Lastname = emp.Lastname,
                 Branch = await _dataContext.Branches.FindAsync(emp.BranchId),
                 Position = await _dataContext.Position.FindAsync(emp.PositionId),
-                Role = await _dataContext.Roles.FindAsync(emp.RoleId),
                 DateOfBirth = emp.DateOfBirth,
                 Image = img,
                 IsActive = true,
@@ -35,6 +34,7 @@ public class EmployeeService : IEmployeeService
                 UserName = emp.UserName,
                 Password = "12345",
                 IsActive = true,
+                Role = await _dataContext.Roles.FindAsync(emp.RoleId)
             };
             await _dataContext.Users.AddAsync(u);
             
@@ -48,10 +48,7 @@ public class EmployeeService : IEmployeeService
             return false;
         }
     }
-    private async Task<Image> CreateImage(byte[] img)
-    {
-        return new Image();
-    }
+   
     public async Task<List<Employee>> GetEmployees()
     {
         return await _dataContext.Employees
@@ -59,7 +56,6 @@ public class EmployeeService : IEmployeeService
             .Include(e => e.Branch.Region)
             .Include(e => e.Branch.District)
             .Include(e=> e.Position )
-            .Include(e=> e.Role)
             .Include(e=> e.Image)
             .ToListAsync();
     }
@@ -77,7 +73,6 @@ public class EmployeeService : IEmployeeService
             e.Image = img;
             e.Position = await _dataContext.Position.FindAsync(emp.PositionId);
             e.Branch = await _dataContext.Branches.FindAsync(emp.BranchId);
-            e.Role = await _dataContext.Roles.FindAsync(emp.RoleId);
             e.DateOfBirth = emp.DateOfBirth;
             await _dataContext.SaveChangesAsync();
             return true;
@@ -95,9 +90,8 @@ public class EmployeeService : IEmployeeService
         {
             var emp =  await _dataContext.Employees
                 .Include(e=> e.Image)
-                .Include(e=> e.Role)
+                .Include(e=> e.Branch.District.Region)
                 .Include(e=>e.Position)
-                .Include(e=>e.Branch)
                 .FirstOrDefaultAsync(e=> e.Id == id);
             if (emp == null)
             {

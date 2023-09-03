@@ -25,7 +25,9 @@ public class AuthService : IAuthService
             return null;
                    
         }
-        var user = await _dbContext.Users.FirstOrDefaultAsync(e =>
+        var user = await _dbContext.Users
+            .Include(e=> e.Role)
+            .FirstOrDefaultAsync(e =>
             e.UserName == request.Username &&
             e.Password == request.Password &&
             e.IsActive);        

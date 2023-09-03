@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "ln/h4UDWl6bTcT1ZySbe/PMrPFAjFyK3rwyevOPjitE=",
+  "Hash": "CCtGV95EuyXS976+HyKHvdI68+ZkHV35ttkVDtTSeVE=",
   "Source": "BIS_project",
   "BasePath": "_content/BIS_project",
   "Mode": "Default",
@@ -185,6 +185,40 @@
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot/employees/ce8005a9-2b64-49bf-aa39-4d37d59e5889-azimjon (1).jpg"
+    },
+    {
+      "Identity": "/Users/azizjonabdugafforov/Desktop/Code/level 6/BIS_project/BIS_project/wwwroot/employees/images/1f542da0-9a4e-481c-9983-922bc9242026.jpg",
+      "SourceId": "BIS_project",
+      "SourceType": "Discovered",
+      "ContentRoot": "/Users/azizjonabdugafforov/Desktop/Code/level 6/BIS_project/BIS_project/wwwroot/",
+      "BasePath": "_content/BIS_project",
+      "RelativePath": "employees/images/1f542da0-9a4e-481c-9983-922bc9242026.jpg",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot/employees/images/1f542da0-9a4e-481c-9983-922bc9242026.jpg"
+    },
+    {
+      "Identity": "/Users/azizjonabdugafforov/Desktop/Code/level 6/BIS_project/BIS_project/wwwroot/employees/images/59b8d829-b4f0-4807-9df4-d85bb0d6e17b.jpg",
+      "SourceId": "BIS_project",
+      "SourceType": "Discovered",
+      "ContentRoot": "/Users/azizjonabdugafforov/Desktop/Code/level 6/BIS_project/BIS_project/wwwroot/",
+      "BasePath": "_content/BIS_project",
+      "RelativePath": "employees/images/59b8d829-b4f0-4807-9df4-d85bb0d6e17b.jpg",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot/employees/images/59b8d829-b4f0-4807-9df4-d85bb0d6e17b.jpg"
     },
     {
       "Identity": "/Users/azizjonabdugafforov/Desktop/Code/level 6/BIS_project/BIS_project/wwwroot/employees/images/6ed38353-f432-49d5-b3a6-16892b17fef1.jpg",

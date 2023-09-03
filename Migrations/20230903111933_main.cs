@@ -1,4 +1,5 @@
 ﻿using System;
+using System.Collections.Generic;
 using Microsoft.EntityFrameworkCore.Migrations;
 using Npgsql.EntityFrameworkCore.PostgreSQL.Metadata;
 
@@ -6,7 +7,7 @@ using Npgsql.EntityFrameworkCore.PostgreSQL.Metadata;
 
 namespace BIS_project.Migrations
 {
-    public partial class UpdateMigrations : Migration
+    public partial class main : Migration
     {
         protected override void Up(MigrationBuilder migrationBuilder)
         {
@@ -85,21 +86,6 @@ namespace BIS_project.Migrations
                 });
 
             migrationBuilder.CreateTable(
-                name: "Users",
-                columns: table => new
-                {
-                    Id = table.Column<int>(type: "integer", nullable: false)
-                        .Annotation("Npgsql:ValueGenerationStrategy", NpgsqlValueGenerationStrategy.IdentityByDefaultColumn),
-                    UserName = table.Column<string>(type: "text", nullable: false),
-                    Password = table.Column<string>(type: "text", nullable: false),
-                    PasswordConfirm = table.Column<string>(type: "text", nullable: false)
-                },
-                constraints: table =>
-                {
-                    table.PrimaryKey("PK_Users", x => x.Id);
-                });
-
-            migrationBuilder.CreateTable(
                 name: "Districts",
                 columns: table => new
                 {
@@ -116,6 +102,28 @@ namespace BIS_project.Migrations
                         name: "FK_Districts_Regions_RegionId",
                         column: x => x.RegionId,
                         principalTable: "Regions",
+                        principalColumn: "Id",
+                        onDelete: ReferentialAction.Cascade);
+                });
+
+            migrationBuilder.CreateTable(
+                name: "Users",
+                columns: table => new
+                {
+                    Id = table.Column<int>(type: "integer", nullable: false)
+                        .Annotation("Npgsql:ValueGenerationStrategy", NpgsqlValueGenerationStrategy.IdentityByDefaultColumn),
+                    UserName = table.Column<string>(type: "text", nullable: false),
+                    Password = table.Column<string>(type: "text", nullable: false),
+                    RoleId = table.Column<int>(type: "integer", nullable: false),
+                    IsActive = table.Column<bool>(type: "boolean", nullable: false)
+                },
+                constraints: table =>
+                {
+                    table.PrimaryKey("PK_Users", x => x.Id);
+                    table.ForeignKey(
+                        name: "FK_Users_Roles_RoleId",
+                        column: x => x.RoleId,
+                        principalTable: "Roles",
                         principalColumn: "Id",
                         onDelete: ReferentialAction.Cascade);
                 });
@@ -155,13 +163,12 @@ namespace BIS_project.Migrations
                         .Annotation("Npgsql:ValueGenerationStrategy", NpgsqlValueGenerationStrategy.IdentityByDefaultColumn),
                     DriverPhotoId = table.Column<int>(type: "integer", nullable: false),
                     LicensePhotoId = table.Column<int>(type: "integer", nullable: false),
+                    DateOfBirth = table.Column<DateOnly>(type: "date", nullable: false),
                     DriverFullName = table.Column<string>(type: "text", nullable: false),
+                    PhoneNumber = table.Column<string>(type: "text", nullable: false),
                     TruckId = table.Column<int>(type: "integer", nullable: false),
-                    Experience = table.Column<int>(type: "integer", nullable: false),
-                    Rating = table.Column<int>(type: "integer", nullable: false),
-                    NumberOfShips = table.Column<int>(type: "integer", nullable: false),
-                    MonthlyBonus = table.Column<int>(type: "integer", nullable: false),
-                    MonthlyIncome = table.Column<int>(type: "integer", nullable: false)
+                    IsActive = table.Column<bool>(type: "boolean", nullable: false),
+                    Status = table.Column<string>(type: "text", nullable: false)
                 },
                 constraints: table =>
                 {
@@ -175,72 +182,32 @@ namespace BIS_project.Migrations
                 });
 
             migrationBuilder.CreateTable(
-                name: "Employees",
-                columns: table => new
-                {
-                    Id = table.Column<int>(type: "integer", nullable: false)
-                        .Annotation("Npgsql:ValueGenerationStrategy", NpgsqlValueGenerationStrategy.IdentityByDefaultColumn),
-                    ImageId = table.Column<int>(type: "integer", nullable: false),
-                    RoleId = table.Column<int>(type: "integer", nullable: false),
-                    PositionId = table.Column<int>(type: "integer", nullable: false),
-                    BranchId = table.Column<int>(type: "integer", nullable: false),
-                    Firstname = table.Column<string>(type: "text", nullable: false),
-                    Lastname = table.Column<string>(type: "text", nullable: false),
-                    DateOfBirth = table.Column<DateOnly>(type: "date", nullable: false)
-                },
-                constraints: table =>
-                {
-                    table.PrimaryKey("PK_Employees", x => x.Id);
-                    table.ForeignKey(
-                        name: "FK_Employees_Branches_BranchId",
-                        column: x => x.BranchId,
-                        principalTable: "Branches",
-                        principalColumn: "Id",
-                        onDelete: ReferentialAction.Cascade);
-                    table.ForeignKey(
-                        name: "FK_Employees_Position_PositionId",
-                        column: x => x.PositionId,
-                        principalTable: "Position",
-                        principalColumn: "Id",
-                        onDelete: ReferentialAction.Cascade);
-                    table.ForeignKey(
-                        name: "FK_Employees_Roles_RoleId",
-                        column: x => x.RoleId,
-                        principalTable: "Roles",
-                        principalColumn: "Id",
-                        onDelete: ReferentialAction.Cascade);
-                });
-
-            migrationBuilder.CreateTable(
                 name: "Orders",
                 columns: table => new
                 {
                     Id = table.Column<int>(type: "integer", nullable: false)
                         .Annotation("Npgsql:ValueGenerationStrategy", NpgsqlValueGenerationStrategy.IdentityByDefaultColumn),
-                    EmployeeId = table.Column<int>(type: "integer", nullable: false),
                     DriverId = table.Column<int>(type: "integer", nullable: false),
                     ClientId = table.Column<int>(type: "integer", nullable: false),
                     Status = table.Column<string>(type: "text", nullable: false),
                     StartTime = table.Column<DateTime>(type: "timestamp with time zone", nullable: false),
                     FinishTime = table.Column<DateTime>(type: "timestamp with time zone", nullable: false),
-                    ProductStatus = table.Column<string>(type: "text", nullable: false),
                     Comment = table.Column<string>(type: "character varying(500)", maxLength: 500, nullable: false),
                     StartPoint = table.Column<string>(type: "text", nullable: false),
                     EndPoint = table.Column<string>(type: "text", nullable: false),
-                    Deadline = table.Column<string>(type: "text", nullable: false),
                     TotalAmount = table.Column<int>(type: "integer", nullable: false),
                     Rating = table.Column<int>(type: "integer", nullable: false),
                     FromRegionId = table.Column<int>(type: "integer", nullable: false),
                     FromDistrictId = table.Column<int>(type: "integer", nullable: false),
                     ToRegionId = table.Column<int>(type: "integer", nullable: false),
                     ToDistrictId = table.Column<int>(type: "integer", nullable: false),
-                    LoadTime = table.Column<DateTime>(type: "timestamp with time zone", nullable: false),
-                    LoadDaytime = table.Column<DateOnly>(type: "date", nullable: false),
+                    LoadDayTime = table.Column<string>(type: "text", nullable: false),
+                    FromLoadTime = table.Column<DateOnly>(type: "date", nullable: false),
+                    ToLoadTime = table.Column<DateOnly>(type: "date", nullable: false),
                     CreatedAt = table.Column<DateTime>(type: "timestamp with time zone", nullable: false),
-                    FlexibleLoad = table.Column<bool>(type: "boolean", nullable: false),
-                    FromFlexibleDate = table.Column<DateOnly>(type: "date", nullable: false),
-                    ToFlexibleDate = table.Column<DateOnly>(type: "date", nullable: false),
-                    PaymentType = table.Column<string>(type: "text", nullable: false)
+                    PaymentType = table.Column<string>(type: "text", nullable: false),
+                    Services = table.Column<List<string>>(type: "text[]", nullable: false),
+                    HomeType = table.Column<string>(type: "text", nullable: false)
                 },
                 constraints: table =>
                 {
@@ -267,12 +234,6 @@ namespace BIS_project.Migrations
                         name: "FK_Orders_Drivers_DriverId",
                         column: x => x.DriverId,
                         principalTable: "Drivers",
-                        principalColumn: "Id",
-                        onDelete: ReferentialAction.Cascade);
-                    table.ForeignKey(
-                        name: "FK_Orders_Employees_EmployeeId",
-                        column: x => x.EmployeeId,
-                        principalTable: "Employees",
                         principalColumn: "Id",
                         onDelete: ReferentialAction.Cascade);
                     table.ForeignKey(
@@ -327,6 +288,49 @@ namespace BIS_project.Migrations
                         principalColumn: "Id");
                 });
 
+            migrationBuilder.CreateTable(
+                name: "Employees",
+                columns: table => new
+                {
+                    Id = table.Column<int>(type: "integer", nullable: false)
+                        .Annotation("Npgsql:ValueGenerationStrategy", NpgsqlValueGenerationStrategy.IdentityByDefaultColumn),
+                    ImageId = table.Column<int>(type: "integer", nullable: false),
+                    PositionId = table.Column<int>(type: "integer", nullable: false),
+                    BranchId = table.Column<int>(type: "integer", nullable: false),
+                    Firstname = table.Column<string>(type: "text", nullable: false),
+                    Lastname = table.Column<string>(type: "text", nullable: false),
+                    DateOfBirth = table.Column<DateOnly>(type: "date", nullable: false),
+                    IsActive = table.Column<bool>(type: "boolean", nullable: false),
+                    OrderId = table.Column<int>(type: "integer", nullable: true)
+                },
+                constraints: table =>
+                {
+                    table.PrimaryKey("PK_Employees", x => x.Id);
+                    table.ForeignKey(
+                        name: "FK_Employees_Branches_BranchId",
+                        column: x => x.BranchId,
+                        principalTable: "Branches",
+                        principalColumn: "Id",
+                        onDelete: ReferentialAction.Cascade);
+                    table.ForeignKey(
+                        name: "FK_Employees_Images_ImageId",
+                        column: x => x.ImageId,
+                        principalTable: "Images",
+                        principalColumn: "Id",
+                        onDelete: ReferentialAction.Cascade);
+                    table.ForeignKey(
+                        name: "FK_Employees_Orders_OrderId",
+                        column: x => x.OrderId,
+                        principalTable: "Orders",
+                        principalColumn: "Id");
+                    table.ForeignKey(
+                        name: "FK_Employees_Position_PositionId",
+                        column: x => x.PositionId,
+                        principalTable: "Position",
+                        principalColumn: "Id",
+                        onDelete: ReferentialAction.Cascade);
+                });
+
             migrationBuilder.CreateIndex(
                 name: "IX_Branches_DistrictId",
                 table: "Branches",
@@ -368,14 +372,14 @@ namespace BIS_project.Migrations
                 column: "ImageId");
 
             migrationBuilder.CreateIndex(
+                name: "IX_Employees_OrderId",
+                table: "Employees",
+                column: "OrderId");
+
+            migrationBuilder.CreateIndex(
                 name: "IX_Employees_PositionId",
                 table: "Employees",
                 column: "PositionId");
-
-            migrationBuilder.CreateIndex(
-                name: "IX_Employees_RoleId",
-                table: "Employees",
-                column: "RoleId");
 
             migrationBuilder.CreateIndex(
                 name: "IX_Images_OrderId",
@@ -408,11 +412,6 @@ namespace BIS_project.Migrations
                 column: "DriverId");
 
             migrationBuilder.CreateIndex(
-                name: "IX_Orders_EmployeeId",
-                table: "Orders",
-                column: "EmployeeId");
-
-            migrationBuilder.CreateIndex(
                 name: "IX_Orders_FromDistrictId",
                 table: "Orders",
                 column: "FromDistrictId");
@@ -432,6 +431,11 @@ namespace BIS_project.Migrations
                 table: "Orders",
                 column: "ToRegionId");
 
+            migrationBuilder.CreateIndex(
+                name: "IX_Users_RoleId",
+                table: "Users",
+                column: "RoleId");
+
             migrationBuilder.AddForeignKey(
                 name: "FK_Drivers_Images_DriverPhotoId",
                 table: "Drivers",
@@ -447,22 +451,10 @@ namespace BIS_project.Migrations
                 principalTable: "Images",
                 principalColumn: "Id",
                 onDelete: ReferentialAction.Cascade);
-
-            migrationBuilder.AddForeignKey(
-                name: "FK_Employees_Images_ImageId",
-                table: "Employees",
-                column: "ImageId",
-                principalTable: "Images",
-                principalColumn: "Id",
-                onDelete: ReferentialAction.Cascade);
         }
 
         protected override void Down(MigrationBuilder migrationBuilder)
         {
-            migrationBuilder.DropForeignKey(
-                name: "FK_Branches_Districts_DistrictId",
-                table: "Branches");
-
             migrationBuilder.DropForeignKey(
                 name: "FK_Orders_Districts_FromDistrictId",
                 table: "Orders");
@@ -470,10 +462,6 @@ namespace BIS_project.Migrations
             migrationBuilder.DropForeignKey(
                 name: "FK_Orders_Districts_ToDistrictId",
                 table: "Orders");
-
-            migrationBuilder.DropForeignKey(
-                name: "FK_Branches_Regions_RegionId",
-                table: "Branches");
 
             migrationBuilder.DropForeignKey(
                 name: "FK_Orders_Regions_FromRegionId",
@@ -491,12 +479,20 @@ namespace BIS_project.Migrations
                 name: "FK_Drivers_Images_LicensePhotoId",
                 table: "Drivers");
 
-            migrationBuilder.DropForeignKey(
-                name: "FK_Employees_Images_ImageId",
-                table: "Employees");
+            migrationBuilder.DropTable(
+                name: "Employees");
 
             migrationBuilder.DropTable(
                 name: "Users");
+
+            migrationBuilder.DropTable(
+                name: "Branches");
+
+            migrationBuilder.DropTable(
+                name: "Position");
+
+            migrationBuilder.DropTable(
+                name: "Roles");
 
             migrationBuilder.DropTable(
                 name: "Districts");
@@ -517,19 +513,7 @@ namespace BIS_project.Migrations
                 name: "Drivers");
 
             migrationBuilder.DropTable(
-                name: "Employees");
-
-            migrationBuilder.DropTable(
                 name: "Trucks");
-
-            migrationBuilder.DropTable(
-                name: "Branches");
-
-            migrationBuilder.DropTable(
-                name: "Position");
-
-            migrationBuilder.DropTable(
-                name: "Roles");
         }
     }
 }

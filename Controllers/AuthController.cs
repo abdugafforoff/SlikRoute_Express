@@ -32,31 +32,25 @@ public class AuthController : ControllerBase
         try
         {
             User user = await _authService.UserLogin(request);
-
             if (user == null)
             {
                 return Unauthorized();
             }
-           
-            List<Claim> claims = new List<Claim>
+            var claims = new List<Claim>
             {
-                new Claim(ClaimTypes.Name, user.UserName ),
+                new Claim(ClaimTypes.Name, user.UserName),
+                new Claim(ClaimTypes.Role, user.Role.Role_name)
             };
-            
             var key = new SymmetricSecurityKey(System.Text.Encoding.UTF8.GetBytes(
                 _configuration.GetSection("AppSettings:Token").Value));
-
             var creds = new SigningCredentials(key, SecurityAlgorithms.HmacSha512Signature);
-
             var token = new JwtSecurityToken(
                 claims: claims,
                 expires: DateTime.Now.AddHours(8),
                 signingCredentials: creds); 
 
             var bearer = new JwtSecurityTokenHandler().WriteToken(token);
-
-
-            return Ok(new { user.UserName,  bearer });
+            return Ok(new {user.Id, user.UserName, user.Role, bearer });
         }
         catch (Exception ex)
         {

@@ -10,9 +10,15 @@ namespace BIS_project.Controllers;
 [ApiController]
 public class DistrictController : GenericController<District, DistrictDto>
 {
-    
-    public DistrictController(IGenericService<District, DistrictDto> generService) : base(generService)
+    private readonly DistrictService _service;
+    public DistrictController(IGenericService<District, DistrictDto> generService, DistrictService service) : base(generService)
     {
-        
+        _service = service;
+    }
+
+    [HttpGet("ByRegion/{id}", Name = "GetDistrictsById")]
+    public async Task<List<District>> GetDistrictById(int id)
+    {
+        return await _service.GetDistrictsById(id);
     }
 }

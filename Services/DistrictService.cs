@@ -2,6 +2,7 @@ using BIS_project.AppData;
 using BIS_project.Dtos;
 using BIS_project.IServices;
 using BIS_project.Models;
+using Microsoft.AspNetCore.Antiforgery;
 using Microsoft.EntityFrameworkCore;
 
 namespace BIS_project.Services;
@@ -73,5 +74,12 @@ public class DistrictService: IGenericService<District, DistrictDto>
       dis.Region = await _dbContext.Regions.FindAsync(dto.RegionId);
       await _dbContext.SaveChangesAsync();
       return dis;
+   }
+
+   public async Task<List<District>> GetDistrictsById(int id)
+   {
+      return await _dbContext.Districts
+         .Where(e => e.Region.Id == id)
+         .ToListAsync();
    }
 }

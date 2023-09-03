@@ -15,6 +15,7 @@ using Swashbuckle.AspNetCore.Filters;
 var builder = WebApplication.CreateBuilder(args);
 
 builder.Services.AddControllers();
+builder.Services.AddScoped<DistrictService>();
 builder.Services.AddScoped<AuthService>();
 builder.Services.AddScoped<IGenericService<Region, RegionDto>, RegionService>();
 builder.Services.AddScoped<IGenericService<District, DistrictDto>,DistrictService >();
