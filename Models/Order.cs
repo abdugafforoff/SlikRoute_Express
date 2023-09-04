@@ -11,7 +11,7 @@ public class Order
     public List<Employee> Employees { get; set; }
     public Driver Driver { get; set; }
     public Client Client { get; set; }
-    public string Status { get; set; }// pending
+    public string Status { get; set; }// pending, active, shipped
     public DateTime StartTime { get; set; }
     public DateTime FinishTime { get; set; }
     [MaxLength(500)]
@@ -31,7 +31,7 @@ public class Order
     public DateOnly FromLoadTime { get; set; }
     public DateOnly ToLoadTime { get; set; }
     public DateTime CreatedAt { get; set; }
-    public string PaymentType { get; set; }// uzum pay, paymen, humo,
+    public string PaymentType { get; set; }// uzum pay, payme, humo,
     public List<string> Services { get; set; } // packing, unpacking, car shipping, storage, debris removal,
     public string HomeType { get; set; } // apartment, house
 }

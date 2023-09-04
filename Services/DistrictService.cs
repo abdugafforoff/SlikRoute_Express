@@ -51,9 +51,7 @@ public class DistrictService: IGenericService<District, DistrictDto>
       }
       return true;
    }
-
-
-
+    
    public async Task<bool> Delete(int id)
    {
       var e = await _dbContext.Districts.FindAsync(id);

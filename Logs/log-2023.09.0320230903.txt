@@ -705,3 +705,4 @@ System.InvalidOperationException: Unable to resolve service for type 'BIS_projec
 2023-09-03 16:21:50.797 +05:00 [INF] Executed action BIS_project.Controllers.DistrictController.GetAllAsync (BIS_project) in 880.1588ms
 2023-09-03 16:21:50.799 +05:00 [INF] Executed endpoint 'BIS_project.Controllers.DistrictController.GetAllAsync (BIS_project)'
 2023-09-03 16:21:50.805 +05:00 [INF] Request finished HTTP/1.1 GET http://localhost:5279/api/v1/District/GetAll - - - 200 - application/json;+charset=utf-8 953.4789ms
+2023-09-03 17:09:32.186 +05:00 [INF] Application is shutting down...

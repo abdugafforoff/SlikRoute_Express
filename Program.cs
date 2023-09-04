@@ -20,6 +20,7 @@ builder.Services.AddScoped<AuthService>();
 builder.Services.AddScoped<IGenericService<Region, RegionDto>, RegionService>();
 builder.Services.AddScoped<IGenericService<District, DistrictDto>,DistrictService >();
 builder.Services.AddScoped<IGenericService<Role, RoleDto>, RoleService>();
+builder.Services.AddScoped<IGenericService<Position, PositionDto>, PositionService>();
 builder.Services.AddScoped<EmployeeService>();
 builder.Services.AddScoped<FileSaver>();
 builder.Services.AddScoped<Validator>();

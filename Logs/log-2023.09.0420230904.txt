@@ -1,0 +1,132 @@
+2023-09-04 11:45:19.155 +05:00 [INF] User profile is available. Using '/Users/azizjonabdugafforov/.aspnet/DataProtection-Keys' as key repository; keys will not be encrypted at rest.
+2023-09-04 11:45:19.229 +05:00 [INF] Now listening on: http://localhost:5279
+2023-09-04 11:45:19.230 +05:00 [INF] Application started. Press Ctrl+C to shut down.
+2023-09-04 11:45:19.230 +05:00 [INF] Hosting environment: Development
+2023-09-04 11:45:19.230 +05:00 [INF] Content root path: /Users/azizjonabdugafforov/Desktop/Code/level 6/BIS_project/BIS_project
+2023-09-04 11:45:19.806 +05:00 [INF] Request starting HTTP/1.1 GET http://localhost:5279/swagger - -
+2023-09-04 11:45:19.840 +05:00 [INF] Request finished HTTP/1.1 GET http://localhost:5279/swagger - - - 301 0 - 34.9658ms
+2023-09-04 11:45:19.845 +05:00 [INF] Request starting HTTP/1.1 GET http://localhost:5279/swagger/index.html - -
+2023-09-04 11:45:19.894 +05:00 [INF] Request finished HTTP/1.1 GET http://localhost:5279/swagger/index.html - - - 200 - text/html;charset=utf-8 48.3488ms
+2023-09-04 11:45:19.909 +05:00 [INF] Request starting HTTP/1.1 GET http://localhost:5279/swagger/swagger-ui.css - -
+2023-09-04 11:45:19.910 +05:00 [INF] Request starting HTTP/1.1 GET http://localhost:5279/swagger/swagger-ui-bundle.js - -
+2023-09-04 11:45:19.911 +05:00 [INF] Request starting HTTP/1.1 GET http://localhost:5279/swagger/swagger-ui-standalone-preset.js - -
+2023-09-04 11:45:19.933 +05:00 [INF] Sending file. Request path: '/swagger-ui-standalone-preset.js'. Physical path: 'N/A'
+2023-09-04 11:45:19.934 +05:00 [INF] Sending file. Request path: '/swagger-ui.css'. Physical path: 'N/A'
+2023-09-04 11:45:19.937 +05:00 [INF] Request finished HTTP/1.1 GET http://localhost:5279/swagger/swagger-ui-standalone-preset.js - - - 200 312163 text/javascript 25.8290ms
+2023-09-04 11:45:19.939 +05:00 [INF] Request finished HTTP/1.1 GET http://localhost:5279/swagger/swagger-ui.css - - - 200 144929 text/css 29.5408ms
+2023-09-04 11:45:19.937 +05:00 [INF] Request starting HTTP/1.1 GET http://localhost:5279/swagger/swagger-ui-standalone-preset.js - -
+2023-09-04 11:45:19.939 +05:00 [INF] Sending file. Request path: '/swagger-ui-standalone-preset.js'. Physical path: 'N/A'
+2023-09-04 11:45:19.939 +05:00 [INF] Request finished HTTP/1.1 GET http://localhost:5279/swagger/swagger-ui-standalone-preset.js - - - 200 312163 text/javascript 1.9749ms
+2023-09-04 11:45:19.941 +05:00 [INF] Sending file. Request path: '/swagger-ui-bundle.js'. Physical path: 'N/A'
+2023-09-04 11:45:19.941 +05:00 [INF] Request finished HTTP/1.1 GET http://localhost:5279/swagger/swagger-ui-bundle.js - - - 200 1061536 text/javascript 31.7587ms
+2023-09-04 11:45:20.060 +05:00 [INF] Request starting HTTP/1.1 GET http://localhost:5279/swagger/v1/swagger.json - -
+2023-09-04 11:45:20.148 +05:00 [INF] Request finished HTTP/1.1 GET http://localhost:5279/swagger/v1/swagger.json - - - 200 - application/json;charset=utf-8 87.4000ms
+2023-09-04 11:45:20.178 +05:00 [INF] Request starting HTTP/1.1 GET http://localhost:5279/swagger/swagger-ui-bundle.js - -
+2023-09-04 11:45:20.180 +05:00 [INF] Sending file. Request path: '/swagger-ui-bundle.js'. Physical path: 'N/A'
+2023-09-04 11:45:20.180 +05:00 [INF] Request finished HTTP/1.1 GET http://localhost:5279/swagger/swagger-ui-bundle.js - - - 200 1061536 text/javascript 2.4429ms
+2023-09-04 11:45:29.117 +05:00 [INF] Request starting HTTP/1.1 POST http://localhost:5279/api/v1/Auth/Login application/json 48
+2023-09-04 11:45:29.165 +05:00 [WRN] Failed to determine the https port for redirect.
+2023-09-04 11:45:29.166 +05:00 [INF] No CORS policy found for the specified request.
+2023-09-04 11:45:29.168 +05:00 [INF] Executing endpoint 'BIS_project.Controllers.AuthController.Login (BIS_project)'
+2023-09-04 11:45:29.183 +05:00 [INF] Route matched with {action = "Login", controller = "Auth"}. Executing controller action with signature System.Threading.Tasks.Task`1[System.Object] Login(BIS_project.Dtos.UserDto) on controller BIS_project.Controllers.AuthController (BIS_project).
+2023-09-04 11:45:30.126 +05:00 [INF] Executing OkObjectResult, writing value of type '<>f__AnonymousType0`2[[BIS_project.Models.User, BIS_project, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null],[System.String, System.Private.CoreLib, Version=7.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]'.
+2023-09-04 11:45:30.133 +05:00 [INF] Executed action BIS_project.Controllers.AuthController.Login (BIS_project) in 947.4975ms
+2023-09-04 11:45:30.136 +05:00 [INF] Executed endpoint 'BIS_project.Controllers.AuthController.Login (BIS_project)'
+2023-09-04 11:45:30.142 +05:00 [INF] Request finished HTTP/1.1 POST http://localhost:5279/api/v1/Auth/Login application/json 48 - 200 - application/json;+charset=utf-8 1025.4050ms
+2023-09-04 11:51:28.833 +05:00 [INF] Application is shutting down...
+2023-09-04 11:51:44.012 +05:00 [INF] User profile is available. Using '/Users/azizjonabdugafforov/.aspnet/DataProtection-Keys' as key repository; keys will not be encrypted at rest.
+2023-09-04 11:51:44.060 +05:00 [INF] Now listening on: http://localhost:5279
+2023-09-04 11:51:44.060 +05:00 [INF] Application started. Press Ctrl+C to shut down.
+2023-09-04 11:51:44.061 +05:00 [INF] Hosting environment: Development
+2023-09-04 11:51:44.061 +05:00 [INF] Content root path: /Users/azizjonabdugafforov/Desktop/Code/level 6/BIS_project/BIS_project
+2023-09-04 11:51:44.686 +05:00 [INF] Request starting HTTP/1.1 GET http://localhost:5279/swagger/index.html - -
+2023-09-04 11:51:44.769 +05:00 [INF] Request finished HTTP/1.1 GET http://localhost:5279/swagger/index.html - - - 200 - text/html;charset=utf-8 84.6670ms
+2023-09-04 11:51:44.936 +05:00 [INF] Request starting HTTP/1.1 GET http://localhost:5279/swagger/v1/swagger.json - -
+2023-09-04 11:51:45.021 +05:00 [INF] Request finished HTTP/1.1 GET http://localhost:5279/swagger/v1/swagger.json - - - 200 - application/json;charset=utf-8 85.0086ms
+2023-09-04 11:51:59.062 +05:00 [INF] Request starting HTTP/1.1 POST http://localhost:5279/api/v1/Auth/Login application/json 48
+2023-09-04 11:51:59.112 +05:00 [WRN] Failed to determine the https port for redirect.
+2023-09-04 11:51:59.114 +05:00 [INF] No CORS policy found for the specified request.
+2023-09-04 11:51:59.115 +05:00 [INF] Executing endpoint 'BIS_project.Controllers.AuthController.Login (BIS_project)'
+2023-09-04 11:51:59.133 +05:00 [INF] Route matched with {action = "Login", controller = "Auth"}. Executing controller action with signature System.Threading.Tasks.Task`1[System.Object] Login(BIS_project.Dtos.UserDto) on controller BIS_project.Controllers.AuthController (BIS_project).
+2023-09-04 11:52:00.130 +05:00 [INF] Executing OkObjectResult, writing value of type '<>f__AnonymousType0`3[[BIS_project.Models.User, BIS_project, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null],[BIS_project.Models.Employee, BIS_project, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null],[System.String, System.Private.CoreLib, Version=7.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]'.
+2023-09-04 11:52:00.139 +05:00 [INF] Executed action BIS_project.Controllers.AuthController.Login (BIS_project) in 1002.8203ms
+2023-09-04 11:52:00.142 +05:00 [INF] Executed endpoint 'BIS_project.Controllers.AuthController.Login (BIS_project)'
+2023-09-04 11:52:00.151 +05:00 [INF] Request finished HTTP/1.1 POST http://localhost:5279/api/v1/Auth/Login application/json 48 - 200 - application/json;+charset=utf-8 1089.2297ms
+2023-09-04 11:53:04.247 +05:00 [INF] Request starting HTTP/1.1 POST http://localhost:5279/api/v1/Region/Insert application/json 32
+2023-09-04 11:53:04.258 +05:00 [INF] No CORS policy found for the specified request.
+2023-09-04 11:53:04.258 +05:00 [INF] Executing endpoint 'BIS_project.Controllers.RegionController.InsertAsync (BIS_project)'
+2023-09-04 11:53:04.265 +05:00 [INF] Route matched with {action = "Insert", controller = "Region"}. Executing controller action with signature System.Threading.Tasks.Task`1[System.Boolean] InsertAsync(BIS_project.Dtos.RegionDto) on controller BIS_project.Controllers.RegionController (BIS_project).
+2023-09-04 11:53:04.425 +05:00 [INF] Executing ObjectResult, writing value of type 'System.Boolean'.
+2023-09-04 11:53:04.426 +05:00 [INF] Executed action BIS_project.Controllers.RegionController.InsertAsync (BIS_project) in 160.7054ms
+2023-09-04 11:53:04.426 +05:00 [INF] Executed endpoint 'BIS_project.Controllers.RegionController.InsertAsync (BIS_project)'
+2023-09-04 11:53:04.426 +05:00 [INF] Request finished HTTP/1.1 POST http://localhost:5279/api/v1/Region/Insert application/json 32 - 200 - application/json;+charset=utf-8 179.2255ms
+2023-09-04 11:53:10.860 +05:00 [INF] Request starting HTTP/1.1 GET http://localhost:5279/api/v1/Region/GetAll - -
+2023-09-04 11:53:10.864 +05:00 [INF] Executing endpoint 'BIS_project.Controllers.RegionController.GetAllAsync (BIS_project)'
+2023-09-04 11:53:10.867 +05:00 [INF] Route matched with {action = "GetAll", controller = "Region"}. Executing controller action with signature System.Threading.Tasks.Task`1[System.Collections.Generic.List`1[BIS_project.Models.Region]] GetAllAsync() on controller BIS_project.Controllers.RegionController (BIS_project).
+2023-09-04 11:53:10.931 +05:00 [INF] Executing ObjectResult, writing value of type 'System.Collections.Generic.List`1[[BIS_project.Models.Region, BIS_project, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]'.
+2023-09-04 11:53:10.933 +05:00 [INF] Executed action BIS_project.Controllers.RegionController.GetAllAsync (BIS_project) in 65.5155ms
+2023-09-04 11:53:10.933 +05:00 [INF] Executed endpoint 'BIS_project.Controllers.RegionController.GetAllAsync (BIS_project)'
+2023-09-04 11:53:10.933 +05:00 [INF] Request finished HTTP/1.1 GET http://localhost:5279/api/v1/Region/GetAll - - - 200 - application/json;+charset=utf-8 73.7202ms
+2023-09-04 11:53:29.472 +05:00 [INF] Request starting HTTP/1.1 POST http://localhost:5279/api/v1/District/Insert application/json 47
+2023-09-04 11:53:29.475 +05:00 [INF] No CORS policy found for the specified request.
+2023-09-04 11:53:29.476 +05:00 [INF] Executing endpoint 'BIS_project.Controllers.DistrictController.InsertAsync (BIS_project)'
+2023-09-04 11:53:29.483 +05:00 [INF] Route matched with {action = "Insert", controller = "District"}. Executing controller action with signature System.Threading.Tasks.Task`1[System.Boolean] InsertAsync(BIS_project.Dtos.DistrictDto) on controller BIS_project.Controllers.DistrictController (BIS_project).
+2023-09-04 11:53:29.540 +05:00 [INF] Executing ObjectResult, writing value of type 'System.Boolean'.
+2023-09-04 11:53:29.540 +05:00 [INF] Executed action BIS_project.Controllers.DistrictController.InsertAsync (BIS_project) in 56.798ms
+2023-09-04 11:53:29.540 +05:00 [INF] Executed endpoint 'BIS_project.Controllers.DistrictController.InsertAsync (BIS_project)'
+2023-09-04 11:53:29.540 +05:00 [INF] Request finished HTTP/1.1 POST http://localhost:5279/api/v1/District/Insert application/json 47 - 200 - application/json;+charset=utf-8 68.5061ms
+2023-09-04 11:54:04.055 +05:00 [INF] Request starting HTTP/1.1 GET http://localhost:5279/api/v1/Role/GetAll - -
+2023-09-04 11:54:04.058 +05:00 [INF] Executing endpoint 'BIS_project.Controllers.RoleController.GetAllAsync (BIS_project)'
+2023-09-04 11:54:04.066 +05:00 [INF] Route matched with {action = "GetAll", controller = "Role"}. Executing controller action with signature System.Threading.Tasks.Task`1[System.Collections.Generic.List`1[BIS_project.Models.Role]] GetAllAsync() on controller BIS_project.Controllers.RoleController (BIS_project).
+2023-09-04 11:54:04.092 +05:00 [INF] Executing ObjectResult, writing value of type 'System.Collections.Generic.List`1[[BIS_project.Models.Role, BIS_project, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]'.
+2023-09-04 11:54:04.093 +05:00 [INF] Executed action BIS_project.Controllers.RoleController.GetAllAsync (BIS_project) in 26.8315ms
+2023-09-04 11:54:04.093 +05:00 [INF] Executed endpoint 'BIS_project.Controllers.RoleController.GetAllAsync (BIS_project)'
+2023-09-04 11:54:04.093 +05:00 [INF] Request finished HTTP/1.1 GET http://localhost:5279/api/v1/Role/GetAll - - - 200 - application/json;+charset=utf-8 39.3371ms
+2023-09-04 12:27:59.193 +05:00 [INF] Application is shutting down...
+2023-09-04 12:28:02.086 +05:00 [INF] User profile is available. Using '/Users/azizjonabdugafforov/.aspnet/DataProtection-Keys' as key repository; keys will not be encrypted at rest.
+2023-09-04 12:28:02.137 +05:00 [INF] Now listening on: http://localhost:5279
+2023-09-04 12:28:02.137 +05:00 [INF] Application started. Press Ctrl+C to shut down.
+2023-09-04 12:28:02.137 +05:00 [INF] Hosting environment: Development
+2023-09-04 12:28:02.137 +05:00 [INF] Content root path: /Users/azizjonabdugafforov/Desktop/Code/level 6/BIS_project/BIS_project
+2023-09-04 12:28:02.800 +05:00 [INF] Request starting HTTP/1.1 GET http://localhost:5279/swagger/index.html - -
+2023-09-04 12:28:02.875 +05:00 [INF] Request finished HTTP/1.1 GET http://localhost:5279/swagger/index.html - - - 200 - text/html;charset=utf-8 76.1515ms
+2023-09-04 12:28:03.021 +05:00 [INF] Request starting HTTP/1.1 GET http://localhost:5279/swagger/v1/swagger.json - -
+2023-09-04 12:28:03.093 +05:00 [INF] Request finished HTTP/1.1 GET http://localhost:5279/swagger/v1/swagger.json - - - 200 - application/json;charset=utf-8 72.3156ms
+2023-09-04 12:29:19.744 +05:00 [INF] Request starting HTTP/1.1 POST http://localhost:5279/api/v1/Position/Insert application/json 52
+2023-09-04 12:29:19.796 +05:00 [WRN] Failed to determine the https port for redirect.
+2023-09-04 12:29:19.798 +05:00 [INF] No CORS policy found for the specified request.
+2023-09-04 12:29:19.800 +05:00 [INF] Executing endpoint 'BIS_project.Controllers.PositionController.InsertAsync (BIS_project)'
+2023-09-04 12:29:19.814 +05:00 [INF] Route matched with {action = "Insert", controller = "Position"}. Executing controller action with signature System.Threading.Tasks.Task`1[System.Boolean] InsertAsync(BIS_project.Dtos.PositionDto) on controller BIS_project.Controllers.PositionController (BIS_project).
+2023-09-04 12:29:20.701 +05:00 [INF] Executing ObjectResult, writing value of type 'System.Boolean'.
+2023-09-04 12:29:20.705 +05:00 [INF] Executed action BIS_project.Controllers.PositionController.InsertAsync (BIS_project) in 888.2011ms
+2023-09-04 12:29:20.709 +05:00 [INF] Executed endpoint 'BIS_project.Controllers.PositionController.InsertAsync (BIS_project)'
+2023-09-04 12:29:20.718 +05:00 [INF] Request finished HTTP/1.1 POST http://localhost:5279/api/v1/Position/Insert application/json 52 - 200 - application/json;+charset=utf-8 974.4486ms
+2023-09-04 12:29:32.896 +05:00 [INF] Request starting HTTP/1.1 POST http://localhost:5279/api/v1/Position/Insert application/json 50
+2023-09-04 12:29:32.902 +05:00 [INF] No CORS policy found for the specified request.
+2023-09-04 12:29:32.903 +05:00 [INF] Executing endpoint 'BIS_project.Controllers.PositionController.InsertAsync (BIS_project)'
+2023-09-04 12:29:32.903 +05:00 [INF] Route matched with {action = "Insert", controller = "Position"}. Executing controller action with signature System.Threading.Tasks.Task`1[System.Boolean] InsertAsync(BIS_project.Dtos.PositionDto) on controller BIS_project.Controllers.PositionController (BIS_project).
+2023-09-04 12:29:32.945 +05:00 [INF] Executing ObjectResult, writing value of type 'System.Boolean'.
+2023-09-04 12:29:32.946 +05:00 [INF] Executed action BIS_project.Controllers.PositionController.InsertAsync (BIS_project) in 42.5407ms
+2023-09-04 12:29:32.946 +05:00 [INF] Executed endpoint 'BIS_project.Controllers.PositionController.InsertAsync (BIS_project)'
+2023-09-04 12:29:32.946 +05:00 [INF] Request finished HTTP/1.1 POST http://localhost:5279/api/v1/Position/Insert application/json 50 - 200 - application/json;+charset=utf-8 49.8887ms
+2023-09-04 12:29:48.659 +05:00 [INF] Request starting HTTP/1.1 GET http://localhost:5279/api/v1/Position/GetAll - -
+2023-09-04 12:29:48.665 +05:00 [INF] Executing endpoint 'BIS_project.Controllers.PositionController.GetAllAsync (BIS_project)'
+2023-09-04 12:29:48.672 +05:00 [INF] Route matched with {action = "GetAll", controller = "Position"}. Executing controller action with signature System.Threading.Tasks.Task`1[System.Collections.Generic.List`1[BIS_project.Models.Position]] GetAllAsync() on controller BIS_project.Controllers.PositionController (BIS_project).
+2023-09-04 12:29:48.834 +05:00 [INF] Executing ObjectResult, writing value of type 'System.Collections.Generic.List`1[[BIS_project.Models.Position, BIS_project, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]'.
+2023-09-04 12:29:48.835 +05:00 [INF] Executed action BIS_project.Controllers.PositionController.GetAllAsync (BIS_project) in 162.909ms
+2023-09-04 12:29:48.835 +05:00 [INF] Executed endpoint 'BIS_project.Controllers.PositionController.GetAllAsync (BIS_project)'
+2023-09-04 12:29:48.835 +05:00 [INF] Request finished HTTP/1.1 GET http://localhost:5279/api/v1/Position/GetAll - - - 200 - application/json;+charset=utf-8 176.0368ms
+2023-09-04 12:30:08.152 +05:00 [INF] Request starting HTTP/1.1 GET http://localhost:5279/api/v1/Region/GetAll - -
+2023-09-04 12:30:08.153 +05:00 [INF] Executing endpoint 'BIS_project.Controllers.RegionController.GetAllAsync (BIS_project)'
+2023-09-04 12:30:08.158 +05:00 [INF] Route matched with {action = "GetAll", controller = "Region"}. Executing controller action with signature System.Threading.Tasks.Task`1[System.Collections.Generic.List`1[BIS_project.Models.Region]] GetAllAsync() on controller BIS_project.Controllers.RegionController (BIS_project).
+2023-09-04 12:30:08.191 +05:00 [INF] Executing ObjectResult, writing value of type 'System.Collections.Generic.List`1[[BIS_project.Models.Region, BIS_project, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]'.
+2023-09-04 12:30:08.193 +05:00 [INF] Executed action BIS_project.Controllers.RegionController.GetAllAsync (BIS_project) in 35.049ms
+2023-09-04 12:30:08.193 +05:00 [INF] Executed endpoint 'BIS_project.Controllers.RegionController.GetAllAsync (BIS_project)'
+2023-09-04 12:30:08.193 +05:00 [INF] Request finished HTTP/1.1 GET http://localhost:5279/api/v1/Region/GetAll - - - 200 - application/json;+charset=utf-8 41.7171ms
+2023-09-04 12:30:21.771 +05:00 [INF] Request starting HTTP/1.1 GET http://localhost:5279/api/v1/District/GetAll - -
+2023-09-04 12:30:21.772 +05:00 [INF] Executing endpoint 'BIS_project.Controllers.DistrictController.GetAllAsync (BIS_project)'
+2023-09-04 12:30:21.777 +05:00 [INF] Route matched with {action = "GetAll", controller = "District"}. Executing controller action with signature System.Threading.Tasks.Task`1[System.Collections.Generic.List`1[BIS_project.Models.District]] GetAllAsync() on controller BIS_project.Controllers.DistrictController (BIS_project).
+2023-09-04 12:30:21.906 +05:00 [INF] Executing ObjectResult, writing value of type 'System.Collections.Generic.List`1[[BIS_project.Models.District, BIS_project, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]'.
+2023-09-04 12:30:21.907 +05:00 [INF] Executed action BIS_project.Controllers.DistrictController.GetAllAsync (BIS_project) in 130.4592ms
+2023-09-04 12:30:21.907 +05:00 [INF] Executed endpoint 'BIS_project.Controllers.DistrictController.GetAllAsync (BIS_project)'
+2023-09-04 12:30:21.907 +05:00 [INF] Request finished HTTP/1.1 GET http://localhost:5279/api/v1/District/GetAll - - - 200 - application/json;+charset=utf-8 136.2759ms

@@ -89,9 +89,6 @@ public class EmployeeController : ControllerBase
         {
             Console.WriteLine(e);
             return BadRequest();
-            throw;
         }
     }
-
-
 }

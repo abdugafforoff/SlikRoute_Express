@@ -14,9 +14,11 @@ public class AuthController : ControllerBase
 {
     private readonly IConfiguration _configuration;
     private readonly AuthService _authService;
+    private readonly EmployeeService _employee;
 
-    public AuthController(AuthService service, IConfiguration configuration)
+    public AuthController(AuthService service, IConfiguration configuration, EmployeeService emp)
     {
+        _employee = emp;
         _authService = service;
         _configuration = configuration;
     }
@@ -32,6 +34,7 @@ public class AuthController : ControllerBase
         try
         {
             User user = await _authService.UserLogin(request);
+            Employee emp = await _employee.GetEmployeeByName(user);
             if (user == null)
             {
                 return Unauthorized();
@@ -50,7 +53,7 @@ public class AuthController : ControllerBase
                 signingCredentials: creds); 
 
             var bearer = new JwtSecurityTokenHandler().WriteToken(token);
-            return Ok(new {user.Id, user.UserName, user.Role, bearer });
+            return Ok(new {user, emp, bearer });
         }
         catch (Exception ex)
         {

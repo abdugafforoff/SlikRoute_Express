@@ -106,7 +106,6 @@ public class EmployeeService : IEmployeeService
         }
        
     }
-
     public async Task<bool> DeleteEmployee(int id)
     {
         var emp = await _dataContext.Employees.FindAsync(id);
@@ -117,5 +116,12 @@ public class EmployeeService : IEmployeeService
         emp.IsActive = false;
         await _dataContext.SaveChangesAsync();
         return true;
+    }
+
+    public async Task<Employee> GetEmployeeByName(User dto)
+    {
+        return await _dataContext.Employees.FirstOrDefaultAsync(e =>
+            e.Firstname == dto.Firstname 
+            && e.Lastname == dto.Lastname);
     }
 }
