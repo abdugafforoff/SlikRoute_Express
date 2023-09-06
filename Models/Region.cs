@@ -9,5 +9,5 @@ public class Region
     [DatabaseGenerated(DatabaseGeneratedOption.Identity)]
     public int Id { get; set; }
     public string RegionName { get; set; }
-    public int NumberOfOrders { get; set; }
+    public int? NumberOfOrders { get; set; }
 }

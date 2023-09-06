@@ -13,8 +13,8 @@ using Npgsql.EntityFrameworkCore.PostgreSQL.Metadata;
 namespace BIS_project.Migrations
 {
     [DbContext(typeof(DataContext))]
-    [Migration("20230906092953_main")]
-    partial class main
+    [Migration("20230906095601_master")]
+    partial class master
     {
         protected override void BuildTargetModel(ModelBuilder modelBuilder)
         {
@@ -68,14 +68,13 @@ namespace BIS_project.Migrations
                         .IsRequired()
                         .HasColumnType("text");
 
-                    b.Property<int>("NumberOfOrders")
+                    b.Property<int?>("NumberOfOrders")
                         .HasColumnType("integer");
 
                     b.Property<string>("PhoneNumber")
-                        .IsRequired()
                         .HasColumnType("text");
 
-                    b.Property<int>("TotalSpent")
+                    b.Property<int?>("TotalSpent")
                         .HasColumnType("integer");
 
                     b.HasKey("Id");
@@ -250,7 +249,7 @@ namespace BIS_project.Migrations
 
                     NpgsqlPropertyBuilderExtensions.UseIdentityByDefaultColumn(b.Property<int>("Id"));
 
-                    b.Property<int>("ClientId")
+                    b.Property<int?>("ClientId")
                         .HasColumnType("integer");
 
                     b.Property<string>("Comment")
@@ -261,19 +260,18 @@ namespace BIS_project.Migrations
                         .HasColumnType("timestamptz");
 
                     b.Property<List<string>>("EndPoint")
-                        .IsRequired()
                         .HasColumnType("text[]");
 
-                    b.Property<DateTime>("FinishTime")
+                    b.Property<DateTime?>("FinishTime")
                         .HasColumnType("timestamptz");
 
-                    b.Property<int>("FromDistrictId")
+                    b.Property<int?>("FromDistrictId")
                         .HasColumnType("integer");
 
                     b.Property<DateOnly>("FromLoadTime")
                         .HasColumnType("date");
 
-                    b.Property<int>("FromRegionId")
+                    b.Property<int?>("FromRegionId")
                         .HasColumnType("integer");
 
                     b.Property<string>("HomeType")
@@ -288,7 +286,7 @@ namespace BIS_project.Migrations
                         .IsRequired()
                         .HasColumnType("text");
 
-                    b.Property<int>("Rating")
+                    b.Property<int?>("Rating")
                         .HasColumnType("integer");
 
                     b.Property<List<string>>("Services")
@@ -296,23 +294,21 @@ namespace BIS_project.Migrations
                         .HasColumnType("text[]");
 
                     b.Property<List<string>>("StartPoint")
-                        .IsRequired()
                         .HasColumnType("text[]");
 
-                    b.Property<DateTime>("StartTime")
+                    b.Property<DateTime?>("StartTime")
                         .HasColumnType("timestamptz");
 
                     b.Property<string>("Status")
-                        .IsRequired()
                         .HasColumnType("text");
 
-                    b.Property<int>("ToDistrictId")
+                    b.Property<int?>("ToDistrictId")
                         .HasColumnType("integer");
 
                     b.Property<DateOnly>("ToLoadTime")
                         .HasColumnType("date");
 
-                    b.Property<int>("ToRegionId")
+                    b.Property<int?>("ToRegionId")
                         .HasColumnType("integer");
 
                     b.Property<int>("TotalAmount")
@@ -361,7 +357,7 @@ namespace BIS_project.Migrations
 
                     NpgsqlPropertyBuilderExtensions.UseIdentityByDefaultColumn(b.Property<int>("Id"));
 
-                    b.Property<int>("NumberOfOrders")
+                    b.Property<int?>("NumberOfOrders")
                         .HasColumnType("integer");
 
                     b.Property<string>("RegionName")
@@ -427,14 +423,12 @@ namespace BIS_project.Migrations
                     NpgsqlPropertyBuilderExtensions.UseIdentityByDefaultColumn(b.Property<int>("Id"));
 
                     b.Property<string>("Firstname")
-                        .IsRequired()
                         .HasColumnType("text");
 
                     b.Property<bool>("IsActive")
                         .HasColumnType("boolean");
 
                     b.Property<string>("Lastname")
-                        .IsRequired()
                         .HasColumnType("text");
 
                     b.Property<string>("Password")
@@ -566,33 +560,23 @@ namespace BIS_project.Migrations
                 {
                     b.HasOne("BIS_project.Models.Client", "Client")
                         .WithMany()
-                        .HasForeignKey("ClientId")
-                        .OnDelete(DeleteBehavior.Cascade)
-                        .IsRequired();
+                        .HasForeignKey("ClientId");
 
                     b.HasOne("BIS_project.Models.District", "FromDistrict")
                         .WithMany()
-                        .HasForeignKey("FromDistrictId")
-                        .OnDelete(DeleteBehavior.Cascade)
-                        .IsRequired();
+                        .HasForeignKey("FromDistrictId");
 
                     b.HasOne("BIS_project.Models.Region", "FromRegion")
                         .WithMany()
-                        .HasForeignKey("FromRegionId")
-                        .OnDelete(DeleteBehavior.Cascade)
-                        .IsRequired();
+                        .HasForeignKey("FromRegionId");
 
                     b.HasOne("BIS_project.Models.District", "ToDistrict")
                         .WithMany()
-                        .HasForeignKey("ToDistrictId")
-                        .OnDelete(DeleteBehavior.Cascade)
-                        .IsRequired();
+                        .HasForeignKey("ToDistrictId");
 
                     b.HasOne("BIS_project.Models.Region", "ToRegion")
                         .WithMany()
-                        .HasForeignKey("ToRegionId")
-                        .OnDelete(DeleteBehavior.Cascade)
-                        .IsRequired();
+                        .HasForeignKey("ToRegionId");
 
                     b.Navigation("Client");
 

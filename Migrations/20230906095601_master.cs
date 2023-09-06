@@ -7,7 +7,7 @@ using Npgsql.EntityFrameworkCore.PostgreSQL.Metadata;
 
 namespace BIS_project.Migrations
 {
-    public partial class main : Migration
+    public partial class master : Migration
     {
         protected override void Up(MigrationBuilder migrationBuilder)
         {
@@ -18,10 +18,10 @@ namespace BIS_project.Migrations
                     Id = table.Column<int>(type: "integer", nullable: false)
                         .Annotation("Npgsql:ValueGenerationStrategy", NpgsqlValueGenerationStrategy.IdentityByDefaultColumn),
                     Name = table.Column<string>(type: "text", nullable: false),
-                    PhoneNumber = table.Column<string>(type: "text", nullable: false),
+                    PhoneNumber = table.Column<string>(type: "text", nullable: true),
                     Email = table.Column<string>(type: "text", nullable: false),
-                    TotalSpent = table.Column<int>(type: "integer", nullable: false),
-                    NumberOfOrders = table.Column<int>(type: "integer", nullable: false)
+                    TotalSpent = table.Column<int>(type: "integer", nullable: true),
+                    NumberOfOrders = table.Column<int>(type: "integer", nullable: true)
                 },
                 constraints: table =>
                 {
@@ -49,7 +49,7 @@ namespace BIS_project.Migrations
                     Id = table.Column<int>(type: "integer", nullable: false)
                         .Annotation("Npgsql:ValueGenerationStrategy", NpgsqlValueGenerationStrategy.IdentityByDefaultColumn),
                     RegionName = table.Column<string>(type: "text", nullable: false),
-                    NumberOfOrders = table.Column<int>(type: "integer", nullable: false)
+                    NumberOfOrders = table.Column<int>(type: "integer", nullable: true)
                 },
                 constraints: table =>
                 {
@@ -113,8 +113,8 @@ namespace BIS_project.Migrations
                     Id = table.Column<int>(type: "integer", nullable: false)
                         .Annotation("Npgsql:ValueGenerationStrategy", NpgsqlValueGenerationStrategy.IdentityByDefaultColumn),
                     UserName = table.Column<string>(type: "text", nullable: false),
-                    Firstname = table.Column<string>(type: "text", nullable: false),
-                    Lastname = table.Column<string>(type: "text", nullable: false),
+                    Firstname = table.Column<string>(type: "text", nullable: true),
+                    Lastname = table.Column<string>(type: "text", nullable: true),
                     Password = table.Column<string>(type: "text", nullable: false),
                     RoleId = table.Column<int>(type: "integer", nullable: false),
                     IsActive = table.Column<bool>(type: "boolean", nullable: false)
@@ -163,19 +163,19 @@ namespace BIS_project.Migrations
                 {
                     Id = table.Column<int>(type: "integer", nullable: false)
                         .Annotation("Npgsql:ValueGenerationStrategy", NpgsqlValueGenerationStrategy.IdentityByDefaultColumn),
-                    ClientId = table.Column<int>(type: "integer", nullable: false),
-                    Status = table.Column<string>(type: "text", nullable: false),
-                    StartTime = table.Column<DateTime>(type: "timestamptz", nullable: false),
-                    FinishTime = table.Column<DateTime>(type: "timestamptz", nullable: false),
+                    ClientId = table.Column<int>(type: "integer", nullable: true),
+                    Status = table.Column<string>(type: "text", nullable: true),
+                    StartTime = table.Column<DateTime>(type: "timestamptz", nullable: true),
+                    FinishTime = table.Column<DateTime>(type: "timestamptz", nullable: true),
                     Comment = table.Column<string>(type: "character varying(500)", maxLength: 500, nullable: true),
-                    StartPoint = table.Column<List<string>>(type: "text[]", nullable: false),
-                    EndPoint = table.Column<List<string>>(type: "text[]", nullable: false),
+                    StartPoint = table.Column<List<string>>(type: "text[]", nullable: true),
+                    EndPoint = table.Column<List<string>>(type: "text[]", nullable: true),
                     TotalAmount = table.Column<int>(type: "integer", nullable: false),
-                    Rating = table.Column<int>(type: "integer", nullable: false),
-                    FromRegionId = table.Column<int>(type: "integer", nullable: false),
-                    FromDistrictId = table.Column<int>(type: "integer", nullable: false),
-                    ToRegionId = table.Column<int>(type: "integer", nullable: false),
-                    ToDistrictId = table.Column<int>(type: "integer", nullable: false),
+                    Rating = table.Column<int>(type: "integer", nullable: true),
+                    FromRegionId = table.Column<int>(type: "integer", nullable: true),
+                    FromDistrictId = table.Column<int>(type: "integer", nullable: true),
+                    ToRegionId = table.Column<int>(type: "integer", nullable: true),
+                    ToDistrictId = table.Column<int>(type: "integer", nullable: true),
                     LoadDayTime = table.Column<string>(type: "text", nullable: false),
                     FromLoadTime = table.Column<DateOnly>(type: "date", nullable: false),
                     ToLoadTime = table.Column<DateOnly>(type: "date", nullable: false),
@@ -191,32 +191,27 @@ namespace BIS_project.Migrations
                         name: "FK_Orders_Client_ClientId",
                         column: x => x.ClientId,
                         principalTable: "Client",
-                        principalColumn: "Id",
-                        onDelete: ReferentialAction.Cascade);
+                        principalColumn: "Id");
                     table.ForeignKey(
                         name: "FK_Orders_Districts_FromDistrictId",
                         column: x => x.FromDistrictId,
                         principalTable: "Districts",
-                        principalColumn: "Id",
-                        onDelete: ReferentialAction.Cascade);
+                        principalColumn: "Id");
                     table.ForeignKey(
                         name: "FK_Orders_Districts_ToDistrictId",
                         column: x => x.ToDistrictId,
                         principalTable: "Districts",
-                        principalColumn: "Id",
-                        onDelete: ReferentialAction.Cascade);
+                        principalColumn: "Id");
                     table.ForeignKey(
                         name: "FK_Orders_Regions_FromRegionId",
                         column: x => x.FromRegionId,
                         principalTable: "Regions",
-                        principalColumn: "Id",
-                        onDelete: ReferentialAction.Cascade);
+                        principalColumn: "Id");
                     table.ForeignKey(
                         name: "FK_Orders_Regions_ToRegionId",
                         column: x => x.ToRegionId,
                         principalTable: "Regions",
-                        principalColumn: "Id",
-                        onDelete: ReferentialAction.Cascade);
+                        principalColumn: "Id");
                 });
 
             migrationBuilder.CreateTable(

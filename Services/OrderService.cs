@@ -103,15 +103,15 @@ public class OrderService : IOrderService
             IsActive = true,
             Firstname = order.FullName,
             UserName = order.Email,
+            Lastname = order.FullName,
             Password = GenerateRandomPassword(),
-            Role = await _dataContext.Roles.FindAsync(2),
+            Role = await _dataContext.Roles.FirstOrDefaultAsync(e=>e.Role_name == "CLIENT"),
         };
        
         await _dataContext.Users.AddAsync(user);
         await _dataContext.SaveChangesAsync();
 
         await SendEmail(order.Email, user.UserName, order.FullName, user.Password);
-        
             return client;
         
     }
