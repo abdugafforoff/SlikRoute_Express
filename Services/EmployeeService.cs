@@ -1,3 +1,4 @@
+using System.Diagnostics.CodeAnalysis;
 using BIS_project.AppData;
 using BIS_project.Dtos;
 using BIS_project.IServices;
@@ -29,15 +30,18 @@ public class EmployeeService : IEmployeeService
                 Image = img,
                 IsActive = true,
             };
-            var u = new User()
+            var isValid = await ValidateUsername(emp.UserName);
+            if (isValid)
             {
-                UserName = emp.UserName,
-                Password = "12345",
-                IsActive = true,
-                Role = await _dataContext.Roles.FindAsync(emp.RoleId)
-            };
-            await _dataContext.Users.AddAsync(u);
-            
+                var u = new User()
+                {
+                    UserName = emp.UserName,
+                    Password = "12345",
+                    IsActive = true,
+                    Role = await _dataContext.Roles.FindAsync(emp.RoleId)
+                };
+                await _dataContext.Users.AddAsync(u);
+            }
             await _dataContext.Employees.AddAsync(e);
             await _dataContext.SaveChangesAsync();
 
@@ -48,7 +52,15 @@ public class EmployeeService : IEmployeeService
             return false;
         }
     }
-   
+    public async Task<bool> ValidateUsername(string val)
+    {
+        var usr = await _dataContext.Users.FirstOrDefaultAsync(e => e.UserName == val);
+        if (usr == null)
+        {
+            return true;
+        }
+        return false;
+    }
     public async Task<List<Employee>> GetEmployees()
     {
         return await _dataContext.Employees
@@ -120,8 +132,21 @@ public class EmployeeService : IEmployeeService
 
     public async Task<Employee> GetEmployeeByName(User dto)
     {
-        return await _dataContext.Employees.FirstOrDefaultAsync(e =>
-            e.Firstname == dto.Firstname 
-            && e.Lastname == dto.Lastname);
+        try
+        {
+            return await _dataContext.Employees
+                .Include(e=> e.Branch.District.Region)
+                .Include(e=> e.Position)
+                .Include(e=> e.Image)
+                .FirstOrDefaultAsync(e =>
+                    e.Firstname == dto.Firstname 
+                    && e.Lastname == dto.Lastname);
+        }
+        catch (Exception e)
+        {
+            Console.WriteLine(e);
+            return null;
+        }
+     
     }
 }

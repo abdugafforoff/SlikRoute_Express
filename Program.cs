@@ -1,5 +1,6 @@
 ﻿using System.Text;
 using BIS_project.AppData;
+using BIS_project.Controllers;
 using BIS_project.Dtos;
 using BIS_project.Helper;
 using BIS_project.IServices;
@@ -21,11 +22,15 @@ builder.Services.AddScoped<IGenericService<Region, RegionDto>, RegionService>();
 builder.Services.AddScoped<IGenericService<District, DistrictDto>,DistrictService >();
 builder.Services.AddScoped<IGenericService<Role, RoleDto>, RoleService>();
 builder.Services.AddScoped<IGenericService<Position, PositionDto>, PositionService>();
+builder.Services.AddScoped<IGenericService<Branch, BranchDto>, BranchService>();
 builder.Services.AddScoped<EmployeeService>();
 builder.Services.AddScoped<FileSaver>();
 builder.Services.AddScoped<Validator>();
 builder.Services.AddScoped<TruckService>();
 builder.Services.AddScoped<DriverService>();
+builder.Services.AddScoped<OrderService>();
+
+
 builder.Services.AddEndpointsApiExplorer();
 builder.Services.AddSwaggerGen(options =>
 {
@@ -77,6 +82,15 @@ builder.Services.AddAuthentication(options =>
     };
 });
 
+builder.Services.AddCors(options =>
+{
+    options.AddDefaultPolicy(builder =>
+    {
+        builder.AllowAnyOrigin()
+            .AllowAnyMethod()
+            .AllowAnyHeader();
+    });
+});
 var connectionString = builder.Configuration.GetConnectionString("DefaultConnection");
 builder.Services.AddDbContext<DataContext>(options =>
 {

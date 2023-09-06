@@ -1,0 +1,1122 @@
+2023-09-06 10:17:02.973 +05:00 [INF] User profile is available. Using '/Users/azizjonabdugafforov/.aspnet/DataProtection-Keys' as key repository; keys will not be encrypted at rest.
+2023-09-06 10:17:03.036 +05:00 [INF] Now listening on: http://localhost:5279
+2023-09-06 10:17:03.036 +05:00 [INF] Application started. Press Ctrl+C to shut down.
+2023-09-06 10:17:03.036 +05:00 [INF] Hosting environment: Development
+2023-09-06 10:17:03.036 +05:00 [INF] Content root path: /Users/azizjonabdugafforov/Desktop/Code/level 6/BIS_project/BIS_project
+2023-09-06 10:17:03.550 +05:00 [INF] Request starting HTTP/1.1 GET http://localhost:5279/swagger/index.html - -
+2023-09-06 10:17:03.622 +05:00 [INF] Request finished HTTP/1.1 GET http://localhost:5279/swagger/index.html - - - 200 - text/html;charset=utf-8 72.7338ms
+2023-09-06 10:17:03.633 +05:00 [INF] Request starting HTTP/1.1 GET http://localhost:5279/swagger/swagger-ui-standalone-preset.js - -
+2023-09-06 10:17:03.635 +05:00 [INF] Request starting HTTP/1.1 GET http://localhost:5279/swagger/swagger-ui-bundle.js - -
+2023-09-06 10:17:03.654 +05:00 [INF] Sending file. Request path: '/swagger-ui-standalone-preset.js'. Physical path: 'N/A'
+2023-09-06 10:17:03.659 +05:00 [INF] Request starting HTTP/1.1 GET http://localhost:5279/swagger/swagger-ui-standalone-preset.js - -
+2023-09-06 10:17:03.660 +05:00 [INF] Request finished HTTP/1.1 GET http://localhost:5279/swagger/swagger-ui-standalone-preset.js - - - 200 312163 text/javascript 26.7116ms
+2023-09-06 10:17:03.661 +05:00 [INF] Sending file. Request path: '/swagger-ui-bundle.js'. Physical path: 'N/A'
+2023-09-06 10:17:03.661 +05:00 [INF] Request finished HTTP/1.1 GET http://localhost:5279/swagger/swagger-ui-bundle.js - - - 200 1061536 text/javascript 25.4949ms
+2023-09-06 10:17:03.661 +05:00 [INF] Sending file. Request path: '/swagger-ui-standalone-preset.js'. Physical path: 'N/A'
+2023-09-06 10:17:03.661 +05:00 [INF] Request finished HTTP/1.1 GET http://localhost:5279/swagger/swagger-ui-standalone-preset.js - - - 200 312163 text/javascript 1.9898ms
+2023-09-06 10:17:03.771 +05:00 [INF] Request starting HTTP/1.1 GET http://localhost:5279/swagger/v1/swagger.json - -
+2023-09-06 10:17:03.860 +05:00 [INF] Request finished HTTP/1.1 GET http://localhost:5279/swagger/v1/swagger.json - - - 200 - application/json;charset=utf-8 89.0375ms
+2023-09-06 10:22:18.863 +05:00 [INF] Request starting HTTP/1.1 POST http://localhost:5279/api/v1/Auth/Login application/json 48
+2023-09-06 10:22:18.912 +05:00 [WRN] Failed to determine the https port for redirect.
+2023-09-06 10:22:18.913 +05:00 [INF] CORS policy execution successful.
+2023-09-06 10:22:18.916 +05:00 [INF] Executing endpoint 'BIS_project.Controllers.AuthController.Login (BIS_project)'
+2023-09-06 10:22:18.930 +05:00 [INF] Route matched with {action = "Login", controller = "Auth"}. Executing controller action with signature System.Threading.Tasks.Task`1[System.Object] Login(BIS_project.Dtos.UserDto) on controller BIS_project.Controllers.AuthController (BIS_project).
+2023-09-06 10:22:19.833 +05:00 [INF] Executing ObjectResult, writing value of type 'Microsoft.AspNetCore.Mvc.ProblemDetails'.
+2023-09-06 10:22:19.838 +05:00 [INF] Executed action BIS_project.Controllers.AuthController.Login (BIS_project) in 904.798ms
+2023-09-06 10:22:19.841 +05:00 [INF] Executed endpoint 'BIS_project.Controllers.AuthController.Login (BIS_project)'
+2023-09-06 10:22:19.847 +05:00 [INF] Request finished HTTP/1.1 POST http://localhost:5279/api/v1/Auth/Login application/json 48 - 401 - application/problem+json;+charset=utf-8 985.5151ms
+2023-09-06 10:23:06.701 +05:00 [INF] Request starting HTTP/1.1 POST http://localhost:5279/api/v1/Auth/Login application/json 48
+2023-09-06 10:23:06.709 +05:00 [INF] CORS policy execution successful.
+2023-09-06 10:23:06.709 +05:00 [INF] Executing endpoint 'BIS_project.Controllers.AuthController.Login (BIS_project)'
+2023-09-06 10:23:06.710 +05:00 [INF] Route matched with {action = "Login", controller = "Auth"}. Executing controller action with signature System.Threading.Tasks.Task`1[System.Object] Login(BIS_project.Dtos.UserDto) on controller BIS_project.Controllers.AuthController (BIS_project).
+2023-09-06 10:23:06.829 +05:00 [INF] Executing ObjectResult, writing value of type 'System.String'.
+2023-09-06 10:23:06.829 +05:00 [INF] Executed action BIS_project.Controllers.AuthController.Login (BIS_project) in 119.3749ms
+2023-09-06 10:23:06.829 +05:00 [INF] Executed endpoint 'BIS_project.Controllers.AuthController.Login (BIS_project)'
+2023-09-06 10:23:06.830 +05:00 [INF] Request finished HTTP/1.1 POST http://localhost:5279/api/v1/Auth/Login application/json 48 - 500 - text/plain;+charset=utf-8 129.1014ms
+2023-09-06 10:23:14.281 +05:00 [INF] Application is shutting down...
+2023-09-06 10:23:15.630 +05:00 [INF] User profile is available. Using '/Users/azizjonabdugafforov/.aspnet/DataProtection-Keys' as key repository; keys will not be encrypted at rest.
+2023-09-06 10:23:15.675 +05:00 [INF] Now listening on: http://localhost:5279
+2023-09-06 10:23:15.676 +05:00 [INF] Application started. Press Ctrl+C to shut down.
+2023-09-06 10:23:15.676 +05:00 [INF] Hosting environment: Development
+2023-09-06 10:23:15.676 +05:00 [INF] Content root path: /Users/azizjonabdugafforov/Desktop/Code/level 6/BIS_project/BIS_project
+2023-09-06 10:23:16.283 +05:00 [INF] Request starting HTTP/1.1 GET http://localhost:5279/swagger/index.html - -
+2023-09-06 10:23:16.352 +05:00 [INF] Request finished HTTP/1.1 GET http://localhost:5279/swagger/index.html - - - 200 - text/html;charset=utf-8 69.6282ms
+2023-09-06 10:23:16.518 +05:00 [INF] Request starting HTTP/1.1 GET http://localhost:5279/swagger/v1/swagger.json - -
+2023-09-06 10:23:16.597 +05:00 [INF] Request finished HTTP/1.1 GET http://localhost:5279/swagger/v1/swagger.json - - - 200 - application/json;charset=utf-8 78.9474ms
+2023-09-06 10:23:19.290 +05:00 [INF] Request starting HTTP/1.1 POST http://localhost:5279/api/v1/Auth/Login application/json 48
+2023-09-06 10:23:19.323 +05:00 [WRN] Failed to determine the https port for redirect.
+2023-09-06 10:23:19.325 +05:00 [INF] CORS policy execution successful.
+2023-09-06 10:23:19.328 +05:00 [INF] Executing endpoint 'BIS_project.Controllers.AuthController.Login (BIS_project)'
+2023-09-06 10:23:19.341 +05:00 [INF] Route matched with {action = "Login", controller = "Auth"}. Executing controller action with signature System.Threading.Tasks.Task`1[System.Object] Login(BIS_project.Dtos.UserDto) on controller BIS_project.Controllers.AuthController (BIS_project).
+2023-09-06 10:23:20.185 +05:00 [INF] Executing ObjectResult, writing value of type 'System.String'.
+2023-09-06 10:23:20.189 +05:00 [INF] Executed action BIS_project.Controllers.AuthController.Login (BIS_project) in 845.2551ms
+2023-09-06 10:23:20.192 +05:00 [INF] Executed endpoint 'BIS_project.Controllers.AuthController.Login (BIS_project)'
+2023-09-06 10:23:20.201 +05:00 [INF] Request finished HTTP/1.1 POST http://localhost:5279/api/v1/Auth/Login application/json 48 - 500 - text/plain;+charset=utf-8 910.9467ms
+2023-09-06 10:24:04.876 +05:00 [INF] Application is shutting down...
+2023-09-06 10:24:07.488 +05:00 [INF] User profile is available. Using '/Users/azizjonabdugafforov/.aspnet/DataProtection-Keys' as key repository; keys will not be encrypted at rest.
+2023-09-06 10:24:07.555 +05:00 [INF] Now listening on: http://localhost:5279
+2023-09-06 10:24:07.556 +05:00 [INF] Application started. Press Ctrl+C to shut down.
+2023-09-06 10:24:07.556 +05:00 [INF] Hosting environment: Development
+2023-09-06 10:24:07.556 +05:00 [INF] Content root path: /Users/azizjonabdugafforov/Desktop/Code/level 6/BIS_project/BIS_project
+2023-09-06 10:24:08.049 +05:00 [INF] Request starting HTTP/1.1 GET http://localhost:5279/swagger/index.html - -
+2023-09-06 10:24:08.111 +05:00 [INF] Request finished HTTP/1.1 GET http://localhost:5279/swagger/index.html - - - 200 - text/html;charset=utf-8 63.1958ms
+2023-09-06 10:24:08.208 +05:00 [INF] Request starting HTTP/1.1 GET http://localhost:5279/swagger/v1/swagger.json - -
+2023-09-06 10:24:08.284 +05:00 [INF] Request finished HTTP/1.1 GET http://localhost:5279/swagger/v1/swagger.json - - - 200 - application/json;charset=utf-8 76.7845ms
+2023-09-06 10:24:10.801 +05:00 [INF] Request starting HTTP/1.1 POST http://localhost:5279/api/v1/Auth/Login application/json 48
+2023-09-06 10:24:10.836 +05:00 [WRN] Failed to determine the https port for redirect.
+2023-09-06 10:24:10.838 +05:00 [INF] CORS policy execution successful.
+2023-09-06 10:24:10.840 +05:00 [INF] Executing endpoint 'BIS_project.Controllers.AuthController.Login (BIS_project)'
+2023-09-06 10:24:10.856 +05:00 [INF] Route matched with {action = "Login", controller = "Auth"}. Executing controller action with signature System.Threading.Tasks.Task`1[System.Object] Login(BIS_project.Dtos.UserDto) on controller BIS_project.Controllers.AuthController (BIS_project).
+2023-09-06 10:24:11.775 +05:00 [INF] Executing OkObjectResult, writing value of type '<>f__AnonymousType0`3[[BIS_project.Models.User, BIS_project, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null],[BIS_project.Models.Employee, BIS_project, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null],[System.String, System.Private.CoreLib, Version=7.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]'.
+2023-09-06 10:24:11.783 +05:00 [INF] Executed action BIS_project.Controllers.AuthController.Login (BIS_project) in 924.1062ms
+2023-09-06 10:24:11.787 +05:00 [INF] Executed endpoint 'BIS_project.Controllers.AuthController.Login (BIS_project)'
+2023-09-06 10:24:11.795 +05:00 [INF] Request finished HTTP/1.1 POST http://localhost:5279/api/v1/Auth/Login application/json 48 - 200 - application/json;+charset=utf-8 993.8908ms
+2023-09-06 10:32:49.774 +05:00 [INF] Application is shutting down...
+2023-09-06 10:32:51.741 +05:00 [INF] User profile is available. Using '/Users/azizjonabdugafforov/.aspnet/DataProtection-Keys' as key repository; keys will not be encrypted at rest.
+2023-09-06 10:32:51.787 +05:00 [INF] Now listening on: http://localhost:5279
+2023-09-06 10:32:51.787 +05:00 [INF] Application started. Press Ctrl+C to shut down.
+2023-09-06 10:32:51.787 +05:00 [INF] Hosting environment: Development
+2023-09-06 10:32:51.787 +05:00 [INF] Content root path: /Users/azizjonabdugafforov/Desktop/Code/level 6/BIS_project/BIS_project
+2023-09-06 10:32:52.407 +05:00 [INF] Request starting HTTP/1.1 GET http://localhost:5279/swagger/index.html - -
+2023-09-06 10:32:52.492 +05:00 [INF] Request finished HTTP/1.1 GET http://localhost:5279/swagger/index.html - - - 200 - text/html;charset=utf-8 86.5075ms
+2023-09-06 10:32:52.619 +05:00 [INF] Request starting HTTP/1.1 GET http://localhost:5279/swagger/v1/swagger.json - -
+2023-09-06 10:32:52.713 +05:00 [INF] Request finished HTTP/1.1 GET http://localhost:5279/swagger/v1/swagger.json - - - 200 - application/json;charset=utf-8 94.7293ms
+2023-09-06 10:33:00.967 +05:00 [INF] Request starting HTTP/1.1 POST http://localhost:5279/api/v1/Auth/Login application/json 48
+2023-09-06 10:33:01.018 +05:00 [WRN] Failed to determine the https port for redirect.
+2023-09-06 10:33:01.019 +05:00 [INF] CORS policy execution successful.
+2023-09-06 10:33:01.021 +05:00 [INF] Executing endpoint 'BIS_project.Controllers.AuthController.Login (BIS_project)'
+2023-09-06 10:33:01.037 +05:00 [INF] Route matched with {action = "Login", controller = "Auth"}. Executing controller action with signature System.Threading.Tasks.Task`1[System.Object] Login(BIS_project.Dtos.UserDto) on controller BIS_project.Controllers.AuthController (BIS_project).
+2023-09-06 10:33:01.965 +05:00 [INF] Executing OkObjectResult, writing value of type '<>f__AnonymousType1`3[[BIS_project.Models.User, BIS_project, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null],[<>f__AnonymousType0`8[[System.String, System.Private.CoreLib, Version=7.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e],[System.String, System.Private.CoreLib, Version=7.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e],[System.String, System.Private.CoreLib, Version=7.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e],[System.DateOnly, System.Private.CoreLib, Version=7.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e],[BIS_project.Models.Image, BIS_project, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null],[System.String, System.Private.CoreLib, Version=7.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e],[System.String, System.Private.CoreLib, Version=7.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e],[System.String, System.Private.CoreLib, Version=7.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]], BIS_project, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null],[System.String, System.Private.CoreLib, Version=7.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]'.
+2023-09-06 10:33:01.973 +05:00 [INF] Executed action BIS_project.Controllers.AuthController.Login (BIS_project) in 933.02ms
+2023-09-06 10:33:01.976 +05:00 [INF] Executed endpoint 'BIS_project.Controllers.AuthController.Login (BIS_project)'
+2023-09-06 10:33:01.984 +05:00 [INF] Request finished HTTP/1.1 POST http://localhost:5279/api/v1/Auth/Login application/json 48 - 200 - application/json;+charset=utf-8 1017.7168ms
+2023-09-06 10:58:43.585 +05:00 [INF] Application is shutting down...
+2023-09-06 10:58:46.257 +05:00 [INF] User profile is available. Using '/Users/azizjonabdugafforov/.aspnet/DataProtection-Keys' as key repository; keys will not be encrypted at rest.
+2023-09-06 10:58:46.302 +05:00 [INF] Now listening on: http://localhost:5279
+2023-09-06 10:58:46.303 +05:00 [INF] Application started. Press Ctrl+C to shut down.
+2023-09-06 10:58:46.303 +05:00 [INF] Hosting environment: Development
+2023-09-06 10:58:46.303 +05:00 [INF] Content root path: /Users/azizjonabdugafforov/Desktop/Code/level 6/BIS_project/BIS_project
+2023-09-06 10:58:46.940 +05:00 [INF] Request starting HTTP/1.1 GET http://localhost:5279/swagger/index.html - -
+2023-09-06 10:58:47.010 +05:00 [INF] Request finished HTTP/1.1 GET http://localhost:5279/swagger/index.html - - - 200 - text/html;charset=utf-8 71.5312ms
+2023-09-06 10:58:47.102 +05:00 [INF] Request starting HTTP/1.1 GET http://localhost:5279/swagger/v1/swagger.json - -
+2023-09-06 10:58:47.177 +05:00 [INF] Request finished HTTP/1.1 GET http://localhost:5279/swagger/v1/swagger.json - - - 200 - application/json;charset=utf-8 75.3697ms
+2023-09-06 10:59:13.988 +05:00 [INF] Application is shutting down...
+2023-09-06 10:59:15.051 +05:00 [INF] User profile is available. Using '/Users/azizjonabdugafforov/.aspnet/DataProtection-Keys' as key repository; keys will not be encrypted at rest.
+2023-09-06 10:59:15.098 +05:00 [INF] Now listening on: http://localhost:5279
+2023-09-06 10:59:15.099 +05:00 [INF] Application started. Press Ctrl+C to shut down.
+2023-09-06 10:59:15.099 +05:00 [INF] Hosting environment: Development
+2023-09-06 10:59:15.099 +05:00 [INF] Content root path: /Users/azizjonabdugafforov/Desktop/Code/level 6/BIS_project/BIS_project
+2023-09-06 10:59:15.757 +05:00 [INF] Request starting HTTP/1.1 GET http://localhost:5279/swagger/index.html - -
+2023-09-06 10:59:15.819 +05:00 [INF] Request finished HTTP/1.1 GET http://localhost:5279/swagger/index.html - - - 200 - text/html;charset=utf-8 63.7930ms
+2023-09-06 10:59:15.907 +05:00 [INF] Request starting HTTP/1.1 GET http://localhost:5279/swagger/v1/swagger.json - -
+2023-09-06 10:59:15.983 +05:00 [INF] Request finished HTTP/1.1 GET http://localhost:5279/swagger/v1/swagger.json - - - 200 - application/json;charset=utf-8 76.8252ms
+2023-09-06 11:00:57.960 +05:00 [INF] Request starting HTTP/1.1 POST http://localhost:5279/api/v1/create-order application/json 391
+2023-09-06 11:00:58.012 +05:00 [WRN] Failed to determine the https port for redirect.
+2023-09-06 11:00:58.014 +05:00 [INF] CORS policy execution successful.
+2023-09-06 11:00:58.016 +05:00 [INF] Executing endpoint 'BIS_project.Controllers.OrderController.CreateOrder (BIS_project)'
+2023-09-06 11:00:58.030 +05:00 [INF] Route matched with {action = "CreateOrder", controller = "Order"}. Executing controller action with signature System.Threading.Tasks.Task`1[BIS_project.Helper.APIResponse] CreateOrder(BIS_project.Dtos.BaseOrderDto) on controller BIS_project.Controllers.OrderController (BIS_project).
+2023-09-06 11:00:59.093 +05:00 [INF] Executing ObjectResult, writing value of type 'BIS_project.Helper.APIResponse'.
+2023-09-06 11:00:59.100 +05:00 [INF] Executed action BIS_project.Controllers.OrderController.CreateOrder (BIS_project) in 1066.77ms
+2023-09-06 11:00:59.103 +05:00 [INF] Executed endpoint 'BIS_project.Controllers.OrderController.CreateOrder (BIS_project)'
+2023-09-06 11:00:59.113 +05:00 [INF] Request finished HTTP/1.1 POST http://localhost:5279/api/v1/create-order application/json 391 - 200 - application/json;+charset=utf-8 1157.2587ms
+2023-09-06 11:02:44.794 +05:00 [INF] Application is shutting down...
+2023-09-06 11:02:46.680 +05:00 [INF] User profile is available. Using '/Users/azizjonabdugafforov/.aspnet/DataProtection-Keys' as key repository; keys will not be encrypted at rest.
+2023-09-06 11:02:46.727 +05:00 [INF] Now listening on: http://localhost:5279
+2023-09-06 11:02:46.728 +05:00 [INF] Application started. Press Ctrl+C to shut down.
+2023-09-06 11:02:46.728 +05:00 [INF] Hosting environment: Development
+2023-09-06 11:02:46.728 +05:00 [INF] Content root path: /Users/azizjonabdugafforov/Desktop/Code/level 6/BIS_project/BIS_project
+2023-09-06 11:02:47.380 +05:00 [INF] Request starting HTTP/1.1 GET http://localhost:5279/swagger/index.html - -
+2023-09-06 11:02:47.451 +05:00 [INF] Request finished HTTP/1.1 GET http://localhost:5279/swagger/index.html - - - 200 - text/html;charset=utf-8 72.6086ms
+2023-09-06 11:02:47.573 +05:00 [INF] Request starting HTTP/1.1 GET http://localhost:5279/swagger/v1/swagger.json - -
+2023-09-06 11:02:47.702 +05:00 [INF] Request finished HTTP/1.1 GET http://localhost:5279/swagger/v1/swagger.json - - - 200 - application/json;charset=utf-8 128.8028ms
+2023-09-06 11:02:57.289 +05:00 [INF] Request starting HTTP/1.1 POST http://localhost:5279/api/v1/create-order application/json 391
+2023-09-06 11:02:57.341 +05:00 [WRN] Failed to determine the https port for redirect.
+2023-09-06 11:02:57.343 +05:00 [INF] CORS policy execution successful.
+2023-09-06 11:02:57.344 +05:00 [INF] Executing endpoint 'BIS_project.Controllers.OrderController.CreateOrder (BIS_project)'
+2023-09-06 11:02:57.358 +05:00 [INF] Route matched with {action = "CreateOrder", controller = "Order"}. Executing controller action with signature System.Threading.Tasks.Task`1[BIS_project.Helper.APIResponse] CreateOrder(BIS_project.Dtos.BaseOrderDto) on controller BIS_project.Controllers.OrderController (BIS_project).
+2023-09-06 11:02:58.411 +05:00 [INF] Executing ObjectResult, writing value of type 'BIS_project.Helper.APIResponse'.
+2023-09-06 11:02:58.418 +05:00 [INF] Executed action BIS_project.Controllers.OrderController.CreateOrder (BIS_project) in 1056.8751ms
+2023-09-06 11:02:58.422 +05:00 [INF] Executed endpoint 'BIS_project.Controllers.OrderController.CreateOrder (BIS_project)'
+2023-09-06 11:02:58.432 +05:00 [INF] Request finished HTTP/1.1 POST http://localhost:5279/api/v1/create-order application/json 391 - 200 - application/json;+charset=utf-8 1142.6257ms
+2023-09-06 11:04:17.339 +05:00 [INF] Request starting HTTP/1.1 POST http://localhost:5279/api/v1/create-order application/json 391
+2023-09-06 11:04:17.349 +05:00 [INF] CORS policy execution successful.
+2023-09-06 11:04:17.350 +05:00 [INF] Executing endpoint 'BIS_project.Controllers.OrderController.CreateOrder (BIS_project)'
+2023-09-06 11:04:17.350 +05:00 [INF] Route matched with {action = "CreateOrder", controller = "Order"}. Executing controller action with signature System.Threading.Tasks.Task`1[BIS_project.Helper.APIResponse] CreateOrder(BIS_project.Dtos.BaseOrderDto) on controller BIS_project.Controllers.OrderController (BIS_project).
+2023-09-06 11:04:17.398 +05:00 [INF] Executing ObjectResult, writing value of type 'BIS_project.Helper.APIResponse'.
+2023-09-06 11:04:17.398 +05:00 [INF] Executed action BIS_project.Controllers.OrderController.CreateOrder (BIS_project) in 47.559ms
+2023-09-06 11:04:17.398 +05:00 [INF] Executed endpoint 'BIS_project.Controllers.OrderController.CreateOrder (BIS_project)'
+2023-09-06 11:04:17.398 +05:00 [INF] Request finished HTTP/1.1 POST http://localhost:5279/api/v1/create-order application/json 391 - 200 - application/json;+charset=utf-8 59.7046ms
+2023-09-06 11:05:06.266 +05:00 [INF] Request starting HTTP/1.1 POST http://localhost:5279/api/v1/create-order application/json 391
+2023-09-06 11:05:06.274 +05:00 [INF] CORS policy execution successful.
+2023-09-06 11:05:06.275 +05:00 [INF] Executing endpoint 'BIS_project.Controllers.OrderController.CreateOrder (BIS_project)'
+2023-09-06 11:05:06.275 +05:00 [INF] Route matched with {action = "CreateOrder", controller = "Order"}. Executing controller action with signature System.Threading.Tasks.Task`1[BIS_project.Helper.APIResponse] CreateOrder(BIS_project.Dtos.BaseOrderDto) on controller BIS_project.Controllers.OrderController (BIS_project).
+2023-09-06 11:05:06.402 +05:00 [INF] Executing ObjectResult, writing value of type 'BIS_project.Helper.APIResponse'.
+2023-09-06 11:05:06.402 +05:00 [INF] Executed action BIS_project.Controllers.OrderController.CreateOrder (BIS_project) in 126.8222ms
+2023-09-06 11:05:06.402 +05:00 [INF] Executed endpoint 'BIS_project.Controllers.OrderController.CreateOrder (BIS_project)'
+2023-09-06 11:05:06.403 +05:00 [INF] Request finished HTTP/1.1 POST http://localhost:5279/api/v1/create-order application/json 391 - 200 - application/json;+charset=utf-8 136.8905ms
+2023-09-06 11:05:09.338 +05:00 [INF] Request starting HTTP/1.1 POST http://localhost:5279/api/v1/create-order application/json 391
+2023-09-06 11:05:09.338 +05:00 [INF] CORS policy execution successful.
+2023-09-06 11:05:09.338 +05:00 [INF] Executing endpoint 'BIS_project.Controllers.OrderController.CreateOrder (BIS_project)'
+2023-09-06 11:05:09.339 +05:00 [INF] Route matched with {action = "CreateOrder", controller = "Order"}. Executing controller action with signature System.Threading.Tasks.Task`1[BIS_project.Helper.APIResponse] CreateOrder(BIS_project.Dtos.BaseOrderDto) on controller BIS_project.Controllers.OrderController (BIS_project).
+2023-09-06 11:05:09.365 +05:00 [INF] Executing ObjectResult, writing value of type 'BIS_project.Helper.APIResponse'.
+2023-09-06 11:05:09.366 +05:00 [INF] Executed action BIS_project.Controllers.OrderController.CreateOrder (BIS_project) in 26.8062ms
+2023-09-06 11:05:09.366 +05:00 [INF] Executed endpoint 'BIS_project.Controllers.OrderController.CreateOrder (BIS_project)'
+2023-09-06 11:05:09.366 +05:00 [INF] Request finished HTTP/1.1 POST http://localhost:5279/api/v1/create-order application/json 391 - 200 - application/json;+charset=utf-8 28.2726ms
+2023-09-06 11:06:46.460 +05:00 [INF] Request starting HTTP/1.1 POST http://localhost:5279/api/v1/create-order application/json 391
+2023-09-06 11:06:46.462 +05:00 [INF] CORS policy execution successful.
+2023-09-06 11:06:46.462 +05:00 [INF] Executing endpoint 'BIS_project.Controllers.OrderController.CreateOrder (BIS_project)'
+2023-09-06 11:06:46.463 +05:00 [INF] Route matched with {action = "CreateOrder", controller = "Order"}. Executing controller action with signature System.Threading.Tasks.Task`1[BIS_project.Helper.APIResponse] CreateOrder(BIS_project.Dtos.BaseOrderDto) on controller BIS_project.Controllers.OrderController (BIS_project).
+2023-09-06 11:06:46.493 +05:00 [INF] Executing ObjectResult, writing value of type 'BIS_project.Helper.APIResponse'.
+2023-09-06 11:06:46.494 +05:00 [INF] Executed action BIS_project.Controllers.OrderController.CreateOrder (BIS_project) in 30.9004ms
+2023-09-06 11:06:46.494 +05:00 [INF] Executed endpoint 'BIS_project.Controllers.OrderController.CreateOrder (BIS_project)'
+2023-09-06 11:06:46.494 +05:00 [INF] Request finished HTTP/1.1 POST http://localhost:5279/api/v1/create-order application/json 391 - 200 - application/json;+charset=utf-8 35.0553ms
+2023-09-06 11:08:09.835 +05:00 [INF] Application is shutting down...
+2023-09-06 11:08:10.839 +05:00 [INF] User profile is available. Using '/Users/azizjonabdugafforov/.aspnet/DataProtection-Keys' as key repository; keys will not be encrypted at rest.
+2023-09-06 11:08:10.889 +05:00 [INF] Now listening on: http://localhost:5279
+2023-09-06 11:08:10.889 +05:00 [INF] Application started. Press Ctrl+C to shut down.
+2023-09-06 11:08:10.889 +05:00 [INF] Hosting environment: Development
+2023-09-06 11:08:10.889 +05:00 [INF] Content root path: /Users/azizjonabdugafforov/Desktop/Code/level 6/BIS_project/BIS_project
+2023-09-06 11:08:11.523 +05:00 [INF] Request starting HTTP/1.1 GET http://localhost:5279/swagger/index.html - -
+2023-09-06 11:08:11.588 +05:00 [INF] Request finished HTTP/1.1 GET http://localhost:5279/swagger/index.html - - - 200 - text/html;charset=utf-8 66.4625ms
+2023-09-06 11:08:11.670 +05:00 [INF] Request starting HTTP/1.1 GET http://localhost:5279/swagger/v1/swagger.json - -
+2023-09-06 11:08:11.743 +05:00 [INF] Request finished HTTP/1.1 GET http://localhost:5279/swagger/v1/swagger.json - - - 200 - application/json;charset=utf-8 72.7965ms
+2023-09-06 11:08:19.109 +05:00 [INF] Request starting HTTP/1.1 POST http://localhost:5279/api/v1/create-order application/json 391
+2023-09-06 11:08:19.144 +05:00 [WRN] Failed to determine the https port for redirect.
+2023-09-06 11:08:19.145 +05:00 [INF] CORS policy execution successful.
+2023-09-06 11:08:19.148 +05:00 [INF] Executing endpoint 'BIS_project.Controllers.OrderController.CreateOrder (BIS_project)'
+2023-09-06 11:08:19.163 +05:00 [INF] Route matched with {action = "CreateOrder", controller = "Order"}. Executing controller action with signature System.Threading.Tasks.Task`1[BIS_project.Helper.APIResponse] CreateOrder(BIS_project.Dtos.BaseOrderDto) on controller BIS_project.Controllers.OrderController (BIS_project).
+2023-09-06 11:08:20.240 +05:00 [INF] Executing ObjectResult, writing value of type 'BIS_project.Helper.APIResponse'.
+2023-09-06 11:08:20.246 +05:00 [INF] Executed action BIS_project.Controllers.OrderController.CreateOrder (BIS_project) in 1080.7844ms
+2023-09-06 11:08:20.249 +05:00 [INF] Executed endpoint 'BIS_project.Controllers.OrderController.CreateOrder (BIS_project)'
+2023-09-06 11:08:20.258 +05:00 [INF] Request finished HTTP/1.1 POST http://localhost:5279/api/v1/create-order application/json 391 - 200 - application/json;+charset=utf-8 1148.6892ms
+2023-09-06 11:08:23.530 +05:00 [INF] Request starting HTTP/1.1 POST http://localhost:5279/api/v1/create-order application/json 391
+2023-09-06 11:08:23.535 +05:00 [INF] CORS policy execution successful.
+2023-09-06 11:08:23.535 +05:00 [INF] Executing endpoint 'BIS_project.Controllers.OrderController.CreateOrder (BIS_project)'
+2023-09-06 11:08:23.535 +05:00 [INF] Route matched with {action = "CreateOrder", controller = "Order"}. Executing controller action with signature System.Threading.Tasks.Task`1[BIS_project.Helper.APIResponse] CreateOrder(BIS_project.Dtos.BaseOrderDto) on controller BIS_project.Controllers.OrderController (BIS_project).
+2023-09-06 11:08:23.576 +05:00 [INF] Executing ObjectResult, writing value of type 'BIS_project.Helper.APIResponse'.
+2023-09-06 11:08:23.576 +05:00 [INF] Executed action BIS_project.Controllers.OrderController.CreateOrder (BIS_project) in 40.5704ms
+2023-09-06 11:08:23.576 +05:00 [INF] Executed endpoint 'BIS_project.Controllers.OrderController.CreateOrder (BIS_project)'
+2023-09-06 11:08:23.576 +05:00 [INF] Request finished HTTP/1.1 POST http://localhost:5279/api/v1/create-order application/json 391 - 200 - application/json;+charset=utf-8 45.8536ms
+2023-09-06 11:09:49.534 +05:00 [INF] Application is shutting down...
+2023-09-06 11:09:51.249 +05:00 [INF] User profile is available. Using '/Users/azizjonabdugafforov/.aspnet/DataProtection-Keys' as key repository; keys will not be encrypted at rest.
+2023-09-06 11:09:51.293 +05:00 [INF] Now listening on: http://localhost:5279
+2023-09-06 11:09:51.293 +05:00 [INF] Application started. Press Ctrl+C to shut down.
+2023-09-06 11:09:51.293 +05:00 [INF] Hosting environment: Development
+2023-09-06 11:09:51.293 +05:00 [INF] Content root path: /Users/azizjonabdugafforov/Desktop/Code/level 6/BIS_project/BIS_project
+2023-09-06 11:09:51.472 +05:00 [INF] Request starting HTTP/1.1 GET http://localhost:5279/swagger/index.html - -
+2023-09-06 11:09:51.541 +05:00 [INF] Request finished HTTP/1.1 GET http://localhost:5279/swagger/index.html - - - 200 - text/html;charset=utf-8 70.2709ms
+2023-09-06 11:09:51.625 +05:00 [INF] Request starting HTTP/1.1 GET http://localhost:5279/swagger/v1/swagger.json - -
+2023-09-06 11:09:51.702 +05:00 [INF] Request finished HTTP/1.1 GET http://localhost:5279/swagger/v1/swagger.json - - - 200 - application/json;charset=utf-8 77.4370ms
+2023-09-06 11:09:56.063 +05:00 [INF] Request starting HTTP/1.1 POST http://localhost:5279/api/v1/create-order application/json 391
+2023-09-06 11:09:56.104 +05:00 [WRN] Failed to determine the https port for redirect.
+2023-09-06 11:09:56.105 +05:00 [INF] CORS policy execution successful.
+2023-09-06 11:09:56.106 +05:00 [INF] Executing endpoint 'BIS_project.Controllers.OrderController.CreateOrder (BIS_project)'
+2023-09-06 11:09:56.119 +05:00 [INF] Route matched with {action = "CreateOrder", controller = "Order"}. Executing controller action with signature System.Threading.Tasks.Task`1[BIS_project.Helper.APIResponse] CreateOrder(BIS_project.Dtos.BaseOrderDto) on controller BIS_project.Controllers.OrderController (BIS_project).
+2023-09-06 11:09:57.216 +05:00 [INF] Executing ObjectResult, writing value of type 'BIS_project.Helper.APIResponse'.
+2023-09-06 11:09:57.222 +05:00 [INF] Executed action BIS_project.Controllers.OrderController.CreateOrder (BIS_project) in 1099.9143ms
+2023-09-06 11:09:57.224 +05:00 [INF] Executed endpoint 'BIS_project.Controllers.OrderController.CreateOrder (BIS_project)'
+2023-09-06 11:09:57.233 +05:00 [INF] Request finished HTTP/1.1 POST http://localhost:5279/api/v1/create-order application/json 391 - 200 - application/json;+charset=utf-8 1170.0684ms
+2023-09-06 11:12:13.386 +05:00 [INF] Request starting HTTP/1.1 POST http://localhost:5279/api/v1/create-order application/json 391
+2023-09-06 11:12:13.389 +05:00 [INF] CORS policy execution successful.
+2023-09-06 11:12:13.390 +05:00 [INF] Executing endpoint 'BIS_project.Controllers.OrderController.CreateOrder (BIS_project)'
+2023-09-06 11:12:13.398 +05:00 [INF] Executed endpoint 'BIS_project.Controllers.OrderController.CreateOrder (BIS_project)'
+2023-09-06 11:12:13.398 +05:00 [ERR] An unhandled exception has occurred while executing the request.
+System.BadImageFormatException: Index not found. (0x80131124)
+   at System.Reflection.RuntimeAssembly.GetLocale(QCallAssembly assembly, StringHandleOnStack retString)
+   at System.Reflection.RuntimeAssembly.GetLocale()
+   at System.Reflection.RuntimeAssembly.GetName(Boolean copiedName)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.Log.ExecutingAction(ILogger logger, ActionDescriptor action)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Logged|17_1(ResourceInvoker invoker)
+   at Microsoft.AspNetCore.Routing.EndpointMiddleware.<Invoke>g__AwaitRequestTask|6_0(Endpoint endpoint, Task requestTask, ILogger logger)
+   at Microsoft.AspNetCore.Authorization.AuthorizationMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Authorization.AuthorizationMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Authentication.AuthenticationMiddleware.Invoke(HttpContext context)
+   at Swashbuckle.AspNetCore.SwaggerUI.SwaggerUIMiddleware.Invoke(HttpContext httpContext)
+   at Swashbuckle.AspNetCore.Swagger.SwaggerMiddleware.Invoke(HttpContext httpContext, ISwaggerProvider swaggerProvider)
+   at Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddlewareImpl.Invoke(HttpContext context)
+2023-09-06 11:12:13.410 +05:00 [INF] Request finished HTTP/1.1 POST http://localhost:5279/api/v1/create-order application/json 391 - 500 - text/plain;+charset=utf-8 24.4534ms
+2023-09-06 11:13:37.305 +05:00 [INF] Application is shutting down...
+2023-09-06 11:13:40.045 +05:00 [INF] User profile is available. Using '/Users/azizjonabdugafforov/.aspnet/DataProtection-Keys' as key repository; keys will not be encrypted at rest.
+2023-09-06 11:13:40.124 +05:00 [INF] Now listening on: http://localhost:5279
+2023-09-06 11:13:40.141 +05:00 [INF] Application started. Press Ctrl+C to shut down.
+2023-09-06 11:13:40.142 +05:00 [INF] Hosting environment: Development
+2023-09-06 11:13:40.142 +05:00 [INF] Content root path: /Users/azizjonabdugafforov/Desktop/Code/level 6/BIS_project/BIS_project
+2023-09-06 11:13:40.629 +05:00 [INF] Request starting HTTP/1.1 GET http://localhost:5279/swagger/index.html - -
+2023-09-06 11:13:40.701 +05:00 [INF] Request finished HTTP/1.1 GET http://localhost:5279/swagger/index.html - - - 200 - text/html;charset=utf-8 73.6694ms
+2023-09-06 11:13:40.792 +05:00 [INF] Request starting HTTP/1.1 GET http://localhost:5279/swagger/v1/swagger.json - -
+2023-09-06 11:13:40.857 +05:00 [INF] Request finished HTTP/1.1 GET http://localhost:5279/swagger/v1/swagger.json - - - 200 - application/json;charset=utf-8 64.7060ms
+2023-09-06 11:13:45.062 +05:00 [INF] Request starting HTTP/1.1 POST http://localhost:5279/api/v1/create-order application/json 391
+2023-09-06 11:13:45.092 +05:00 [WRN] Failed to determine the https port for redirect.
+2023-09-06 11:13:45.105 +05:00 [INF] CORS policy execution successful.
+2023-09-06 11:13:45.107 +05:00 [INF] Executing endpoint 'BIS_project.Controllers.OrderController.CreateOrder (BIS_project)'
+2023-09-06 11:13:45.125 +05:00 [INF] Route matched with {action = "CreateOrder", controller = "Order"}. Executing controller action with signature System.Threading.Tasks.Task`1[BIS_project.Helper.APIResponse] CreateOrder(BIS_project.Dtos.BaseOrderDto) on controller BIS_project.Controllers.OrderController (BIS_project).
+2023-09-06 11:13:46.208 +05:00 [INF] Executing ObjectResult, writing value of type 'BIS_project.Helper.APIResponse'.
+2023-09-06 11:13:46.217 +05:00 [INF] Executed action BIS_project.Controllers.OrderController.CreateOrder (BIS_project) in 1088.6645ms
+2023-09-06 11:13:46.220 +05:00 [INF] Executed endpoint 'BIS_project.Controllers.OrderController.CreateOrder (BIS_project)'
+2023-09-06 11:13:46.230 +05:00 [INF] Request finished HTTP/1.1 POST http://localhost:5279/api/v1/create-order application/json 391 - 200 - application/json;+charset=utf-8 1168.6492ms
+2023-09-06 11:14:20.449 +05:00 [INF] Request starting HTTP/1.1 POST http://localhost:5279/api/v1/create-order application/json 391
+2023-09-06 11:14:20.462 +05:00 [INF] CORS policy execution successful.
+2023-09-06 11:14:20.463 +05:00 [INF] Executing endpoint 'BIS_project.Controllers.OrderController.CreateOrder (BIS_project)'
+2023-09-06 11:14:20.464 +05:00 [INF] Route matched with {action = "CreateOrder", controller = "Order"}. Executing controller action with signature System.Threading.Tasks.Task`1[BIS_project.Helper.APIResponse] CreateOrder(BIS_project.Dtos.BaseOrderDto) on controller BIS_project.Controllers.OrderController (BIS_project).
+2023-09-06 11:14:20.544 +05:00 [INF] Executing ObjectResult, writing value of type 'BIS_project.Helper.APIResponse'.
+2023-09-06 11:14:20.545 +05:00 [INF] Executed action BIS_project.Controllers.OrderController.CreateOrder (BIS_project) in 80.7968ms
+2023-09-06 11:14:20.545 +05:00 [INF] Executed endpoint 'BIS_project.Controllers.OrderController.CreateOrder (BIS_project)'
+2023-09-06 11:14:20.545 +05:00 [INF] Request finished HTTP/1.1 POST http://localhost:5279/api/v1/create-order application/json 391 - 200 - application/json;+charset=utf-8 96.9201ms
+2023-09-06 11:21:53.731 +05:00 [INF] Application is shutting down...
+2023-09-06 11:22:07.131 +05:00 [INF] User profile is available. Using '/Users/azizjonabdugafforov/.aspnet/DataProtection-Keys' as key repository; keys will not be encrypted at rest.
+2023-09-06 11:22:07.179 +05:00 [INF] Now listening on: http://localhost:5279
+2023-09-06 11:22:07.179 +05:00 [INF] Application started. Press Ctrl+C to shut down.
+2023-09-06 11:22:07.179 +05:00 [INF] Hosting environment: Development
+2023-09-06 11:22:07.179 +05:00 [INF] Content root path: /Users/azizjonabdugafforov/Desktop/Code/level 6/BIS_project/BIS_project
+2023-09-06 11:22:07.782 +05:00 [INF] Request starting HTTP/1.1 GET http://localhost:5279/swagger/index.html - -
+2023-09-06 11:22:07.843 +05:00 [INF] Request finished HTTP/1.1 GET http://localhost:5279/swagger/index.html - - - 200 - text/html;charset=utf-8 61.8796ms
+2023-09-06 11:22:07.941 +05:00 [INF] Request starting HTTP/1.1 GET http://localhost:5279/swagger/v1/swagger.json - -
+2023-09-06 11:22:08.022 +05:00 [INF] Request finished HTTP/1.1 GET http://localhost:5279/swagger/v1/swagger.json - - - 200 - application/json;charset=utf-8 81.2945ms
+2023-09-06 11:22:11.328 +05:00 [INF] Request starting HTTP/1.1 POST http://localhost:5279/api/v1/create-order application/json 391
+2023-09-06 11:22:11.370 +05:00 [WRN] Failed to determine the https port for redirect.
+2023-09-06 11:22:11.372 +05:00 [INF] CORS policy execution successful.
+2023-09-06 11:22:11.374 +05:00 [INF] Executing endpoint 'BIS_project.Controllers.OrderController.CreateOrder (BIS_project)'
+2023-09-06 11:22:11.387 +05:00 [INF] Route matched with {action = "CreateOrder", controller = "Order"}. Executing controller action with signature System.Threading.Tasks.Task`1[BIS_project.Helper.APIResponse] CreateOrder(BIS_project.Dtos.BaseOrderDto) on controller BIS_project.Controllers.OrderController (BIS_project).
+2023-09-06 11:22:12.469 +05:00 [INF] Executing ObjectResult, writing value of type 'BIS_project.Helper.APIResponse'.
+2023-09-06 11:22:12.475 +05:00 [INF] Executed action BIS_project.Controllers.OrderController.CreateOrder (BIS_project) in 1085.3314ms
+2023-09-06 11:22:12.478 +05:00 [INF] Executed endpoint 'BIS_project.Controllers.OrderController.CreateOrder (BIS_project)'
+2023-09-06 11:22:12.486 +05:00 [INF] Request finished HTTP/1.1 POST http://localhost:5279/api/v1/create-order application/json 391 - 200 - application/json;+charset=utf-8 1157.5472ms
+2023-09-06 11:22:54.421 +05:00 [INF] Application is shutting down...
+2023-09-06 11:22:56.215 +05:00 [INF] User profile is available. Using '/Users/azizjonabdugafforov/.aspnet/DataProtection-Keys' as key repository; keys will not be encrypted at rest.
+2023-09-06 11:22:56.260 +05:00 [INF] Now listening on: http://localhost:5279
+2023-09-06 11:22:56.261 +05:00 [INF] Application started. Press Ctrl+C to shut down.
+2023-09-06 11:22:56.261 +05:00 [INF] Hosting environment: Development
+2023-09-06 11:22:56.261 +05:00 [INF] Content root path: /Users/azizjonabdugafforov/Desktop/Code/level 6/BIS_project/BIS_project
+2023-09-06 11:22:56.890 +05:00 [INF] Request starting HTTP/1.1 GET http://localhost:5279/swagger/index.html - -
+2023-09-06 11:22:56.955 +05:00 [INF] Request finished HTTP/1.1 GET http://localhost:5279/swagger/index.html - - - 200 - text/html;charset=utf-8 66.2128ms
+2023-09-06 11:22:57.063 +05:00 [INF] Request starting HTTP/1.1 GET http://localhost:5279/swagger/v1/swagger.json - -
+2023-09-06 11:22:57.160 +05:00 [INF] Request finished HTTP/1.1 GET http://localhost:5279/swagger/v1/swagger.json - - - 200 - application/json;charset=utf-8 97.2646ms
+2023-09-06 11:23:00.086 +05:00 [INF] Request starting HTTP/1.1 POST http://localhost:5279/api/v1/create-order application/json 391
+2023-09-06 11:23:00.131 +05:00 [WRN] Failed to determine the https port for redirect.
+2023-09-06 11:23:00.134 +05:00 [INF] CORS policy execution successful.
+2023-09-06 11:23:00.136 +05:00 [INF] Executing endpoint 'BIS_project.Controllers.OrderController.CreateOrder (BIS_project)'
+2023-09-06 11:23:00.152 +05:00 [INF] Route matched with {action = "CreateOrder", controller = "Order"}. Executing controller action with signature System.Threading.Tasks.Task`1[BIS_project.Helper.APIResponse] CreateOrder(BIS_project.Dtos.BaseOrderDto) on controller BIS_project.Controllers.OrderController (BIS_project).
+2023-09-06 11:23:01.214 +05:00 [INF] Executing ObjectResult, writing value of type 'BIS_project.Helper.APIResponse'.
+2023-09-06 11:23:01.220 +05:00 [INF] Executed action BIS_project.Controllers.OrderController.CreateOrder (BIS_project) in 1065.7187ms
+2023-09-06 11:23:01.223 +05:00 [INF] Executed endpoint 'BIS_project.Controllers.OrderController.CreateOrder (BIS_project)'
+2023-09-06 11:23:01.233 +05:00 [INF] Request finished HTTP/1.1 POST http://localhost:5279/api/v1/create-order application/json 391 - 200 - application/json;+charset=utf-8 1147.1225ms
+2023-09-06 11:28:52.444 +05:00 [INF] Request starting HTTP/1.1 POST http://localhost:5279/api/v1/create-order application/json 391
+2023-09-06 11:28:52.456 +05:00 [INF] CORS policy execution successful.
+2023-09-06 11:28:52.457 +05:00 [INF] Executing endpoint 'BIS_project.Controllers.OrderController.CreateOrder (BIS_project)'
+2023-09-06 11:28:52.458 +05:00 [INF] Route matched with {action = "CreateOrder", controller = "Order"}. Executing controller action with signature System.Threading.Tasks.Task`1[BIS_project.Helper.APIResponse] CreateOrder(BIS_project.Dtos.BaseOrderDto) on controller BIS_project.Controllers.OrderController (BIS_project).
+2023-09-06 11:28:52.542 +05:00 [INF] Executing ObjectResult, writing value of type 'BIS_project.Helper.APIResponse'.
+2023-09-06 11:28:52.543 +05:00 [INF] Executed action BIS_project.Controllers.OrderController.CreateOrder (BIS_project) in 84.5258ms
+2023-09-06 11:28:52.543 +05:00 [INF] Executed endpoint 'BIS_project.Controllers.OrderController.CreateOrder (BIS_project)'
+2023-09-06 11:28:52.543 +05:00 [INF] Request finished HTTP/1.1 POST http://localhost:5279/api/v1/create-order application/json 391 - 200 - application/json;+charset=utf-8 99.5837ms
+2023-09-06 11:29:59.198 +05:00 [INF] Request starting HTTP/1.1 POST http://localhost:5279/api/v1/create-order application/json 391
+2023-09-06 11:29:59.211 +05:00 [INF] CORS policy execution successful.
+2023-09-06 11:29:59.221 +05:00 [INF] Executing endpoint 'BIS_project.Controllers.OrderController.CreateOrder (BIS_project)'
+2023-09-06 11:29:59.222 +05:00 [INF] Route matched with {action = "CreateOrder", controller = "Order"}. Executing controller action with signature System.Threading.Tasks.Task`1[BIS_project.Helper.APIResponse] CreateOrder(BIS_project.Dtos.BaseOrderDto) on controller BIS_project.Controllers.OrderController (BIS_project).
+2023-09-06 11:29:59.313 +05:00 [INF] Executing ObjectResult, writing value of type 'BIS_project.Helper.APIResponse'.
+2023-09-06 11:29:59.313 +05:00 [INF] Executed action BIS_project.Controllers.OrderController.CreateOrder (BIS_project) in 90.5897ms
+2023-09-06 11:29:59.313 +05:00 [INF] Executed endpoint 'BIS_project.Controllers.OrderController.CreateOrder (BIS_project)'
+2023-09-06 11:29:59.313 +05:00 [INF] Request finished HTTP/1.1 POST http://localhost:5279/api/v1/create-order application/json 391 - 200 - application/json;+charset=utf-8 115.9321ms
+2023-09-06 11:31:25.787 +05:00 [INF] Application is shutting down...
+2023-09-06 11:31:29.302 +05:00 [INF] User profile is available. Using '/Users/azizjonabdugafforov/.aspnet/DataProtection-Keys' as key repository; keys will not be encrypted at rest.
+2023-09-06 11:31:29.346 +05:00 [INF] Now listening on: http://localhost:5279
+2023-09-06 11:31:29.346 +05:00 [INF] Application started. Press Ctrl+C to shut down.
+2023-09-06 11:31:29.346 +05:00 [INF] Hosting environment: Development
+2023-09-06 11:31:29.346 +05:00 [INF] Content root path: /Users/azizjonabdugafforov/Desktop/Code/level 6/BIS_project/BIS_project
+2023-09-06 11:31:30.006 +05:00 [INF] Request starting HTTP/1.1 GET http://localhost:5279/swagger/index.html - -
+2023-09-06 11:31:30.074 +05:00 [INF] Request finished HTTP/1.1 GET http://localhost:5279/swagger/index.html - - - 200 - text/html;charset=utf-8 68.8504ms
+2023-09-06 11:31:30.161 +05:00 [INF] Request starting HTTP/1.1 GET http://localhost:5279/swagger/v1/swagger.json - -
+2023-09-06 11:31:30.243 +05:00 [INF] Request finished HTTP/1.1 GET http://localhost:5279/swagger/v1/swagger.json - - - 200 - application/json;charset=utf-8 82.7829ms
+2023-09-06 11:31:37.018 +05:00 [INF] Request starting HTTP/1.1 POST http://localhost:5279/api/v1/create-order application/json 391
+2023-09-06 11:31:37.044 +05:00 [WRN] Failed to determine the https port for redirect.
+2023-09-06 11:31:37.046 +05:00 [INF] CORS policy execution successful.
+2023-09-06 11:31:37.048 +05:00 [INF] Executing endpoint 'BIS_project.Controllers.OrderController.CreateOrder (BIS_project)'
+2023-09-06 11:31:37.064 +05:00 [INF] Route matched with {action = "CreateOrder", controller = "Order"}. Executing controller action with signature System.Threading.Tasks.Task`1[BIS_project.Helper.APIResponse] CreateOrder(BIS_project.Dtos.BaseOrderDto) on controller BIS_project.Controllers.OrderController (BIS_project).
+2023-09-06 11:31:38.159 +05:00 [INF] Executing ObjectResult, writing value of type 'BIS_project.Helper.APIResponse'.
+2023-09-06 11:31:38.165 +05:00 [INF] Executed action BIS_project.Controllers.OrderController.CreateOrder (BIS_project) in 1098.8222ms
+2023-09-06 11:31:38.168 +05:00 [INF] Executed endpoint 'BIS_project.Controllers.OrderController.CreateOrder (BIS_project)'
+2023-09-06 11:31:38.177 +05:00 [INF] Request finished HTTP/1.1 POST http://localhost:5279/api/v1/create-order application/json 391 - 200 - application/json;+charset=utf-8 1159.0572ms
+2023-09-06 11:32:07.633 +05:00 [INF] Application is shutting down...
+2023-09-06 11:32:11.208 +05:00 [INF] User profile is available. Using '/Users/azizjonabdugafforov/.aspnet/DataProtection-Keys' as key repository; keys will not be encrypted at rest.
+2023-09-06 11:32:11.259 +05:00 [INF] Now listening on: http://localhost:5279
+2023-09-06 11:32:11.259 +05:00 [INF] Application started. Press Ctrl+C to shut down.
+2023-09-06 11:32:11.259 +05:00 [INF] Hosting environment: Development
+2023-09-06 11:32:11.259 +05:00 [INF] Content root path: /Users/azizjonabdugafforov/Desktop/Code/level 6/BIS_project/BIS_project
+2023-09-06 11:32:11.762 +05:00 [INF] Request starting HTTP/1.1 GET http://localhost:5279/swagger/index.html - -
+2023-09-06 11:32:11.828 +05:00 [INF] Request finished HTTP/1.1 GET http://localhost:5279/swagger/index.html - - - 200 - text/html;charset=utf-8 67.5891ms
+2023-09-06 11:32:11.937 +05:00 [INF] Request starting HTTP/1.1 GET http://localhost:5279/swagger/v1/swagger.json - -
+2023-09-06 11:32:12.031 +05:00 [INF] Request finished HTTP/1.1 GET http://localhost:5279/swagger/v1/swagger.json - - - 200 - application/json;charset=utf-8 94.4668ms
+2023-09-06 11:32:14.474 +05:00 [INF] Request starting HTTP/1.1 POST http://localhost:5279/api/v1/create-order application/json 391
+2023-09-06 11:32:14.530 +05:00 [WRN] Failed to determine the https port for redirect.
+2023-09-06 11:32:14.532 +05:00 [INF] CORS policy execution successful.
+2023-09-06 11:32:14.534 +05:00 [INF] Executing endpoint 'BIS_project.Controllers.OrderController.CreateOrder (BIS_project)'
+2023-09-06 11:32:14.550 +05:00 [INF] Route matched with {action = "CreateOrder", controller = "Order"}. Executing controller action with signature System.Threading.Tasks.Task`1[BIS_project.Helper.APIResponse] CreateOrder(BIS_project.Dtos.BaseOrderDto) on controller BIS_project.Controllers.OrderController (BIS_project).
+2023-09-06 11:32:18.884 +05:00 [INF] Executing ObjectResult, writing value of type 'BIS_project.Helper.APIResponse'.
+2023-09-06 11:32:18.890 +05:00 [INF] Executed action BIS_project.Controllers.OrderController.CreateOrder (BIS_project) in 4337.6037ms
+2023-09-06 11:32:18.893 +05:00 [INF] Executed endpoint 'BIS_project.Controllers.OrderController.CreateOrder (BIS_project)'
+2023-09-06 11:32:18.900 +05:00 [INF] Request finished HTTP/1.1 POST http://localhost:5279/api/v1/create-order application/json 391 - 200 - application/json;+charset=utf-8 4426.0334ms
+2023-09-06 11:36:17.614 +05:00 [INF] Application is shutting down...
+2023-09-06 11:36:18.603 +05:00 [INF] User profile is available. Using '/Users/azizjonabdugafforov/.aspnet/DataProtection-Keys' as key repository; keys will not be encrypted at rest.
+2023-09-06 11:36:18.656 +05:00 [INF] Now listening on: http://localhost:5279
+2023-09-06 11:36:18.657 +05:00 [INF] Application started. Press Ctrl+C to shut down.
+2023-09-06 11:36:18.657 +05:00 [INF] Hosting environment: Development
+2023-09-06 11:36:18.657 +05:00 [INF] Content root path: /Users/azizjonabdugafforov/Desktop/Code/level 6/BIS_project/BIS_project
+2023-09-06 11:36:19.306 +05:00 [INF] Request starting HTTP/1.1 GET http://localhost:5279/swagger/index.html - -
+2023-09-06 11:36:19.373 +05:00 [INF] Request finished HTTP/1.1 GET http://localhost:5279/swagger/index.html - - - 200 - text/html;charset=utf-8 68.5611ms
+2023-09-06 11:36:19.460 +05:00 [INF] Request starting HTTP/1.1 GET http://localhost:5279/swagger/v1/swagger.json - -
+2023-09-06 11:36:19.542 +05:00 [INF] Request finished HTTP/1.1 GET http://localhost:5279/swagger/v1/swagger.json - - - 200 - application/json;charset=utf-8 82.5825ms
+2023-09-06 11:36:26.265 +05:00 [INF] Request starting HTTP/1.1 POST http://localhost:5279/api/v1/create-order application/json 391
+2023-09-06 11:36:26.300 +05:00 [WRN] Failed to determine the https port for redirect.
+2023-09-06 11:36:26.301 +05:00 [INF] CORS policy execution successful.
+2023-09-06 11:36:26.303 +05:00 [INF] Executing endpoint 'BIS_project.Controllers.OrderController.CreateOrder (BIS_project)'
+2023-09-06 11:36:26.321 +05:00 [INF] Route matched with {action = "CreateOrder", controller = "Order"}. Executing controller action with signature System.Threading.Tasks.Task`1[BIS_project.Helper.APIResponse] CreateOrder(BIS_project.Dtos.BaseOrderDto) on controller BIS_project.Controllers.OrderController (BIS_project).
+2023-09-06 11:36:30.475 +05:00 [INF] Executing ObjectResult, writing value of type 'BIS_project.Helper.APIResponse'.
+2023-09-06 11:36:30.482 +05:00 [INF] Executed action BIS_project.Controllers.OrderController.CreateOrder (BIS_project) in 4157.4763ms
+2023-09-06 11:36:30.484 +05:00 [INF] Executed endpoint 'BIS_project.Controllers.OrderController.CreateOrder (BIS_project)'
+2023-09-06 11:36:30.492 +05:00 [INF] Request finished HTTP/1.1 POST http://localhost:5279/api/v1/create-order application/json 391 - 200 - application/json;+charset=utf-8 4226.2941ms
+2023-09-06 11:39:22.374 +05:00 [INF] Application is shutting down...
+2023-09-06 11:39:24.934 +05:00 [INF] User profile is available. Using '/Users/azizjonabdugafforov/.aspnet/DataProtection-Keys' as key repository; keys will not be encrypted at rest.
+2023-09-06 11:39:24.979 +05:00 [INF] Now listening on: http://localhost:5279
+2023-09-06 11:39:24.995 +05:00 [INF] Application started. Press Ctrl+C to shut down.
+2023-09-06 11:39:24.996 +05:00 [INF] Hosting environment: Development
+2023-09-06 11:39:24.996 +05:00 [INF] Content root path: /Users/azizjonabdugafforov/Desktop/Code/level 6/BIS_project/BIS_project
+2023-09-06 11:39:25.665 +05:00 [INF] Request starting HTTP/1.1 GET http://localhost:5279/swagger/index.html - -
+2023-09-06 11:39:25.737 +05:00 [INF] Request finished HTTP/1.1 GET http://localhost:5279/swagger/index.html - - - 200 - text/html;charset=utf-8 73.3778ms
+2023-09-06 11:39:25.827 +05:00 [INF] Request starting HTTP/1.1 GET http://localhost:5279/swagger/v1/swagger.json - -
+2023-09-06 11:39:25.910 +05:00 [INF] Request finished HTTP/1.1 GET http://localhost:5279/swagger/v1/swagger.json - - - 200 - application/json;charset=utf-8 83.2658ms
+2023-09-06 11:39:30.172 +05:00 [INF] Request starting HTTP/1.1 POST http://localhost:5279/api/v1/create-order application/json 391
+2023-09-06 11:39:30.219 +05:00 [WRN] Failed to determine the https port for redirect.
+2023-09-06 11:39:30.220 +05:00 [INF] CORS policy execution successful.
+2023-09-06 11:39:30.222 +05:00 [INF] Executing endpoint 'BIS_project.Controllers.OrderController.CreateOrder (BIS_project)'
+2023-09-06 11:39:30.236 +05:00 [INF] Route matched with {action = "CreateOrder", controller = "Order"}. Executing controller action with signature System.Threading.Tasks.Task`1[BIS_project.Helper.APIResponse] CreateOrder(BIS_project.Dtos.BaseOrderDto) on controller BIS_project.Controllers.OrderController (BIS_project).
+2023-09-06 11:39:31.327 +05:00 [INF] Executing ObjectResult, writing value of type 'BIS_project.Helper.APIResponse'.
+2023-09-06 11:39:31.334 +05:00 [INF] Executed action BIS_project.Controllers.OrderController.CreateOrder (BIS_project) in 1094.7181ms
+2023-09-06 11:39:31.337 +05:00 [INF] Executed endpoint 'BIS_project.Controllers.OrderController.CreateOrder (BIS_project)'
+2023-09-06 11:39:31.346 +05:00 [INF] Request finished HTTP/1.1 POST http://localhost:5279/api/v1/create-order application/json 391 - 200 - application/json;+charset=utf-8 1174.4010ms
+2023-09-06 11:40:39.379 +05:00 [INF] Request starting HTTP/1.1 POST http://localhost:5279/api/v1/create-order application/json 395
+2023-09-06 11:40:39.388 +05:00 [INF] CORS policy execution successful.
+2023-09-06 11:40:39.389 +05:00 [INF] Executing endpoint 'BIS_project.Controllers.OrderController.CreateOrder (BIS_project)'
+2023-09-06 11:40:39.390 +05:00 [INF] Route matched with {action = "CreateOrder", controller = "Order"}. Executing controller action with signature System.Threading.Tasks.Task`1[BIS_project.Helper.APIResponse] CreateOrder(BIS_project.Dtos.BaseOrderDto) on controller BIS_project.Controllers.OrderController (BIS_project).
+2023-09-06 11:40:41.647 +05:00 [INF] Executing ObjectResult, writing value of type 'BIS_project.Helper.APIResponse'.
+2023-09-06 11:40:41.647 +05:00 [INF] Executed action BIS_project.Controllers.OrderController.CreateOrder (BIS_project) in 2257.51ms
+2023-09-06 11:40:41.648 +05:00 [INF] Executed endpoint 'BIS_project.Controllers.OrderController.CreateOrder (BIS_project)'
+2023-09-06 11:40:41.649 +05:00 [INF] Request finished HTTP/1.1 POST http://localhost:5279/api/v1/create-order application/json 395 - 200 - application/json;+charset=utf-8 2270.3055ms
+2023-09-06 11:45:17.508 +05:00 [INF] Application is shutting down...
+2023-09-06 11:45:19.431 +05:00 [INF] User profile is available. Using '/Users/azizjonabdugafforov/.aspnet/DataProtection-Keys' as key repository; keys will not be encrypted at rest.
+2023-09-06 11:45:19.485 +05:00 [INF] Now listening on: http://localhost:5279
+2023-09-06 11:45:19.487 +05:00 [INF] Application started. Press Ctrl+C to shut down.
+2023-09-06 11:45:19.487 +05:00 [INF] Hosting environment: Development
+2023-09-06 11:45:19.487 +05:00 [INF] Content root path: /Users/azizjonabdugafforov/Desktop/Code/level 6/BIS_project/BIS_project
+2023-09-06 11:45:20.099 +05:00 [INF] Request starting HTTP/1.1 GET http://localhost:5279/swagger/index.html - -
+2023-09-06 11:45:20.165 +05:00 [INF] Request finished HTTP/1.1 GET http://localhost:5279/swagger/index.html - - - 200 - text/html;charset=utf-8 67.0538ms
+2023-09-06 11:45:20.256 +05:00 [INF] Request starting HTTP/1.1 GET http://localhost:5279/swagger/v1/swagger.json - -
+2023-09-06 11:45:20.309 +05:00 [ERR] An unhandled exception has occurred while executing the request.
+Swashbuckle.AspNetCore.SwaggerGen.SwaggerGeneratorException: Conflicting method/path combination "POST api/v1/create-order" for actions - BIS_project.Controllers.OrderController.CreateOrder (BIS_project),BIS_project.Controllers.OrderController.SendEmail (BIS_project). Actions require a unique method/path combination for Swagger/OpenAPI 3.0. Use ConflictingActionsResolver as a workaround
+   at Swashbuckle.AspNetCore.SwaggerGen.SwaggerGenerator.GenerateOperations(IEnumerable`1 apiDescriptions, SchemaRepository schemaRepository)
+   at Swashbuckle.AspNetCore.SwaggerGen.SwaggerGenerator.GeneratePaths(IEnumerable`1 apiDescriptions, SchemaRepository schemaRepository)
+   at Swashbuckle.AspNetCore.SwaggerGen.SwaggerGenerator.GetSwaggerDocumentWithoutFilters(String documentName, String host, String basePath)
+   at Swashbuckle.AspNetCore.SwaggerGen.SwaggerGenerator.GetSwaggerAsync(String documentName, String host, String basePath)
+   at Swashbuckle.AspNetCore.Swagger.SwaggerMiddleware.Invoke(HttpContext httpContext, ISwaggerProvider swaggerProvider)
+   at Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddlewareImpl.Invoke(HttpContext context)
+2023-09-06 11:45:20.315 +05:00 [INF] Request finished HTTP/1.1 GET http://localhost:5279/swagger/v1/swagger.json - - - 500 - text/plain;+charset=utf-8 59.3799ms
+2023-09-06 11:45:39.586 +05:00 [INF] Application is shutting down...
+2023-09-06 11:45:41.222 +05:00 [INF] User profile is available. Using '/Users/azizjonabdugafforov/.aspnet/DataProtection-Keys' as key repository; keys will not be encrypted at rest.
+2023-09-06 11:45:41.265 +05:00 [INF] Now listening on: http://localhost:5279
+2023-09-06 11:45:41.266 +05:00 [INF] Application started. Press Ctrl+C to shut down.
+2023-09-06 11:45:41.266 +05:00 [INF] Hosting environment: Development
+2023-09-06 11:45:41.266 +05:00 [INF] Content root path: /Users/azizjonabdugafforov/Desktop/Code/level 6/BIS_project/BIS_project
+2023-09-06 11:45:41.437 +05:00 [INF] Request starting HTTP/1.1 GET http://localhost:5279/swagger/index.html - -
+2023-09-06 11:45:41.499 +05:00 [INF] Request finished HTTP/1.1 GET http://localhost:5279/swagger/index.html - - - 200 - text/html;charset=utf-8 66.8117ms
+2023-09-06 11:45:41.587 +05:00 [INF] Request starting HTTP/1.1 GET http://localhost:5279/swagger/v1/swagger.json - -
+2023-09-06 11:45:41.671 +05:00 [INF] Request finished HTTP/1.1 GET http://localhost:5279/swagger/v1/swagger.json - - - 200 - application/json;charset=utf-8 83.6129ms
+2023-09-06 11:46:20.357 +05:00 [INF] Application is shutting down...
+2023-09-06 11:46:22.083 +05:00 [INF] User profile is available. Using '/Users/azizjonabdugafforov/.aspnet/DataProtection-Keys' as key repository; keys will not be encrypted at rest.
+2023-09-06 11:46:22.127 +05:00 [INF] Now listening on: http://localhost:5279
+2023-09-06 11:46:22.128 +05:00 [INF] Application started. Press Ctrl+C to shut down.
+2023-09-06 11:46:22.128 +05:00 [INF] Hosting environment: Development
+2023-09-06 11:46:22.128 +05:00 [INF] Content root path: /Users/azizjonabdugafforov/Desktop/Code/level 6/BIS_project/BIS_project
+2023-09-06 11:46:22.754 +05:00 [INF] Request starting HTTP/1.1 GET http://localhost:5279/swagger/index.html - -
+2023-09-06 11:46:22.819 +05:00 [INF] Request finished HTTP/1.1 GET http://localhost:5279/swagger/index.html - - - 200 - text/html;charset=utf-8 66.2940ms
+2023-09-06 11:46:22.910 +05:00 [INF] Request starting HTTP/1.1 GET http://localhost:5279/swagger/v1/swagger.json - -
+2023-09-06 11:46:22.964 +05:00 [ERR] An unhandled exception has occurred while executing the request.
+Swashbuckle.AspNetCore.SwaggerGen.SwaggerGeneratorException: Conflicting method/path combination "POST api/v1/Order" for actions - BIS_project.Controllers.OrderController.CreateOrder (BIS_project),BIS_project.Controllers.OrderController.SendEmail (BIS_project). Actions require a unique method/path combination for Swagger/OpenAPI 3.0. Use ConflictingActionsResolver as a workaround
+   at Swashbuckle.AspNetCore.SwaggerGen.SwaggerGenerator.GenerateOperations(IEnumerable`1 apiDescriptions, SchemaRepository schemaRepository)
+   at Swashbuckle.AspNetCore.SwaggerGen.SwaggerGenerator.GeneratePaths(IEnumerable`1 apiDescriptions, SchemaRepository schemaRepository)
+   at Swashbuckle.AspNetCore.SwaggerGen.SwaggerGenerator.GetSwaggerDocumentWithoutFilters(String documentName, String host, String basePath)
+   at Swashbuckle.AspNetCore.SwaggerGen.SwaggerGenerator.GetSwaggerAsync(String documentName, String host, String basePath)
+   at Swashbuckle.AspNetCore.Swagger.SwaggerMiddleware.Invoke(HttpContext httpContext, ISwaggerProvider swaggerProvider)
+   at Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddlewareImpl.Invoke(HttpContext context)
+2023-09-06 11:46:22.970 +05:00 [INF] Request finished HTTP/1.1 GET http://localhost:5279/swagger/v1/swagger.json - - - 500 - text/plain;+charset=utf-8 59.9243ms
+2023-09-06 11:46:47.140 +05:00 [INF] Request starting HTTP/1.1 GET http://localhost:5279/swagger/index.html - -
+2023-09-06 11:46:47.147 +05:00 [INF] Request finished HTTP/1.1 GET http://localhost:5279/swagger/index.html - - - 200 - text/html;charset=utf-8 7.4753ms
+2023-09-06 11:46:47.238 +05:00 [INF] Request starting HTTP/1.1 GET http://localhost:5279/swagger/v1/swagger.json - -
+2023-09-06 11:46:47.251 +05:00 [ERR] An unhandled exception has occurred while executing the request.
+Swashbuckle.AspNetCore.SwaggerGen.SwaggerGeneratorException: Conflicting method/path combination "POST api/v1/Order" for actions - BIS_project.Controllers.OrderController.CreateOrder (BIS_project),BIS_project.Controllers.OrderController.SendEmail (BIS_project). Actions require a unique method/path combination for Swagger/OpenAPI 3.0. Use ConflictingActionsResolver as a workaround
+   at Swashbuckle.AspNetCore.SwaggerGen.SwaggerGenerator.GenerateOperations(IEnumerable`1 apiDescriptions, SchemaRepository schemaRepository)
+   at Swashbuckle.AspNetCore.SwaggerGen.SwaggerGenerator.GeneratePaths(IEnumerable`1 apiDescriptions, SchemaRepository schemaRepository)
+   at Swashbuckle.AspNetCore.SwaggerGen.SwaggerGenerator.GetSwaggerDocumentWithoutFilters(String documentName, String host, String basePath)
+   at Swashbuckle.AspNetCore.SwaggerGen.SwaggerGenerator.GetSwaggerAsync(String documentName, String host, String basePath)
+   at Swashbuckle.AspNetCore.Swagger.SwaggerMiddleware.Invoke(HttpContext httpContext, ISwaggerProvider swaggerProvider)
+   at Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddlewareImpl.Invoke(HttpContext context)
+2023-09-06 11:46:47.252 +05:00 [INF] Request finished HTTP/1.1 GET http://localhost:5279/swagger/v1/swagger.json - - - 500 - text/plain;+charset=utf-8 13.9580ms
+2023-09-06 11:47:40.516 +05:00 [INF] Application is shutting down...
+2023-09-06 11:47:42.115 +05:00 [INF] User profile is available. Using '/Users/azizjonabdugafforov/.aspnet/DataProtection-Keys' as key repository; keys will not be encrypted at rest.
+2023-09-06 11:47:42.159 +05:00 [INF] Now listening on: http://localhost:5279
+2023-09-06 11:47:42.159 +05:00 [INF] Application started. Press Ctrl+C to shut down.
+2023-09-06 11:47:42.159 +05:00 [INF] Hosting environment: Development
+2023-09-06 11:47:42.159 +05:00 [INF] Content root path: /Users/azizjonabdugafforov/Desktop/Code/level 6/BIS_project/BIS_project
+2023-09-06 11:47:42.246 +05:00 [INF] Request starting HTTP/1.1 GET http://localhost:5279/swagger/index.html - -
+2023-09-06 11:47:42.305 +05:00 [INF] Request finished HTTP/1.1 GET http://localhost:5279/swagger/index.html - - - 200 - text/html;charset=utf-8 60.0598ms
+2023-09-06 11:47:42.391 +05:00 [INF] Request starting HTTP/1.1 GET http://localhost:5279/swagger/v1/swagger.json - -
+2023-09-06 11:47:42.457 +05:00 [INF] Request finished HTTP/1.1 GET http://localhost:5279/swagger/v1/swagger.json - - - 200 - application/json;charset=utf-8 66.8000ms
+2023-09-06 11:48:05.026 +05:00 [INF] Request starting HTTP/1.1 POST http://localhost:5279/api/v1/Order?email=abdugafforovazimjon775%40gmail.com&username=azimjon&password=123 - 0
+2023-09-06 11:48:05.070 +05:00 [WRN] Failed to determine the https port for redirect.
+2023-09-06 11:48:05.071 +05:00 [INF] CORS policy execution successful.
+2023-09-06 11:48:05.074 +05:00 [INF] Executing endpoint 'BIS_project.Controllers.OrderController.SendEmail (BIS_project)'
+2023-09-06 11:48:05.089 +05:00 [INF] Route matched with {action = "SendEmail", controller = "Order"}. Executing controller action with signature System.Threading.Tasks.Task`1[BIS_project.Helper.APIResponse] SendEmail(System.String, System.String, System.String) on controller BIS_project.Controllers.OrderController (BIS_project).
+2023-09-06 11:48:07.847 +05:00 [INF] Executing ObjectResult, writing value of type 'BIS_project.Helper.APIResponse'.
+2023-09-06 11:48:07.935 +05:00 [INF] Executed action BIS_project.Controllers.OrderController.SendEmail (BIS_project) in 2840.0983ms
+2023-09-06 11:48:07.938 +05:00 [INF] Executed endpoint 'BIS_project.Controllers.OrderController.SendEmail (BIS_project)'
+2023-09-06 11:48:07.957 +05:00 [ERR] An unhandled exception has occurred while executing the request.
+System.InvalidOperationException: The type 'System.ReadOnlySpan`1[System.Byte]' of property 'Preamble' on type 'System.Text.Encoding' is invalid for serialization or deserialization because it is a pointer type, is a ref struct, or contains generic parameters that have not been replaced by specific types.
+   at System.Text.Json.ThrowHelper.ThrowInvalidOperationException_CannotSerializeInvalidType(Type typeToConvert, Type declaringType, MemberInfo memberInfo)
+   at System.Text.Json.Serialization.Metadata.ReflectionJsonTypeInfo`1.CreateProperty(Type typeToConvert, MemberInfo memberInfo, JsonSerializerOptions options, Boolean shouldCheckForRequiredKeyword)
+   at System.Text.Json.Serialization.Metadata.ReflectionJsonTypeInfo`1.LateAddProperties()
+   at System.Text.Json.Serialization.Metadata.JsonTypeInfo.InitializePropertyCache()
+   at System.Text.Json.Serialization.Metadata.JsonTypeInfo.Configure()
+   at System.Text.Json.Serialization.Metadata.JsonTypeInfo.<EnsureConfigured>g__ConfigureLocked|143_0()
+   at System.Text.Json.Serialization.Metadata.JsonPropertyInfo.get_JsonTypeInfo()
+   at System.Text.Json.Serialization.JsonConverter`1.TryWrite(Utf8JsonWriter writer, T& value, JsonSerializerOptions options, WriteStack& state)
+   at System.Text.Json.Serialization.Metadata.JsonPropertyInfo`1.GetMemberAndWriteJson(Object obj, WriteStack& state, Utf8JsonWriter writer)
+   at System.Text.Json.Serialization.Converters.ObjectDefaultConverter`1.OnTryWrite(Utf8JsonWriter writer, T value, JsonSerializerOptions options, WriteStack& state)
+   at System.Text.Json.Serialization.JsonConverter`1.TryWrite(Utf8JsonWriter writer, T& value, JsonSerializerOptions options, WriteStack& state)
+   at System.Text.Json.Serialization.Converters.IEnumerableDefaultConverter`2.OnWriteResume(Utf8JsonWriter writer, TCollection value, JsonSerializerOptions options, WriteStack& state)
+   at System.Text.Json.Serialization.JsonCollectionConverter`2.OnTryWrite(Utf8JsonWriter writer, TCollection value, JsonSerializerOptions options, WriteStack& state)
+   at System.Text.Json.Serialization.JsonConverter`1.TryWrite(Utf8JsonWriter writer, T& value, JsonSerializerOptions options, WriteStack& state)
+   at System.Text.Json.Serialization.Metadata.JsonPropertyInfo`1.GetMemberAndWriteJson(Object obj, WriteStack& state, Utf8JsonWriter writer)
+   at System.Text.Json.Serialization.Converters.ObjectDefaultConverter`1.OnTryWrite(Utf8JsonWriter writer, T value, JsonSerializerOptions options, WriteStack& state)
+   at System.Text.Json.Serialization.JsonConverter`1.TryWrite(Utf8JsonWriter writer, T& value, JsonSerializerOptions options, WriteStack& state)
+   at System.Text.Json.Serialization.JsonConverter`1.TryWriteAsObject(Utf8JsonWriter writer, Object value, JsonSerializerOptions options, WriteStack& state)
+   at System.Text.Json.Serialization.JsonConverter`1.TryWrite(Utf8JsonWriter writer, T& value, JsonSerializerOptions options, WriteStack& state)
+   at System.Text.Json.Serialization.Metadata.JsonPropertyInfo`1.GetMemberAndWriteJson(Object obj, WriteStack& state, Utf8JsonWriter writer)
+   at System.Text.Json.Serialization.Converters.ObjectDefaultConverter`1.OnTryWrite(Utf8JsonWriter writer, T value, JsonSerializerOptions options, WriteStack& state)
+   at System.Text.Json.Serialization.JsonConverter`1.TryWrite(Utf8JsonWriter writer, T& value, JsonSerializerOptions options, WriteStack& state)
+   at System.Text.Json.Serialization.JsonConverter`1.WriteCore(Utf8JsonWriter writer, T& value, JsonSerializerOptions options, WriteStack& state)
+   at System.Text.Json.Serialization.JsonConverter`1.WriteCoreAsObject(Utf8JsonWriter writer, Object value, JsonSerializerOptions options, WriteStack& state)
+   at System.Text.Json.JsonSerializer.WriteCore[TValue](Utf8JsonWriter writer, TValue& value, JsonTypeInfo jsonTypeInfo, WriteStack& state)
+   at System.Text.Json.JsonSerializer.WriteStreamAsync[TValue](Stream utf8Json, TValue value, JsonTypeInfo jsonTypeInfo, CancellationToken cancellationToken)
+   at System.Text.Json.JsonSerializer.WriteStreamAsync[TValue](Stream utf8Json, TValue value, JsonTypeInfo jsonTypeInfo, CancellationToken cancellationToken)
+   at System.Text.Json.JsonSerializer.WriteStreamAsync[TValue](Stream utf8Json, TValue value, JsonTypeInfo jsonTypeInfo, CancellationToken cancellationToken)
+   at Microsoft.AspNetCore.Mvc.Formatters.SystemTextJsonOutputFormatter.WriteResponseBodyAsync(OutputFormatterWriteContext context, Encoding selectedEncoding)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeNextResultFilterAsync>g__Awaited|30_0[TFilter,TFilterAsync](ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.Rethrow(ResultExecutedContextSealed context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.ResultNext[TFilter,TFilterAsync](State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.InvokeResultFilters()
+--- End of stack trace from previous location ---
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeFilterPipelineAsync>g__Awaited|20_0(ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Logged|17_1(ResourceInvoker invoker)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Logged|17_1(ResourceInvoker invoker)
+   at Microsoft.AspNetCore.Routing.EndpointMiddleware.<Invoke>g__AwaitRequestTask|6_0(Endpoint endpoint, Task requestTask, ILogger logger)
+   at Microsoft.AspNetCore.Authorization.AuthorizationMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Authorization.AuthorizationMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Authentication.AuthenticationMiddleware.Invoke(HttpContext context)
+   at Swashbuckle.AspNetCore.SwaggerUI.SwaggerUIMiddleware.Invoke(HttpContext httpContext)
+   at Swashbuckle.AspNetCore.Swagger.SwaggerMiddleware.Invoke(HttpContext httpContext, ISwaggerProvider swaggerProvider)
+   at Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddlewareImpl.Invoke(HttpContext context)
+2023-09-06 11:48:07.977 +05:00 [INF] Request finished HTTP/1.1 POST http://localhost:5279/api/v1/Order?email=abdugafforovazimjon775%40gmail.com&username=azimjon&password=123 - 0 - 500 - text/plain;+charset=utf-8 2951.0675ms
+2023-09-06 11:50:43.134 +05:00 [INF] Application is shutting down...
+2023-09-06 11:50:44.712 +05:00 [INF] User profile is available. Using '/Users/azizjonabdugafforov/.aspnet/DataProtection-Keys' as key repository; keys will not be encrypted at rest.
+2023-09-06 11:50:44.755 +05:00 [INF] Now listening on: http://localhost:5279
+2023-09-06 11:50:44.755 +05:00 [INF] Application started. Press Ctrl+C to shut down.
+2023-09-06 11:50:44.755 +05:00 [INF] Hosting environment: Development
+2023-09-06 11:50:44.755 +05:00 [INF] Content root path: /Users/azizjonabdugafforov/Desktop/Code/level 6/BIS_project/BIS_project
+2023-09-06 11:50:44.880 +05:00 [INF] Request starting HTTP/1.1 GET http://localhost:5279/swagger/index.html - -
+2023-09-06 11:50:44.943 +05:00 [INF] Request finished HTTP/1.1 GET http://localhost:5279/swagger/index.html - - - 200 - text/html;charset=utf-8 64.2725ms
+2023-09-06 11:50:45.034 +05:00 [INF] Request starting HTTP/1.1 GET http://localhost:5279/swagger/v1/swagger.json - -
+2023-09-06 11:50:45.098 +05:00 [INF] Request finished HTTP/1.1 GET http://localhost:5279/swagger/v1/swagger.json - - - 200 - application/json;charset=utf-8 63.3855ms
+2023-09-06 11:50:49.354 +05:00 [INF] Request starting HTTP/1.1 POST http://localhost:5279/api/v1/Order?email=abdugafforovazimjon775%40gmail.com&username=azimjon&password=123 - 0
+2023-09-06 11:50:49.396 +05:00 [WRN] Failed to determine the https port for redirect.
+2023-09-06 11:50:49.398 +05:00 [INF] CORS policy execution successful.
+2023-09-06 11:50:49.400 +05:00 [INF] Executing endpoint 'BIS_project.Controllers.OrderController.SendEmail (BIS_project)'
+2023-09-06 11:50:49.414 +05:00 [INF] Route matched with {action = "SendEmail", controller = "Order"}. Executing controller action with signature System.Threading.Tasks.Task`1[System.Boolean] SendEmail(System.String, System.String, System.String) on controller BIS_project.Controllers.OrderController (BIS_project).
+2023-09-06 11:50:51.894 +05:00 [INF] Executing ObjectResult, writing value of type 'System.Boolean'.
+2023-09-06 11:50:51.911 +05:00 [INF] Executed action BIS_project.Controllers.OrderController.SendEmail (BIS_project) in 2490.8685ms
+2023-09-06 11:50:51.917 +05:00 [INF] Executed endpoint 'BIS_project.Controllers.OrderController.SendEmail (BIS_project)'
+2023-09-06 11:50:51.932 +05:00 [INF] Request finished HTTP/1.1 POST http://localhost:5279/api/v1/Order?email=abdugafforovazimjon775%40gmail.com&username=azimjon&password=123 - 0 - 200 - application/json;+charset=utf-8 2578.2178ms
+2023-09-06 11:53:08.554 +05:00 [INF] Request starting HTTP/1.1 POST http://localhost:5279/api/v1/Order?email=azimjonabdugafforov17%40gmail.com&username=azimjon&password=123 - 0
+2023-09-06 11:53:08.562 +05:00 [INF] CORS policy execution successful.
+2023-09-06 11:53:08.562 +05:00 [INF] Executing endpoint 'BIS_project.Controllers.OrderController.SendEmail (BIS_project)'
+2023-09-06 11:53:08.563 +05:00 [INF] Route matched with {action = "SendEmail", controller = "Order"}. Executing controller action with signature System.Threading.Tasks.Task`1[System.Boolean] SendEmail(System.String, System.String, System.String) on controller BIS_project.Controllers.OrderController (BIS_project).
+2023-09-06 11:53:10.205 +05:00 [INF] Executing ObjectResult, writing value of type 'System.Boolean'.
+2023-09-06 11:53:10.207 +05:00 [INF] Executed action BIS_project.Controllers.OrderController.SendEmail (BIS_project) in 1643.2119ms
+2023-09-06 11:53:10.207 +05:00 [INF] Executed endpoint 'BIS_project.Controllers.OrderController.SendEmail (BIS_project)'
+2023-09-06 11:53:10.208 +05:00 [INF] Request finished HTTP/1.1 POST http://localhost:5279/api/v1/Order?email=azimjonabdugafforov17%40gmail.com&username=azimjon&password=123 - 0 - 200 - application/json;+charset=utf-8 1654.4119ms
+2023-09-06 11:56:56.972 +05:00 [INF] Application is shutting down...
+2023-09-06 11:56:58.605 +05:00 [INF] User profile is available. Using '/Users/azizjonabdugafforov/.aspnet/DataProtection-Keys' as key repository; keys will not be encrypted at rest.
+2023-09-06 11:56:58.649 +05:00 [INF] Now listening on: http://localhost:5279
+2023-09-06 11:56:58.649 +05:00 [INF] Application started. Press Ctrl+C to shut down.
+2023-09-06 11:56:58.649 +05:00 [INF] Hosting environment: Development
+2023-09-06 11:56:58.649 +05:00 [INF] Content root path: /Users/azizjonabdugafforov/Desktop/Code/level 6/BIS_project/BIS_project
+2023-09-06 11:56:58.774 +05:00 [INF] Request starting HTTP/1.1 GET http://localhost:5279/swagger/index.html - -
+2023-09-06 11:56:58.840 +05:00 [INF] Request finished HTTP/1.1 GET http://localhost:5279/swagger/index.html - - - 200 - text/html;charset=utf-8 66.7610ms
+2023-09-06 11:56:58.937 +05:00 [INF] Request starting HTTP/1.1 GET http://localhost:5279/swagger/v1/swagger.json - -
+2023-09-06 11:56:59.003 +05:00 [INF] Request finished HTTP/1.1 GET http://localhost:5279/swagger/v1/swagger.json - - - 200 - application/json;charset=utf-8 65.5830ms
+2023-09-06 11:57:03.351 +05:00 [INF] Request starting HTTP/1.1 POST http://localhost:5279/api/v1/Order?email=azimjonabdugafforov17%40gmail.com&username=azimjon&password=123 - 0
+2023-09-06 11:57:03.393 +05:00 [WRN] Failed to determine the https port for redirect.
+2023-09-06 11:57:03.395 +05:00 [INF] CORS policy execution successful.
+2023-09-06 11:57:03.397 +05:00 [INF] Executing endpoint 'BIS_project.Controllers.OrderController.SendEmail (BIS_project)'
+2023-09-06 11:57:03.415 +05:00 [INF] Route matched with {action = "SendEmail", controller = "Order"}. Executing controller action with signature System.Threading.Tasks.Task`1[System.Boolean] SendEmail(System.String, System.String, System.String) on controller BIS_project.Controllers.OrderController (BIS_project).
+2023-09-06 11:57:06.051 +05:00 [INF] Executing ObjectResult, writing value of type 'System.Boolean'.
+2023-09-06 11:57:06.068 +05:00 [INF] Executed action BIS_project.Controllers.OrderController.SendEmail (BIS_project) in 2646.6092ms
+2023-09-06 11:57:06.074 +05:00 [INF] Executed endpoint 'BIS_project.Controllers.OrderController.SendEmail (BIS_project)'
+2023-09-06 11:57:06.090 +05:00 [INF] Request finished HTTP/1.1 POST http://localhost:5279/api/v1/Order?email=azimjonabdugafforov17%40gmail.com&username=azimjon&password=123 - 0 - 200 - application/json;+charset=utf-8 2738.8771ms
+2023-09-06 11:57:57.644 +05:00 [INF] Application is shutting down...
+2023-09-06 11:57:59.477 +05:00 [INF] User profile is available. Using '/Users/azizjonabdugafforov/.aspnet/DataProtection-Keys' as key repository; keys will not be encrypted at rest.
+2023-09-06 11:57:59.521 +05:00 [INF] Now listening on: http://localhost:5279
+2023-09-06 11:57:59.522 +05:00 [INF] Application started. Press Ctrl+C to shut down.
+2023-09-06 11:57:59.522 +05:00 [INF] Hosting environment: Development
+2023-09-06 11:57:59.522 +05:00 [INF] Content root path: /Users/azizjonabdugafforov/Desktop/Code/level 6/BIS_project/BIS_project
+2023-09-06 11:58:00.131 +05:00 [INF] Request starting HTTP/1.1 GET http://localhost:5279/swagger/index.html - -
+2023-09-06 11:58:00.196 +05:00 [INF] Request finished HTTP/1.1 GET http://localhost:5279/swagger/index.html - - - 200 - text/html;charset=utf-8 65.5595ms
+2023-09-06 11:58:00.281 +05:00 [INF] Request starting HTTP/1.1 GET http://localhost:5279/swagger/v1/swagger.json - -
+2023-09-06 11:58:00.359 +05:00 [INF] Request finished HTTP/1.1 GET http://localhost:5279/swagger/v1/swagger.json - - - 200 - application/json;charset=utf-8 77.7508ms
+2023-09-06 11:58:01.642 +05:00 [INF] Request starting HTTP/1.1 POST http://localhost:5279/api/v1/Order?email=azimjonabdugafforov17%40gmail.com&username=azimjon&password=123 - 0
+2023-09-06 11:58:01.679 +05:00 [WRN] Failed to determine the https port for redirect.
+2023-09-06 11:58:01.680 +05:00 [INF] CORS policy execution successful.
+2023-09-06 11:58:01.682 +05:00 [INF] Executing endpoint 'BIS_project.Controllers.OrderController.SendEmail (BIS_project)'
+2023-09-06 11:58:01.699 +05:00 [INF] Route matched with {action = "SendEmail", controller = "Order"}. Executing controller action with signature System.Threading.Tasks.Task`1[System.Object] SendEmail(System.String, System.String, System.String) on controller BIS_project.Controllers.OrderController (BIS_project).
+2023-09-06 11:58:04.218 +05:00 [INF] Executing ObjectResult, writing value of type 'MimeKit.MimeMessage'.
+2023-09-06 11:58:04.301 +05:00 [INF] Executed action BIS_project.Controllers.OrderController.SendEmail (BIS_project) in 2599.3722ms
+2023-09-06 11:58:04.304 +05:00 [INF] Executed endpoint 'BIS_project.Controllers.OrderController.SendEmail (BIS_project)'
+2023-09-06 11:58:04.307 +05:00 [ERR] An unhandled exception has occurred while executing the request.
+System.InvalidOperationException: The type 'System.ReadOnlySpan`1[System.Byte]' of property 'Preamble' on type 'System.Text.Encoding' is invalid for serialization or deserialization because it is a pointer type, is a ref struct, or contains generic parameters that have not been replaced by specific types.
+   at System.Text.Json.ThrowHelper.ThrowInvalidOperationException_CannotSerializeInvalidType(Type typeToConvert, Type declaringType, MemberInfo memberInfo)
+   at System.Text.Json.Serialization.Metadata.ReflectionJsonTypeInfo`1.CreateProperty(Type typeToConvert, MemberInfo memberInfo, JsonSerializerOptions options, Boolean shouldCheckForRequiredKeyword)
+   at System.Text.Json.Serialization.Metadata.ReflectionJsonTypeInfo`1.LateAddProperties()
+   at System.Text.Json.Serialization.Metadata.JsonTypeInfo.InitializePropertyCache()
+   at System.Text.Json.Serialization.Metadata.JsonTypeInfo.Configure()
+   at System.Text.Json.Serialization.Metadata.JsonTypeInfo.<EnsureConfigured>g__ConfigureLocked|143_0()
+   at System.Text.Json.Serialization.Metadata.JsonPropertyInfo.get_JsonTypeInfo()
+   at System.Text.Json.Serialization.JsonConverter`1.TryWrite(Utf8JsonWriter writer, T& value, JsonSerializerOptions options, WriteStack& state)
+   at System.Text.Json.Serialization.Metadata.JsonPropertyInfo`1.GetMemberAndWriteJson(Object obj, WriteStack& state, Utf8JsonWriter writer)
+   at System.Text.Json.Serialization.Converters.ObjectDefaultConverter`1.OnTryWrite(Utf8JsonWriter writer, T value, JsonSerializerOptions options, WriteStack& state)
+   at System.Text.Json.Serialization.JsonConverter`1.TryWrite(Utf8JsonWriter writer, T& value, JsonSerializerOptions options, WriteStack& state)
+   at System.Text.Json.Serialization.Converters.IEnumerableDefaultConverter`2.OnWriteResume(Utf8JsonWriter writer, TCollection value, JsonSerializerOptions options, WriteStack& state)
+   at System.Text.Json.Serialization.JsonCollectionConverter`2.OnTryWrite(Utf8JsonWriter writer, TCollection value, JsonSerializerOptions options, WriteStack& state)
+   at System.Text.Json.Serialization.JsonConverter`1.TryWrite(Utf8JsonWriter writer, T& value, JsonSerializerOptions options, WriteStack& state)
+   at System.Text.Json.Serialization.Metadata.JsonPropertyInfo`1.GetMemberAndWriteJson(Object obj, WriteStack& state, Utf8JsonWriter writer)
+   at System.Text.Json.Serialization.Converters.ObjectDefaultConverter`1.OnTryWrite(Utf8JsonWriter writer, T value, JsonSerializerOptions options, WriteStack& state)
+   at System.Text.Json.Serialization.JsonConverter`1.TryWrite(Utf8JsonWriter writer, T& value, JsonSerializerOptions options, WriteStack& state)
+   at System.Text.Json.Serialization.JsonConverter`1.WriteCore(Utf8JsonWriter writer, T& value, JsonSerializerOptions options, WriteStack& state)
+   at System.Text.Json.Serialization.JsonConverter`1.WriteCoreAsObject(Utf8JsonWriter writer, Object value, JsonSerializerOptions options, WriteStack& state)
+   at System.Text.Json.JsonSerializer.WriteCore[TValue](Utf8JsonWriter writer, TValue& value, JsonTypeInfo jsonTypeInfo, WriteStack& state)
+   at System.Text.Json.JsonSerializer.WriteStreamAsync[TValue](Stream utf8Json, TValue value, JsonTypeInfo jsonTypeInfo, CancellationToken cancellationToken)
+   at System.Text.Json.JsonSerializer.WriteStreamAsync[TValue](Stream utf8Json, TValue value, JsonTypeInfo jsonTypeInfo, CancellationToken cancellationToken)
+   at System.Text.Json.JsonSerializer.WriteStreamAsync[TValue](Stream utf8Json, TValue value, JsonTypeInfo jsonTypeInfo, CancellationToken cancellationToken)
+   at Microsoft.AspNetCore.Mvc.Formatters.SystemTextJsonOutputFormatter.WriteResponseBodyAsync(OutputFormatterWriteContext context, Encoding selectedEncoding)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeNextResultFilterAsync>g__Awaited|30_0[TFilter,TFilterAsync](ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.Rethrow(ResultExecutedContextSealed context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.ResultNext[TFilter,TFilterAsync](State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.InvokeResultFilters()
+--- End of stack trace from previous location ---
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeFilterPipelineAsync>g__Awaited|20_0(ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Logged|17_1(ResourceInvoker invoker)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Logged|17_1(ResourceInvoker invoker)
+   at Microsoft.AspNetCore.Routing.EndpointMiddleware.<Invoke>g__AwaitRequestTask|6_0(Endpoint endpoint, Task requestTask, ILogger logger)
+   at Microsoft.AspNetCore.Authorization.AuthorizationMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Authorization.AuthorizationMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Authentication.AuthenticationMiddleware.Invoke(HttpContext context)
+   at Swashbuckle.AspNetCore.SwaggerUI.SwaggerUIMiddleware.Invoke(HttpContext httpContext)
+   at Swashbuckle.AspNetCore.Swagger.SwaggerMiddleware.Invoke(HttpContext httpContext, ISwaggerProvider swaggerProvider)
+   at Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddlewareImpl.Invoke(HttpContext context)
+2023-09-06 11:58:04.328 +05:00 [INF] Request finished HTTP/1.1 POST http://localhost:5279/api/v1/Order?email=azimjonabdugafforov17%40gmail.com&username=azimjon&password=123 - 0 - 500 - text/plain;+charset=utf-8 2686.5936ms
+2023-09-06 11:58:35.642 +05:00 [INF] Application is shutting down...
+2023-09-06 11:58:37.296 +05:00 [INF] User profile is available. Using '/Users/azizjonabdugafforov/.aspnet/DataProtection-Keys' as key repository; keys will not be encrypted at rest.
+2023-09-06 11:58:37.339 +05:00 [INF] Now listening on: http://localhost:5279
+2023-09-06 11:58:37.340 +05:00 [INF] Application started. Press Ctrl+C to shut down.
+2023-09-06 11:58:37.340 +05:00 [INF] Hosting environment: Development
+2023-09-06 11:58:37.340 +05:00 [INF] Content root path: /Users/azizjonabdugafforov/Desktop/Code/level 6/BIS_project/BIS_project
+2023-09-06 11:58:38.021 +05:00 [INF] Request starting HTTP/1.1 GET http://localhost:5279/swagger/index.html - -
+2023-09-06 11:58:38.085 +05:00 [INF] Request finished HTTP/1.1 GET http://localhost:5279/swagger/index.html - - - 200 - text/html;charset=utf-8 66.2218ms
+2023-09-06 11:58:38.178 +05:00 [INF] Request starting HTTP/1.1 GET http://localhost:5279/swagger/v1/swagger.json - -
+2023-09-06 11:58:38.251 +05:00 [INF] Request finished HTTP/1.1 GET http://localhost:5279/swagger/v1/swagger.json - - - 200 - application/json;charset=utf-8 73.3212ms
+2023-09-06 11:58:43.598 +05:00 [INF] Request starting HTTP/1.1 POST http://localhost:5279/api/v1/Order?email=azimjonabdugafforov17%40gmail.com&username=azimjon&password=123 - 0
+2023-09-06 11:58:43.629 +05:00 [WRN] Failed to determine the https port for redirect.
+2023-09-06 11:58:43.630 +05:00 [INF] CORS policy execution successful.
+2023-09-06 11:58:43.632 +05:00 [INF] Executing endpoint 'BIS_project.Controllers.OrderController.SendEmail (BIS_project)'
+2023-09-06 11:58:43.647 +05:00 [INF] Route matched with {action = "SendEmail", controller = "Order"}. Executing controller action with signature System.Threading.Tasks.Task`1[System.String] SendEmail(System.String, System.String, System.String) on controller BIS_project.Controllers.OrderController (BIS_project).
+2023-09-06 11:58:46.287 +05:00 [INF] Executing ObjectResult, writing value of type 'System.String'.
+2023-09-06 11:58:46.297 +05:00 [INF] Executed action BIS_project.Controllers.OrderController.SendEmail (BIS_project) in 2643.2399ms
+2023-09-06 11:58:46.303 +05:00 [INF] Executed endpoint 'BIS_project.Controllers.OrderController.SendEmail (BIS_project)'
+2023-09-06 11:58:46.320 +05:00 [INF] Request finished HTTP/1.1 POST http://localhost:5279/api/v1/Order?email=azimjonabdugafforov17%40gmail.com&username=azimjon&password=123 - 0 - 200 - text/plain;+charset=utf-8 2721.3244ms
+2023-09-06 12:09:48.640 +05:00 [INF] Request starting HTTP/1.1 GET http://localhost:5279/swagger/index.html - -
+2023-09-06 12:09:48.650 +05:00 [INF] Request finished HTTP/1.1 GET http://localhost:5279/swagger/index.html - - - 200 - text/html;charset=utf-8 10.4961ms
+2023-09-06 12:09:48.757 +05:00 [INF] Request starting HTTP/1.1 GET http://localhost:5279/swagger/v1/swagger.json - -
+2023-09-06 12:09:48.783 +05:00 [INF] Request finished HTTP/1.1 GET http://localhost:5279/swagger/v1/swagger.json - - - 200 - application/json;charset=utf-8 25.1297ms
+2023-09-06 12:17:48.888 +05:00 [INF] Application is shutting down...
+2023-09-06 12:17:50.885 +05:00 [INF] User profile is available. Using '/Users/azizjonabdugafforov/.aspnet/DataProtection-Keys' as key repository; keys will not be encrypted at rest.
+2023-09-06 12:17:50.931 +05:00 [INF] Now listening on: http://localhost:5279
+2023-09-06 12:17:50.932 +05:00 [INF] Application started. Press Ctrl+C to shut down.
+2023-09-06 12:17:50.932 +05:00 [INF] Hosting environment: Development
+2023-09-06 12:17:50.932 +05:00 [INF] Content root path: /Users/azizjonabdugafforov/Desktop/Code/level 6/BIS_project/BIS_project
+2023-09-06 12:17:51.561 +05:00 [INF] Request starting HTTP/1.1 GET http://localhost:5279/swagger/index.html - -
+2023-09-06 12:17:51.636 +05:00 [INF] Request finished HTTP/1.1 GET http://localhost:5279/swagger/index.html - - - 200 - text/html;charset=utf-8 79.2208ms
+2023-09-06 12:17:51.727 +05:00 [INF] Request starting HTTP/1.1 GET http://localhost:5279/swagger/v1/swagger.json - -
+2023-09-06 12:17:51.797 +05:00 [INF] Request finished HTTP/1.1 GET http://localhost:5279/swagger/v1/swagger.json - - - 200 - application/json;charset=utf-8 70.2920ms
+2023-09-06 12:18:22.109 +05:00 [INF] Request starting HTTP/1.1 POST http://localhost:5279/api/v1/Order?email=azimjonabdugafforov17%40gmail.com&username=wefwfw&password=wefw - 0
+2023-09-06 12:18:22.157 +05:00 [WRN] Failed to determine the https port for redirect.
+2023-09-06 12:18:22.159 +05:00 [INF] CORS policy execution successful.
+2023-09-06 12:18:22.160 +05:00 [INF] Executing endpoint 'BIS_project.Controllers.OrderController.SendEmail (BIS_project)'
+2023-09-06 12:18:22.178 +05:00 [INF] Route matched with {action = "SendEmail", controller = "Order"}. Executing controller action with signature System.Threading.Tasks.Task`1[System.String] SendEmail(System.String, System.String, System.String) on controller BIS_project.Controllers.OrderController (BIS_project).
+2023-09-06 12:18:23.335 +05:00 [INF] Executing ObjectResult, writing value of type 'System.String'.
+2023-09-06 12:18:23.340 +05:00 [INF] Executed action BIS_project.Controllers.OrderController.SendEmail (BIS_project) in 1158.6342ms
+2023-09-06 12:18:23.344 +05:00 [INF] Executed endpoint 'BIS_project.Controllers.OrderController.SendEmail (BIS_project)'
+2023-09-06 12:18:23.356 +05:00 [INF] Request finished HTTP/1.1 POST http://localhost:5279/api/v1/Order?email=azimjonabdugafforov17%40gmail.com&username=wefwfw&password=wefw - 0 - 200 - text/plain;+charset=utf-8 1247.5747ms
+2023-09-06 12:18:35.611 +05:00 [INF] Application is shutting down...
+2023-09-06 12:18:37.408 +05:00 [INF] User profile is available. Using '/Users/azizjonabdugafforov/.aspnet/DataProtection-Keys' as key repository; keys will not be encrypted at rest.
+2023-09-06 12:18:37.453 +05:00 [INF] Now listening on: http://localhost:5279
+2023-09-06 12:18:37.453 +05:00 [INF] Application started. Press Ctrl+C to shut down.
+2023-09-06 12:18:37.453 +05:00 [INF] Hosting environment: Development
+2023-09-06 12:18:37.453 +05:00 [INF] Content root path: /Users/azizjonabdugafforov/Desktop/Code/level 6/BIS_project/BIS_project
+2023-09-06 12:18:38.138 +05:00 [INF] Request starting HTTP/1.1 GET http://localhost:5279/swagger/index.html - -
+2023-09-06 12:18:38.205 +05:00 [INF] Request finished HTTP/1.1 GET http://localhost:5279/swagger/index.html - - - 200 - text/html;charset=utf-8 67.7822ms
+2023-09-06 12:18:38.292 +05:00 [INF] Request starting HTTP/1.1 GET http://localhost:5279/swagger/v1/swagger.json - -
+2023-09-06 12:18:38.368 +05:00 [INF] Request finished HTTP/1.1 GET http://localhost:5279/swagger/v1/swagger.json - - - 200 - application/json;charset=utf-8 75.9246ms
+2023-09-06 12:18:41.645 +05:00 [INF] Request starting HTTP/1.1 POST http://localhost:5279/api/v1/Order?email=azimjonabdugafforov17%40gmail.com&username=wefwfw&password=wefw - 0
+2023-09-06 12:18:41.685 +05:00 [WRN] Failed to determine the https port for redirect.
+2023-09-06 12:18:41.687 +05:00 [INF] CORS policy execution successful.
+2023-09-06 12:18:41.688 +05:00 [INF] Executing endpoint 'BIS_project.Controllers.OrderController.SendEmail (BIS_project)'
+2023-09-06 12:18:41.704 +05:00 [INF] Route matched with {action = "SendEmail", controller = "Order"}. Executing controller action with signature System.Threading.Tasks.Task`1[System.String] SendEmail(System.String, System.String, System.String) on controller BIS_project.Controllers.OrderController (BIS_project).
+2023-09-06 12:18:44.219 +05:00 [INF] Executing ObjectResult, writing value of type 'System.String'.
+2023-09-06 12:18:44.227 +05:00 [INF] Executed action BIS_project.Controllers.OrderController.SendEmail (BIS_project) in 2518.0122ms
+2023-09-06 12:18:44.233 +05:00 [INF] Executed endpoint 'BIS_project.Controllers.OrderController.SendEmail (BIS_project)'
+2023-09-06 12:18:44.248 +05:00 [INF] Request finished HTTP/1.1 POST http://localhost:5279/api/v1/Order?email=azimjonabdugafforov17%40gmail.com&username=wefwfw&password=wefw - 0 - 200 - text/plain;+charset=utf-8 2602.7562ms
+2023-09-06 12:20:05.439 +05:00 [INF] Request starting HTTP/1.1 GET http://localhost:5279/swagger/v1/swagger.json - -
+2023-09-06 12:20:05.463 +05:00 [INF] Request finished HTTP/1.1 GET http://localhost:5279/swagger/v1/swagger.json - - - 200 - application/json;charset=utf-8 24.2961ms
+2023-09-06 12:21:47.636 +05:00 [INF] Request starting HTTP/1.1 POST http://localhost:5279/api/v1/Order?email=orville.legros%40ethereal.email&username=hey&password=adfsf - 0
+2023-09-06 12:21:47.642 +05:00 [INF] CORS policy execution successful.
+2023-09-06 12:21:47.643 +05:00 [INF] Executing endpoint 'BIS_project.Controllers.OrderController.SendEmail (BIS_project)'
+2023-09-06 12:21:47.644 +05:00 [INF] Route matched with {action = "SendEmail", controller = "Order"}. Executing controller action with signature System.Threading.Tasks.Task`1[System.String] SendEmail(System.String, System.String, System.String) on controller BIS_project.Controllers.OrderController (BIS_project).
+2023-09-06 12:21:54.442 +05:00 [INF] Executing ObjectResult, writing value of type 'System.String'.
+2023-09-06 12:21:54.444 +05:00 [INF] Executed action BIS_project.Controllers.OrderController.SendEmail (BIS_project) in 6800.1601ms
+2023-09-06 12:21:54.445 +05:00 [INF] Executed endpoint 'BIS_project.Controllers.OrderController.SendEmail (BIS_project)'
+2023-09-06 12:21:54.446 +05:00 [INF] Request finished HTTP/1.1 POST http://localhost:5279/api/v1/Order?email=orville.legros%40ethereal.email&username=hey&password=adfsf - 0 - 200 - text/plain;+charset=utf-8 6810.8336ms
+2023-09-06 12:24:04.373 +05:00 [INF] Application is shutting down...
+2023-09-06 12:24:06.138 +05:00 [INF] User profile is available. Using '/Users/azizjonabdugafforov/.aspnet/DataProtection-Keys' as key repository; keys will not be encrypted at rest.
+2023-09-06 12:24:06.183 +05:00 [INF] Now listening on: http://localhost:5279
+2023-09-06 12:24:06.184 +05:00 [INF] Application started. Press Ctrl+C to shut down.
+2023-09-06 12:24:06.184 +05:00 [INF] Hosting environment: Development
+2023-09-06 12:24:06.184 +05:00 [INF] Content root path: /Users/azizjonabdugafforov/Desktop/Code/level 6/BIS_project/BIS_project
+2023-09-06 12:24:06.382 +05:00 [INF] Request starting HTTP/1.1 GET http://localhost:5279/swagger/index.html - -
+2023-09-06 12:24:06.452 +05:00 [INF] Request finished HTTP/1.1 GET http://localhost:5279/swagger/index.html - - - 200 - text/html;charset=utf-8 71.5415ms
+2023-09-06 12:24:06.554 +05:00 [INF] Request starting HTTP/1.1 GET http://localhost:5279/swagger/v1/swagger.json - -
+2023-09-06 12:24:06.642 +05:00 [INF] Request finished HTTP/1.1 GET http://localhost:5279/swagger/v1/swagger.json - - - 200 - application/json;charset=utf-8 87.6425ms
+2023-09-06 12:24:26.553 +05:00 [INF] Request starting HTTP/1.1 POST http://localhost:5279/api/v1/Order?email=azimjonabdugafforov17%40gmail.com&username=subject&password=sf - 0
+2023-09-06 12:24:26.598 +05:00 [WRN] Failed to determine the https port for redirect.
+2023-09-06 12:24:26.599 +05:00 [INF] CORS policy execution successful.
+2023-09-06 12:24:26.601 +05:00 [INF] Executing endpoint 'BIS_project.Controllers.OrderController.SendEmail (BIS_project)'
+2023-09-06 12:24:26.616 +05:00 [INF] Route matched with {action = "SendEmail", controller = "Order"}. Executing controller action with signature System.Threading.Tasks.Task`1[System.String] SendEmail(System.String, System.String, System.String) on controller BIS_project.Controllers.OrderController (BIS_project).
+2023-09-06 12:24:31.196 +05:00 [INF] Executing ObjectResult, writing value of type 'System.String'.
+2023-09-06 12:24:31.203 +05:00 [INF] Executed action BIS_project.Controllers.OrderController.SendEmail (BIS_project) in 4582.9216ms
+2023-09-06 12:24:31.208 +05:00 [INF] Executed endpoint 'BIS_project.Controllers.OrderController.SendEmail (BIS_project)'
+2023-09-06 12:24:31.221 +05:00 [INF] Request finished HTTP/1.1 POST http://localhost:5279/api/v1/Order?email=azimjonabdugafforov17%40gmail.com&username=subject&password=sf - 0 - 200 - text/plain;+charset=utf-8 4668.4312ms
+2023-09-06 12:25:06.982 +05:00 [INF] Application is shutting down...
+2023-09-06 12:25:08.681 +05:00 [INF] User profile is available. Using '/Users/azizjonabdugafforov/.aspnet/DataProtection-Keys' as key repository; keys will not be encrypted at rest.
+2023-09-06 12:25:08.724 +05:00 [INF] Now listening on: http://localhost:5279
+2023-09-06 12:25:08.724 +05:00 [INF] Application started. Press Ctrl+C to shut down.
+2023-09-06 12:25:08.724 +05:00 [INF] Hosting environment: Development
+2023-09-06 12:25:08.724 +05:00 [INF] Content root path: /Users/azizjonabdugafforov/Desktop/Code/level 6/BIS_project/BIS_project
+2023-09-06 12:25:08.908 +05:00 [INF] Request starting HTTP/1.1 GET http://localhost:5279/swagger/index.html - -
+2023-09-06 12:25:08.978 +05:00 [INF] Request finished HTTP/1.1 GET http://localhost:5279/swagger/index.html - - - 200 - text/html;charset=utf-8 71.3542ms
+2023-09-06 12:25:09.061 +05:00 [INF] Request starting HTTP/1.1 GET http://localhost:5279/swagger/v1/swagger.json - -
+2023-09-06 12:25:09.152 +05:00 [INF] Request finished HTTP/1.1 GET http://localhost:5279/swagger/v1/swagger.json - - - 200 - application/json;charset=utf-8 91.1905ms
+2023-09-06 12:25:10.384 +05:00 [INF] Request starting HTTP/1.1 POST http://localhost:5279/api/v1/Order?email=azimjonabdugafforov17%40gmail.com&username=subject&password=sf - 0
+2023-09-06 12:25:10.423 +05:00 [WRN] Failed to determine the https port for redirect.
+2023-09-06 12:25:10.425 +05:00 [INF] CORS policy execution successful.
+2023-09-06 12:25:10.426 +05:00 [INF] Executing endpoint 'BIS_project.Controllers.OrderController.SendEmail (BIS_project)'
+2023-09-06 12:25:10.442 +05:00 [INF] Route matched with {action = "SendEmail", controller = "Order"}. Executing controller action with signature System.Threading.Tasks.Task`1[System.String] SendEmail(System.String, System.String, System.String) on controller BIS_project.Controllers.OrderController (BIS_project).
+2023-09-06 12:25:12.537 +05:00 [INF] Executing ObjectResult, writing value of type 'System.String'.
+2023-09-06 12:25:12.544 +05:00 [INF] Executed action BIS_project.Controllers.OrderController.SendEmail (BIS_project) in 2097.3035ms
+2023-09-06 12:25:12.550 +05:00 [INF] Executed endpoint 'BIS_project.Controllers.OrderController.SendEmail (BIS_project)'
+2023-09-06 12:25:12.566 +05:00 [INF] Request finished HTTP/1.1 POST http://localhost:5279/api/v1/Order?email=azimjonabdugafforov17%40gmail.com&username=subject&password=sf - 0 - 200 - text/plain;+charset=utf-8 2182.4208ms
+2023-09-06 12:25:21.230 +05:00 [INF] Application is shutting down...
+2023-09-06 12:25:22.921 +05:00 [INF] User profile is available. Using '/Users/azizjonabdugafforov/.aspnet/DataProtection-Keys' as key repository; keys will not be encrypted at rest.
+2023-09-06 12:25:22.972 +05:00 [INF] Now listening on: http://localhost:5279
+2023-09-06 12:25:22.972 +05:00 [INF] Application started. Press Ctrl+C to shut down.
+2023-09-06 12:25:22.972 +05:00 [INF] Hosting environment: Development
+2023-09-06 12:25:22.973 +05:00 [INF] Content root path: /Users/azizjonabdugafforov/Desktop/Code/level 6/BIS_project/BIS_project
+2023-09-06 12:25:23.670 +05:00 [INF] Request starting HTTP/1.1 GET http://localhost:5279/swagger/index.html - -
+2023-09-06 12:25:23.739 +05:00 [INF] Request finished HTTP/1.1 GET http://localhost:5279/swagger/index.html - - - 200 - text/html;charset=utf-8 70.9277ms
+2023-09-06 12:25:23.832 +05:00 [INF] Request starting HTTP/1.1 GET http://localhost:5279/swagger/v1/swagger.json - -
+2023-09-06 12:25:23.909 +05:00 [INF] Request finished HTTP/1.1 GET http://localhost:5279/swagger/v1/swagger.json - - - 200 - application/json;charset=utf-8 77.0987ms
+2023-09-06 12:25:25.331 +05:00 [INF] Request starting HTTP/1.1 POST http://localhost:5279/api/v1/Order?email=azimjonabdugafforov17%40gmail.com&username=subject&password=sf - 0
+2023-09-06 12:25:25.372 +05:00 [WRN] Failed to determine the https port for redirect.
+2023-09-06 12:25:25.373 +05:00 [INF] CORS policy execution successful.
+2023-09-06 12:25:25.375 +05:00 [INF] Executing endpoint 'BIS_project.Controllers.OrderController.SendEmail (BIS_project)'
+2023-09-06 12:25:25.391 +05:00 [INF] Route matched with {action = "SendEmail", controller = "Order"}. Executing controller action with signature System.Threading.Tasks.Task`1[System.String] SendEmail(System.String, System.String, System.String) on controller BIS_project.Controllers.OrderController (BIS_project).
+2023-09-06 12:25:27.862 +05:00 [INF] Executing ObjectResult, writing value of type 'System.String'.
+2023-09-06 12:25:27.869 +05:00 [INF] Executed action BIS_project.Controllers.OrderController.SendEmail (BIS_project) in 2474.1664ms
+2023-09-06 12:25:27.875 +05:00 [INF] Executed endpoint 'BIS_project.Controllers.OrderController.SendEmail (BIS_project)'
+2023-09-06 12:25:27.888 +05:00 [INF] Request finished HTTP/1.1 POST http://localhost:5279/api/v1/Order?email=azimjonabdugafforov17%40gmail.com&username=subject&password=sf - 0 - 200 - text/plain;+charset=utf-8 2557.5533ms
+2023-09-06 12:28:27.393 +05:00 [INF] Application is shutting down...
+2023-09-06 12:28:29.178 +05:00 [INF] User profile is available. Using '/Users/azizjonabdugafforov/.aspnet/DataProtection-Keys' as key repository; keys will not be encrypted at rest.
+2023-09-06 12:28:29.223 +05:00 [INF] Now listening on: http://localhost:5279
+2023-09-06 12:28:29.223 +05:00 [INF] Application started. Press Ctrl+C to shut down.
+2023-09-06 12:28:29.223 +05:00 [INF] Hosting environment: Development
+2023-09-06 12:28:29.223 +05:00 [INF] Content root path: /Users/azizjonabdugafforov/Desktop/Code/level 6/BIS_project/BIS_project
+2023-09-06 12:28:29.923 +05:00 [INF] Request starting HTTP/1.1 GET http://localhost:5279/swagger/index.html - -
+2023-09-06 12:28:29.987 +05:00 [INF] Request finished HTTP/1.1 GET http://localhost:5279/swagger/index.html - - - 200 - text/html;charset=utf-8 64.6715ms
+2023-09-06 12:28:30.091 +05:00 [INF] Request starting HTTP/1.1 GET http://localhost:5279/swagger/v1/swagger.json - -
+2023-09-06 12:28:30.169 +05:00 [INF] Request finished HTTP/1.1 GET http://localhost:5279/swagger/v1/swagger.json - - - 200 - application/json;charset=utf-8 78.0114ms
+2023-09-06 12:28:32.115 +05:00 [INF] Request starting HTTP/1.1 POST http://localhost:5279/api/v1/Order?email=azimjonabdugafforov17%40gmail.com&username=subject&password=sf - 0
+2023-09-06 12:28:32.151 +05:00 [WRN] Failed to determine the https port for redirect.
+2023-09-06 12:28:32.153 +05:00 [INF] CORS policy execution successful.
+2023-09-06 12:28:32.155 +05:00 [INF] Executing endpoint 'BIS_project.Controllers.OrderController.SendEmail (BIS_project)'
+2023-09-06 12:28:32.172 +05:00 [INF] Route matched with {action = "SendEmail", controller = "Order"}. Executing controller action with signature System.Threading.Tasks.Task`1[System.String] SendEmail(System.String, System.String, System.String) on controller BIS_project.Controllers.OrderController (BIS_project).
+2023-09-06 12:28:54.305 +05:00 [INF] Request starting HTTP/1.1 POST http://localhost:5279/api/v1/Order?email=azimjonabdugafforov17%40gmail.com&username=subject&password=sf - 0
+2023-09-06 12:28:54.310 +05:00 [INF] CORS policy execution successful.
+2023-09-06 12:28:54.310 +05:00 [INF] Executing endpoint 'BIS_project.Controllers.OrderController.SendEmail (BIS_project)'
+2023-09-06 12:28:54.311 +05:00 [INF] Route matched with {action = "SendEmail", controller = "Order"}. Executing controller action with signature System.Threading.Tasks.Task`1[System.String] SendEmail(System.String, System.String, System.String) on controller BIS_project.Controllers.OrderController (BIS_project).
+2023-09-06 12:28:59.825 +05:00 [INF] Application is shutting down...
+2023-09-06 12:30:02.959 +05:00 [INF] User profile is available. Using '/Users/azizjonabdugafforov/.aspnet/DataProtection-Keys' as key repository; keys will not be encrypted at rest.
+2023-09-06 12:30:03.002 +05:00 [INF] Now listening on: http://localhost:5279
+2023-09-06 12:30:03.003 +05:00 [INF] Application started. Press Ctrl+C to shut down.
+2023-09-06 12:30:03.003 +05:00 [INF] Hosting environment: Development
+2023-09-06 12:30:03.003 +05:00 [INF] Content root path: /Users/azizjonabdugafforov/Desktop/Code/level 6/BIS_project/BIS_project
+2023-09-06 12:30:03.607 +05:00 [INF] Request starting HTTP/1.1 GET http://localhost:5279/swagger/index.html - -
+2023-09-06 12:30:03.674 +05:00 [INF] Request finished HTTP/1.1 GET http://localhost:5279/swagger/index.html - - - 200 - text/html;charset=utf-8 68.1211ms
+2023-09-06 12:30:03.769 +05:00 [INF] Request starting HTTP/1.1 GET http://localhost:5279/swagger/v1/swagger.json - -
+2023-09-06 12:30:03.852 +05:00 [INF] Request finished HTTP/1.1 GET http://localhost:5279/swagger/v1/swagger.json - - - 200 - application/json;charset=utf-8 83.5504ms
+2023-09-06 12:30:07.631 +05:00 [INF] Request starting HTTP/1.1 POST http://localhost:5279/api/v1/Order?email=azimjonabdugafforov17%40gmail.com&username=subject&password=sf - 0
+2023-09-06 12:30:07.680 +05:00 [WRN] Failed to determine the https port for redirect.
+2023-09-06 12:30:07.681 +05:00 [INF] CORS policy execution successful.
+2023-09-06 12:30:07.683 +05:00 [INF] Executing endpoint 'BIS_project.Controllers.OrderController.SendEmail (BIS_project)'
+2023-09-06 12:30:07.699 +05:00 [INF] Route matched with {action = "SendEmail", controller = "Order"}. Executing controller action with signature System.Threading.Tasks.Task`1[System.String] SendEmail(System.String, System.String, System.String) on controller BIS_project.Controllers.OrderController (BIS_project).
+2023-09-06 12:30:09.921 +05:00 [INF] Executing ObjectResult, writing value of type 'System.String'.
+2023-09-06 12:30:09.925 +05:00 [INF] Executed action BIS_project.Controllers.OrderController.SendEmail (BIS_project) in 2224.0721ms
+2023-09-06 12:30:09.928 +05:00 [INF] Executed endpoint 'BIS_project.Controllers.OrderController.SendEmail (BIS_project)'
+2023-09-06 12:30:09.938 +05:00 [INF] Request finished HTTP/1.1 POST http://localhost:5279/api/v1/Order?email=azimjonabdugafforov17%40gmail.com&username=subject&password=sf - 0 - 200 - text/plain;+charset=utf-8 2306.5522ms
+2023-09-06 12:31:09.303 +05:00 [INF] Application is shutting down...
+2023-09-06 12:31:10.926 +05:00 [INF] User profile is available. Using '/Users/azizjonabdugafforov/.aspnet/DataProtection-Keys' as key repository; keys will not be encrypted at rest.
+2023-09-06 12:31:10.970 +05:00 [INF] Now listening on: http://localhost:5279
+2023-09-06 12:31:10.970 +05:00 [INF] Application started. Press Ctrl+C to shut down.
+2023-09-06 12:31:10.970 +05:00 [INF] Hosting environment: Development
+2023-09-06 12:31:10.970 +05:00 [INF] Content root path: /Users/azizjonabdugafforov/Desktop/Code/level 6/BIS_project/BIS_project
+2023-09-06 12:31:11.167 +05:00 [INF] Request starting HTTP/1.1 GET http://localhost:5279/swagger/index.html - -
+2023-09-06 12:31:11.243 +05:00 [INF] Request finished HTTP/1.1 GET http://localhost:5279/swagger/index.html - - - 200 - text/html;charset=utf-8 78.5040ms
+2023-09-06 12:31:11.333 +05:00 [INF] Request starting HTTP/1.1 GET http://localhost:5279/swagger/v1/swagger.json - -
+2023-09-06 12:31:11.417 +05:00 [INF] Request finished HTTP/1.1 GET http://localhost:5279/swagger/v1/swagger.json - - - 200 - application/json;charset=utf-8 83.6199ms
+2023-09-06 12:31:31.347 +05:00 [INF] Request starting HTTP/1.1 POST http://localhost:5279/api/v1/Order?email=azimjonabdugafforov17%40gmail.com&username=subject&password=sf - 0
+2023-09-06 12:31:31.402 +05:00 [WRN] Failed to determine the https port for redirect.
+2023-09-06 12:31:31.404 +05:00 [INF] CORS policy execution successful.
+2023-09-06 12:31:31.406 +05:00 [INF] Executing endpoint 'BIS_project.Controllers.OrderController.SendEmail (BIS_project)'
+2023-09-06 12:31:31.421 +05:00 [INF] Route matched with {action = "SendEmail", controller = "Order"}. Executing controller action with signature System.Threading.Tasks.Task`1[System.String] SendEmail(System.String, System.String, System.String) on controller BIS_project.Controllers.OrderController (BIS_project).
+2023-09-06 12:31:33.805 +05:00 [INF] Executing ObjectResult, writing value of type 'System.String'.
+2023-09-06 12:31:33.810 +05:00 [INF] Executed action BIS_project.Controllers.OrderController.SendEmail (BIS_project) in 2385.1636ms
+2023-09-06 12:31:33.814 +05:00 [INF] Executed endpoint 'BIS_project.Controllers.OrderController.SendEmail (BIS_project)'
+2023-09-06 12:31:33.825 +05:00 [INF] Request finished HTTP/1.1 POST http://localhost:5279/api/v1/Order?email=azimjonabdugafforov17%40gmail.com&username=subject&password=sf - 0 - 200 - text/plain;+charset=utf-8 2478.0018ms
+2023-09-06 13:53:42.859 +05:00 [INF] Application is shutting down...
+2023-09-06 13:53:45.979 +05:00 [INF] User profile is available. Using '/Users/azizjonabdugafforov/.aspnet/DataProtection-Keys' as key repository; keys will not be encrypted at rest.
+2023-09-06 13:53:46.045 +05:00 [INF] Now listening on: http://localhost:5279
+2023-09-06 13:53:46.046 +05:00 [INF] Application started. Press Ctrl+C to shut down.
+2023-09-06 13:53:46.046 +05:00 [INF] Hosting environment: Development
+2023-09-06 13:53:46.046 +05:00 [INF] Content root path: /Users/azizjonabdugafforov/Desktop/Code/level 6/BIS_project/BIS_project
+2023-09-06 13:53:46.606 +05:00 [INF] Request starting HTTP/1.1 GET http://localhost:5279/swagger/index.html - -
+2023-09-06 13:53:46.680 +05:00 [INF] Request finished HTTP/1.1 GET http://localhost:5279/swagger/index.html - - - 200 - text/html;charset=utf-8 75.5137ms
+2023-09-06 13:53:46.789 +05:00 [INF] Request starting HTTP/1.1 GET http://localhost:5279/swagger/v1/swagger.json - -
+2023-09-06 13:53:46.862 +05:00 [INF] Request finished HTTP/1.1 GET http://localhost:5279/swagger/v1/swagger.json - - - 200 - application/json;charset=utf-8 73.2463ms
+2023-09-06 13:53:48.597 +05:00 [INF] Request starting HTTP/1.1 POST http://localhost:5279/api/v1/Order?email=azimjonabdugafforov17%40gmail.com&username=subject&password=sf - 0
+2023-09-06 13:53:48.643 +05:00 [WRN] Failed to determine the https port for redirect.
+2023-09-06 13:53:48.645 +05:00 [INF] CORS policy execution successful.
+2023-09-06 13:53:48.647 +05:00 [INF] Executing endpoint 'BIS_project.Controllers.OrderController.SendEmail (BIS_project)'
+2023-09-06 13:53:48.662 +05:00 [INF] Route matched with {action = "SendEmail", controller = "Order"}. Executing controller action with signature System.Threading.Tasks.Task`1[System.String] SendEmail(System.String, System.String, System.String) on controller BIS_project.Controllers.OrderController (BIS_project).
+2023-09-06 13:53:52.322 +05:00 [INF] Executing ObjectResult, writing value of type 'System.String'.
+2023-09-06 13:53:52.331 +05:00 [INF] Executed action BIS_project.Controllers.OrderController.SendEmail (BIS_project) in 3662.3802ms
+2023-09-06 13:53:52.337 +05:00 [INF] Executed endpoint 'BIS_project.Controllers.OrderController.SendEmail (BIS_project)'
+2023-09-06 13:53:52.352 +05:00 [INF] Request finished HTTP/1.1 POST http://localhost:5279/api/v1/Order?email=azimjonabdugafforov17%40gmail.com&username=subject&password=sf - 0 - 200 - text/plain;+charset=utf-8 3754.9020ms
+2023-09-06 13:54:56.911 +05:00 [INF] Application is shutting down...
+2023-09-06 13:54:58.791 +05:00 [INF] User profile is available. Using '/Users/azizjonabdugafforov/.aspnet/DataProtection-Keys' as key repository; keys will not be encrypted at rest.
+2023-09-06 13:54:58.837 +05:00 [INF] Now listening on: http://localhost:5279
+2023-09-06 13:54:58.837 +05:00 [INF] Application started. Press Ctrl+C to shut down.
+2023-09-06 13:54:58.837 +05:00 [INF] Hosting environment: Development
+2023-09-06 13:54:58.837 +05:00 [INF] Content root path: /Users/azizjonabdugafforov/Desktop/Code/level 6/BIS_project/BIS_project
+2023-09-06 13:54:59.530 +05:00 [INF] Request starting HTTP/1.1 GET http://localhost:5279/swagger/index.html - -
+2023-09-06 13:54:59.603 +05:00 [INF] Request finished HTTP/1.1 GET http://localhost:5279/swagger/index.html - - - 200 - text/html;charset=utf-8 74.1072ms
+2023-09-06 13:54:59.703 +05:00 [INF] Request starting HTTP/1.1 GET http://localhost:5279/swagger/v1/swagger.json - -
+2023-09-06 13:54:59.786 +05:00 [INF] Request finished HTTP/1.1 GET http://localhost:5279/swagger/v1/swagger.json - - - 200 - application/json;charset=utf-8 83.7814ms
+2023-09-06 13:55:19.586 +05:00 [INF] Request starting HTTP/1.1 POST http://localhost:5279/api/v1/Order?email=azimjonabdugafforov17%40gmail.com&username=referger&password=yeagdbfgshb%20fwghefhfvhuew%20f - 0
+2023-09-06 13:55:19.629 +05:00 [WRN] Failed to determine the https port for redirect.
+2023-09-06 13:55:19.631 +05:00 [INF] CORS policy execution successful.
+2023-09-06 13:55:19.633 +05:00 [INF] Executing endpoint 'BIS_project.Controllers.OrderController.SendEmail (BIS_project)'
+2023-09-06 13:55:19.649 +05:00 [INF] Route matched with {action = "SendEmail", controller = "Order"}. Executing controller action with signature System.Threading.Tasks.Task`1[System.String] SendEmail(System.String, System.String, System.String) on controller BIS_project.Controllers.OrderController (BIS_project).
+2023-09-06 13:55:22.714 +05:00 [INF] Executing ObjectResult, writing value of type 'System.String'.
+2023-09-06 13:55:22.724 +05:00 [INF] Executed action BIS_project.Controllers.OrderController.SendEmail (BIS_project) in 3068.9213ms
+2023-09-06 13:55:22.730 +05:00 [INF] Executed endpoint 'BIS_project.Controllers.OrderController.SendEmail (BIS_project)'
+2023-09-06 13:55:22.746 +05:00 [INF] Request finished HTTP/1.1 POST http://localhost:5279/api/v1/Order?email=azimjonabdugafforov17%40gmail.com&username=referger&password=yeagdbfgshb%20fwghefhfvhuew%20f - 0 - 200 - text/plain;+charset=utf-8 3160.0656ms
+2023-09-06 13:55:51.854 +05:00 [INF] Application is shutting down...
+2023-09-06 13:55:53.486 +05:00 [INF] User profile is available. Using '/Users/azizjonabdugafforov/.aspnet/DataProtection-Keys' as key repository; keys will not be encrypted at rest.
+2023-09-06 13:55:53.529 +05:00 [INF] Now listening on: http://localhost:5279
+2023-09-06 13:55:53.530 +05:00 [INF] Application started. Press Ctrl+C to shut down.
+2023-09-06 13:55:53.530 +05:00 [INF] Hosting environment: Development
+2023-09-06 13:55:53.530 +05:00 [INF] Content root path: /Users/azizjonabdugafforov/Desktop/Code/level 6/BIS_project/BIS_project
+2023-09-06 13:55:53.718 +05:00 [INF] Request starting HTTP/1.1 GET http://localhost:5279/swagger/index.html - -
+2023-09-06 13:55:53.785 +05:00 [INF] Request finished HTTP/1.1 GET http://localhost:5279/swagger/index.html - - - 200 - text/html;charset=utf-8 68.6781ms
+2023-09-06 13:55:53.872 +05:00 [INF] Request starting HTTP/1.1 GET http://localhost:5279/swagger/v1/swagger.json - -
+2023-09-06 13:55:53.947 +05:00 [INF] Request finished HTTP/1.1 GET http://localhost:5279/swagger/v1/swagger.json - - - 200 - application/json;charset=utf-8 75.0482ms
+2023-09-06 13:57:35.700 +05:00 [INF] Request starting HTTP/1.1 POST http://localhost:5279/api/v1/Order application/json 400
+2023-09-06 13:57:35.757 +05:00 [WRN] Failed to determine the https port for redirect.
+2023-09-06 13:57:35.759 +05:00 [INF] CORS policy execution successful.
+2023-09-06 13:57:35.761 +05:00 [INF] Executing endpoint 'BIS_project.Controllers.OrderController.CreateOrder (BIS_project)'
+2023-09-06 13:57:35.775 +05:00 [INF] Route matched with {action = "CreateOrder", controller = "Order"}. Executing controller action with signature System.Threading.Tasks.Task`1[BIS_project.Helper.APIResponse] CreateOrder(BIS_project.Dtos.BaseOrderDto) on controller BIS_project.Controllers.OrderController (BIS_project).
+2023-09-06 13:57:39.123 +05:00 [INF] Executing ObjectResult, writing value of type 'BIS_project.Helper.APIResponse'.
+2023-09-06 13:57:39.130 +05:00 [INF] Executed action BIS_project.Controllers.OrderController.CreateOrder (BIS_project) in 3352.4248ms
+2023-09-06 13:57:39.133 +05:00 [INF] Executed endpoint 'BIS_project.Controllers.OrderController.CreateOrder (BIS_project)'
+2023-09-06 13:57:39.141 +05:00 [INF] Request finished HTTP/1.1 POST http://localhost:5279/api/v1/Order application/json 400 - 200 - application/json;+charset=utf-8 3440.8957ms
+2023-09-06 14:01:59.223 +05:00 [INF] Application is shutting down...
+2023-09-06 14:02:18.208 +05:00 [INF] User profile is available. Using '/Users/azizjonabdugafforov/.aspnet/DataProtection-Keys' as key repository; keys will not be encrypted at rest.
+2023-09-06 14:02:18.251 +05:00 [INF] Now listening on: http://localhost:5279
+2023-09-06 14:02:18.252 +05:00 [INF] Application started. Press Ctrl+C to shut down.
+2023-09-06 14:02:18.252 +05:00 [INF] Hosting environment: Development
+2023-09-06 14:02:18.252 +05:00 [INF] Content root path: /Users/azizjonabdugafforov/Desktop/Code/level 6/BIS_project/BIS_project
+2023-09-06 14:02:18.900 +05:00 [INF] Request starting HTTP/1.1 GET http://localhost:5279/swagger/index.html - -
+2023-09-06 14:02:19.025 +05:00 [INF] Request finished HTTP/1.1 GET http://localhost:5279/swagger/index.html - - - 200 - text/html;charset=utf-8 126.3954ms
+2023-09-06 14:02:19.138 +05:00 [INF] Request starting HTTP/1.1 GET http://localhost:5279/swagger/v1/swagger.json - -
+2023-09-06 14:02:19.208 +05:00 [INF] Request finished HTTP/1.1 GET http://localhost:5279/swagger/v1/swagger.json - - - 200 - application/json;charset=utf-8 69.9721ms
+2023-09-06 14:02:47.134 +05:00 [INF] Request starting HTTP/1.1 POST http://localhost:5279/api/v1/Order application/json 374
+2023-09-06 14:02:47.185 +05:00 [WRN] Failed to determine the https port for redirect.
+2023-09-06 14:02:47.187 +05:00 [INF] CORS policy execution successful.
+2023-09-06 14:02:47.189 +05:00 [INF] Executing endpoint 'BIS_project.Controllers.OrderController.CreateOrder (BIS_project)'
+2023-09-06 14:02:47.209 +05:00 [INF] Route matched with {action = "CreateOrder", controller = "Order"}. Executing controller action with signature System.Threading.Tasks.Task`1[BIS_project.Helper.APIResponse] CreateOrder(BIS_project.Dtos.BaseOrderDto) on controller BIS_project.Controllers.OrderController (BIS_project).
+2023-09-06 14:02:48.358 +05:00 [INF] Executing ObjectResult, writing value of type 'BIS_project.Helper.APIResponse'.
+2023-09-06 14:02:48.368 +05:00 [INF] Executed action BIS_project.Controllers.OrderController.CreateOrder (BIS_project) in 1156.027ms
+2023-09-06 14:02:48.372 +05:00 [INF] Executed endpoint 'BIS_project.Controllers.OrderController.CreateOrder (BIS_project)'
+2023-09-06 14:02:48.381 +05:00 [INF] Request finished HTTP/1.1 POST http://localhost:5279/api/v1/Order application/json 374 - 200 - application/json;+charset=utf-8 1247.2193ms
+2023-09-06 14:03:28.850 +05:00 [INF] Request starting HTTP/1.1 POST http://localhost:5279/api/v1/Order application/json 384
+2023-09-06 14:03:28.856 +05:00 [INF] CORS policy execution successful.
+2023-09-06 14:03:28.857 +05:00 [INF] Executing endpoint 'BIS_project.Controllers.OrderController.CreateOrder (BIS_project)'
+2023-09-06 14:03:28.858 +05:00 [INF] Route matched with {action = "CreateOrder", controller = "Order"}. Executing controller action with signature System.Threading.Tasks.Task`1[BIS_project.Helper.APIResponse] CreateOrder(BIS_project.Dtos.BaseOrderDto) on controller BIS_project.Controllers.OrderController (BIS_project).
+2023-09-06 14:03:28.918 +05:00 [INF] Executing ObjectResult, writing value of type 'BIS_project.Helper.APIResponse'.
+2023-09-06 14:03:28.918 +05:00 [INF] Executed action BIS_project.Controllers.OrderController.CreateOrder (BIS_project) in 60.23ms
+2023-09-06 14:03:28.918 +05:00 [INF] Executed endpoint 'BIS_project.Controllers.OrderController.CreateOrder (BIS_project)'
+2023-09-06 14:03:28.919 +05:00 [INF] Request finished HTTP/1.1 POST http://localhost:5279/api/v1/Order application/json 384 - 200 - application/json;+charset=utf-8 68.8648ms
+2023-09-06 14:07:42.278 +05:00 [INF] Application is shutting down...
+2023-09-06 14:07:44.365 +05:00 [INF] User profile is available. Using '/Users/azizjonabdugafforov/.aspnet/DataProtection-Keys' as key repository; keys will not be encrypted at rest.
+2023-09-06 14:07:44.409 +05:00 [INF] Now listening on: http://localhost:5279
+2023-09-06 14:07:44.409 +05:00 [INF] Application started. Press Ctrl+C to shut down.
+2023-09-06 14:07:44.409 +05:00 [INF] Hosting environment: Development
+2023-09-06 14:07:44.409 +05:00 [INF] Content root path: /Users/azizjonabdugafforov/Desktop/Code/level 6/BIS_project/BIS_project
+2023-09-06 14:07:44.987 +05:00 [INF] Request starting HTTP/1.1 GET http://localhost:5279/swagger/index.html - -
+2023-09-06 14:07:45.057 +05:00 [INF] Request finished HTTP/1.1 GET http://localhost:5279/swagger/index.html - - - 200 - text/html;charset=utf-8 70.7315ms
+2023-09-06 14:07:45.146 +05:00 [INF] Request starting HTTP/1.1 GET http://localhost:5279/swagger/v1/swagger.json - -
+2023-09-06 14:07:45.215 +05:00 [INF] Request finished HTTP/1.1 GET http://localhost:5279/swagger/v1/swagger.json - - - 200 - application/json;charset=utf-8 69.3550ms
+2023-09-06 14:08:34.729 +05:00 [INF] Request starting HTTP/1.1 POST http://localhost:5279/api/v1/Order application/json 413
+2023-09-06 14:08:34.774 +05:00 [WRN] Failed to determine the https port for redirect.
+2023-09-06 14:08:34.776 +05:00 [INF] CORS policy execution successful.
+2023-09-06 14:08:34.777 +05:00 [INF] Executing endpoint 'BIS_project.Controllers.OrderController.CreateOrder (BIS_project)'
+2023-09-06 14:08:34.792 +05:00 [INF] Route matched with {action = "CreateOrder", controller = "Order"}. Executing controller action with signature System.Threading.Tasks.Task`1[BIS_project.Helper.APIResponse] CreateOrder(BIS_project.Dtos.BaseOrderDto) on controller BIS_project.Controllers.OrderController (BIS_project).
+2023-09-06 14:08:35.495 +05:00 [INF] Executing BadRequestObjectResult, writing value of type 'Microsoft.AspNetCore.Mvc.ValidationProblemDetails'.
+2023-09-06 14:08:35.498 +05:00 [INF] Executed action BIS_project.Controllers.OrderController.CreateOrder (BIS_project) in 704.7907ms
+2023-09-06 14:08:35.500 +05:00 [INF] Executed endpoint 'BIS_project.Controllers.OrderController.CreateOrder (BIS_project)'
+2023-09-06 14:08:35.502 +05:00 [INF] Request finished HTTP/1.1 POST http://localhost:5279/api/v1/Order application/json 413 - 400 - application/problem+json;+charset=utf-8 773.3276ms
+2023-09-06 14:08:59.711 +05:00 [INF] Request starting HTTP/1.1 POST http://localhost:5279/api/v1/Order application/json 415
+2023-09-06 14:08:59.715 +05:00 [INF] CORS policy execution successful.
+2023-09-06 14:08:59.716 +05:00 [INF] Executing endpoint 'BIS_project.Controllers.OrderController.CreateOrder (BIS_project)'
+2023-09-06 14:08:59.716 +05:00 [INF] Route matched with {action = "CreateOrder", controller = "Order"}. Executing controller action with signature System.Threading.Tasks.Task`1[BIS_project.Helper.APIResponse] CreateOrder(BIS_project.Dtos.BaseOrderDto) on controller BIS_project.Controllers.OrderController (BIS_project).
+2023-09-06 14:09:02.646 +05:00 [INF] Executing ObjectResult, writing value of type 'BIS_project.Helper.APIResponse'.
+2023-09-06 14:09:02.649 +05:00 [INF] Executed action BIS_project.Controllers.OrderController.CreateOrder (BIS_project) in 2933.1822ms
+2023-09-06 14:09:02.650 +05:00 [INF] Executed endpoint 'BIS_project.Controllers.OrderController.CreateOrder (BIS_project)'
+2023-09-06 14:09:02.653 +05:00 [INF] Request finished HTTP/1.1 POST http://localhost:5279/api/v1/Order application/json 415 - 200 - application/json;+charset=utf-8 2942.5731ms
+2023-09-06 14:11:35.622 +05:00 [INF] Application is shutting down...
+2023-09-06 14:11:37.265 +05:00 [INF] User profile is available. Using '/Users/azizjonabdugafforov/.aspnet/DataProtection-Keys' as key repository; keys will not be encrypted at rest.
+2023-09-06 14:11:37.307 +05:00 [INF] Now listening on: http://localhost:5279
+2023-09-06 14:11:37.307 +05:00 [INF] Application started. Press Ctrl+C to shut down.
+2023-09-06 14:11:37.307 +05:00 [INF] Hosting environment: Development
+2023-09-06 14:11:37.308 +05:00 [INF] Content root path: /Users/azizjonabdugafforov/Desktop/Code/level 6/BIS_project/BIS_project
+2023-09-06 14:11:37.874 +05:00 [INF] Request starting HTTP/1.1 GET http://localhost:5279/swagger/index.html - -
+2023-09-06 14:11:37.936 +05:00 [INF] Request finished HTTP/1.1 GET http://localhost:5279/swagger/index.html - - - 200 - text/html;charset=utf-8 63.4600ms
+2023-09-06 14:11:38.022 +05:00 [INF] Request starting HTTP/1.1 GET http://localhost:5279/swagger/v1/swagger.json - -
+2023-09-06 14:11:38.090 +05:00 [INF] Request finished HTTP/1.1 GET http://localhost:5279/swagger/v1/swagger.json - - - 200 - application/json;charset=utf-8 67.8885ms
+2023-09-06 14:12:27.896 +05:00 [INF] Application is shutting down...
+2023-09-06 14:12:29.523 +05:00 [INF] User profile is available. Using '/Users/azizjonabdugafforov/.aspnet/DataProtection-Keys' as key repository; keys will not be encrypted at rest.
+2023-09-06 14:12:29.566 +05:00 [INF] Now listening on: http://localhost:5279
+2023-09-06 14:12:29.566 +05:00 [INF] Application started. Press Ctrl+C to shut down.
+2023-09-06 14:12:29.566 +05:00 [INF] Hosting environment: Development
+2023-09-06 14:12:29.566 +05:00 [INF] Content root path: /Users/azizjonabdugafforov/Desktop/Code/level 6/BIS_project/BIS_project
+2023-09-06 14:12:30.205 +05:00 [INF] Request starting HTTP/1.1 GET http://localhost:5279/swagger/index.html - -
+2023-09-06 14:12:30.270 +05:00 [INF] Request finished HTTP/1.1 GET http://localhost:5279/swagger/index.html - - - 200 - text/html;charset=utf-8 66.4155ms
+2023-09-06 14:12:30.350 +05:00 [INF] Request starting HTTP/1.1 GET http://localhost:5279/swagger/v1/swagger.json - -
+2023-09-06 14:12:30.420 +05:00 [INF] Request finished HTTP/1.1 GET http://localhost:5279/swagger/v1/swagger.json - - - 200 - application/json;charset=utf-8 69.8691ms
+2023-09-06 14:18:51.790 +05:00 [INF] Application is shutting down...
+2023-09-06 14:18:53.448 +05:00 [INF] User profile is available. Using '/Users/azizjonabdugafforov/.aspnet/DataProtection-Keys' as key repository; keys will not be encrypted at rest.
+2023-09-06 14:18:53.491 +05:00 [INF] Now listening on: http://localhost:5279
+2023-09-06 14:18:53.492 +05:00 [INF] Application started. Press Ctrl+C to shut down.
+2023-09-06 14:18:53.492 +05:00 [INF] Hosting environment: Development
+2023-09-06 14:18:53.492 +05:00 [INF] Content root path: /Users/azizjonabdugafforov/Desktop/Code/level 6/BIS_project/BIS_project
+2023-09-06 14:18:54.184 +05:00 [INF] Request starting HTTP/1.1 GET http://localhost:5279/swagger/index.html - -
+2023-09-06 14:18:54.254 +05:00 [INF] Request finished HTTP/1.1 GET http://localhost:5279/swagger/index.html - - - 200 - text/html;charset=utf-8 70.4922ms
+2023-09-06 14:18:54.345 +05:00 [INF] Request starting HTTP/1.1 GET http://localhost:5279/swagger/v1/swagger.json - -
+2023-09-06 14:18:54.437 +05:00 [INF] Request finished HTTP/1.1 GET http://localhost:5279/swagger/v1/swagger.json - - - 200 - application/json;charset=utf-8 92.7671ms
+2023-09-06 14:19:25.835 +05:00 [INF] Application is shutting down...
+2023-09-06 14:19:27.516 +05:00 [INF] User profile is available. Using '/Users/azizjonabdugafforov/.aspnet/DataProtection-Keys' as key repository; keys will not be encrypted at rest.
+2023-09-06 14:19:27.560 +05:00 [INF] Now listening on: http://localhost:5279
+2023-09-06 14:19:27.561 +05:00 [INF] Application started. Press Ctrl+C to shut down.
+2023-09-06 14:19:27.561 +05:00 [INF] Hosting environment: Development
+2023-09-06 14:19:27.561 +05:00 [INF] Content root path: /Users/azizjonabdugafforov/Desktop/Code/level 6/BIS_project/BIS_project
+2023-09-06 14:19:28.146 +05:00 [INF] Request starting HTTP/1.1 GET http://localhost:5279/swagger/index.html - -
+2023-09-06 14:19:28.206 +05:00 [INF] Request finished HTTP/1.1 GET http://localhost:5279/swagger/index.html - - - 200 - text/html;charset=utf-8 61.1583ms
+2023-09-06 14:19:28.300 +05:00 [INF] Request starting HTTP/1.1 GET http://localhost:5279/swagger/v1/swagger.json - -
+2023-09-06 14:19:28.377 +05:00 [INF] Request finished HTTP/1.1 GET http://localhost:5279/swagger/v1/swagger.json - - - 200 - application/json;charset=utf-8 76.5907ms
+2023-09-06 14:19:43.072 +05:00 [INF] Request starting HTTP/1.1 GET http://localhost:5279/api/v1/user/base-order/get - -
+2023-09-06 14:19:43.117 +05:00 [WRN] Failed to determine the https port for redirect.
+2023-09-06 14:19:43.120 +05:00 [INF] Executing endpoint 'BIS_project.Controllers.OrderController.GetAllOrders (BIS_project)'
+2023-09-06 14:19:43.130 +05:00 [INF] Route matched with {action = "GetAllOrders", controller = "Order"}. Executing controller action with signature System.Threading.Tasks.Task`1[System.Collections.Generic.List`1[BIS_project.Models.Order]] GetAllOrders() on controller BIS_project.Controllers.OrderController (BIS_project).
+2023-09-06 14:19:44.027 +05:00 [INF] Executed action BIS_project.Controllers.OrderController.GetAllOrders (BIS_project) in 893.6246ms
+2023-09-06 14:19:44.031 +05:00 [INF] Executed endpoint 'BIS_project.Controllers.OrderController.GetAllOrders (BIS_project)'
+2023-09-06 14:19:44.035 +05:00 [ERR] An unhandled exception has occurred while executing the request.
+System.InvalidCastException: Column 'Comment' is null.
+   at Npgsql.ThrowHelper.ThrowInvalidCastException_NoValue(FieldDescription field)
+   at Npgsql.NpgsqlDataReader.GetFieldValue[T](Int32 ordinal)
+   at Npgsql.NpgsqlDataReader.GetString(Int32 ordinal)
+   at lambda_method58(Closure, QueryContext, DbDataReader, ResultContext, SingleQueryResultCoordinator)
+   at Microsoft.EntityFrameworkCore.Query.Internal.SingleQueryingEnumerable`1.AsyncEnumerator.MoveNextAsync()
+   at Microsoft.EntityFrameworkCore.EntityFrameworkQueryableExtensions.ToListAsync[TSource](IQueryable`1 source, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.EntityFrameworkQueryableExtensions.ToListAsync[TSource](IQueryable`1 source, CancellationToken cancellationToken)
+   at BIS_project.Services.OrderService.GetAllOrders() in /Users/azizjonabdugafforov/Desktop/Code/level 6/BIS_project/BIS_project/Services/OrderService.cs:line 26
+   at BIS_project.Controllers.OrderController.GetAllOrders() in /Users/azizjonabdugafforov/Desktop/Code/level 6/BIS_project/BIS_project/Controllers/OrderController.cs:line 36
+   at lambda_method6(Closure, Object)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ActionMethodExecutor.AwaitableObjectResultExecutor.Execute(ActionContext actionContext, IActionResultTypeMapper mapper, ObjectMethodExecutor executor, Object controller, Object[] arguments)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeActionMethodAsync>g__Awaited|12_0(ControllerActionInvoker invoker, ValueTask`1 actionResultValueTask)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeNextActionFilterAsync>g__Awaited|10_0(ControllerActionInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Rethrow(ActionExecutedContextSealed context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeInnerFilterAsync>g__Awaited|13_0(ControllerActionInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeFilterPipelineAsync>g__Awaited|20_0(ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Logged|17_1(ResourceInvoker invoker)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Logged|17_1(ResourceInvoker invoker)
+   at Microsoft.AspNetCore.Routing.EndpointMiddleware.<Invoke>g__AwaitRequestTask|6_0(Endpoint endpoint, Task requestTask, ILogger logger)
+   at Microsoft.AspNetCore.Authorization.AuthorizationMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Authorization.AuthorizationMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Authentication.AuthenticationMiddleware.Invoke(HttpContext context)
+   at Swashbuckle.AspNetCore.SwaggerUI.SwaggerUIMiddleware.Invoke(HttpContext httpContext)
+   at Swashbuckle.AspNetCore.Swagger.SwaggerMiddleware.Invoke(HttpContext httpContext, ISwaggerProvider swaggerProvider)
+   at Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddlewareImpl.Invoke(HttpContext context)
+2023-09-06 14:19:44.059 +05:00 [INF] Request finished HTTP/1.1 GET http://localhost:5279/api/v1/user/base-order/get - - - 500 - text/plain;+charset=utf-8 986.4509ms
+2023-09-06 14:29:47.392 +05:00 [INF] Application is shutting down...
+2023-09-06 14:30:07.843 +05:00 [INF] User profile is available. Using '/Users/azizjonabdugafforov/.aspnet/DataProtection-Keys' as key repository; keys will not be encrypted at rest.
+2023-09-06 14:30:07.888 +05:00 [INF] Now listening on: http://localhost:5279
+2023-09-06 14:30:07.888 +05:00 [INF] Application started. Press Ctrl+C to shut down.
+2023-09-06 14:30:07.889 +05:00 [INF] Hosting environment: Development
+2023-09-06 14:30:07.889 +05:00 [INF] Content root path: /Users/azizjonabdugafforov/Desktop/Code/level 6/BIS_project/BIS_project
+2023-09-06 14:30:08.491 +05:00 [INF] Request starting HTTP/1.1 GET http://localhost:5279/swagger/index.html - -
+2023-09-06 14:30:08.559 +05:00 [INF] Request finished HTTP/1.1 GET http://localhost:5279/swagger/index.html - - - 200 - text/html;charset=utf-8 69.3163ms
+2023-09-06 14:30:08.656 +05:00 [INF] Request starting HTTP/1.1 GET http://localhost:5279/swagger/v1/swagger.json - -
+2023-09-06 14:30:08.725 +05:00 [INF] Request finished HTTP/1.1 GET http://localhost:5279/swagger/v1/swagger.json - - - 200 - application/json;charset=utf-8 69.6365ms
+2023-09-06 14:30:34.665 +05:00 [INF] Request starting HTTP/1.1 POST http://localhost:5279/api/v1/Region/Insert application/json 31
+2023-09-06 14:30:34.711 +05:00 [WRN] Failed to determine the https port for redirect.
+2023-09-06 14:30:34.713 +05:00 [INF] CORS policy execution successful.
+2023-09-06 14:30:34.714 +05:00 [INF] Executing endpoint 'BIS_project.Controllers.RegionController.InsertAsync (BIS_project)'
+2023-09-06 14:30:34.728 +05:00 [INF] Route matched with {action = "Insert", controller = "Region"}. Executing controller action with signature System.Threading.Tasks.Task`1[System.Boolean] InsertAsync(BIS_project.Dtos.RegionDto) on controller BIS_project.Controllers.RegionController (BIS_project).
+2023-09-06 14:30:35.693 +05:00 [INF] Executing ObjectResult, writing value of type 'System.Boolean'.
+2023-09-06 14:30:35.697 +05:00 [INF] Executed action BIS_project.Controllers.RegionController.InsertAsync (BIS_project) in 966.5041ms
+2023-09-06 14:30:35.700 +05:00 [INF] Executed endpoint 'BIS_project.Controllers.RegionController.InsertAsync (BIS_project)'
+2023-09-06 14:30:35.707 +05:00 [INF] Request finished HTTP/1.1 POST http://localhost:5279/api/v1/Region/Insert application/json 31 - 200 - application/json;+charset=utf-8 1042.4826ms
+2023-09-06 14:30:40.277 +05:00 [INF] Request starting HTTP/1.1 GET http://localhost:5279/api/v1/Region/GetAll - -
+2023-09-06 14:30:40.283 +05:00 [INF] Executing endpoint 'BIS_project.Controllers.RegionController.GetAllAsync (BIS_project)'
+2023-09-06 14:30:40.287 +05:00 [INF] Route matched with {action = "GetAll", controller = "Region"}. Executing controller action with signature System.Threading.Tasks.Task`1[System.Collections.Generic.List`1[BIS_project.Models.Region]] GetAllAsync() on controller BIS_project.Controllers.RegionController (BIS_project).
+2023-09-06 14:30:40.325 +05:00 [INF] Executing ObjectResult, writing value of type 'System.Collections.Generic.List`1[[BIS_project.Models.Region, BIS_project, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]'.
+2023-09-06 14:30:40.328 +05:00 [INF] Executed action BIS_project.Controllers.RegionController.GetAllAsync (BIS_project) in 40.3442ms
+2023-09-06 14:30:40.328 +05:00 [INF] Executed endpoint 'BIS_project.Controllers.RegionController.GetAllAsync (BIS_project)'
+2023-09-06 14:30:40.328 +05:00 [INF] Request finished HTTP/1.1 GET http://localhost:5279/api/v1/Region/GetAll - - - 200 - application/json;+charset=utf-8 51.6340ms
+2023-09-06 14:31:00.372 +05:00 [INF] Request starting HTTP/1.1 POST http://localhost:5279/api/v1/District/Insert application/json 51
+2023-09-06 14:31:00.376 +05:00 [INF] CORS policy execution successful.
+2023-09-06 14:31:00.377 +05:00 [INF] Executing endpoint 'BIS_project.Controllers.DistrictController.InsertAsync (BIS_project)'
+2023-09-06 14:31:00.382 +05:00 [INF] Route matched with {action = "Insert", controller = "District"}. Executing controller action with signature System.Threading.Tasks.Task`1[System.Boolean] InsertAsync(BIS_project.Dtos.DistrictDto) on controller BIS_project.Controllers.DistrictController (BIS_project).
+2023-09-06 14:31:00.477 +05:00 [INF] Executing ObjectResult, writing value of type 'System.Boolean'.
+2023-09-06 14:31:00.477 +05:00 [INF] Executed action BIS_project.Controllers.DistrictController.InsertAsync (BIS_project) in 94.7916ms
+2023-09-06 14:31:00.477 +05:00 [INF] Executed endpoint 'BIS_project.Controllers.DistrictController.InsertAsync (BIS_project)'
+2023-09-06 14:31:00.477 +05:00 [INF] Request finished HTTP/1.1 POST http://localhost:5279/api/v1/District/Insert application/json 51 - 200 - application/json;+charset=utf-8 105.8506ms
+2023-09-06 14:31:16.104 +05:00 [INF] Request starting HTTP/1.1 POST http://localhost:5279/api/v1/Region/Insert application/json 32
+2023-09-06 14:31:16.106 +05:00 [INF] CORS policy execution successful.
+2023-09-06 14:31:16.106 +05:00 [INF] Executing endpoint 'BIS_project.Controllers.RegionController.InsertAsync (BIS_project)'
+2023-09-06 14:31:16.106 +05:00 [INF] Route matched with {action = "Insert", controller = "Region"}. Executing controller action with signature System.Threading.Tasks.Task`1[System.Boolean] InsertAsync(BIS_project.Dtos.RegionDto) on controller BIS_project.Controllers.RegionController (BIS_project).
+2023-09-06 14:31:16.130 +05:00 [INF] Executing ObjectResult, writing value of type 'System.Boolean'.
+2023-09-06 14:31:16.130 +05:00 [INF] Executed action BIS_project.Controllers.RegionController.InsertAsync (BIS_project) in 24.3007ms
+2023-09-06 14:31:16.131 +05:00 [INF] Executed endpoint 'BIS_project.Controllers.RegionController.InsertAsync (BIS_project)'
+2023-09-06 14:31:16.131 +05:00 [INF] Request finished HTTP/1.1 POST http://localhost:5279/api/v1/Region/Insert application/json 32 - 200 - application/json;+charset=utf-8 26.7492ms
+2023-09-06 14:31:28.167 +05:00 [INF] Request starting HTTP/1.1 POST http://localhost:5279/api/v1/District/Insert application/json 46
+2023-09-06 14:31:28.169 +05:00 [INF] CORS policy execution successful.
+2023-09-06 14:31:28.169 +05:00 [INF] Executing endpoint 'BIS_project.Controllers.DistrictController.InsertAsync (BIS_project)'
+2023-09-06 14:31:28.169 +05:00 [INF] Route matched with {action = "Insert", controller = "District"}. Executing controller action with signature System.Threading.Tasks.Task`1[System.Boolean] InsertAsync(BIS_project.Dtos.DistrictDto) on controller BIS_project.Controllers.DistrictController (BIS_project).
+2023-09-06 14:31:28.198 +05:00 [INF] Executing ObjectResult, writing value of type 'System.Boolean'.
+2023-09-06 14:31:28.198 +05:00 [INF] Executed action BIS_project.Controllers.DistrictController.InsertAsync (BIS_project) in 28.8527ms
+2023-09-06 14:31:28.198 +05:00 [INF] Executed endpoint 'BIS_project.Controllers.DistrictController.InsertAsync (BIS_project)'
+2023-09-06 14:31:28.199 +05:00 [INF] Request finished HTTP/1.1 POST http://localhost:5279/api/v1/District/Insert application/json 46 - 200 - application/json;+charset=utf-8 32.1206ms
+2023-09-06 14:33:41.590 +05:00 [INF] Request starting HTTP/1.1 POST http://localhost:5279/api/v1/user/base-order application/json 508
+2023-09-06 14:33:41.594 +05:00 [INF] CORS policy execution successful.
+2023-09-06 14:33:41.594 +05:00 [INF] Executing endpoint 'BIS_project.Controllers.OrderController.CreateOrder (BIS_project)'
+2023-09-06 14:33:41.600 +05:00 [INF] Route matched with {action = "CreateOrder", controller = "Order"}. Executing controller action with signature System.Threading.Tasks.Task`1[BIS_project.Helper.APIResponse] CreateOrder(BIS_project.Dtos.BaseOrderDto) on controller BIS_project.Controllers.OrderController (BIS_project).
+2023-09-06 14:33:41.813 +05:00 [INF] Executing ObjectResult, writing value of type 'BIS_project.Helper.APIResponse'.
+2023-09-06 14:33:41.815 +05:00 [INF] Executed action BIS_project.Controllers.OrderController.CreateOrder (BIS_project) in 214.3156ms
+2023-09-06 14:33:41.815 +05:00 [INF] Executed endpoint 'BIS_project.Controllers.OrderController.CreateOrder (BIS_project)'
+2023-09-06 14:33:41.815 +05:00 [INF] Request finished HTTP/1.1 POST http://localhost:5279/api/v1/user/base-order application/json 508 - 200 - application/json;+charset=utf-8 224.8731ms
+2023-09-06 14:34:38.585 +05:00 [INF] Application is shutting down...
+2023-09-06 14:34:40.348 +05:00 [INF] User profile is available. Using '/Users/azizjonabdugafforov/.aspnet/DataProtection-Keys' as key repository; keys will not be encrypted at rest.
+2023-09-06 14:34:40.393 +05:00 [INF] Now listening on: http://localhost:5279
+2023-09-06 14:34:40.393 +05:00 [INF] Application started. Press Ctrl+C to shut down.
+2023-09-06 14:34:40.393 +05:00 [INF] Hosting environment: Development
+2023-09-06 14:34:40.393 +05:00 [INF] Content root path: /Users/azizjonabdugafforov/Desktop/Code/level 6/BIS_project/BIS_project
+2023-09-06 14:34:41.001 +05:00 [INF] Request starting HTTP/1.1 GET http://localhost:5279/swagger/index.html - -
+2023-09-06 14:34:41.061 +05:00 [INF] Request finished HTTP/1.1 GET http://localhost:5279/swagger/index.html - - - 200 - text/html;charset=utf-8 60.9109ms
+2023-09-06 14:34:41.142 +05:00 [INF] Request starting HTTP/1.1 GET http://localhost:5279/swagger/v1/swagger.json - -
+2023-09-06 14:34:41.216 +05:00 [INF] Request finished HTTP/1.1 GET http://localhost:5279/swagger/v1/swagger.json - - - 200 - application/json;charset=utf-8 73.3530ms
+2023-09-06 14:35:05.982 +05:00 [INF] Request starting HTTP/1.1 POST http://localhost:5279/api/v1/user/base-order application/json 508
+2023-09-06 14:35:06.029 +05:00 [WRN] Failed to determine the https port for redirect.
+2023-09-06 14:35:06.031 +05:00 [INF] CORS policy execution successful.
+2023-09-06 14:35:06.033 +05:00 [INF] Executing endpoint 'BIS_project.Controllers.OrderController.CreateOrder (BIS_project)'
+2023-09-06 14:35:06.050 +05:00 [INF] Route matched with {action = "CreateOrder", controller = "Order"}. Executing controller action with signature System.Threading.Tasks.Task`1[BIS_project.Helper.APIResponse] CreateOrder(BIS_project.Dtos.BaseOrderDto) on controller BIS_project.Controllers.OrderController (BIS_project).
+2023-09-06 14:35:07.240 +05:00 [INF] Executing ObjectResult, writing value of type 'BIS_project.Helper.APIResponse'.
+2023-09-06 14:35:07.247 +05:00 [INF] Executed action BIS_project.Controllers.OrderController.CreateOrder (BIS_project) in 1193.9636ms
+2023-09-06 14:35:07.251 +05:00 [INF] Executed endpoint 'BIS_project.Controllers.OrderController.CreateOrder (BIS_project)'
+2023-09-06 14:35:07.261 +05:00 [INF] Request finished HTTP/1.1 POST http://localhost:5279/api/v1/user/base-order application/json 508 - 200 - application/json;+charset=utf-8 1279.3078ms
+2023-09-06 14:36:17.443 +05:00 [INF] Request starting HTTP/1.1 POST http://localhost:5279/api/v1/user/base-order application/json 508
+2023-09-06 14:36:17.457 +05:00 [INF] CORS policy execution successful.
+2023-09-06 14:36:17.457 +05:00 [INF] Executing endpoint 'BIS_project.Controllers.OrderController.CreateOrder (BIS_project)'
+2023-09-06 14:36:17.459 +05:00 [INF] Route matched with {action = "CreateOrder", controller = "Order"}. Executing controller action with signature System.Threading.Tasks.Task`1[BIS_project.Helper.APIResponse] CreateOrder(BIS_project.Dtos.BaseOrderDto) on controller BIS_project.Controllers.OrderController (BIS_project).
+2023-09-06 14:36:20.368 +05:00 [INF] Executing ObjectResult, writing value of type 'BIS_project.Helper.APIResponse'.
+2023-09-06 14:36:20.368 +05:00 [INF] Executed action BIS_project.Controllers.OrderController.CreateOrder (BIS_project) in 2909.2179ms
+2023-09-06 14:36:20.368 +05:00 [INF] Executed endpoint 'BIS_project.Controllers.OrderController.CreateOrder (BIS_project)'
+2023-09-06 14:36:20.369 +05:00 [INF] Request finished HTTP/1.1 POST http://localhost:5279/api/v1/user/base-order application/json 508 - 200 - application/json;+charset=utf-8 2926.0451ms
+2023-09-06 14:37:29.584 +05:00 [INF] Request starting HTTP/1.1 POST http://localhost:5279/api/v1/Auth/Login application/json 75
+2023-09-06 14:37:29.592 +05:00 [INF] CORS policy execution successful.
+2023-09-06 14:37:29.593 +05:00 [INF] Executing endpoint 'BIS_project.Controllers.AuthController.Login (BIS_project)'
+2023-09-06 14:37:29.600 +05:00 [INF] Route matched with {action = "Login", controller = "Auth"}. Executing controller action with signature System.Threading.Tasks.Task`1[System.Object] Login(BIS_project.Dtos.UserDto) on controller BIS_project.Controllers.AuthController (BIS_project).
+2023-09-06 14:37:29.683 +05:00 [INF] Executing ObjectResult, writing value of type 'System.String'.
+2023-09-06 14:37:29.683 +05:00 [INF] Executed action BIS_project.Controllers.AuthController.Login (BIS_project) in 83.0612ms
+2023-09-06 14:37:29.683 +05:00 [INF] Executed endpoint 'BIS_project.Controllers.AuthController.Login (BIS_project)'
+2023-09-06 14:37:29.683 +05:00 [INF] Request finished HTTP/1.1 POST http://localhost:5279/api/v1/Auth/Login application/json 75 - 500 - text/plain;+charset=utf-8 99.3793ms
+2023-09-06 14:38:39.845 +05:00 [INF] Application is shutting down...
+2023-09-06 14:38:40.820 +05:00 [INF] User profile is available. Using '/Users/azizjonabdugafforov/.aspnet/DataProtection-Keys' as key repository; keys will not be encrypted at rest.
+2023-09-06 14:38:40.869 +05:00 [INF] Now listening on: http://localhost:5279
+2023-09-06 14:38:40.870 +05:00 [INF] Application started. Press Ctrl+C to shut down.
+2023-09-06 14:38:40.870 +05:00 [INF] Hosting environment: Development
+2023-09-06 14:38:40.870 +05:00 [INF] Content root path: /Users/azizjonabdugafforov/Desktop/Code/level 6/BIS_project/BIS_project
+2023-09-06 14:38:41.491 +05:00 [INF] Request starting HTTP/1.1 GET http://localhost:5279/swagger/index.html - -
+2023-09-06 14:38:41.550 +05:00 [INF] Request finished HTTP/1.1 GET http://localhost:5279/swagger/index.html - - - 200 - text/html;charset=utf-8 59.8307ms
+2023-09-06 14:38:41.635 +05:00 [INF] Request starting HTTP/1.1 GET http://localhost:5279/swagger/v1/swagger.json - -
+2023-09-06 14:38:41.715 +05:00 [INF] Request finished HTTP/1.1 GET http://localhost:5279/swagger/v1/swagger.json - - - 200 - application/json;charset=utf-8 79.5603ms
+2023-09-06 14:38:46.969 +05:00 [INF] Request starting HTTP/1.1 POST http://localhost:5279/api/v1/Auth/Login application/json 75
+2023-09-06 14:38:47.003 +05:00 [WRN] Failed to determine the https port for redirect.
+2023-09-06 14:38:47.014 +05:00 [INF] CORS policy execution successful.
+2023-09-06 14:38:47.016 +05:00 [INF] Executing endpoint 'BIS_project.Controllers.AuthController.Login (BIS_project)'
+2023-09-06 14:38:47.033 +05:00 [INF] Route matched with {action = "Login", controller = "Auth"}. Executing controller action with signature System.Threading.Tasks.Task`1[System.Object] Login(BIS_project.Dtos.UserDto) on controller BIS_project.Controllers.AuthController (BIS_project).
+2023-09-06 14:38:47.903 +05:00 [INF] Executing ObjectResult, writing value of type 'System.String'.
+2023-09-06 14:38:47.906 +05:00 [INF] Executed action BIS_project.Controllers.AuthController.Login (BIS_project) in 870.1624ms
+2023-09-06 14:38:47.909 +05:00 [INF] Executed endpoint 'BIS_project.Controllers.AuthController.Login (BIS_project)'
+2023-09-06 14:38:47.916 +05:00 [INF] Request finished HTTP/1.1 POST http://localhost:5279/api/v1/Auth/Login application/json 75 - 500 - text/plain;+charset=utf-8 947.0651ms
+2023-09-06 14:39:09.805 +05:00 [INF] Request starting HTTP/1.1 POST http://localhost:5279/api/v1/Auth/Login application/json 75
+2023-09-06 14:39:09.810 +05:00 [INF] CORS policy execution successful.
+2023-09-06 14:39:09.810 +05:00 [INF] Executing endpoint 'BIS_project.Controllers.AuthController.Login (BIS_project)'
+2023-09-06 14:39:09.811 +05:00 [INF] Route matched with {action = "Login", controller = "Auth"}. Executing controller action with signature System.Threading.Tasks.Task`1[System.Object] Login(BIS_project.Dtos.UserDto) on controller BIS_project.Controllers.AuthController (BIS_project).
+2023-09-06 14:39:09.990 +05:00 [INF] Executing OkObjectResult, writing value of type '<>f__AnonymousType1`3[[BIS_project.Models.User, BIS_project, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null],[<>f__AnonymousType0`8[[System.String, System.Private.CoreLib, Version=7.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e],[System.String, System.Private.CoreLib, Version=7.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e],[System.String, System.Private.CoreLib, Version=7.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e],[System.DateOnly, System.Private.CoreLib, Version=7.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e],[BIS_project.Models.Image, BIS_project, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null],[System.String, System.Private.CoreLib, Version=7.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e],[System.String, System.Private.CoreLib, Version=7.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e],[System.String, System.Private.CoreLib, Version=7.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]], BIS_project, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null],[System.String, System.Private.CoreLib, Version=7.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]'.
+2023-09-06 14:39:09.994 +05:00 [INF] Executed action BIS_project.Controllers.AuthController.Login (BIS_project) in 183.0336ms
+2023-09-06 14:39:09.994 +05:00 [INF] Executed endpoint 'BIS_project.Controllers.AuthController.Login (BIS_project)'
+2023-09-06 14:39:09.995 +05:00 [INF] Request finished HTTP/1.1 POST http://localhost:5279/api/v1/Auth/Login application/json 75 - 200 - application/json;+charset=utf-8 189.5504ms

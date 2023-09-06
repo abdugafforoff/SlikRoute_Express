@@ -9,15 +9,16 @@ public class Order
     [DatabaseGenerated(DatabaseGeneratedOption.Identity)]
     public int Id { get; set; }
     public List<Employee> Employees { get; set; }
-    public Driver Driver { get; set; }
     public Client Client { get; set; }
     public string Status { get; set; }// pending, active, shipped
+    [Column(TypeName = "timestamptz")] // Specify PostgreSQL type
     public DateTime StartTime { get; set; }
+    [Column(TypeName = "timestamptz")] // Specify PostgreSQL type
     public DateTime FinishTime { get; set; }
     [MaxLength(500)]
-    public string Comment { get; set; }
-    public string StartPoint { get; set; } // map startpoint
-    public string EndPoint { get; set; }//map endpoint
+    public string? Comment { get; set; }
+    public List<string> StartPoint { get; set; } // map startpoint
+    public List<string> EndPoint { get; set; }//map endpoint
     public int TotalAmount { get; set; } // means the amount of money of shipping
     public List<Image> ProductImages { get; set; }
     public List<Image> StartImage { get; set; }
@@ -30,8 +31,10 @@ public class Order
     public string LoadDayTime { get; set; }
     public DateOnly FromLoadTime { get; set; }
     public DateOnly ToLoadTime { get; set; }
+    [Column(TypeName = "timestamptz")] // Specify PostgreSQL type
     public DateTime CreatedAt { get; set; }
     public string PaymentType { get; set; }// uzum pay, payme, humo,
     public List<string> Services { get; set; } // packing, unpacking, car shipping, storage, debris removal,
     public string HomeType { get; set; } // apartment, house
+    
 }

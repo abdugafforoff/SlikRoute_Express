@@ -70,3 +70,6 @@
 /Users/azizjonabdugafforov/Desktop/Code/level 6/BIS_project/BIS_project/bin/Debug/net7.0/Serilog.Sinks.Console.dll
 /Users/azizjonabdugafforov/Desktop/Code/level 6/BIS_project/BIS_project/bin/Debug/net7.0/Serilog.Sinks.Debug.dll
 /Users/azizjonabdugafforov/Desktop/Code/level 6/BIS_project/BIS_project/bin/Debug/net7.0/Serilog.Sinks.File.dll
+/Users/azizjonabdugafforov/Desktop/Code/level 6/BIS_project/BIS_project/bin/Debug/net7.0/BouncyCastle.Cryptography.dll
+/Users/azizjonabdugafforov/Desktop/Code/level 6/BIS_project/BIS_project/bin/Debug/net7.0/MailKit.dll
+/Users/azizjonabdugafforov/Desktop/Code/level 6/BIS_project/BIS_project/bin/Debug/net7.0/MimeKit.dll

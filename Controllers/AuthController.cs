@@ -34,11 +34,25 @@ public class AuthController : ControllerBase
         try
         {
             User user = await _authService.UserLogin(request);
-            Employee emp = await _employee.GetEmployeeByName(user);
+            Employee employee = await _employee.GetEmployeeByName(user);
             if (user == null)
             {
                 return Unauthorized();
             }
+            
+                var emp = employee != null? new
+                {
+                    employee.Firstname,
+                    employee.Lastname,
+                    employee.Position.Title,
+                    employee.DateOfBirth,
+                    employee.Image,
+                    employee.Branch.BranchName,
+                    employee.Branch.District.Name,
+                    employee.Branch.Region.RegionName,
+                }: null;
+            
+            
             var claims = new List<Claim>
             {
                 new Claim(ClaimTypes.Name, user.UserName),

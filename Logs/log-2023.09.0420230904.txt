@@ -130,3 +130,1164 @@
 2023-09-04 12:30:21.907 +05:00 [INF] Executed action BIS_project.Controllers.DistrictController.GetAllAsync (BIS_project) in 130.4592ms
 2023-09-04 12:30:21.907 +05:00 [INF] Executed endpoint 'BIS_project.Controllers.DistrictController.GetAllAsync (BIS_project)'
 2023-09-04 12:30:21.907 +05:00 [INF] Request finished HTTP/1.1 GET http://localhost:5279/api/v1/District/GetAll - - - 200 - application/json;+charset=utf-8 136.2759ms
+2023-09-04 14:11:39.250 +05:00 [INF] Request starting HTTP/1.1 GET http://localhost:5279/swagger/index.html - -
+2023-09-04 14:11:39.257 +05:00 [INF] Request finished HTTP/1.1 GET http://localhost:5279/swagger/index.html - - - 200 - text/html;charset=utf-8 8.0908ms
+2023-09-04 14:11:39.335 +05:00 [INF] Request starting HTTP/1.1 GET http://localhost:5279/swagger/v1/swagger.json - -
+2023-09-04 14:11:39.357 +05:00 [INF] Request finished HTTP/1.1 GET http://localhost:5279/swagger/v1/swagger.json - - - 200 - application/json;charset=utf-8 22.4009ms
+2023-09-04 14:34:45.648 +05:00 [INF] Request starting HTTP/1.1 GET http://localhost:5279/api/v1/District/ByRegion/1 - -
+2023-09-04 14:34:45.662 +05:00 [INF] Executing endpoint 'BIS_project.Controllers.DistrictController.GetDistrictById (BIS_project)'
+2023-09-04 14:34:45.682 +05:00 [INF] Route matched with {action = "GetDistrictById", controller = "District"}. Executing controller action with signature System.Threading.Tasks.Task`1[System.Collections.Generic.List`1[BIS_project.Models.District]] GetDistrictById(Int32) on controller BIS_project.Controllers.DistrictController (BIS_project).
+2023-09-04 14:34:45.791 +05:00 [INF] Executing ObjectResult, writing value of type 'System.Collections.Generic.List`1[[BIS_project.Models.District, BIS_project, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]'.
+2023-09-04 14:34:45.791 +05:00 [INF] Executed action BIS_project.Controllers.DistrictController.GetDistrictById (BIS_project) in 108.3195ms
+2023-09-04 14:34:45.791 +05:00 [INF] Executed endpoint 'BIS_project.Controllers.DistrictController.GetDistrictById (BIS_project)'
+2023-09-04 14:34:45.791 +05:00 [INF] Request finished HTTP/1.1 GET http://localhost:5279/api/v1/District/ByRegion/1 - - - 200 - application/json;+charset=utf-8 143.5675ms
+2023-09-04 14:35:35.756 +05:00 [INF] Request starting HTTP/1.1 POST http://localhost:5279/api/v1/Auth/Login application/json 48
+2023-09-04 14:35:35.765 +05:00 [INF] No CORS policy found for the specified request.
+2023-09-04 14:35:35.766 +05:00 [INF] Executing endpoint 'BIS_project.Controllers.AuthController.Login (BIS_project)'
+2023-09-04 14:35:35.777 +05:00 [INF] Route matched with {action = "Login", controller = "Auth"}. Executing controller action with signature System.Threading.Tasks.Task`1[System.Object] Login(BIS_project.Dtos.UserDto) on controller BIS_project.Controllers.AuthController (BIS_project).
+2023-09-04 14:35:35.948 +05:00 [INF] Executing OkObjectResult, writing value of type '<>f__AnonymousType0`3[[BIS_project.Models.User, BIS_project, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null],[BIS_project.Models.Employee, BIS_project, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null],[System.String, System.Private.CoreLib, Version=7.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]'.
+2023-09-04 14:35:35.952 +05:00 [INF] Executed action BIS_project.Controllers.AuthController.Login (BIS_project) in 174.7596ms
+2023-09-04 14:35:35.952 +05:00 [INF] Executed endpoint 'BIS_project.Controllers.AuthController.Login (BIS_project)'
+2023-09-04 14:35:35.952 +05:00 [INF] Request finished HTTP/1.1 POST http://localhost:5279/api/v1/Auth/Login application/json 48 - 200 - application/json;+charset=utf-8 196.1862ms
+2023-09-04 14:39:43.904 +05:00 [INF] Application is shutting down...
+2023-09-04 14:39:47.167 +05:00 [INF] User profile is available. Using '/Users/azizjonabdugafforov/.aspnet/DataProtection-Keys' as key repository; keys will not be encrypted at rest.
+2023-09-04 14:39:47.221 +05:00 [INF] Now listening on: http://localhost:5279
+2023-09-04 14:39:47.222 +05:00 [INF] Application started. Press Ctrl+C to shut down.
+2023-09-04 14:39:47.222 +05:00 [INF] Hosting environment: Development
+2023-09-04 14:39:47.222 +05:00 [INF] Content root path: /Users/azizjonabdugafforov/Desktop/Code/level 6/BIS_project/BIS_project
+2023-09-04 14:39:47.810 +05:00 [INF] Request starting HTTP/1.1 GET http://localhost:5279/swagger/index.html - -
+2023-09-04 14:39:47.876 +05:00 [INF] Request finished HTTP/1.1 GET http://localhost:5279/swagger/index.html - - - 200 - text/html;charset=utf-8 67.4142ms
+2023-09-04 14:39:47.979 +05:00 [INF] Request starting HTTP/1.1 GET http://localhost:5279/swagger/v1/swagger.json - -
+2023-09-04 14:39:48.045 +05:00 [INF] Request finished HTTP/1.1 GET http://localhost:5279/swagger/v1/swagger.json - - - 200 - application/json;charset=utf-8 66.0671ms
+2023-09-04 14:40:40.248 +05:00 [INF] Request starting HTTP/1.1 POST http://localhost:5279/api/v1/Branch/Insert application/json 64
+2023-09-04 14:40:40.299 +05:00 [WRN] Failed to determine the https port for redirect.
+2023-09-04 14:40:40.301 +05:00 [INF] No CORS policy found for the specified request.
+2023-09-04 14:40:40.305 +05:00 [INF] Executing endpoint 'BIS_project.Controllers.BranchController.InsertAsync (BIS_project)'
+2023-09-04 14:40:40.323 +05:00 [INF] Route matched with {action = "Insert", controller = "Branch"}. Executing controller action with signature System.Threading.Tasks.Task`1[System.Boolean] InsertAsync(BIS_project.Dtos.BranchDto) on controller BIS_project.Controllers.BranchController (BIS_project).
+2023-09-04 14:40:41.327 +05:00 [INF] Executing ObjectResult, writing value of type 'System.Boolean'.
+2023-09-04 14:40:41.331 +05:00 [INF] Executed action BIS_project.Controllers.BranchController.InsertAsync (BIS_project) in 1006.1892ms
+2023-09-04 14:40:41.335 +05:00 [INF] Executed endpoint 'BIS_project.Controllers.BranchController.InsertAsync (BIS_project)'
+2023-09-04 14:40:41.343 +05:00 [INF] Request finished HTTP/1.1 POST http://localhost:5279/api/v1/Branch/Insert application/json 64 - 200 - application/json;+charset=utf-8 1095.7915ms
+2023-09-04 14:40:46.524 +05:00 [INF] Request starting HTTP/1.1 GET http://localhost:5279/api/v1/Branch/GetAll - -
+2023-09-04 14:40:46.527 +05:00 [INF] Executing endpoint 'BIS_project.Controllers.BranchController.GetAllAsync (BIS_project)'
+2023-09-04 14:40:46.529 +05:00 [INF] Route matched with {action = "GetAll", controller = "Branch"}. Executing controller action with signature System.Threading.Tasks.Task`1[System.Collections.Generic.List`1[BIS_project.Models.Branch]] GetAllAsync() on controller BIS_project.Controllers.BranchController (BIS_project).
+2023-09-04 14:40:46.595 +05:00 [INF] Executing ObjectResult, writing value of type 'System.Collections.Generic.List`1[[BIS_project.Models.Branch, BIS_project, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]'.
+2023-09-04 14:40:46.598 +05:00 [INF] Executed action BIS_project.Controllers.BranchController.GetAllAsync (BIS_project) in 69.012ms
+2023-09-04 14:40:46.598 +05:00 [INF] Executed endpoint 'BIS_project.Controllers.BranchController.GetAllAsync (BIS_project)'
+2023-09-04 14:40:46.599 +05:00 [INF] Request finished HTTP/1.1 GET http://localhost:5279/api/v1/Branch/GetAll - - - 200 - application/json;+charset=utf-8 74.3475ms
+2023-09-04 14:41:26.248 +05:00 [INF] Request starting HTTP/1.1 GET http://localhost:5279/api/v1/Position/GetAll - -
+2023-09-04 14:41:26.252 +05:00 [INF] Executing endpoint 'BIS_project.Controllers.PositionController.GetAllAsync (BIS_project)'
+2023-09-04 14:41:26.257 +05:00 [INF] Route matched with {action = "GetAll", controller = "Position"}. Executing controller action with signature System.Threading.Tasks.Task`1[System.Collections.Generic.List`1[BIS_project.Models.Position]] GetAllAsync() on controller BIS_project.Controllers.PositionController (BIS_project).
+2023-09-04 14:41:26.337 +05:00 [INF] Executing ObjectResult, writing value of type 'System.Collections.Generic.List`1[[BIS_project.Models.Position, BIS_project, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]'.
+2023-09-04 14:41:26.339 +05:00 [INF] Executed action BIS_project.Controllers.PositionController.GetAllAsync (BIS_project) in 81.7058ms
+2023-09-04 14:41:26.339 +05:00 [INF] Executed endpoint 'BIS_project.Controllers.PositionController.GetAllAsync (BIS_project)'
+2023-09-04 14:41:26.339 +05:00 [INF] Request finished HTTP/1.1 GET http://localhost:5279/api/v1/Position/GetAll - - - 200 - application/json;+charset=utf-8 90.5166ms
+2023-09-04 14:42:18.106 +05:00 [INF] Request starting HTTP/1.1 POST http://localhost:5279/api/v1/Employee multipart/form-data;+boundary=----WebKitFormBoundaryO6KTJOUnXyiui4yA 184122
+2023-09-04 14:42:18.116 +05:00 [INF] Authorization failed. These requirements were not met:
+RolesAuthorizationRequirement:User.IsInRole must be true for one of the following roles: (ADMIN)
+2023-09-04 14:42:18.122 +05:00 [INF] AuthenticationScheme: Bearer was challenged.
+2023-09-04 14:42:18.123 +05:00 [INF] Request finished HTTP/1.1 POST http://localhost:5279/api/v1/Employee multipart/form-data;+boundary=----WebKitFormBoundaryO6KTJOUnXyiui4yA 184122 - 401 0 - 16.8357ms
+2023-09-04 14:42:30.889 +05:00 [INF] Request starting HTTP/1.1 POST http://localhost:5279/api/v1/Auth/Login application/json 48
+2023-09-04 14:42:30.889 +05:00 [INF] No CORS policy found for the specified request.
+2023-09-04 14:42:30.889 +05:00 [INF] Executing endpoint 'BIS_project.Controllers.AuthController.Login (BIS_project)'
+2023-09-04 14:42:30.895 +05:00 [INF] Route matched with {action = "Login", controller = "Auth"}. Executing controller action with signature System.Threading.Tasks.Task`1[System.Object] Login(BIS_project.Dtos.UserDto) on controller BIS_project.Controllers.AuthController (BIS_project).
+2023-09-04 14:42:31.022 +05:00 [INF] Executing OkObjectResult, writing value of type '<>f__AnonymousType0`3[[BIS_project.Models.User, BIS_project, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null],[BIS_project.Models.Employee, BIS_project, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null],[System.String, System.Private.CoreLib, Version=7.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]'.
+2023-09-04 14:42:31.025 +05:00 [INF] Executed action BIS_project.Controllers.AuthController.Login (BIS_project) in 128.9671ms
+2023-09-04 14:42:31.025 +05:00 [INF] Executed endpoint 'BIS_project.Controllers.AuthController.Login (BIS_project)'
+2023-09-04 14:42:31.025 +05:00 [INF] Request finished HTTP/1.1 POST http://localhost:5279/api/v1/Auth/Login application/json 48 - 200 - application/json;+charset=utf-8 135.9102ms
+2023-09-04 14:42:48.929 +05:00 [INF] Request starting HTTP/1.1 POST http://localhost:5279/api/v1/Employee multipart/form-data;+boundary=----WebKitFormBoundaryUUwaVWVaSM1N1QxV 184122
+2023-09-04 14:42:48.989 +05:00 [INF] No CORS policy found for the specified request.
+2023-09-04 14:42:48.990 +05:00 [INF] Executing endpoint 'BIS_project.Controllers.EmployeeController.CreateEmployee (BIS_project)'
+2023-09-04 14:42:48.994 +05:00 [INF] Route matched with {action = "CreateEmployee", controller = "Employee"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] CreateEmployee(BIS_project.Models.EmployeeModel) on controller BIS_project.Controllers.EmployeeController (BIS_project).
+2023-09-04 14:42:49.090 +05:00 [INF] Executing OkObjectResult, writing value of type 'System.Boolean'.
+2023-09-04 14:42:49.090 +05:00 [INF] Executed action BIS_project.Controllers.EmployeeController.CreateEmployee (BIS_project) in 96.2932ms
+2023-09-04 14:42:49.090 +05:00 [INF] Executed endpoint 'BIS_project.Controllers.EmployeeController.CreateEmployee (BIS_project)'
+2023-09-04 14:42:49.091 +05:00 [INF] Request finished HTTP/1.1 POST http://localhost:5279/api/v1/Employee multipart/form-data;+boundary=----WebKitFormBoundaryUUwaVWVaSM1N1QxV 184122 - 200 - application/json;+charset=utf-8 162.3320ms
+2023-09-04 14:48:17.224 +05:00 [INF] Request starting HTTP/1.1 POST http://localhost:5279/api/v1/Employee multipart/form-data;+boundary=----WebKitFormBoundaryjoQ9GnySW1dZbqAW 906
+2023-09-04 14:48:17.231 +05:00 [INF] No CORS policy found for the specified request.
+2023-09-04 14:48:17.232 +05:00 [INF] Executing endpoint 'BIS_project.Controllers.EmployeeController.CreateEmployee (BIS_project)'
+2023-09-04 14:48:17.232 +05:00 [INF] Route matched with {action = "CreateEmployee", controller = "Employee"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] CreateEmployee(BIS_project.Models.EmployeeModel) on controller BIS_project.Controllers.EmployeeController (BIS_project).
+2023-09-04 14:48:17.262 +05:00 [INF] Executing BadRequestObjectResult, writing value of type 'Microsoft.AspNetCore.Mvc.ValidationProblemDetails'.
+2023-09-04 14:48:17.269 +05:00 [INF] Executed action BIS_project.Controllers.EmployeeController.CreateEmployee (BIS_project) in 37.1197ms
+2023-09-04 14:48:17.270 +05:00 [INF] Executed endpoint 'BIS_project.Controllers.EmployeeController.CreateEmployee (BIS_project)'
+2023-09-04 14:48:17.270 +05:00 [INF] Request finished HTTP/1.1 POST http://localhost:5279/api/v1/Employee multipart/form-data;+boundary=----WebKitFormBoundaryjoQ9GnySW1dZbqAW 906 - 400 - application/problem+json;+charset=utf-8 48.8135ms
+2023-09-04 14:48:29.468 +05:00 [INF] Application is shutting down...
+2023-09-04 14:48:31.559 +05:00 [INF] User profile is available. Using '/Users/azizjonabdugafforov/.aspnet/DataProtection-Keys' as key repository; keys will not be encrypted at rest.
+2023-09-04 14:48:31.604 +05:00 [INF] Now listening on: http://localhost:5279
+2023-09-04 14:48:31.605 +05:00 [INF] Application started. Press Ctrl+C to shut down.
+2023-09-04 14:48:31.605 +05:00 [INF] Hosting environment: Development
+2023-09-04 14:48:31.605 +05:00 [INF] Content root path: /Users/azizjonabdugafforov/Desktop/Code/level 6/BIS_project/BIS_project
+2023-09-04 14:48:32.233 +05:00 [INF] Request starting HTTP/1.1 GET http://localhost:5279/swagger/index.html - -
+2023-09-04 14:48:32.322 +05:00 [INF] Request finished HTTP/1.1 GET http://localhost:5279/swagger/index.html - - - 200 - text/html;charset=utf-8 89.7703ms
+2023-09-04 14:48:32.422 +05:00 [INF] Request starting HTTP/1.1 GET http://localhost:5279/swagger/v1/swagger.json - -
+2023-09-04 14:48:32.504 +05:00 [INF] Request finished HTTP/1.1 GET http://localhost:5279/swagger/v1/swagger.json - - - 200 - application/json;charset=utf-8 81.8018ms
+2023-09-04 14:48:41.404 +05:00 [INF] Request starting HTTP/1.1 POST http://localhost:5279/api/v1/Employee multipart/form-data;+boundary=----WebKitFormBoundarysH46z9eWBErZH3k8 41092
+2023-09-04 14:48:41.529 +05:00 [WRN] Failed to determine the https port for redirect.
+2023-09-04 14:48:41.531 +05:00 [INF] No CORS policy found for the specified request.
+2023-09-04 14:48:41.532 +05:00 [INF] Executing endpoint 'BIS_project.Controllers.EmployeeController.CreateEmployee (BIS_project)'
+2023-09-04 14:48:41.542 +05:00 [INF] Route matched with {action = "CreateEmployee", controller = "Employee"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] CreateEmployee(BIS_project.Models.EmployeeModel) on controller BIS_project.Controllers.EmployeeController (BIS_project).
+2023-09-04 14:48:42.555 +05:00 [INF] Executing OkObjectResult, writing value of type 'System.Boolean'.
+2023-09-04 14:48:42.562 +05:00 [INF] Executed action BIS_project.Controllers.EmployeeController.CreateEmployee (BIS_project) in 1017.3447ms
+2023-09-04 14:48:42.565 +05:00 [INF] Executed endpoint 'BIS_project.Controllers.EmployeeController.CreateEmployee (BIS_project)'
+2023-09-04 14:48:42.576 +05:00 [INF] Request finished HTTP/1.1 POST http://localhost:5279/api/v1/Employee multipart/form-data;+boundary=----WebKitFormBoundarysH46z9eWBErZH3k8 41092 - 200 - application/json;+charset=utf-8 1173.1119ms
+2023-09-04 14:58:13.759 +05:00 [INF] Application is shutting down...
+2023-09-04 15:09:01.182 +05:00 [INF] User profile is available. Using '/Users/azizjonabdugafforov/.aspnet/DataProtection-Keys' as key repository; keys will not be encrypted at rest.
+2023-09-04 15:09:01.242 +05:00 [INF] Now listening on: http://localhost:5279
+2023-09-04 15:09:01.243 +05:00 [INF] Application started. Press Ctrl+C to shut down.
+2023-09-04 15:09:01.243 +05:00 [INF] Hosting environment: Development
+2023-09-04 15:09:01.243 +05:00 [INF] Content root path: /Users/azizjonabdugafforov/Desktop/Code/level 6/BIS_project/BIS_project
+2023-09-04 15:09:01.646 +05:00 [INF] Request starting HTTP/1.1 GET http://localhost:5279/swagger/index.html - -
+2023-09-04 15:09:01.718 +05:00 [INF] Request finished HTTP/1.1 GET http://localhost:5279/swagger/index.html - - - 200 - text/html;charset=utf-8 72.5261ms
+2023-09-04 15:09:01.816 +05:00 [INF] Request starting HTTP/1.1 GET http://localhost:5279/swagger/v1/swagger.json - -
+2023-09-04 15:09:01.883 +05:00 [INF] Request finished HTTP/1.1 GET http://localhost:5279/swagger/v1/swagger.json - - - 200 - application/json;charset=utf-8 66.4772ms
+2023-09-04 15:09:12.208 +05:00 [INF] Request starting HTTP/1.1 OPTIONS http://localhost:5279/api/v1/Auth/login - -
+2023-09-04 15:09:12.208 +05:00 [INF] Request starting HTTP/1.1 OPTIONS http://localhost:5279/api/v1/Auth/login - -
+2023-09-04 15:09:12.252 +05:00 [WRN] Failed to determine the https port for redirect.
+2023-09-04 15:09:12.259 +05:00 [INF] No CORS policy found for the specified request.
+2023-09-04 15:09:12.259 +05:00 [INF] No CORS policy found for the specified request.
+2023-09-04 15:09:12.262 +05:00 [INF] Executing endpoint '405 HTTP Method Not Supported'
+2023-09-04 15:09:12.262 +05:00 [INF] Executing endpoint '405 HTTP Method Not Supported'
+2023-09-04 15:09:12.262 +05:00 [INF] Executed endpoint '405 HTTP Method Not Supported'
+2023-09-04 15:09:12.262 +05:00 [INF] Executed endpoint '405 HTTP Method Not Supported'
+2023-09-04 15:09:12.262 +05:00 [INF] Request finished HTTP/1.1 OPTIONS http://localhost:5279/api/v1/Auth/login - - - 405 0 - 55.0519ms
+2023-09-04 15:09:12.262 +05:00 [INF] Request finished HTTP/1.1 OPTIONS http://localhost:5279/api/v1/Auth/login - - - 405 0 - 55.0836ms
+2023-09-04 15:09:39.810 +05:00 [INF] Request starting HTTP/1.1 OPTIONS http://localhost:5279/api/v1/Auth/login - -
+2023-09-04 15:09:39.810 +05:00 [INF] Request starting HTTP/1.1 OPTIONS http://localhost:5279/api/v1/Auth/login - -
+2023-09-04 15:09:39.829 +05:00 [INF] No CORS policy found for the specified request.
+2023-09-04 15:09:39.830 +05:00 [INF] Executing endpoint '405 HTTP Method Not Supported'
+2023-09-04 15:09:39.830 +05:00 [INF] Executed endpoint '405 HTTP Method Not Supported'
+2023-09-04 15:09:39.830 +05:00 [INF] No CORS policy found for the specified request.
+2023-09-04 15:09:39.830 +05:00 [INF] Executing endpoint '405 HTTP Method Not Supported'
+2023-09-04 15:09:39.830 +05:00 [INF] Request finished HTTP/1.1 OPTIONS http://localhost:5279/api/v1/Auth/login - - - 405 0 - 21.3097ms
+2023-09-04 15:09:39.832 +05:00 [INF] Executed endpoint '405 HTTP Method Not Supported'
+2023-09-04 15:09:39.833 +05:00 [INF] Request finished HTTP/1.1 OPTIONS http://localhost:5279/api/v1/Auth/login - - - 405 0 - 23.7848ms
+2023-09-04 15:10:54.422 +05:00 [INF] Request starting HTTP/1.1 OPTIONS http://localhost:5279/api/v1/Auth/login - -
+2023-09-04 15:10:54.422 +05:00 [INF] Request starting HTTP/1.1 OPTIONS http://localhost:5279/api/v1/Auth/login - -
+2023-09-04 15:10:54.425 +05:00 [INF] No CORS policy found for the specified request.
+2023-09-04 15:10:54.425 +05:00 [INF] No CORS policy found for the specified request.
+2023-09-04 15:10:54.425 +05:00 [INF] Executing endpoint '405 HTTP Method Not Supported'
+2023-09-04 15:10:54.425 +05:00 [INF] Executing endpoint '405 HTTP Method Not Supported'
+2023-09-04 15:10:54.426 +05:00 [INF] Executed endpoint '405 HTTP Method Not Supported'
+2023-09-04 15:10:54.426 +05:00 [INF] Executed endpoint '405 HTTP Method Not Supported'
+2023-09-04 15:10:54.426 +05:00 [INF] Request finished HTTP/1.1 OPTIONS http://localhost:5279/api/v1/Auth/login - - - 405 0 - 5.0367ms
+2023-09-04 15:10:54.426 +05:00 [INF] Request finished HTTP/1.1 OPTIONS http://localhost:5279/api/v1/Auth/login - - - 405 0 - 5.0368ms
+2023-09-04 15:13:29.934 +05:00 [INF] Application is shutting down...
+2023-09-04 15:13:34.166 +05:00 [INF] User profile is available. Using '/Users/azizjonabdugafforov/.aspnet/DataProtection-Keys' as key repository; keys will not be encrypted at rest.
+2023-09-04 15:13:34.236 +05:00 [INF] Now listening on: http://localhost:5279
+2023-09-04 15:13:34.236 +05:00 [INF] Application started. Press Ctrl+C to shut down.
+2023-09-04 15:13:34.236 +05:00 [INF] Hosting environment: Development
+2023-09-04 15:13:34.236 +05:00 [INF] Content root path: /Users/azizjonabdugafforov/Desktop/Code/level 6/BIS_project/BIS_project
+2023-09-04 15:13:35.092 +05:00 [INF] Request starting HTTP/1.1 GET http://localhost:5279/swagger/index.html - -
+2023-09-04 15:13:35.182 +05:00 [INF] Request finished HTTP/1.1 GET http://localhost:5279/swagger/index.html - - - 200 - text/html;charset=utf-8 90.8709ms
+2023-09-04 15:13:35.540 +05:00 [INF] Request starting HTTP/1.1 GET http://localhost:5279/swagger/v1/swagger.json - -
+2023-09-04 15:13:35.615 +05:00 [INF] Request finished HTTP/1.1 GET http://localhost:5279/swagger/v1/swagger.json - - - 200 - application/json;charset=utf-8 74.5014ms
+2023-09-04 15:13:46.539 +05:00 [INF] Request starting HTTP/1.1 OPTIONS http://localhost:5279/api/v1/Auth/Login - -
+2023-09-04 15:13:46.539 +05:00 [INF] Request starting HTTP/1.1 OPTIONS http://localhost:5279/api/v1/Auth/Login - -
+2023-09-04 15:13:46.586 +05:00 [WRN] Failed to determine the https port for redirect.
+2023-09-04 15:13:46.588 +05:00 [INF] CORS policy execution successful.
+2023-09-04 15:13:46.588 +05:00 [INF] CORS policy execution successful.
+2023-09-04 15:13:46.589 +05:00 [INF] Request finished HTTP/1.1 OPTIONS http://localhost:5279/api/v1/Auth/Login - - - 204 - - 50.5038ms
+2023-09-04 15:13:46.589 +05:00 [INF] Request finished HTTP/1.1 OPTIONS http://localhost:5279/api/v1/Auth/Login - - - 204 - - 50.4943ms
+2023-09-04 15:13:46.593 +05:00 [INF] Request starting HTTP/1.1 POST http://localhost:5279/api/v1/Auth/Login application/json 52
+2023-09-04 15:13:46.593 +05:00 [INF] Request starting HTTP/1.1 POST http://localhost:5279/api/v1/Auth/Login application/json 52
+2023-09-04 15:13:46.664 +05:00 [INF] Failed to validate the token.
+Microsoft.IdentityModel.Tokens.SecurityTokenExpiredException: IDX10223: Lifetime validation failed. The token is expired. ValidTo: 'System.DateTime', Current time: 'System.DateTime'.
+   at Microsoft.IdentityModel.Tokens.Validators.ValidateLifetime(Nullable`1 notBefore, Nullable`1 expires, SecurityToken securityToken, TokenValidationParameters validationParameters)
+   at System.IdentityModel.Tokens.Jwt.JwtSecurityTokenHandler.ValidateLifetime(Nullable`1 notBefore, Nullable`1 expires, JwtSecurityToken jwtToken, TokenValidationParameters validationParameters)
+   at System.IdentityModel.Tokens.Jwt.JwtSecurityTokenHandler.ValidateTokenPayload(JwtSecurityToken jwtToken, TokenValidationParameters validationParameters)
+   at System.IdentityModel.Tokens.Jwt.JwtSecurityTokenHandler.ValidateToken(String token, TokenValidationParameters validationParameters, SecurityToken& validatedToken)
+   at Microsoft.AspNetCore.Authentication.JwtBearer.JwtBearerHandler.HandleAuthenticateAsync()
+2023-09-04 15:13:46.664 +05:00 [INF] Failed to validate the token.
+Microsoft.IdentityModel.Tokens.SecurityTokenExpiredException: IDX10223: Lifetime validation failed. The token is expired. ValidTo: 'System.DateTime', Current time: 'System.DateTime'.
+   at Microsoft.IdentityModel.Tokens.Validators.ValidateLifetime(Nullable`1 notBefore, Nullable`1 expires, SecurityToken securityToken, TokenValidationParameters validationParameters)
+   at System.IdentityModel.Tokens.Jwt.JwtSecurityTokenHandler.ValidateLifetime(Nullable`1 notBefore, Nullable`1 expires, JwtSecurityToken jwtToken, TokenValidationParameters validationParameters)
+   at System.IdentityModel.Tokens.Jwt.JwtSecurityTokenHandler.ValidateTokenPayload(JwtSecurityToken jwtToken, TokenValidationParameters validationParameters)
+   at System.IdentityModel.Tokens.Jwt.JwtSecurityTokenHandler.ValidateToken(String token, TokenValidationParameters validationParameters, SecurityToken& validatedToken)
+   at Microsoft.AspNetCore.Authentication.JwtBearer.JwtBearerHandler.HandleAuthenticateAsync()
+2023-09-04 15:13:46.673 +05:00 [INF] Bearer was not authenticated. Failure message: IDX10223: Lifetime validation failed. The token is expired. ValidTo: 'System.DateTime', Current time: 'System.DateTime'.
+2023-09-04 15:13:46.673 +05:00 [INF] Bearer was not authenticated. Failure message: IDX10223: Lifetime validation failed. The token is expired. ValidTo: 'System.DateTime', Current time: 'System.DateTime'.
+2023-09-04 15:13:46.674 +05:00 [INF] CORS policy execution successful.
+2023-09-04 15:13:46.674 +05:00 [INF] CORS policy execution successful.
+2023-09-04 15:13:46.675 +05:00 [INF] Executing endpoint 'BIS_project.Controllers.AuthController.Login (BIS_project)'
+2023-09-04 15:13:46.675 +05:00 [INF] Executing endpoint 'BIS_project.Controllers.AuthController.Login (BIS_project)'
+2023-09-04 15:13:46.685 +05:00 [INF] Route matched with {action = "Login", controller = "Auth"}. Executing controller action with signature System.Threading.Tasks.Task`1[System.Object] Login(BIS_project.Dtos.UserDto) on controller BIS_project.Controllers.AuthController (BIS_project).
+2023-09-04 15:13:46.685 +05:00 [INF] Route matched with {action = "Login", controller = "Auth"}. Executing controller action with signature System.Threading.Tasks.Task`1[System.Object] Login(BIS_project.Dtos.UserDto) on controller BIS_project.Controllers.AuthController (BIS_project).
+2023-09-04 15:13:47.619 +05:00 [INF] Executing ObjectResult, writing value of type 'System.String'.
+2023-09-04 15:13:47.619 +05:00 [INF] Executing ObjectResult, writing value of type 'System.String'.
+2023-09-04 15:13:47.624 +05:00 [INF] Executed action BIS_project.Controllers.AuthController.Login (BIS_project) in 936.265ms
+2023-09-04 15:13:47.624 +05:00 [INF] Executed action BIS_project.Controllers.AuthController.Login (BIS_project) in 936.247ms
+2023-09-04 15:13:47.627 +05:00 [INF] Executed endpoint 'BIS_project.Controllers.AuthController.Login (BIS_project)'
+2023-09-04 15:13:47.627 +05:00 [INF] Executed endpoint 'BIS_project.Controllers.AuthController.Login (BIS_project)'
+2023-09-04 15:13:47.638 +05:00 [INF] Request finished HTTP/1.1 POST http://localhost:5279/api/v1/Auth/Login application/json 52 - 500 - application/json;+charset=utf-8 1044.9925ms
+2023-09-04 15:13:47.638 +05:00 [INF] Request finished HTTP/1.1 POST http://localhost:5279/api/v1/Auth/Login application/json 52 - 500 - application/json;+charset=utf-8 1044.8851ms
+2023-09-04 15:14:19.616 +05:00 [INF] Request starting HTTP/1.1 OPTIONS http://localhost:5279/api/v1/Auth/Login - -
+2023-09-04 15:14:19.621 +05:00 [INF] CORS policy execution successful.
+2023-09-04 15:14:19.622 +05:00 [INF] Request finished HTTP/1.1 OPTIONS http://localhost:5279/api/v1/Auth/Login - - - 204 - - 14.4247ms
+2023-09-04 15:14:19.625 +05:00 [INF] Request starting HTTP/1.1 POST http://localhost:5279/api/v1/Auth/Login application/json 39
+2023-09-04 15:14:19.627 +05:00 [INF] Failed to validate the token.
+Microsoft.IdentityModel.Tokens.SecurityTokenExpiredException: IDX10223: Lifetime validation failed. The token is expired. ValidTo: 'System.DateTime', Current time: 'System.DateTime'.
+   at Microsoft.IdentityModel.Tokens.Validators.ValidateLifetime(Nullable`1 notBefore, Nullable`1 expires, SecurityToken securityToken, TokenValidationParameters validationParameters)
+   at System.IdentityModel.Tokens.Jwt.JwtSecurityTokenHandler.ValidateLifetime(Nullable`1 notBefore, Nullable`1 expires, JwtSecurityToken jwtToken, TokenValidationParameters validationParameters)
+   at System.IdentityModel.Tokens.Jwt.JwtSecurityTokenHandler.ValidateTokenPayload(JwtSecurityToken jwtToken, TokenValidationParameters validationParameters)
+   at System.IdentityModel.Tokens.Jwt.JwtSecurityTokenHandler.ValidateToken(String token, TokenValidationParameters validationParameters, SecurityToken& validatedToken)
+   at Microsoft.AspNetCore.Authentication.JwtBearer.JwtBearerHandler.HandleAuthenticateAsync()
+2023-09-04 15:14:19.628 +05:00 [INF] Bearer was not authenticated. Failure message: IDX10223: Lifetime validation failed. The token is expired. ValidTo: 'System.DateTime', Current time: 'System.DateTime'.
+2023-09-04 15:14:19.628 +05:00 [INF] CORS policy execution successful.
+2023-09-04 15:14:19.628 +05:00 [INF] Executing endpoint 'BIS_project.Controllers.AuthController.Login (BIS_project)'
+2023-09-04 15:14:19.635 +05:00 [INF] Route matched with {action = "Login", controller = "Auth"}. Executing controller action with signature System.Threading.Tasks.Task`1[System.Object] Login(BIS_project.Dtos.UserDto) on controller BIS_project.Controllers.AuthController (BIS_project).
+2023-09-04 15:14:19.798 +05:00 [INF] Executing OkObjectResult, writing value of type '<>f__AnonymousType0`3[[BIS_project.Models.User, BIS_project, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null],[BIS_project.Models.Employee, BIS_project, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null],[System.String, System.Private.CoreLib, Version=7.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]'.
+2023-09-04 15:14:19.808 +05:00 [INF] Executed action BIS_project.Controllers.AuthController.Login (BIS_project) in 173.4667ms
+2023-09-04 15:14:19.809 +05:00 [INF] Executed endpoint 'BIS_project.Controllers.AuthController.Login (BIS_project)'
+2023-09-04 15:14:19.809 +05:00 [INF] Request finished HTTP/1.1 POST http://localhost:5279/api/v1/Auth/Login application/json 39 - 200 - application/json;+charset=utf-8 184.0730ms
+2023-09-04 15:14:36.350 +05:00 [INF] Request starting HTTP/1.1 OPTIONS http://localhost:5279/api/v1/Employee - -
+2023-09-04 15:14:36.352 +05:00 [INF] CORS policy execution successful.
+2023-09-04 15:14:36.353 +05:00 [INF] Request finished HTTP/1.1 OPTIONS http://localhost:5279/api/v1/Employee - - - 204 - - 2.7806ms
+2023-09-04 15:14:36.354 +05:00 [INF] Request starting HTTP/1.1 GET http://localhost:5279/api/v1/Employee - -
+2023-09-04 15:14:36.376 +05:00 [INF] CORS policy execution successful.
+2023-09-04 15:14:36.377 +05:00 [INF] Executing endpoint 'BIS_project.Controllers.EmployeeController.GetEmployees (BIS_project)'
+2023-09-04 15:14:36.381 +05:00 [INF] Route matched with {action = "GetEmployees", controller = "Employee"}. Executing controller action with signature System.Threading.Tasks.Task`1[System.Collections.Generic.List`1[BIS_project.Models.Employee]] GetEmployees() on controller BIS_project.Controllers.EmployeeController (BIS_project).
+2023-09-04 15:14:36.461 +05:00 [INF] Executing ObjectResult, writing value of type 'System.Collections.Generic.List`1[[BIS_project.Models.Employee, BIS_project, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]'.
+2023-09-04 15:14:36.467 +05:00 [INF] Executed action BIS_project.Controllers.EmployeeController.GetEmployees (BIS_project) in 85.9551ms
+2023-09-04 15:14:36.467 +05:00 [INF] Executed endpoint 'BIS_project.Controllers.EmployeeController.GetEmployees (BIS_project)'
+2023-09-04 15:14:36.467 +05:00 [INF] Request finished HTTP/1.1 GET http://localhost:5279/api/v1/Employee - - - 200 - application/json;+charset=utf-8 112.8475ms
+2023-09-04 15:14:39.275 +05:00 [INF] Request starting HTTP/1.1 GET http://localhost:5279/api/v1/Employee - -
+2023-09-04 15:14:39.282 +05:00 [INF] CORS policy execution successful.
+2023-09-04 15:14:39.282 +05:00 [INF] Executing endpoint 'BIS_project.Controllers.EmployeeController.GetEmployees (BIS_project)'
+2023-09-04 15:14:39.283 +05:00 [INF] Route matched with {action = "GetEmployees", controller = "Employee"}. Executing controller action with signature System.Threading.Tasks.Task`1[System.Collections.Generic.List`1[BIS_project.Models.Employee]] GetEmployees() on controller BIS_project.Controllers.EmployeeController (BIS_project).
+2023-09-04 15:14:39.296 +05:00 [INF] Executing ObjectResult, writing value of type 'System.Collections.Generic.List`1[[BIS_project.Models.Employee, BIS_project, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]'.
+2023-09-04 15:14:39.296 +05:00 [INF] Executed action BIS_project.Controllers.EmployeeController.GetEmployees (BIS_project) in 11.4025ms
+2023-09-04 15:14:39.296 +05:00 [INF] Executed endpoint 'BIS_project.Controllers.EmployeeController.GetEmployees (BIS_project)'
+2023-09-04 15:14:39.297 +05:00 [INF] Request finished HTTP/1.1 GET http://localhost:5279/api/v1/Employee - - - 200 - application/json;+charset=utf-8 21.7695ms
+2023-09-04 15:14:45.081 +05:00 [INF] Request starting HTTP/1.1 OPTIONS http://localhost:5279/api/v1/Employee - -
+2023-09-04 15:14:45.086 +05:00 [INF] CORS policy execution successful.
+2023-09-04 15:14:45.086 +05:00 [INF] Request finished HTTP/1.1 OPTIONS http://localhost:5279/api/v1/Employee - - - 204 - - 5.2208ms
+2023-09-04 15:14:45.088 +05:00 [INF] Request starting HTTP/1.1 GET http://localhost:5279/api/v1/Employee - -
+2023-09-04 15:14:45.091 +05:00 [INF] CORS policy execution successful.
+2023-09-04 15:14:45.091 +05:00 [INF] Executing endpoint 'BIS_project.Controllers.EmployeeController.GetEmployees (BIS_project)'
+2023-09-04 15:14:45.092 +05:00 [INF] Route matched with {action = "GetEmployees", controller = "Employee"}. Executing controller action with signature System.Threading.Tasks.Task`1[System.Collections.Generic.List`1[BIS_project.Models.Employee]] GetEmployees() on controller BIS_project.Controllers.EmployeeController (BIS_project).
+2023-09-04 15:14:45.148 +05:00 [INF] Executing ObjectResult, writing value of type 'System.Collections.Generic.List`1[[BIS_project.Models.Employee, BIS_project, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]'.
+2023-09-04 15:14:45.149 +05:00 [INF] Executed action BIS_project.Controllers.EmployeeController.GetEmployees (BIS_project) in 56.5097ms
+2023-09-04 15:14:45.149 +05:00 [INF] Executed endpoint 'BIS_project.Controllers.EmployeeController.GetEmployees (BIS_project)'
+2023-09-04 15:14:45.149 +05:00 [INF] Request finished HTTP/1.1 GET http://localhost:5279/api/v1/Employee - - - 200 - application/json;+charset=utf-8 60.5084ms
+2023-09-04 15:14:46.837 +05:00 [INF] Request starting HTTP/1.1 GET http://localhost:5279/api/v1/Employee - -
+2023-09-04 15:14:46.838 +05:00 [INF] CORS policy execution successful.
+2023-09-04 15:14:46.838 +05:00 [INF] Executing endpoint 'BIS_project.Controllers.EmployeeController.GetEmployees (BIS_project)'
+2023-09-04 15:14:46.838 +05:00 [INF] Route matched with {action = "GetEmployees", controller = "Employee"}. Executing controller action with signature System.Threading.Tasks.Task`1[System.Collections.Generic.List`1[BIS_project.Models.Employee]] GetEmployees() on controller BIS_project.Controllers.EmployeeController (BIS_project).
+2023-09-04 15:14:46.864 +05:00 [INF] Executing ObjectResult, writing value of type 'System.Collections.Generic.List`1[[BIS_project.Models.Employee, BIS_project, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]'.
+2023-09-04 15:14:46.865 +05:00 [INF] Executed action BIS_project.Controllers.EmployeeController.GetEmployees (BIS_project) in 26.3967ms
+2023-09-04 15:14:46.865 +05:00 [INF] Executed endpoint 'BIS_project.Controllers.EmployeeController.GetEmployees (BIS_project)'
+2023-09-04 15:14:46.865 +05:00 [INF] Request finished HTTP/1.1 GET http://localhost:5279/api/v1/Employee - - - 200 - application/json;+charset=utf-8 28.2125ms
+2023-09-04 15:14:58.949 +05:00 [INF] Request starting HTTP/1.1 OPTIONS http://localhost:5279/api/v1/Employee - -
+2023-09-04 15:14:58.967 +05:00 [INF] CORS policy execution successful.
+2023-09-04 15:14:58.968 +05:00 [INF] Request finished HTTP/1.1 OPTIONS http://localhost:5279/api/v1/Employee - - - 204 - - 19.4795ms
+2023-09-04 15:14:58.977 +05:00 [INF] Request starting HTTP/1.1 GET http://localhost:5279/api/v1/Employee - -
+2023-09-04 15:14:58.980 +05:00 [INF] CORS policy execution successful.
+2023-09-04 15:14:58.980 +05:00 [INF] Executing endpoint 'BIS_project.Controllers.EmployeeController.GetEmployees (BIS_project)'
+2023-09-04 15:14:58.980 +05:00 [INF] Route matched with {action = "GetEmployees", controller = "Employee"}. Executing controller action with signature System.Threading.Tasks.Task`1[System.Collections.Generic.List`1[BIS_project.Models.Employee]] GetEmployees() on controller BIS_project.Controllers.EmployeeController (BIS_project).
+2023-09-04 15:14:59.011 +05:00 [INF] Executing ObjectResult, writing value of type 'System.Collections.Generic.List`1[[BIS_project.Models.Employee, BIS_project, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]'.
+2023-09-04 15:14:59.011 +05:00 [INF] Executed action BIS_project.Controllers.EmployeeController.GetEmployees (BIS_project) in 30.772ms
+2023-09-04 15:14:59.012 +05:00 [INF] Executed endpoint 'BIS_project.Controllers.EmployeeController.GetEmployees (BIS_project)'
+2023-09-04 15:14:59.012 +05:00 [INF] Request finished HTTP/1.1 GET http://localhost:5279/api/v1/Employee - - - 200 - application/json;+charset=utf-8 34.9122ms
+2023-09-04 15:15:17.105 +05:00 [INF] Request starting HTTP/1.1 OPTIONS http://localhost:5279/api/v1/Employee - -
+2023-09-04 15:15:17.113 +05:00 [INF] CORS policy execution successful.
+2023-09-04 15:15:17.114 +05:00 [INF] Request finished HTTP/1.1 OPTIONS http://localhost:5279/api/v1/Employee - - - 204 - - 8.9315ms
+2023-09-04 15:15:17.122 +05:00 [INF] Request starting HTTP/1.1 GET http://localhost:5279/api/v1/Employee - -
+2023-09-04 15:15:17.124 +05:00 [INF] CORS policy execution successful.
+2023-09-04 15:15:17.124 +05:00 [INF] Executing endpoint 'BIS_project.Controllers.EmployeeController.GetEmployees (BIS_project)'
+2023-09-04 15:15:17.125 +05:00 [INF] Route matched with {action = "GetEmployees", controller = "Employee"}. Executing controller action with signature System.Threading.Tasks.Task`1[System.Collections.Generic.List`1[BIS_project.Models.Employee]] GetEmployees() on controller BIS_project.Controllers.EmployeeController (BIS_project).
+2023-09-04 15:15:17.198 +05:00 [INF] Executing ObjectResult, writing value of type 'System.Collections.Generic.List`1[[BIS_project.Models.Employee, BIS_project, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]'.
+2023-09-04 15:15:17.199 +05:00 [INF] Executed action BIS_project.Controllers.EmployeeController.GetEmployees (BIS_project) in 74.0005ms
+2023-09-04 15:15:17.199 +05:00 [INF] Executed endpoint 'BIS_project.Controllers.EmployeeController.GetEmployees (BIS_project)'
+2023-09-04 15:15:17.199 +05:00 [INF] Request finished HTTP/1.1 GET http://localhost:5279/api/v1/Employee - - - 200 - application/json;+charset=utf-8 79.8557ms
+2023-09-04 15:15:18.140 +05:00 [INF] Request starting HTTP/1.1 GET http://localhost:5279/api/v1/Employee - -
+2023-09-04 15:15:18.141 +05:00 [INF] CORS policy execution successful.
+2023-09-04 15:15:18.141 +05:00 [INF] Executing endpoint 'BIS_project.Controllers.EmployeeController.GetEmployees (BIS_project)'
+2023-09-04 15:15:18.141 +05:00 [INF] Route matched with {action = "GetEmployees", controller = "Employee"}. Executing controller action with signature System.Threading.Tasks.Task`1[System.Collections.Generic.List`1[BIS_project.Models.Employee]] GetEmployees() on controller BIS_project.Controllers.EmployeeController (BIS_project).
+2023-09-04 15:15:18.163 +05:00 [INF] Executing ObjectResult, writing value of type 'System.Collections.Generic.List`1[[BIS_project.Models.Employee, BIS_project, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]'.
+2023-09-04 15:15:18.163 +05:00 [INF] Executed action BIS_project.Controllers.EmployeeController.GetEmployees (BIS_project) in 22.1804ms
+2023-09-04 15:15:18.164 +05:00 [INF] Executed endpoint 'BIS_project.Controllers.EmployeeController.GetEmployees (BIS_project)'
+2023-09-04 15:15:18.164 +05:00 [INF] Request finished HTTP/1.1 GET http://localhost:5279/api/v1/Employee - - - 200 - application/json;+charset=utf-8 23.7548ms
+2023-09-04 15:15:19.282 +05:00 [INF] Request starting HTTP/1.1 GET http://localhost:5279/api/v1/Employee - -
+2023-09-04 15:15:19.282 +05:00 [INF] CORS policy execution successful.
+2023-09-04 15:15:19.283 +05:00 [INF] Executing endpoint 'BIS_project.Controllers.EmployeeController.GetEmployees (BIS_project)'
+2023-09-04 15:15:19.283 +05:00 [INF] Route matched with {action = "GetEmployees", controller = "Employee"}. Executing controller action with signature System.Threading.Tasks.Task`1[System.Collections.Generic.List`1[BIS_project.Models.Employee]] GetEmployees() on controller BIS_project.Controllers.EmployeeController (BIS_project).
+2023-09-04 15:15:19.308 +05:00 [INF] Executing ObjectResult, writing value of type 'System.Collections.Generic.List`1[[BIS_project.Models.Employee, BIS_project, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]'.
+2023-09-04 15:15:19.308 +05:00 [INF] Executed action BIS_project.Controllers.EmployeeController.GetEmployees (BIS_project) in 25.1706ms
+2023-09-04 15:15:19.308 +05:00 [INF] Executed endpoint 'BIS_project.Controllers.EmployeeController.GetEmployees (BIS_project)'
+2023-09-04 15:15:19.309 +05:00 [INF] Request finished HTTP/1.1 GET http://localhost:5279/api/v1/Employee - - - 200 - application/json;+charset=utf-8 26.9095ms
+2023-09-04 15:21:35.568 +05:00 [INF] Request starting HTTP/1.1 OPTIONS http://localhost:5279/api/v1/Auth/Login - -
+2023-09-04 15:21:35.572 +05:00 [INF] CORS policy execution successful.
+2023-09-04 15:21:35.573 +05:00 [INF] Request finished HTTP/1.1 OPTIONS http://localhost:5279/api/v1/Auth/Login - - - 204 - - 4.8100ms
+2023-09-04 15:21:35.576 +05:00 [INF] Request starting HTTP/1.1 POST http://localhost:5279/api/v1/Auth/Login application/json 39
+2023-09-04 15:21:35.580 +05:00 [INF] CORS policy execution successful.
+2023-09-04 15:21:35.585 +05:00 [INF] Executing endpoint 'BIS_project.Controllers.AuthController.Login (BIS_project)'
+2023-09-04 15:21:35.587 +05:00 [INF] Route matched with {action = "Login", controller = "Auth"}. Executing controller action with signature System.Threading.Tasks.Task`1[System.Object] Login(BIS_project.Dtos.UserDto) on controller BIS_project.Controllers.AuthController (BIS_project).
+2023-09-04 15:21:35.660 +05:00 [INF] Executing OkObjectResult, writing value of type '<>f__AnonymousType0`3[[BIS_project.Models.User, BIS_project, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null],[BIS_project.Models.Employee, BIS_project, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null],[System.String, System.Private.CoreLib, Version=7.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]'.
+2023-09-04 15:21:35.661 +05:00 [INF] Executed action BIS_project.Controllers.AuthController.Login (BIS_project) in 74.1635ms
+2023-09-04 15:21:35.661 +05:00 [INF] Executed endpoint 'BIS_project.Controllers.AuthController.Login (BIS_project)'
+2023-09-04 15:21:35.662 +05:00 [INF] Request finished HTTP/1.1 POST http://localhost:5279/api/v1/Auth/Login application/json 39 - 200 - application/json;+charset=utf-8 86.3172ms
+2023-09-04 15:21:56.227 +05:00 [INF] Request starting HTTP/1.1 OPTIONS http://localhost:5279/api/v1/Employee - -
+2023-09-04 15:21:56.230 +05:00 [INF] CORS policy execution successful.
+2023-09-04 15:21:56.231 +05:00 [INF] Request finished HTTP/1.1 OPTIONS http://localhost:5279/api/v1/Employee - - - 204 - - 3.5687ms
+2023-09-04 15:21:56.233 +05:00 [INF] Request starting HTTP/1.1 GET http://localhost:5279/api/v1/Employee - -
+2023-09-04 15:21:56.238 +05:00 [INF] CORS policy execution successful.
+2023-09-04 15:21:56.238 +05:00 [INF] Executing endpoint 'BIS_project.Controllers.EmployeeController.GetEmployees (BIS_project)'
+2023-09-04 15:21:56.239 +05:00 [INF] Route matched with {action = "GetEmployees", controller = "Employee"}. Executing controller action with signature System.Threading.Tasks.Task`1[System.Collections.Generic.List`1[BIS_project.Models.Employee]] GetEmployees() on controller BIS_project.Controllers.EmployeeController (BIS_project).
+2023-09-04 15:21:56.263 +05:00 [INF] Executing ObjectResult, writing value of type 'System.Collections.Generic.List`1[[BIS_project.Models.Employee, BIS_project, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]'.
+2023-09-04 15:21:56.267 +05:00 [INF] Executed action BIS_project.Controllers.EmployeeController.GetEmployees (BIS_project) in 28.5952ms
+2023-09-04 15:21:56.268 +05:00 [INF] Executed endpoint 'BIS_project.Controllers.EmployeeController.GetEmployees (BIS_project)'
+2023-09-04 15:21:56.268 +05:00 [INF] Request finished HTTP/1.1 GET http://localhost:5279/api/v1/Employee - - - 200 - application/json;+charset=utf-8 35.1015ms
+2023-09-04 15:21:59.184 +05:00 [INF] Request starting HTTP/1.1 GET http://localhost:5279/api/v1/Employee - -
+2023-09-04 15:21:59.186 +05:00 [INF] CORS policy execution successful.
+2023-09-04 15:21:59.186 +05:00 [INF] Executing endpoint 'BIS_project.Controllers.EmployeeController.GetEmployees (BIS_project)'
+2023-09-04 15:21:59.186 +05:00 [INF] Route matched with {action = "GetEmployees", controller = "Employee"}. Executing controller action with signature System.Threading.Tasks.Task`1[System.Collections.Generic.List`1[BIS_project.Models.Employee]] GetEmployees() on controller BIS_project.Controllers.EmployeeController (BIS_project).
+2023-09-04 15:21:59.202 +05:00 [INF] Executing ObjectResult, writing value of type 'System.Collections.Generic.List`1[[BIS_project.Models.Employee, BIS_project, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]'.
+2023-09-04 15:21:59.202 +05:00 [INF] Executed action BIS_project.Controllers.EmployeeController.GetEmployees (BIS_project) in 15.4537ms
+2023-09-04 15:21:59.202 +05:00 [INF] Executed endpoint 'BIS_project.Controllers.EmployeeController.GetEmployees (BIS_project)'
+2023-09-04 15:21:59.202 +05:00 [INF] Request finished HTTP/1.1 GET http://localhost:5279/api/v1/Employee - - - 200 - application/json;+charset=utf-8 18.1649ms
+2023-09-04 15:22:42.899 +05:00 [INF] Request starting HTTP/1.1 OPTIONS http://localhost:5279/api/v1/Employee - -
+2023-09-04 15:22:42.907 +05:00 [INF] CORS policy execution successful.
+2023-09-04 15:22:42.909 +05:00 [INF] Request finished HTTP/1.1 OPTIONS http://localhost:5279/api/v1/Employee - - - 204 - - 9.8219ms
+2023-09-04 15:22:42.911 +05:00 [INF] Request starting HTTP/1.1 GET http://localhost:5279/api/v1/Employee - -
+2023-09-04 15:22:42.914 +05:00 [INF] CORS policy execution successful.
+2023-09-04 15:22:42.914 +05:00 [INF] Executing endpoint 'BIS_project.Controllers.EmployeeController.GetEmployees (BIS_project)'
+2023-09-04 15:22:42.914 +05:00 [INF] Route matched with {action = "GetEmployees", controller = "Employee"}. Executing controller action with signature System.Threading.Tasks.Task`1[System.Collections.Generic.List`1[BIS_project.Models.Employee]] GetEmployees() on controller BIS_project.Controllers.EmployeeController (BIS_project).
+2023-09-04 15:22:42.944 +05:00 [INF] Executing ObjectResult, writing value of type 'System.Collections.Generic.List`1[[BIS_project.Models.Employee, BIS_project, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]'.
+2023-09-04 15:22:42.945 +05:00 [INF] Executed action BIS_project.Controllers.EmployeeController.GetEmployees (BIS_project) in 30.414ms
+2023-09-04 15:22:42.945 +05:00 [INF] Executed endpoint 'BIS_project.Controllers.EmployeeController.GetEmployees (BIS_project)'
+2023-09-04 15:22:42.945 +05:00 [INF] Request finished HTTP/1.1 GET http://localhost:5279/api/v1/Employee - - - 200 - application/json;+charset=utf-8 34.4322ms
+2023-09-04 15:24:39.157 +05:00 [INF] Request starting HTTP/1.1 OPTIONS http://localhost:5279/api/v1/Employee - -
+2023-09-04 15:24:39.161 +05:00 [INF] CORS policy execution successful.
+2023-09-04 15:24:39.168 +05:00 [INF] Request finished HTTP/1.1 OPTIONS http://localhost:5279/api/v1/Employee - - - 204 - - 14.3002ms
+2023-09-04 15:24:39.170 +05:00 [INF] Request starting HTTP/1.1 GET http://localhost:5279/api/v1/Employee - -
+2023-09-04 15:24:39.171 +05:00 [INF] CORS policy execution successful.
+2023-09-04 15:24:39.172 +05:00 [INF] Executing endpoint 'BIS_project.Controllers.EmployeeController.GetEmployees (BIS_project)'
+2023-09-04 15:24:39.172 +05:00 [INF] Route matched with {action = "GetEmployees", controller = "Employee"}. Executing controller action with signature System.Threading.Tasks.Task`1[System.Collections.Generic.List`1[BIS_project.Models.Employee]] GetEmployees() on controller BIS_project.Controllers.EmployeeController (BIS_project).
+2023-09-04 15:24:39.254 +05:00 [INF] Executing ObjectResult, writing value of type 'System.Collections.Generic.List`1[[BIS_project.Models.Employee, BIS_project, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]'.
+2023-09-04 15:24:39.254 +05:00 [INF] Executed action BIS_project.Controllers.EmployeeController.GetEmployees (BIS_project) in 81.6253ms
+2023-09-04 15:24:39.254 +05:00 [INF] Executed endpoint 'BIS_project.Controllers.EmployeeController.GetEmployees (BIS_project)'
+2023-09-04 15:24:39.254 +05:00 [INF] Request finished HTTP/1.1 GET http://localhost:5279/api/v1/Employee - - - 200 - application/json;+charset=utf-8 84.6396ms
+2023-09-04 15:24:44.583 +05:00 [INF] Request starting HTTP/1.1 OPTIONS http://localhost:5279/api/v1/Employee - -
+2023-09-04 15:24:44.584 +05:00 [INF] CORS policy execution successful.
+2023-09-04 15:24:44.584 +05:00 [INF] Request finished HTTP/1.1 OPTIONS http://localhost:5279/api/v1/Employee - - - 204 - - 0.5079ms
+2023-09-04 15:24:44.589 +05:00 [INF] Request starting HTTP/1.1 GET http://localhost:5279/api/v1/Employee - -
+2023-09-04 15:24:44.590 +05:00 [INF] CORS policy execution successful.
+2023-09-04 15:24:44.590 +05:00 [INF] Executing endpoint 'BIS_project.Controllers.EmployeeController.GetEmployees (BIS_project)'
+2023-09-04 15:24:44.590 +05:00 [INF] Route matched with {action = "GetEmployees", controller = "Employee"}. Executing controller action with signature System.Threading.Tasks.Task`1[System.Collections.Generic.List`1[BIS_project.Models.Employee]] GetEmployees() on controller BIS_project.Controllers.EmployeeController (BIS_project).
+2023-09-04 15:24:44.603 +05:00 [INF] Executing ObjectResult, writing value of type 'System.Collections.Generic.List`1[[BIS_project.Models.Employee, BIS_project, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]'.
+2023-09-04 15:24:44.603 +05:00 [INF] Executed action BIS_project.Controllers.EmployeeController.GetEmployees (BIS_project) in 13.3142ms
+2023-09-04 15:24:44.604 +05:00 [INF] Executed endpoint 'BIS_project.Controllers.EmployeeController.GetEmployees (BIS_project)'
+2023-09-04 15:24:44.604 +05:00 [INF] Request finished HTTP/1.1 GET http://localhost:5279/api/v1/Employee - - - 200 - application/json;+charset=utf-8 14.8474ms
+2023-09-04 15:24:46.842 +05:00 [INF] Request starting HTTP/1.1 GET http://localhost:5279/api/v1/Employee - -
+2023-09-04 15:24:46.843 +05:00 [INF] CORS policy execution successful.
+2023-09-04 15:24:46.844 +05:00 [INF] Executing endpoint 'BIS_project.Controllers.EmployeeController.GetEmployees (BIS_project)'
+2023-09-04 15:24:46.844 +05:00 [INF] Route matched with {action = "GetEmployees", controller = "Employee"}. Executing controller action with signature System.Threading.Tasks.Task`1[System.Collections.Generic.List`1[BIS_project.Models.Employee]] GetEmployees() on controller BIS_project.Controllers.EmployeeController (BIS_project).
+2023-09-04 15:24:46.860 +05:00 [INF] Executing ObjectResult, writing value of type 'System.Collections.Generic.List`1[[BIS_project.Models.Employee, BIS_project, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]'.
+2023-09-04 15:24:46.860 +05:00 [INF] Executed action BIS_project.Controllers.EmployeeController.GetEmployees (BIS_project) in 15.899ms
+2023-09-04 15:24:46.860 +05:00 [INF] Executed endpoint 'BIS_project.Controllers.EmployeeController.GetEmployees (BIS_project)'
+2023-09-04 15:24:46.861 +05:00 [INF] Request finished HTTP/1.1 GET http://localhost:5279/api/v1/Employee - - - 200 - application/json;+charset=utf-8 18.1875ms
+2023-09-04 15:25:42.258 +05:00 [INF] Request starting HTTP/1.1 OPTIONS http://localhost:5279/api/v1/Employee - -
+2023-09-04 15:25:42.260 +05:00 [INF] CORS policy execution successful.
+2023-09-04 15:25:42.260 +05:00 [INF] Request finished HTTP/1.1 OPTIONS http://localhost:5279/api/v1/Employee - - - 204 - - 2.7201ms
+2023-09-04 15:25:42.262 +05:00 [INF] Request starting HTTP/1.1 GET http://localhost:5279/api/v1/Employee - -
+2023-09-04 15:25:42.264 +05:00 [INF] CORS policy execution successful.
+2023-09-04 15:25:42.265 +05:00 [INF] Executing endpoint 'BIS_project.Controllers.EmployeeController.GetEmployees (BIS_project)'
+2023-09-04 15:25:42.272 +05:00 [INF] Route matched with {action = "GetEmployees", controller = "Employee"}. Executing controller action with signature System.Threading.Tasks.Task`1[System.Collections.Generic.List`1[BIS_project.Models.Employee]] GetEmployees() on controller BIS_project.Controllers.EmployeeController (BIS_project).
+2023-09-04 15:25:42.307 +05:00 [INF] Executing ObjectResult, writing value of type 'System.Collections.Generic.List`1[[BIS_project.Models.Employee, BIS_project, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]'.
+2023-09-04 15:25:42.308 +05:00 [INF] Executed action BIS_project.Controllers.EmployeeController.GetEmployees (BIS_project) in 34.9826ms
+2023-09-04 15:25:42.308 +05:00 [INF] Executed endpoint 'BIS_project.Controllers.EmployeeController.GetEmployees (BIS_project)'
+2023-09-04 15:25:42.308 +05:00 [INF] Request finished HTTP/1.1 GET http://localhost:5279/api/v1/Employee - - - 200 - application/json;+charset=utf-8 45.8925ms
+2023-09-04 15:26:50.906 +05:00 [INF] Request starting HTTP/1.1 OPTIONS http://localhost:5279/api/v1/Employee - -
+2023-09-04 15:26:50.910 +05:00 [INF] CORS policy execution successful.
+2023-09-04 15:26:50.910 +05:00 [INF] Request finished HTTP/1.1 OPTIONS http://localhost:5279/api/v1/Employee - - - 204 - - 12.8784ms
+2023-09-04 15:26:50.913 +05:00 [INF] Request starting HTTP/1.1 GET http://localhost:5279/api/v1/Employee - -
+2023-09-04 15:26:50.921 +05:00 [INF] CORS policy execution successful.
+2023-09-04 15:26:50.922 +05:00 [INF] Executing endpoint 'BIS_project.Controllers.EmployeeController.GetEmployees (BIS_project)'
+2023-09-04 15:26:50.922 +05:00 [INF] Route matched with {action = "GetEmployees", controller = "Employee"}. Executing controller action with signature System.Threading.Tasks.Task`1[System.Collections.Generic.List`1[BIS_project.Models.Employee]] GetEmployees() on controller BIS_project.Controllers.EmployeeController (BIS_project).
+2023-09-04 15:26:51.016 +05:00 [INF] Executing ObjectResult, writing value of type 'System.Collections.Generic.List`1[[BIS_project.Models.Employee, BIS_project, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]'.
+2023-09-04 15:26:51.016 +05:00 [INF] Executed action BIS_project.Controllers.EmployeeController.GetEmployees (BIS_project) in 93.403ms
+2023-09-04 15:26:51.016 +05:00 [INF] Executed endpoint 'BIS_project.Controllers.EmployeeController.GetEmployees (BIS_project)'
+2023-09-04 15:26:51.016 +05:00 [INF] Request finished HTTP/1.1 GET http://localhost:5279/api/v1/Employee - - - 200 - application/json;+charset=utf-8 103.0955ms
+2023-09-04 15:26:53.376 +05:00 [INF] Request starting HTTP/1.1 GET http://localhost:5279/api/v1/Employee - -
+2023-09-04 15:26:53.382 +05:00 [INF] CORS policy execution successful.
+2023-09-04 15:26:53.382 +05:00 [INF] Executing endpoint 'BIS_project.Controllers.EmployeeController.GetEmployees (BIS_project)'
+2023-09-04 15:26:53.382 +05:00 [INF] Route matched with {action = "GetEmployees", controller = "Employee"}. Executing controller action with signature System.Threading.Tasks.Task`1[System.Collections.Generic.List`1[BIS_project.Models.Employee]] GetEmployees() on controller BIS_project.Controllers.EmployeeController (BIS_project).
+2023-09-04 15:26:53.397 +05:00 [INF] Executing ObjectResult, writing value of type 'System.Collections.Generic.List`1[[BIS_project.Models.Employee, BIS_project, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]'.
+2023-09-04 15:26:53.399 +05:00 [INF] Executed action BIS_project.Controllers.EmployeeController.GetEmployees (BIS_project) in 16.0854ms
+2023-09-04 15:26:53.399 +05:00 [INF] Executed endpoint 'BIS_project.Controllers.EmployeeController.GetEmployees (BIS_project)'
+2023-09-04 15:26:53.399 +05:00 [INF] Request finished HTTP/1.1 GET http://localhost:5279/api/v1/Employee - - - 200 - application/json;+charset=utf-8 22.8095ms
+2023-09-04 15:27:46.823 +05:00 [INF] Request starting HTTP/1.1 OPTIONS http://localhost:5279/api/v1/Employee - -
+2023-09-04 15:27:46.825 +05:00 [INF] CORS policy execution successful.
+2023-09-04 15:27:46.825 +05:00 [INF] Request finished HTTP/1.1 OPTIONS http://localhost:5279/api/v1/Employee - - - 204 - - 2.6862ms
+2023-09-04 15:27:46.832 +05:00 [INF] Request starting HTTP/1.1 GET http://localhost:5279/api/v1/Employee - -
+2023-09-04 15:27:46.837 +05:00 [INF] CORS policy execution successful.
+2023-09-04 15:27:46.838 +05:00 [INF] Executing endpoint 'BIS_project.Controllers.EmployeeController.GetEmployees (BIS_project)'
+2023-09-04 15:27:46.838 +05:00 [INF] Route matched with {action = "GetEmployees", controller = "Employee"}. Executing controller action with signature System.Threading.Tasks.Task`1[System.Collections.Generic.List`1[BIS_project.Models.Employee]] GetEmployees() on controller BIS_project.Controllers.EmployeeController (BIS_project).
+2023-09-04 15:27:46.874 +05:00 [INF] Executing ObjectResult, writing value of type 'System.Collections.Generic.List`1[[BIS_project.Models.Employee, BIS_project, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]'.
+2023-09-04 15:27:46.875 +05:00 [INF] Executed action BIS_project.Controllers.EmployeeController.GetEmployees (BIS_project) in 36.8999ms
+2023-09-04 15:27:46.875 +05:00 [INF] Executed endpoint 'BIS_project.Controllers.EmployeeController.GetEmployees (BIS_project)'
+2023-09-04 15:27:46.876 +05:00 [INF] Request finished HTTP/1.1 GET http://localhost:5279/api/v1/Employee - - - 200 - application/json;+charset=utf-8 43.9824ms
+2023-09-04 15:27:48.712 +05:00 [INF] Request starting HTTP/1.1 GET http://localhost:5279/api/v1/Employee - -
+2023-09-04 15:27:48.713 +05:00 [INF] CORS policy execution successful.
+2023-09-04 15:27:48.713 +05:00 [INF] Executing endpoint 'BIS_project.Controllers.EmployeeController.GetEmployees (BIS_project)'
+2023-09-04 15:27:48.713 +05:00 [INF] Route matched with {action = "GetEmployees", controller = "Employee"}. Executing controller action with signature System.Threading.Tasks.Task`1[System.Collections.Generic.List`1[BIS_project.Models.Employee]] GetEmployees() on controller BIS_project.Controllers.EmployeeController (BIS_project).
+2023-09-04 15:27:48.733 +05:00 [INF] Executing ObjectResult, writing value of type 'System.Collections.Generic.List`1[[BIS_project.Models.Employee, BIS_project, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]'.
+2023-09-04 15:27:48.734 +05:00 [INF] Executed action BIS_project.Controllers.EmployeeController.GetEmployees (BIS_project) in 21.1202ms
+2023-09-04 15:27:48.734 +05:00 [INF] Executed endpoint 'BIS_project.Controllers.EmployeeController.GetEmployees (BIS_project)'
+2023-09-04 15:27:48.734 +05:00 [INF] Request finished HTTP/1.1 GET http://localhost:5279/api/v1/Employee - - - 200 - application/json;+charset=utf-8 22.6172ms
+2023-09-04 15:34:04.846 +05:00 [INF] Request starting HTTP/1.1 OPTIONS http://localhost:5279/api/v1/Auth/Login - -
+2023-09-04 15:34:04.849 +05:00 [INF] CORS policy execution successful.
+2023-09-04 15:34:04.850 +05:00 [INF] Request finished HTTP/1.1 OPTIONS http://localhost:5279/api/v1/Auth/Login - - - 204 - - 4.2380ms
+2023-09-04 15:34:04.857 +05:00 [INF] Request starting HTTP/1.1 POST http://localhost:5279/api/v1/Auth/Login application/json 39
+2023-09-04 15:34:04.866 +05:00 [INF] CORS policy execution successful.
+2023-09-04 15:34:04.866 +05:00 [INF] Executing endpoint 'BIS_project.Controllers.AuthController.Login (BIS_project)'
+2023-09-04 15:34:04.867 +05:00 [INF] Route matched with {action = "Login", controller = "Auth"}. Executing controller action with signature System.Threading.Tasks.Task`1[System.Object] Login(BIS_project.Dtos.UserDto) on controller BIS_project.Controllers.AuthController (BIS_project).
+2023-09-04 15:34:04.926 +05:00 [INF] Executing OkObjectResult, writing value of type '<>f__AnonymousType0`3[[BIS_project.Models.User, BIS_project, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null],[BIS_project.Models.Employee, BIS_project, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null],[System.String, System.Private.CoreLib, Version=7.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]'.
+2023-09-04 15:34:04.927 +05:00 [INF] Executed action BIS_project.Controllers.AuthController.Login (BIS_project) in 59.2626ms
+2023-09-04 15:34:04.927 +05:00 [INF] Executed endpoint 'BIS_project.Controllers.AuthController.Login (BIS_project)'
+2023-09-04 15:34:04.927 +05:00 [INF] Request finished HTTP/1.1 POST http://localhost:5279/api/v1/Auth/Login application/json 39 - 200 - application/json;+charset=utf-8 70.4422ms
+2023-09-04 15:34:06.939 +05:00 [INF] Request starting HTTP/1.1 OPTIONS http://localhost:5279/api/v1/Employee - -
+2023-09-04 15:34:06.939 +05:00 [INF] CORS policy execution successful.
+2023-09-04 15:34:06.940 +05:00 [INF] Request finished HTTP/1.1 OPTIONS http://localhost:5279/api/v1/Employee - - - 204 - - 0.4042ms
+2023-09-04 15:34:06.942 +05:00 [INF] Request starting HTTP/1.1 GET http://localhost:5279/api/v1/Employee - -
+2023-09-04 15:34:06.942 +05:00 [INF] CORS policy execution successful.
+2023-09-04 15:34:06.942 +05:00 [INF] Executing endpoint 'BIS_project.Controllers.EmployeeController.GetEmployees (BIS_project)'
+2023-09-04 15:34:06.943 +05:00 [INF] Route matched with {action = "GetEmployees", controller = "Employee"}. Executing controller action with signature System.Threading.Tasks.Task`1[System.Collections.Generic.List`1[BIS_project.Models.Employee]] GetEmployees() on controller BIS_project.Controllers.EmployeeController (BIS_project).
+2023-09-04 15:34:06.963 +05:00 [INF] Executing ObjectResult, writing value of type 'System.Collections.Generic.List`1[[BIS_project.Models.Employee, BIS_project, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]'.
+2023-09-04 15:34:06.964 +05:00 [INF] Executed action BIS_project.Controllers.EmployeeController.GetEmployees (BIS_project) in 21.0406ms
+2023-09-04 15:34:06.964 +05:00 [INF] Executed endpoint 'BIS_project.Controllers.EmployeeController.GetEmployees (BIS_project)'
+2023-09-04 15:34:06.964 +05:00 [INF] Request finished HTTP/1.1 GET http://localhost:5279/api/v1/Employee - - - 200 - application/json;+charset=utf-8 22.2811ms
+2023-09-04 15:36:49.476 +05:00 [INF] Request starting HTTP/1.1 OPTIONS http://localhost:5279/api/v1/Employee - -
+2023-09-04 15:36:49.478 +05:00 [INF] CORS policy execution successful.
+2023-09-04 15:36:49.479 +05:00 [INF] Request finished HTTP/1.1 OPTIONS http://localhost:5279/api/v1/Employee - - - 204 - - 2.6992ms
+2023-09-04 15:36:49.483 +05:00 [INF] Request starting HTTP/1.1 GET http://localhost:5279/api/v1/Employee - -
+2023-09-04 15:36:49.486 +05:00 [INF] CORS policy execution successful.
+2023-09-04 15:36:49.487 +05:00 [INF] Executing endpoint 'BIS_project.Controllers.EmployeeController.GetEmployees (BIS_project)'
+2023-09-04 15:36:49.487 +05:00 [INF] Route matched with {action = "GetEmployees", controller = "Employee"}. Executing controller action with signature System.Threading.Tasks.Task`1[System.Collections.Generic.List`1[BIS_project.Models.Employee]] GetEmployees() on controller BIS_project.Controllers.EmployeeController (BIS_project).
+2023-09-04 15:36:49.519 +05:00 [INF] Executing ObjectResult, writing value of type 'System.Collections.Generic.List`1[[BIS_project.Models.Employee, BIS_project, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]'.
+2023-09-04 15:36:49.520 +05:00 [INF] Executed action BIS_project.Controllers.EmployeeController.GetEmployees (BIS_project) in 32.8589ms
+2023-09-04 15:36:49.520 +05:00 [INF] Executed endpoint 'BIS_project.Controllers.EmployeeController.GetEmployees (BIS_project)'
+2023-09-04 15:36:49.520 +05:00 [INF] Request finished HTTP/1.1 GET http://localhost:5279/api/v1/Employee - - - 200 - application/json;+charset=utf-8 37.5215ms
+2023-09-04 15:38:55.798 +05:00 [INF] Request starting HTTP/1.1 OPTIONS http://localhost:5279/api/v1/Employee - -
+2023-09-04 15:38:55.800 +05:00 [INF] CORS policy execution successful.
+2023-09-04 15:38:55.801 +05:00 [INF] Request finished HTTP/1.1 OPTIONS http://localhost:5279/api/v1/Employee - - - 204 - - 2.9482ms
+2023-09-04 15:38:55.803 +05:00 [INF] Request starting HTTP/1.1 GET http://localhost:5279/api/v1/Employee - -
+2023-09-04 15:38:55.806 +05:00 [INF] CORS policy execution successful.
+2023-09-04 15:38:55.806 +05:00 [INF] Executing endpoint 'BIS_project.Controllers.EmployeeController.GetEmployees (BIS_project)'
+2023-09-04 15:38:55.807 +05:00 [INF] Route matched with {action = "GetEmployees", controller = "Employee"}. Executing controller action with signature System.Threading.Tasks.Task`1[System.Collections.Generic.List`1[BIS_project.Models.Employee]] GetEmployees() on controller BIS_project.Controllers.EmployeeController (BIS_project).
+2023-09-04 15:38:55.845 +05:00 [INF] Executing ObjectResult, writing value of type 'System.Collections.Generic.List`1[[BIS_project.Models.Employee, BIS_project, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]'.
+2023-09-04 15:38:55.846 +05:00 [INF] Executed action BIS_project.Controllers.EmployeeController.GetEmployees (BIS_project) in 39.3727ms
+2023-09-04 15:38:55.846 +05:00 [INF] Executed endpoint 'BIS_project.Controllers.EmployeeController.GetEmployees (BIS_project)'
+2023-09-04 15:38:55.846 +05:00 [INF] Request finished HTTP/1.1 GET http://localhost:5279/api/v1/Employee - - - 200 - application/json;+charset=utf-8 43.0640ms
+2023-09-04 15:39:00.746 +05:00 [INF] Request starting HTTP/1.1 GET http://localhost:5279/api/v1/Employee - -
+2023-09-04 15:39:00.756 +05:00 [INF] CORS policy execution successful.
+2023-09-04 15:39:00.757 +05:00 [INF] Executing endpoint 'BIS_project.Controllers.EmployeeController.GetEmployees (BIS_project)'
+2023-09-04 15:39:00.757 +05:00 [INF] Route matched with {action = "GetEmployees", controller = "Employee"}. Executing controller action with signature System.Threading.Tasks.Task`1[System.Collections.Generic.List`1[BIS_project.Models.Employee]] GetEmployees() on controller BIS_project.Controllers.EmployeeController (BIS_project).
+2023-09-04 15:39:00.778 +05:00 [INF] Executing ObjectResult, writing value of type 'System.Collections.Generic.List`1[[BIS_project.Models.Employee, BIS_project, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]'.
+2023-09-04 15:39:00.779 +05:00 [INF] Executed action BIS_project.Controllers.EmployeeController.GetEmployees (BIS_project) in 20.2998ms
+2023-09-04 15:39:00.779 +05:00 [INF] Executed endpoint 'BIS_project.Controllers.EmployeeController.GetEmployees (BIS_project)'
+2023-09-04 15:39:00.779 +05:00 [INF] Request finished HTTP/1.1 GET http://localhost:5279/api/v1/Employee - - - 200 - application/json;+charset=utf-8 33.7415ms
+2023-09-04 15:39:19.611 +05:00 [INF] Request starting HTTP/1.1 OPTIONS http://localhost:5279/api/v1/Employee - -
+2023-09-04 15:39:19.613 +05:00 [INF] CORS policy execution successful.
+2023-09-04 15:39:19.613 +05:00 [INF] Request finished HTTP/1.1 OPTIONS http://localhost:5279/api/v1/Employee - - - 204 - - 2.5600ms
+2023-09-04 15:39:19.619 +05:00 [INF] Request starting HTTP/1.1 GET http://localhost:5279/api/v1/Employee - -
+2023-09-04 15:39:19.622 +05:00 [INF] CORS policy execution successful.
+2023-09-04 15:39:19.623 +05:00 [INF] Executing endpoint 'BIS_project.Controllers.EmployeeController.GetEmployees (BIS_project)'
+2023-09-04 15:39:19.624 +05:00 [INF] Route matched with {action = "GetEmployees", controller = "Employee"}. Executing controller action with signature System.Threading.Tasks.Task`1[System.Collections.Generic.List`1[BIS_project.Models.Employee]] GetEmployees() on controller BIS_project.Controllers.EmployeeController (BIS_project).
+2023-09-04 15:39:19.754 +05:00 [INF] Executing ObjectResult, writing value of type 'System.Collections.Generic.List`1[[BIS_project.Models.Employee, BIS_project, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]'.
+2023-09-04 15:39:19.754 +05:00 [INF] Executed action BIS_project.Controllers.EmployeeController.GetEmployees (BIS_project) in 129.9011ms
+2023-09-04 15:39:19.754 +05:00 [INF] Executed endpoint 'BIS_project.Controllers.EmployeeController.GetEmployees (BIS_project)'
+2023-09-04 15:39:19.755 +05:00 [INF] Request finished HTTP/1.1 GET http://localhost:5279/api/v1/Employee - - - 200 - application/json;+charset=utf-8 135.3827ms
+2023-09-04 15:39:29.110 +05:00 [INF] Request starting HTTP/1.1 OPTIONS http://localhost:5279/api/v1/Employee - -
+2023-09-04 15:39:29.112 +05:00 [INF] CORS policy execution successful.
+2023-09-04 15:39:29.112 +05:00 [INF] Request finished HTTP/1.1 OPTIONS http://localhost:5279/api/v1/Employee - - - 204 - - 2.1725ms
+2023-09-04 15:39:29.133 +05:00 [INF] Request starting HTTP/1.1 GET http://localhost:5279/api/v1/Employee - -
+2023-09-04 15:39:29.142 +05:00 [INF] CORS policy execution successful.
+2023-09-04 15:39:29.142 +05:00 [INF] Executing endpoint 'BIS_project.Controllers.EmployeeController.GetEmployees (BIS_project)'
+2023-09-04 15:39:29.143 +05:00 [INF] Route matched with {action = "GetEmployees", controller = "Employee"}. Executing controller action with signature System.Threading.Tasks.Task`1[System.Collections.Generic.List`1[BIS_project.Models.Employee]] GetEmployees() on controller BIS_project.Controllers.EmployeeController (BIS_project).
+2023-09-04 15:39:29.183 +05:00 [INF] Executing ObjectResult, writing value of type 'System.Collections.Generic.List`1[[BIS_project.Models.Employee, BIS_project, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]'.
+2023-09-04 15:39:29.186 +05:00 [INF] Executed action BIS_project.Controllers.EmployeeController.GetEmployees (BIS_project) in 42.6004ms
+2023-09-04 15:39:29.187 +05:00 [INF] Executed endpoint 'BIS_project.Controllers.EmployeeController.GetEmployees (BIS_project)'
+2023-09-04 15:39:29.187 +05:00 [INF] Request finished HTTP/1.1 GET http://localhost:5279/api/v1/Employee - - - 200 - application/json;+charset=utf-8 53.9235ms
+2023-09-04 15:40:44.684 +05:00 [INF] Request starting HTTP/1.1 OPTIONS http://localhost:5279/api/v1/Employee - -
+2023-09-04 15:40:44.685 +05:00 [INF] CORS policy execution successful.
+2023-09-04 15:40:44.686 +05:00 [INF] Request finished HTTP/1.1 OPTIONS http://localhost:5279/api/v1/Employee - - - 204 - - 2.1745ms
+2023-09-04 15:40:44.689 +05:00 [INF] Request starting HTTP/1.1 GET http://localhost:5279/api/v1/Employee - -
+2023-09-04 15:40:44.692 +05:00 [INF] CORS policy execution successful.
+2023-09-04 15:40:44.693 +05:00 [INF] Executing endpoint 'BIS_project.Controllers.EmployeeController.GetEmployees (BIS_project)'
+2023-09-04 15:40:44.693 +05:00 [INF] Route matched with {action = "GetEmployees", controller = "Employee"}. Executing controller action with signature System.Threading.Tasks.Task`1[System.Collections.Generic.List`1[BIS_project.Models.Employee]] GetEmployees() on controller BIS_project.Controllers.EmployeeController (BIS_project).
+2023-09-04 15:40:44.738 +05:00 [INF] Executing ObjectResult, writing value of type 'System.Collections.Generic.List`1[[BIS_project.Models.Employee, BIS_project, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]'.
+2023-09-04 15:40:44.739 +05:00 [INF] Executed action BIS_project.Controllers.EmployeeController.GetEmployees (BIS_project) in 45.2669ms
+2023-09-04 15:40:44.739 +05:00 [INF] Executed endpoint 'BIS_project.Controllers.EmployeeController.GetEmployees (BIS_project)'
+2023-09-04 15:40:44.739 +05:00 [INF] Request finished HTTP/1.1 GET http://localhost:5279/api/v1/Employee - - - 200 - application/json;+charset=utf-8 50.4690ms
+2023-09-04 15:40:47.727 +05:00 [INF] Request starting HTTP/1.1 GET http://localhost:5279/api/v1/Employee - -
+2023-09-04 15:40:47.729 +05:00 [INF] CORS policy execution successful.
+2023-09-04 15:40:47.729 +05:00 [INF] Executing endpoint 'BIS_project.Controllers.EmployeeController.GetEmployees (BIS_project)'
+2023-09-04 15:40:47.729 +05:00 [INF] Route matched with {action = "GetEmployees", controller = "Employee"}. Executing controller action with signature System.Threading.Tasks.Task`1[System.Collections.Generic.List`1[BIS_project.Models.Employee]] GetEmployees() on controller BIS_project.Controllers.EmployeeController (BIS_project).
+2023-09-04 15:40:47.762 +05:00 [INF] Executing ObjectResult, writing value of type 'System.Collections.Generic.List`1[[BIS_project.Models.Employee, BIS_project, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]'.
+2023-09-04 15:40:47.763 +05:00 [INF] Executed action BIS_project.Controllers.EmployeeController.GetEmployees (BIS_project) in 33.4948ms
+2023-09-04 15:40:47.763 +05:00 [INF] Executed endpoint 'BIS_project.Controllers.EmployeeController.GetEmployees (BIS_project)'
+2023-09-04 15:40:47.763 +05:00 [INF] Request finished HTTP/1.1 GET http://localhost:5279/api/v1/Employee - - - 200 - application/json;+charset=utf-8 35.4275ms
+2023-09-04 15:41:07.728 +05:00 [INF] Request starting HTTP/1.1 OPTIONS http://localhost:5279/api/v1/Employee - -
+2023-09-04 15:41:07.729 +05:00 [INF] CORS policy execution successful.
+2023-09-04 15:41:07.731 +05:00 [INF] Request finished HTTP/1.1 OPTIONS http://localhost:5279/api/v1/Employee - - - 204 - - 3.0132ms
+2023-09-04 15:41:07.734 +05:00 [INF] Request starting HTTP/1.1 GET http://localhost:5279/api/v1/Employee - -
+2023-09-04 15:41:07.736 +05:00 [INF] CORS policy execution successful.
+2023-09-04 15:41:07.736 +05:00 [INF] Executing endpoint 'BIS_project.Controllers.EmployeeController.GetEmployees (BIS_project)'
+2023-09-04 15:41:07.739 +05:00 [INF] Route matched with {action = "GetEmployees", controller = "Employee"}. Executing controller action with signature System.Threading.Tasks.Task`1[System.Collections.Generic.List`1[BIS_project.Models.Employee]] GetEmployees() on controller BIS_project.Controllers.EmployeeController (BIS_project).
+2023-09-04 15:41:07.761 +05:00 [INF] Executing ObjectResult, writing value of type 'System.Collections.Generic.List`1[[BIS_project.Models.Employee, BIS_project, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]'.
+2023-09-04 15:41:07.762 +05:00 [INF] Executed action BIS_project.Controllers.EmployeeController.GetEmployees (BIS_project) in 21.9372ms
+2023-09-04 15:41:07.762 +05:00 [INF] Executed endpoint 'BIS_project.Controllers.EmployeeController.GetEmployees (BIS_project)'
+2023-09-04 15:41:07.762 +05:00 [INF] Request finished HTTP/1.1 GET http://localhost:5279/api/v1/Employee - - - 200 - application/json;+charset=utf-8 27.8526ms
+2023-09-04 15:41:09.095 +05:00 [INF] Request starting HTTP/1.1 GET http://localhost:5279/api/v1/Employee - -
+2023-09-04 15:41:09.096 +05:00 [INF] CORS policy execution successful.
+2023-09-04 15:41:09.097 +05:00 [INF] Executing endpoint 'BIS_project.Controllers.EmployeeController.GetEmployees (BIS_project)'
+2023-09-04 15:41:09.097 +05:00 [INF] Route matched with {action = "GetEmployees", controller = "Employee"}. Executing controller action with signature System.Threading.Tasks.Task`1[System.Collections.Generic.List`1[BIS_project.Models.Employee]] GetEmployees() on controller BIS_project.Controllers.EmployeeController (BIS_project).
+2023-09-04 15:41:09.124 +05:00 [INF] Executing ObjectResult, writing value of type 'System.Collections.Generic.List`1[[BIS_project.Models.Employee, BIS_project, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]'.
+2023-09-04 15:41:09.124 +05:00 [INF] Executed action BIS_project.Controllers.EmployeeController.GetEmployees (BIS_project) in 25.7497ms
+2023-09-04 15:41:09.124 +05:00 [INF] Executed endpoint 'BIS_project.Controllers.EmployeeController.GetEmployees (BIS_project)'
+2023-09-04 15:41:09.124 +05:00 [INF] Request finished HTTP/1.1 GET http://localhost:5279/api/v1/Employee - - - 200 - application/json;+charset=utf-8 28.7269ms
+2023-09-04 15:41:36.575 +05:00 [INF] Request starting HTTP/1.1 GET http://localhost:5279/swagger/v1/swagger.json - -
+2023-09-04 15:41:36.618 +05:00 [INF] Request finished HTTP/1.1 GET http://localhost:5279/swagger/v1/swagger.json - - - 200 - application/json;charset=utf-8 43.9550ms
+2023-09-04 15:41:37.173 +05:00 [INF] Request starting HTTP/1.1 GET http://localhost:5279/swagger/v1/swagger.json - -
+2023-09-04 15:41:37.189 +05:00 [INF] Request finished HTTP/1.1 GET http://localhost:5279/swagger/v1/swagger.json - - - 200 - application/json;charset=utf-8 16.4367ms
+2023-09-04 15:41:52.234 +05:00 [INF] Request starting HTTP/1.1 OPTIONS http://localhost:5279/api/v1/Employee - -
+2023-09-04 15:41:52.237 +05:00 [INF] CORS policy execution successful.
+2023-09-04 15:41:52.237 +05:00 [INF] Request finished HTTP/1.1 OPTIONS http://localhost:5279/api/v1/Employee - - - 204 - - 3.6657ms
+2023-09-04 15:41:52.239 +05:00 [INF] Request starting HTTP/1.1 GET http://localhost:5279/api/v1/Employee - -
+2023-09-04 15:41:52.243 +05:00 [INF] CORS policy execution successful.
+2023-09-04 15:41:52.243 +05:00 [INF] Executing endpoint 'BIS_project.Controllers.EmployeeController.GetEmployees (BIS_project)'
+2023-09-04 15:41:52.244 +05:00 [INF] Route matched with {action = "GetEmployees", controller = "Employee"}. Executing controller action with signature System.Threading.Tasks.Task`1[System.Collections.Generic.List`1[BIS_project.Models.Employee]] GetEmployees() on controller BIS_project.Controllers.EmployeeController (BIS_project).
+2023-09-04 15:41:52.277 +05:00 [INF] Executing ObjectResult, writing value of type 'System.Collections.Generic.List`1[[BIS_project.Models.Employee, BIS_project, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]'.
+2023-09-04 15:41:52.278 +05:00 [INF] Executed action BIS_project.Controllers.EmployeeController.GetEmployees (BIS_project) in 31.4435ms
+2023-09-04 15:41:52.278 +05:00 [INF] Executed endpoint 'BIS_project.Controllers.EmployeeController.GetEmployees (BIS_project)'
+2023-09-04 15:41:52.279 +05:00 [INF] Request finished HTTP/1.1 GET http://localhost:5279/api/v1/Employee - - - 200 - application/json;+charset=utf-8 39.2019ms
+2023-09-04 15:43:41.213 +05:00 [INF] Request starting HTTP/1.1 OPTIONS http://localhost:5279/api/v1/Employee - -
+2023-09-04 15:43:41.218 +05:00 [INF] CORS policy execution successful.
+2023-09-04 15:43:41.218 +05:00 [INF] Request finished HTTP/1.1 OPTIONS http://localhost:5279/api/v1/Employee - - - 204 - - 5.5762ms
+2023-09-04 15:43:41.223 +05:00 [INF] Request starting HTTP/1.1 GET http://localhost:5279/api/v1/Employee - -
+2023-09-04 15:43:41.234 +05:00 [INF] CORS policy execution successful.
+2023-09-04 15:43:41.234 +05:00 [INF] Executing endpoint 'BIS_project.Controllers.EmployeeController.GetEmployees (BIS_project)'
+2023-09-04 15:43:41.235 +05:00 [INF] Route matched with {action = "GetEmployees", controller = "Employee"}. Executing controller action with signature System.Threading.Tasks.Task`1[System.Collections.Generic.List`1[BIS_project.Models.Employee]] GetEmployees() on controller BIS_project.Controllers.EmployeeController (BIS_project).
+2023-09-04 15:43:41.263 +05:00 [INF] Executing ObjectResult, writing value of type 'System.Collections.Generic.List`1[[BIS_project.Models.Employee, BIS_project, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]'.
+2023-09-04 15:43:41.264 +05:00 [INF] Executed action BIS_project.Controllers.EmployeeController.GetEmployees (BIS_project) in 28.8105ms
+2023-09-04 15:43:41.264 +05:00 [INF] Executed endpoint 'BIS_project.Controllers.EmployeeController.GetEmployees (BIS_project)'
+2023-09-04 15:43:41.264 +05:00 [INF] Request finished HTTP/1.1 GET http://localhost:5279/api/v1/Employee - - - 200 - application/json;+charset=utf-8 41.1948ms
+2023-09-04 15:43:53.625 +05:00 [INF] Request starting HTTP/1.1 OPTIONS http://localhost:5279/api/v1/Employee - -
+2023-09-04 15:43:53.626 +05:00 [INF] CORS policy execution successful.
+2023-09-04 15:43:53.626 +05:00 [INF] Request finished HTTP/1.1 OPTIONS http://localhost:5279/api/v1/Employee - - - 204 - - 1.2562ms
+2023-09-04 15:43:53.628 +05:00 [INF] Request starting HTTP/1.1 GET http://localhost:5279/api/v1/Employee - -
+2023-09-04 15:43:53.628 +05:00 [INF] CORS policy execution successful.
+2023-09-04 15:43:53.628 +05:00 [INF] Executing endpoint 'BIS_project.Controllers.EmployeeController.GetEmployees (BIS_project)'
+2023-09-04 15:43:53.629 +05:00 [INF] Route matched with {action = "GetEmployees", controller = "Employee"}. Executing controller action with signature System.Threading.Tasks.Task`1[System.Collections.Generic.List`1[BIS_project.Models.Employee]] GetEmployees() on controller BIS_project.Controllers.EmployeeController (BIS_project).
+2023-09-04 15:43:53.647 +05:00 [INF] Executing ObjectResult, writing value of type 'System.Collections.Generic.List`1[[BIS_project.Models.Employee, BIS_project, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]'.
+2023-09-04 15:43:53.647 +05:00 [INF] Executed action BIS_project.Controllers.EmployeeController.GetEmployees (BIS_project) in 18.6838ms
+2023-09-04 15:43:53.647 +05:00 [INF] Executed endpoint 'BIS_project.Controllers.EmployeeController.GetEmployees (BIS_project)'
+2023-09-04 15:43:53.648 +05:00 [INF] Request finished HTTP/1.1 GET http://localhost:5279/api/v1/Employee - - - 200 - application/json;+charset=utf-8 20.5370ms
+2023-09-04 15:43:55.090 +05:00 [INF] Request starting HTTP/1.1 GET http://localhost:5279/api/v1/Employee - -
+2023-09-04 15:43:55.091 +05:00 [INF] CORS policy execution successful.
+2023-09-04 15:43:55.091 +05:00 [INF] Executing endpoint 'BIS_project.Controllers.EmployeeController.GetEmployees (BIS_project)'
+2023-09-04 15:43:55.092 +05:00 [INF] Route matched with {action = "GetEmployees", controller = "Employee"}. Executing controller action with signature System.Threading.Tasks.Task`1[System.Collections.Generic.List`1[BIS_project.Models.Employee]] GetEmployees() on controller BIS_project.Controllers.EmployeeController (BIS_project).
+2023-09-04 15:43:55.108 +05:00 [INF] Executing ObjectResult, writing value of type 'System.Collections.Generic.List`1[[BIS_project.Models.Employee, BIS_project, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]'.
+2023-09-04 15:43:55.109 +05:00 [INF] Executed action BIS_project.Controllers.EmployeeController.GetEmployees (BIS_project) in 16.4054ms
+2023-09-04 15:43:55.109 +05:00 [INF] Executed endpoint 'BIS_project.Controllers.EmployeeController.GetEmployees (BIS_project)'
+2023-09-04 15:43:55.109 +05:00 [INF] Request finished HTTP/1.1 GET http://localhost:5279/api/v1/Employee - - - 200 - application/json;+charset=utf-8 18.3294ms
+2023-09-04 15:43:58.039 +05:00 [INF] Request starting HTTP/1.1 GET http://localhost:5279/api/v1/Employee - -
+2023-09-04 15:43:58.039 +05:00 [INF] CORS policy execution successful.
+2023-09-04 15:43:58.040 +05:00 [INF] Executing endpoint 'BIS_project.Controllers.EmployeeController.GetEmployees (BIS_project)'
+2023-09-04 15:43:58.040 +05:00 [INF] Route matched with {action = "GetEmployees", controller = "Employee"}. Executing controller action with signature System.Threading.Tasks.Task`1[System.Collections.Generic.List`1[BIS_project.Models.Employee]] GetEmployees() on controller BIS_project.Controllers.EmployeeController (BIS_project).
+2023-09-04 15:43:58.057 +05:00 [INF] Executing ObjectResult, writing value of type 'System.Collections.Generic.List`1[[BIS_project.Models.Employee, BIS_project, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]'.
+2023-09-04 15:43:58.057 +05:00 [INF] Executed action BIS_project.Controllers.EmployeeController.GetEmployees (BIS_project) in 16.6116ms
+2023-09-04 15:43:58.057 +05:00 [INF] Executed endpoint 'BIS_project.Controllers.EmployeeController.GetEmployees (BIS_project)'
+2023-09-04 15:43:58.057 +05:00 [INF] Request finished HTTP/1.1 GET http://localhost:5279/api/v1/Employee - - - 200 - application/json;+charset=utf-8 18.2680ms
+2023-09-04 15:44:09.913 +05:00 [INF] Request starting HTTP/1.1 OPTIONS http://localhost:5279/api/v1/Employee - -
+2023-09-04 15:44:09.915 +05:00 [INF] CORS policy execution successful.
+2023-09-04 15:44:09.922 +05:00 [INF] Request finished HTTP/1.1 OPTIONS http://localhost:5279/api/v1/Employee - - - 204 - - 9.3385ms
+2023-09-04 15:44:09.937 +05:00 [INF] Request starting HTTP/1.1 GET http://localhost:5279/api/v1/Employee - -
+2023-09-04 15:44:09.939 +05:00 [INF] CORS policy execution successful.
+2023-09-04 15:44:09.939 +05:00 [INF] Executing endpoint 'BIS_project.Controllers.EmployeeController.GetEmployees (BIS_project)'
+2023-09-04 15:44:09.939 +05:00 [INF] Route matched with {action = "GetEmployees", controller = "Employee"}. Executing controller action with signature System.Threading.Tasks.Task`1[System.Collections.Generic.List`1[BIS_project.Models.Employee]] GetEmployees() on controller BIS_project.Controllers.EmployeeController (BIS_project).
+2023-09-04 15:44:10.003 +05:00 [INF] Executing ObjectResult, writing value of type 'System.Collections.Generic.List`1[[BIS_project.Models.Employee, BIS_project, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]'.
+2023-09-04 15:44:10.004 +05:00 [INF] Executed action BIS_project.Controllers.EmployeeController.GetEmployees (BIS_project) in 64.3439ms
+2023-09-04 15:44:10.004 +05:00 [INF] Executed endpoint 'BIS_project.Controllers.EmployeeController.GetEmployees (BIS_project)'
+2023-09-04 15:44:10.004 +05:00 [INF] Request finished HTTP/1.1 GET http://localhost:5279/api/v1/Employee - - - 200 - application/json;+charset=utf-8 66.8996ms
+2023-09-04 15:44:11.104 +05:00 [INF] Request starting HTTP/1.1 GET http://localhost:5279/api/v1/Employee - -
+2023-09-04 15:44:11.104 +05:00 [INF] CORS policy execution successful.
+2023-09-04 15:44:11.104 +05:00 [INF] Executing endpoint 'BIS_project.Controllers.EmployeeController.GetEmployees (BIS_project)'
+2023-09-04 15:44:11.104 +05:00 [INF] Route matched with {action = "GetEmployees", controller = "Employee"}. Executing controller action with signature System.Threading.Tasks.Task`1[System.Collections.Generic.List`1[BIS_project.Models.Employee]] GetEmployees() on controller BIS_project.Controllers.EmployeeController (BIS_project).
+2023-09-04 15:44:11.116 +05:00 [INF] Executing ObjectResult, writing value of type 'System.Collections.Generic.List`1[[BIS_project.Models.Employee, BIS_project, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]'.
+2023-09-04 15:44:11.116 +05:00 [INF] Executed action BIS_project.Controllers.EmployeeController.GetEmployees (BIS_project) in 11.6146ms
+2023-09-04 15:44:11.116 +05:00 [INF] Executed endpoint 'BIS_project.Controllers.EmployeeController.GetEmployees (BIS_project)'
+2023-09-04 15:44:11.116 +05:00 [INF] Request finished HTTP/1.1 GET http://localhost:5279/api/v1/Employee - - - 200 - application/json;+charset=utf-8 12.6367ms
+2023-09-04 15:44:33.139 +05:00 [INF] Request starting HTTP/1.1 OPTIONS http://localhost:5279/api/v1/Employee - -
+2023-09-04 15:44:33.141 +05:00 [INF] CORS policy execution successful.
+2023-09-04 15:44:33.142 +05:00 [INF] Request finished HTTP/1.1 OPTIONS http://localhost:5279/api/v1/Employee - - - 204 - - 2.7542ms
+2023-09-04 15:44:33.153 +05:00 [INF] Request starting HTTP/1.1 GET http://localhost:5279/api/v1/Employee - -
+2023-09-04 15:44:33.154 +05:00 [INF] CORS policy execution successful.
+2023-09-04 15:44:33.154 +05:00 [INF] Executing endpoint 'BIS_project.Controllers.EmployeeController.GetEmployees (BIS_project)'
+2023-09-04 15:44:33.154 +05:00 [INF] Route matched with {action = "GetEmployees", controller = "Employee"}. Executing controller action with signature System.Threading.Tasks.Task`1[System.Collections.Generic.List`1[BIS_project.Models.Employee]] GetEmployees() on controller BIS_project.Controllers.EmployeeController (BIS_project).
+2023-09-04 15:44:33.208 +05:00 [INF] Executing ObjectResult, writing value of type 'System.Collections.Generic.List`1[[BIS_project.Models.Employee, BIS_project, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]'.
+2023-09-04 15:44:33.213 +05:00 [INF] Executed action BIS_project.Controllers.EmployeeController.GetEmployees (BIS_project) in 58.3836ms
+2023-09-04 15:44:33.213 +05:00 [INF] Executed endpoint 'BIS_project.Controllers.EmployeeController.GetEmployees (BIS_project)'
+2023-09-04 15:44:33.213 +05:00 [INF] Request finished HTTP/1.1 GET http://localhost:5279/api/v1/Employee - - - 200 - application/json;+charset=utf-8 61.5625ms
+2023-09-04 15:44:52.364 +05:00 [INF] Request starting HTTP/1.1 OPTIONS http://localhost:5279/api/v1/Employee - -
+2023-09-04 15:44:52.367 +05:00 [INF] CORS policy execution successful.
+2023-09-04 15:44:52.372 +05:00 [INF] Request finished HTTP/1.1 OPTIONS http://localhost:5279/api/v1/Employee - - - 204 - - 8.0540ms
+2023-09-04 15:44:52.380 +05:00 [INF] Request starting HTTP/1.1 GET http://localhost:5279/api/v1/Employee - -
+2023-09-04 15:44:52.388 +05:00 [INF] CORS policy execution successful.
+2023-09-04 15:44:52.388 +05:00 [INF] Executing endpoint 'BIS_project.Controllers.EmployeeController.GetEmployees (BIS_project)'
+2023-09-04 15:44:52.388 +05:00 [INF] Route matched with {action = "GetEmployees", controller = "Employee"}. Executing controller action with signature System.Threading.Tasks.Task`1[System.Collections.Generic.List`1[BIS_project.Models.Employee]] GetEmployees() on controller BIS_project.Controllers.EmployeeController (BIS_project).
+2023-09-04 15:44:52.416 +05:00 [INF] Executing ObjectResult, writing value of type 'System.Collections.Generic.List`1[[BIS_project.Models.Employee, BIS_project, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]'.
+2023-09-04 15:44:52.417 +05:00 [INF] Executed action BIS_project.Controllers.EmployeeController.GetEmployees (BIS_project) in 28.0708ms
+2023-09-04 15:44:52.417 +05:00 [INF] Executed endpoint 'BIS_project.Controllers.EmployeeController.GetEmployees (BIS_project)'
+2023-09-04 15:44:52.417 +05:00 [INF] Request finished HTTP/1.1 GET http://localhost:5279/api/v1/Employee - - - 200 - application/json;+charset=utf-8 37.0913ms
+2023-09-04 15:47:47.970 +05:00 [INF] Request starting HTTP/1.1 OPTIONS http://localhost:5279/api/v1/Employee - -
+2023-09-04 15:47:47.972 +05:00 [INF] CORS policy execution successful.
+2023-09-04 15:47:47.972 +05:00 [INF] Request finished HTTP/1.1 OPTIONS http://localhost:5279/api/v1/Employee - - - 204 - - 2.4967ms
+2023-09-04 15:47:47.977 +05:00 [INF] Request starting HTTP/1.1 GET http://localhost:5279/api/v1/Employee - -
+2023-09-04 15:47:47.981 +05:00 [INF] CORS policy execution successful.
+2023-09-04 15:47:47.981 +05:00 [INF] Executing endpoint 'BIS_project.Controllers.EmployeeController.GetEmployees (BIS_project)'
+2023-09-04 15:47:47.981 +05:00 [INF] Route matched with {action = "GetEmployees", controller = "Employee"}. Executing controller action with signature System.Threading.Tasks.Task`1[System.Collections.Generic.List`1[BIS_project.Models.Employee]] GetEmployees() on controller BIS_project.Controllers.EmployeeController (BIS_project).
+2023-09-04 15:47:48.009 +05:00 [INF] Executing ObjectResult, writing value of type 'System.Collections.Generic.List`1[[BIS_project.Models.Employee, BIS_project, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]'.
+2023-09-04 15:47:48.010 +05:00 [INF] Executed action BIS_project.Controllers.EmployeeController.GetEmployees (BIS_project) in 28.7996ms
+2023-09-04 15:47:48.010 +05:00 [INF] Executed endpoint 'BIS_project.Controllers.EmployeeController.GetEmployees (BIS_project)'
+2023-09-04 15:47:48.011 +05:00 [INF] Request finished HTTP/1.1 GET http://localhost:5279/api/v1/Employee - - - 200 - application/json;+charset=utf-8 33.3301ms
+2023-09-04 15:48:11.816 +05:00 [INF] Request starting HTTP/1.1 OPTIONS http://localhost:5279/api/v1/Employee - -
+2023-09-04 15:48:11.818 +05:00 [INF] CORS policy execution successful.
+2023-09-04 15:48:11.818 +05:00 [INF] Request finished HTTP/1.1 OPTIONS http://localhost:5279/api/v1/Employee - - - 204 - - 2.3677ms
+2023-09-04 15:48:11.824 +05:00 [INF] Request starting HTTP/1.1 GET http://localhost:5279/api/v1/Employee - -
+2023-09-04 15:48:11.825 +05:00 [INF] CORS policy execution successful.
+2023-09-04 15:48:11.825 +05:00 [INF] Executing endpoint 'BIS_project.Controllers.EmployeeController.GetEmployees (BIS_project)'
+2023-09-04 15:48:11.826 +05:00 [INF] Route matched with {action = "GetEmployees", controller = "Employee"}. Executing controller action with signature System.Threading.Tasks.Task`1[System.Collections.Generic.List`1[BIS_project.Models.Employee]] GetEmployees() on controller BIS_project.Controllers.EmployeeController (BIS_project).
+2023-09-04 15:48:11.881 +05:00 [INF] Executing ObjectResult, writing value of type 'System.Collections.Generic.List`1[[BIS_project.Models.Employee, BIS_project, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]'.
+2023-09-04 15:48:11.882 +05:00 [INF] Executed action BIS_project.Controllers.EmployeeController.GetEmployees (BIS_project) in 55.9065ms
+2023-09-04 15:48:11.882 +05:00 [INF] Executed endpoint 'BIS_project.Controllers.EmployeeController.GetEmployees (BIS_project)'
+2023-09-04 15:48:11.882 +05:00 [INF] Request finished HTTP/1.1 GET http://localhost:5279/api/v1/Employee - - - 200 - application/json;+charset=utf-8 58.5246ms
+2023-09-04 15:48:13.459 +05:00 [INF] Request starting HTTP/1.1 GET http://localhost:5279/api/v1/Employee - -
+2023-09-04 15:48:13.459 +05:00 [INF] CORS policy execution successful.
+2023-09-04 15:48:13.459 +05:00 [INF] Executing endpoint 'BIS_project.Controllers.EmployeeController.GetEmployees (BIS_project)'
+2023-09-04 15:48:13.459 +05:00 [INF] Route matched with {action = "GetEmployees", controller = "Employee"}. Executing controller action with signature System.Threading.Tasks.Task`1[System.Collections.Generic.List`1[BIS_project.Models.Employee]] GetEmployees() on controller BIS_project.Controllers.EmployeeController (BIS_project).
+2023-09-04 15:48:13.477 +05:00 [INF] Executing ObjectResult, writing value of type 'System.Collections.Generic.List`1[[BIS_project.Models.Employee, BIS_project, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]'.
+2023-09-04 15:48:13.478 +05:00 [INF] Executed action BIS_project.Controllers.EmployeeController.GetEmployees (BIS_project) in 18.1233ms
+2023-09-04 15:48:13.478 +05:00 [INF] Executed endpoint 'BIS_project.Controllers.EmployeeController.GetEmployees (BIS_project)'
+2023-09-04 15:48:13.478 +05:00 [INF] Request finished HTTP/1.1 GET http://localhost:5279/api/v1/Employee - - - 200 - application/json;+charset=utf-8 19.0528ms
+2023-09-04 15:48:40.182 +05:00 [INF] Request starting HTTP/1.1 OPTIONS http://localhost:5279/api/v1/Employee - -
+2023-09-04 15:48:40.183 +05:00 [INF] CORS policy execution successful.
+2023-09-04 15:48:40.184 +05:00 [INF] Request finished HTTP/1.1 OPTIONS http://localhost:5279/api/v1/Employee - - - 204 - - 2.4753ms
+2023-09-04 15:48:40.193 +05:00 [INF] Request starting HTTP/1.1 GET http://localhost:5279/api/v1/Employee - -
+2023-09-04 15:48:40.194 +05:00 [INF] CORS policy execution successful.
+2023-09-04 15:48:40.195 +05:00 [INF] Executing endpoint 'BIS_project.Controllers.EmployeeController.GetEmployees (BIS_project)'
+2023-09-04 15:48:40.195 +05:00 [INF] Route matched with {action = "GetEmployees", controller = "Employee"}. Executing controller action with signature System.Threading.Tasks.Task`1[System.Collections.Generic.List`1[BIS_project.Models.Employee]] GetEmployees() on controller BIS_project.Controllers.EmployeeController (BIS_project).
+2023-09-04 15:48:40.245 +05:00 [INF] Executing ObjectResult, writing value of type 'System.Collections.Generic.List`1[[BIS_project.Models.Employee, BIS_project, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]'.
+2023-09-04 15:48:40.245 +05:00 [INF] Executed action BIS_project.Controllers.EmployeeController.GetEmployees (BIS_project) in 50.0944ms
+2023-09-04 15:48:40.245 +05:00 [INF] Executed endpoint 'BIS_project.Controllers.EmployeeController.GetEmployees (BIS_project)'
+2023-09-04 15:48:40.245 +05:00 [INF] Request finished HTTP/1.1 GET http://localhost:5279/api/v1/Employee - - - 200 - application/json;+charset=utf-8 52.7467ms
+2023-09-04 15:48:41.688 +05:00 [INF] Request starting HTTP/1.1 GET http://localhost:5279/api/v1/Employee - -
+2023-09-04 15:48:41.689 +05:00 [INF] CORS policy execution successful.
+2023-09-04 15:48:41.689 +05:00 [INF] Executing endpoint 'BIS_project.Controllers.EmployeeController.GetEmployees (BIS_project)'
+2023-09-04 15:48:41.689 +05:00 [INF] Route matched with {action = "GetEmployees", controller = "Employee"}. Executing controller action with signature System.Threading.Tasks.Task`1[System.Collections.Generic.List`1[BIS_project.Models.Employee]] GetEmployees() on controller BIS_project.Controllers.EmployeeController (BIS_project).
+2023-09-04 15:48:41.698 +05:00 [INF] Executing ObjectResult, writing value of type 'System.Collections.Generic.List`1[[BIS_project.Models.Employee, BIS_project, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]'.
+2023-09-04 15:48:41.698 +05:00 [INF] Executed action BIS_project.Controllers.EmployeeController.GetEmployees (BIS_project) in 8.9174ms
+2023-09-04 15:48:41.698 +05:00 [INF] Executed endpoint 'BIS_project.Controllers.EmployeeController.GetEmployees (BIS_project)'
+2023-09-04 15:48:41.699 +05:00 [INF] Request finished HTTP/1.1 GET http://localhost:5279/api/v1/Employee - - - 200 - application/json;+charset=utf-8 10.2648ms
+2023-09-04 15:48:42.434 +05:00 [INF] Request starting HTTP/1.1 GET http://localhost:5279/api/v1/Employee - -
+2023-09-04 15:48:42.435 +05:00 [INF] CORS policy execution successful.
+2023-09-04 15:48:42.435 +05:00 [INF] Executing endpoint 'BIS_project.Controllers.EmployeeController.GetEmployees (BIS_project)'
+2023-09-04 15:48:42.435 +05:00 [INF] Route matched with {action = "GetEmployees", controller = "Employee"}. Executing controller action with signature System.Threading.Tasks.Task`1[System.Collections.Generic.List`1[BIS_project.Models.Employee]] GetEmployees() on controller BIS_project.Controllers.EmployeeController (BIS_project).
+2023-09-04 15:48:42.445 +05:00 [INF] Executing ObjectResult, writing value of type 'System.Collections.Generic.List`1[[BIS_project.Models.Employee, BIS_project, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]'.
+2023-09-04 15:48:42.445 +05:00 [INF] Executed action BIS_project.Controllers.EmployeeController.GetEmployees (BIS_project) in 9.6127ms
+2023-09-04 15:48:42.445 +05:00 [INF] Executed endpoint 'BIS_project.Controllers.EmployeeController.GetEmployees (BIS_project)'
+2023-09-04 15:48:42.446 +05:00 [INF] Request finished HTTP/1.1 GET http://localhost:5279/api/v1/Employee - - - 200 - application/json;+charset=utf-8 11.2764ms
+2023-09-04 15:49:01.445 +05:00 [INF] Request starting HTTP/1.1 OPTIONS http://localhost:5279/api/v1/Employee - -
+2023-09-04 15:49:01.446 +05:00 [INF] CORS policy execution successful.
+2023-09-04 15:49:01.446 +05:00 [INF] Request finished HTTP/1.1 OPTIONS http://localhost:5279/api/v1/Employee - - - 204 - - 1.7401ms
+2023-09-04 15:49:01.448 +05:00 [INF] Request starting HTTP/1.1 GET http://localhost:5279/api/v1/Employee - -
+2023-09-04 15:49:01.458 +05:00 [INF] CORS policy execution successful.
+2023-09-04 15:49:01.458 +05:00 [INF] Executing endpoint 'BIS_project.Controllers.EmployeeController.GetEmployees (BIS_project)'
+2023-09-04 15:49:01.458 +05:00 [INF] Route matched with {action = "GetEmployees", controller = "Employee"}. Executing controller action with signature System.Threading.Tasks.Task`1[System.Collections.Generic.List`1[BIS_project.Models.Employee]] GetEmployees() on controller BIS_project.Controllers.EmployeeController (BIS_project).
+2023-09-04 15:49:01.481 +05:00 [INF] Executing ObjectResult, writing value of type 'System.Collections.Generic.List`1[[BIS_project.Models.Employee, BIS_project, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]'.
+2023-09-04 15:49:01.482 +05:00 [INF] Executed action BIS_project.Controllers.EmployeeController.GetEmployees (BIS_project) in 23.1808ms
+2023-09-04 15:49:01.482 +05:00 [INF] Executed endpoint 'BIS_project.Controllers.EmployeeController.GetEmployees (BIS_project)'
+2023-09-04 15:49:01.482 +05:00 [INF] Request finished HTTP/1.1 GET http://localhost:5279/api/v1/Employee - - - 200 - application/json;+charset=utf-8 33.8377ms
+2023-09-04 15:51:03.918 +05:00 [INF] Request starting HTTP/1.1 OPTIONS http://localhost:5279/api/v1/Employee - -
+2023-09-04 15:51:03.919 +05:00 [INF] CORS policy execution successful.
+2023-09-04 15:51:03.920 +05:00 [INF] Request finished HTTP/1.1 OPTIONS http://localhost:5279/api/v1/Employee - - - 204 - - 2.0940ms
+2023-09-04 15:51:03.923 +05:00 [INF] Request starting HTTP/1.1 GET http://localhost:5279/api/v1/Employee - -
+2023-09-04 15:51:03.925 +05:00 [INF] CORS policy execution successful.
+2023-09-04 15:51:03.926 +05:00 [INF] Executing endpoint 'BIS_project.Controllers.EmployeeController.GetEmployees (BIS_project)'
+2023-09-04 15:51:03.926 +05:00 [INF] Route matched with {action = "GetEmployees", controller = "Employee"}. Executing controller action with signature System.Threading.Tasks.Task`1[System.Collections.Generic.List`1[BIS_project.Models.Employee]] GetEmployees() on controller BIS_project.Controllers.EmployeeController (BIS_project).
+2023-09-04 15:51:03.963 +05:00 [INF] Executing ObjectResult, writing value of type 'System.Collections.Generic.List`1[[BIS_project.Models.Employee, BIS_project, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]'.
+2023-09-04 15:51:03.964 +05:00 [INF] Executed action BIS_project.Controllers.EmployeeController.GetEmployees (BIS_project) in 37.6422ms
+2023-09-04 15:51:03.964 +05:00 [INF] Executed endpoint 'BIS_project.Controllers.EmployeeController.GetEmployees (BIS_project)'
+2023-09-04 15:51:03.964 +05:00 [INF] Request finished HTTP/1.1 GET http://localhost:5279/api/v1/Employee - - - 200 - application/json;+charset=utf-8 40.3798ms
+2023-09-04 15:51:57.167 +05:00 [INF] Request starting HTTP/1.1 OPTIONS http://localhost:5279/api/v1/Employee - -
+2023-09-04 15:51:57.169 +05:00 [INF] CORS policy execution successful.
+2023-09-04 15:51:57.169 +05:00 [INF] Request finished HTTP/1.1 OPTIONS http://localhost:5279/api/v1/Employee - - - 204 - - 2.2967ms
+2023-09-04 15:51:57.171 +05:00 [INF] Request starting HTTP/1.1 GET http://localhost:5279/api/v1/Employee - -
+2023-09-04 15:51:57.178 +05:00 [INF] CORS policy execution successful.
+2023-09-04 15:51:57.178 +05:00 [INF] Executing endpoint 'BIS_project.Controllers.EmployeeController.GetEmployees (BIS_project)'
+2023-09-04 15:51:57.178 +05:00 [INF] Route matched with {action = "GetEmployees", controller = "Employee"}. Executing controller action with signature System.Threading.Tasks.Task`1[System.Collections.Generic.List`1[BIS_project.Models.Employee]] GetEmployees() on controller BIS_project.Controllers.EmployeeController (BIS_project).
+2023-09-04 15:51:57.211 +05:00 [INF] Executing ObjectResult, writing value of type 'System.Collections.Generic.List`1[[BIS_project.Models.Employee, BIS_project, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]'.
+2023-09-04 15:51:57.213 +05:00 [INF] Executed action BIS_project.Controllers.EmployeeController.GetEmployees (BIS_project) in 34.812ms
+2023-09-04 15:51:57.214 +05:00 [INF] Executed endpoint 'BIS_project.Controllers.EmployeeController.GetEmployees (BIS_project)'
+2023-09-04 15:51:57.214 +05:00 [INF] Request finished HTTP/1.1 GET http://localhost:5279/api/v1/Employee - - - 200 - application/json;+charset=utf-8 42.8563ms
+2023-09-04 15:53:22.246 +05:00 [INF] Request starting HTTP/1.1 OPTIONS http://localhost:5279/api/v1/Employee - -
+2023-09-04 15:53:22.255 +05:00 [INF] CORS policy execution successful.
+2023-09-04 15:53:22.256 +05:00 [INF] Request finished HTTP/1.1 OPTIONS http://localhost:5279/api/v1/Employee - - - 204 - - 10.9292ms
+2023-09-04 15:53:22.259 +05:00 [INF] Request starting HTTP/1.1 GET http://localhost:5279/api/v1/Employee - -
+2023-09-04 15:53:22.265 +05:00 [INF] CORS policy execution successful.
+2023-09-04 15:53:22.265 +05:00 [INF] Executing endpoint 'BIS_project.Controllers.EmployeeController.GetEmployees (BIS_project)'
+2023-09-04 15:53:22.266 +05:00 [INF] Route matched with {action = "GetEmployees", controller = "Employee"}. Executing controller action with signature System.Threading.Tasks.Task`1[System.Collections.Generic.List`1[BIS_project.Models.Employee]] GetEmployees() on controller BIS_project.Controllers.EmployeeController (BIS_project).
+2023-09-04 15:53:22.291 +05:00 [INF] Executing ObjectResult, writing value of type 'System.Collections.Generic.List`1[[BIS_project.Models.Employee, BIS_project, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]'.
+2023-09-04 15:53:22.292 +05:00 [INF] Executed action BIS_project.Controllers.EmployeeController.GetEmployees (BIS_project) in 26.3015ms
+2023-09-04 15:53:22.292 +05:00 [INF] Executed endpoint 'BIS_project.Controllers.EmployeeController.GetEmployees (BIS_project)'
+2023-09-04 15:53:22.292 +05:00 [INF] Request finished HTTP/1.1 GET http://localhost:5279/api/v1/Employee - - - 200 - application/json;+charset=utf-8 33.6647ms
+2023-09-04 15:53:33.473 +05:00 [INF] Request starting HTTP/1.1 OPTIONS http://localhost:5279/api/v1/Employee - -
+2023-09-04 15:53:33.475 +05:00 [INF] CORS policy execution successful.
+2023-09-04 15:53:33.475 +05:00 [INF] Request finished HTTP/1.1 OPTIONS http://localhost:5279/api/v1/Employee - - - 204 - - 3.0332ms
+2023-09-04 15:53:33.476 +05:00 [INF] Request starting HTTP/1.1 GET http://localhost:5279/api/v1/Employee - -
+2023-09-04 15:53:33.478 +05:00 [INF] CORS policy execution successful.
+2023-09-04 15:53:33.478 +05:00 [INF] Executing endpoint 'BIS_project.Controllers.EmployeeController.GetEmployees (BIS_project)'
+2023-09-04 15:53:33.483 +05:00 [INF] Route matched with {action = "GetEmployees", controller = "Employee"}. Executing controller action with signature System.Threading.Tasks.Task`1[System.Collections.Generic.List`1[BIS_project.Models.Employee]] GetEmployees() on controller BIS_project.Controllers.EmployeeController (BIS_project).
+2023-09-04 15:53:33.513 +05:00 [INF] Executing ObjectResult, writing value of type 'System.Collections.Generic.List`1[[BIS_project.Models.Employee, BIS_project, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]'.
+2023-09-04 15:53:33.514 +05:00 [INF] Executed action BIS_project.Controllers.EmployeeController.GetEmployees (BIS_project) in 30.0962ms
+2023-09-04 15:53:33.514 +05:00 [INF] Executed endpoint 'BIS_project.Controllers.EmployeeController.GetEmployees (BIS_project)'
+2023-09-04 15:53:33.514 +05:00 [INF] Request finished HTTP/1.1 GET http://localhost:5279/api/v1/Employee - - - 200 - application/json;+charset=utf-8 37.5283ms
+2023-09-04 15:53:44.430 +05:00 [INF] Request starting HTTP/1.1 OPTIONS http://localhost:5279/api/v1/Employee - -
+2023-09-04 15:53:44.433 +05:00 [INF] CORS policy execution successful.
+2023-09-04 15:53:44.434 +05:00 [INF] Request finished HTTP/1.1 OPTIONS http://localhost:5279/api/v1/Employee - - - 204 - - 4.0738ms
+2023-09-04 15:53:44.436 +05:00 [INF] Request starting HTTP/1.1 GET http://localhost:5279/api/v1/Employee - -
+2023-09-04 15:53:44.438 +05:00 [INF] CORS policy execution successful.
+2023-09-04 15:53:44.438 +05:00 [INF] Executing endpoint 'BIS_project.Controllers.EmployeeController.GetEmployees (BIS_project)'
+2023-09-04 15:53:44.438 +05:00 [INF] Route matched with {action = "GetEmployees", controller = "Employee"}. Executing controller action with signature System.Threading.Tasks.Task`1[System.Collections.Generic.List`1[BIS_project.Models.Employee]] GetEmployees() on controller BIS_project.Controllers.EmployeeController (BIS_project).
+2023-09-04 15:53:44.657 +05:00 [INF] Executing ObjectResult, writing value of type 'System.Collections.Generic.List`1[[BIS_project.Models.Employee, BIS_project, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]'.
+2023-09-04 15:53:44.657 +05:00 [INF] Executed action BIS_project.Controllers.EmployeeController.GetEmployees (BIS_project) in 219.1919ms
+2023-09-04 15:53:44.657 +05:00 [INF] Executed endpoint 'BIS_project.Controllers.EmployeeController.GetEmployees (BIS_project)'
+2023-09-04 15:53:44.658 +05:00 [INF] Request finished HTTP/1.1 GET http://localhost:5279/api/v1/Employee - - - 200 - application/json;+charset=utf-8 221.3727ms
+2023-09-04 15:53:51.191 +05:00 [INF] Request starting HTTP/1.1 OPTIONS http://localhost:5279/api/v1/Employee - -
+2023-09-04 15:53:51.193 +05:00 [INF] CORS policy execution successful.
+2023-09-04 15:53:51.193 +05:00 [INF] Request finished HTTP/1.1 OPTIONS http://localhost:5279/api/v1/Employee - - - 204 - - 2.3012ms
+2023-09-04 15:53:51.194 +05:00 [INF] Request starting HTTP/1.1 GET http://localhost:5279/api/v1/Employee - -
+2023-09-04 15:53:51.196 +05:00 [INF] CORS policy execution successful.
+2023-09-04 15:53:51.196 +05:00 [INF] Executing endpoint 'BIS_project.Controllers.EmployeeController.GetEmployees (BIS_project)'
+2023-09-04 15:53:51.204 +05:00 [INF] Route matched with {action = "GetEmployees", controller = "Employee"}. Executing controller action with signature System.Threading.Tasks.Task`1[System.Collections.Generic.List`1[BIS_project.Models.Employee]] GetEmployees() on controller BIS_project.Controllers.EmployeeController (BIS_project).
+2023-09-04 15:53:51.218 +05:00 [INF] Executing ObjectResult, writing value of type 'System.Collections.Generic.List`1[[BIS_project.Models.Employee, BIS_project, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]'.
+2023-09-04 15:53:51.218 +05:00 [INF] Executed action BIS_project.Controllers.EmployeeController.GetEmployees (BIS_project) in 14.4389ms
+2023-09-04 15:53:51.219 +05:00 [INF] Executed endpoint 'BIS_project.Controllers.EmployeeController.GetEmployees (BIS_project)'
+2023-09-04 15:53:51.219 +05:00 [INF] Request finished HTTP/1.1 GET http://localhost:5279/api/v1/Employee - - - 200 - application/json;+charset=utf-8 24.4969ms
+2023-09-04 15:54:01.456 +05:00 [INF] Request starting HTTP/1.1 OPTIONS http://localhost:5279/api/v1/Employee - -
+2023-09-04 15:54:01.458 +05:00 [INF] CORS policy execution successful.
+2023-09-04 15:54:01.458 +05:00 [INF] Request finished HTTP/1.1 OPTIONS http://localhost:5279/api/v1/Employee - - - 204 - - 2.7286ms
+2023-09-04 15:54:01.460 +05:00 [INF] Request starting HTTP/1.1 GET http://localhost:5279/api/v1/Employee - -
+2023-09-04 15:54:01.461 +05:00 [INF] CORS policy execution successful.
+2023-09-04 15:54:01.461 +05:00 [INF] Executing endpoint 'BIS_project.Controllers.EmployeeController.GetEmployees (BIS_project)'
+2023-09-04 15:54:01.462 +05:00 [INF] Route matched with {action = "GetEmployees", controller = "Employee"}. Executing controller action with signature System.Threading.Tasks.Task`1[System.Collections.Generic.List`1[BIS_project.Models.Employee]] GetEmployees() on controller BIS_project.Controllers.EmployeeController (BIS_project).
+2023-09-04 15:54:01.480 +05:00 [INF] Executing ObjectResult, writing value of type 'System.Collections.Generic.List`1[[BIS_project.Models.Employee, BIS_project, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]'.
+2023-09-04 15:54:01.481 +05:00 [INF] Executed action BIS_project.Controllers.EmployeeController.GetEmployees (BIS_project) in 18.9872ms
+2023-09-04 15:54:01.481 +05:00 [INF] Executed endpoint 'BIS_project.Controllers.EmployeeController.GetEmployees (BIS_project)'
+2023-09-04 15:54:01.481 +05:00 [INF] Request finished HTTP/1.1 GET http://localhost:5279/api/v1/Employee - - - 200 - application/json;+charset=utf-8 21.4607ms
+2023-09-04 15:55:52.765 +05:00 [INF] Request starting HTTP/1.1 OPTIONS http://localhost:5279/api/v1/Employee - -
+2023-09-04 15:55:52.766 +05:00 [INF] CORS policy execution successful.
+2023-09-04 15:55:52.767 +05:00 [INF] Request finished HTTP/1.1 OPTIONS http://localhost:5279/api/v1/Employee - - - 204 - - 2.2893ms
+2023-09-04 15:55:52.768 +05:00 [INF] Request starting HTTP/1.1 GET http://localhost:5279/api/v1/Employee - -
+2023-09-04 15:55:52.769 +05:00 [INF] CORS policy execution successful.
+2023-09-04 15:55:52.769 +05:00 [INF] Executing endpoint 'BIS_project.Controllers.EmployeeController.GetEmployees (BIS_project)'
+2023-09-04 15:55:52.770 +05:00 [INF] Route matched with {action = "GetEmployees", controller = "Employee"}. Executing controller action with signature System.Threading.Tasks.Task`1[System.Collections.Generic.List`1[BIS_project.Models.Employee]] GetEmployees() on controller BIS_project.Controllers.EmployeeController (BIS_project).
+2023-09-04 15:55:52.812 +05:00 [INF] Executing ObjectResult, writing value of type 'System.Collections.Generic.List`1[[BIS_project.Models.Employee, BIS_project, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]'.
+2023-09-04 15:55:52.813 +05:00 [INF] Executed action BIS_project.Controllers.EmployeeController.GetEmployees (BIS_project) in 43.4895ms
+2023-09-04 15:55:52.813 +05:00 [INF] Executed endpoint 'BIS_project.Controllers.EmployeeController.GetEmployees (BIS_project)'
+2023-09-04 15:55:52.814 +05:00 [INF] Request finished HTTP/1.1 GET http://localhost:5279/api/v1/Employee - - - 200 - application/json;+charset=utf-8 45.6570ms
+2023-09-04 15:57:01.253 +05:00 [INF] Request starting HTTP/1.1 OPTIONS http://localhost:5279/api/v1/Employee - -
+2023-09-04 15:57:01.255 +05:00 [INF] CORS policy execution successful.
+2023-09-04 15:57:01.255 +05:00 [INF] Request finished HTTP/1.1 OPTIONS http://localhost:5279/api/v1/Employee - - - 204 - - 1.9641ms
+2023-09-04 15:57:01.260 +05:00 [INF] Request starting HTTP/1.1 GET http://localhost:5279/api/v1/Employee - -
+2023-09-04 15:57:01.262 +05:00 [INF] CORS policy execution successful.
+2023-09-04 15:57:01.262 +05:00 [INF] Executing endpoint 'BIS_project.Controllers.EmployeeController.GetEmployees (BIS_project)'
+2023-09-04 15:57:01.267 +05:00 [INF] Route matched with {action = "GetEmployees", controller = "Employee"}. Executing controller action with signature System.Threading.Tasks.Task`1[System.Collections.Generic.List`1[BIS_project.Models.Employee]] GetEmployees() on controller BIS_project.Controllers.EmployeeController (BIS_project).
+2023-09-04 15:57:01.308 +05:00 [INF] Executing ObjectResult, writing value of type 'System.Collections.Generic.List`1[[BIS_project.Models.Employee, BIS_project, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]'.
+2023-09-04 15:57:01.308 +05:00 [INF] Executed action BIS_project.Controllers.EmployeeController.GetEmployees (BIS_project) in 40.9084ms
+2023-09-04 15:57:01.308 +05:00 [INF] Executed endpoint 'BIS_project.Controllers.EmployeeController.GetEmployees (BIS_project)'
+2023-09-04 15:57:01.309 +05:00 [INF] Request finished HTTP/1.1 GET http://localhost:5279/api/v1/Employee - - - 200 - application/json;+charset=utf-8 48.4517ms
+2023-09-04 15:59:51.510 +05:00 [INF] Request starting HTTP/1.1 OPTIONS http://localhost:5279/api/v1/Employee - -
+2023-09-04 15:59:51.512 +05:00 [INF] CORS policy execution successful.
+2023-09-04 15:59:51.514 +05:00 [INF] Request finished HTTP/1.1 OPTIONS http://localhost:5279/api/v1/Employee - - - 204 - - 2.8225ms
+2023-09-04 15:59:51.516 +05:00 [INF] Request starting HTTP/1.1 GET http://localhost:5279/api/v1/Employee - -
+2023-09-04 15:59:51.521 +05:00 [INF] CORS policy execution successful.
+2023-09-04 15:59:51.522 +05:00 [INF] Executing endpoint 'BIS_project.Controllers.EmployeeController.GetEmployees (BIS_project)'
+2023-09-04 15:59:51.522 +05:00 [INF] Route matched with {action = "GetEmployees", controller = "Employee"}. Executing controller action with signature System.Threading.Tasks.Task`1[System.Collections.Generic.List`1[BIS_project.Models.Employee]] GetEmployees() on controller BIS_project.Controllers.EmployeeController (BIS_project).
+2023-09-04 15:59:51.561 +05:00 [INF] Executing ObjectResult, writing value of type 'System.Collections.Generic.List`1[[BIS_project.Models.Employee, BIS_project, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]'.
+2023-09-04 15:59:51.563 +05:00 [INF] Executed action BIS_project.Controllers.EmployeeController.GetEmployees (BIS_project) in 40.5412ms
+2023-09-04 15:59:51.563 +05:00 [INF] Executed endpoint 'BIS_project.Controllers.EmployeeController.GetEmployees (BIS_project)'
+2023-09-04 15:59:51.563 +05:00 [INF] Request finished HTTP/1.1 GET http://localhost:5279/api/v1/Employee - - - 200 - application/json;+charset=utf-8 47.5547ms
+2023-09-04 16:02:26.281 +05:00 [INF] Request starting HTTP/1.1 OPTIONS http://localhost:5279/api/v1/Employee - -
+2023-09-04 16:02:26.282 +05:00 [INF] CORS policy execution successful.
+2023-09-04 16:02:26.282 +05:00 [INF] Request finished HTTP/1.1 OPTIONS http://localhost:5279/api/v1/Employee - - - 204 - - 3.3554ms
+2023-09-04 16:02:26.284 +05:00 [INF] Request starting HTTP/1.1 GET http://localhost:5279/api/v1/Employee - -
+2023-09-04 16:02:26.296 +05:00 [INF] CORS policy execution successful.
+2023-09-04 16:02:26.296 +05:00 [INF] Executing endpoint 'BIS_project.Controllers.EmployeeController.GetEmployees (BIS_project)'
+2023-09-04 16:02:26.297 +05:00 [INF] Route matched with {action = "GetEmployees", controller = "Employee"}. Executing controller action with signature System.Threading.Tasks.Task`1[System.Collections.Generic.List`1[BIS_project.Models.Employee]] GetEmployees() on controller BIS_project.Controllers.EmployeeController (BIS_project).
+2023-09-04 16:02:26.339 +05:00 [INF] Executing ObjectResult, writing value of type 'System.Collections.Generic.List`1[[BIS_project.Models.Employee, BIS_project, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]'.
+2023-09-04 16:02:26.339 +05:00 [INF] Executed action BIS_project.Controllers.EmployeeController.GetEmployees (BIS_project) in 42.6326ms
+2023-09-04 16:02:26.339 +05:00 [INF] Executed endpoint 'BIS_project.Controllers.EmployeeController.GetEmployees (BIS_project)'
+2023-09-04 16:02:26.340 +05:00 [INF] Request finished HTTP/1.1 GET http://localhost:5279/api/v1/Employee - - - 200 - application/json;+charset=utf-8 55.3428ms
+2023-09-04 16:04:04.636 +05:00 [INF] Request starting HTTP/1.1 OPTIONS http://localhost:5279/api/v1/Employee - -
+2023-09-04 16:04:04.641 +05:00 [INF] CORS policy execution successful.
+2023-09-04 16:04:04.642 +05:00 [INF] Request finished HTTP/1.1 OPTIONS http://localhost:5279/api/v1/Employee - - - 204 - - 6.2828ms
+2023-09-04 16:04:04.644 +05:00 [INF] Request starting HTTP/1.1 GET http://localhost:5279/api/v1/Employee - -
+2023-09-04 16:04:04.645 +05:00 [INF] CORS policy execution successful.
+2023-09-04 16:04:04.645 +05:00 [INF] Executing endpoint 'BIS_project.Controllers.EmployeeController.GetEmployees (BIS_project)'
+2023-09-04 16:04:04.645 +05:00 [INF] Route matched with {action = "GetEmployees", controller = "Employee"}. Executing controller action with signature System.Threading.Tasks.Task`1[System.Collections.Generic.List`1[BIS_project.Models.Employee]] GetEmployees() on controller BIS_project.Controllers.EmployeeController (BIS_project).
+2023-09-04 16:04:04.687 +05:00 [INF] Executing ObjectResult, writing value of type 'System.Collections.Generic.List`1[[BIS_project.Models.Employee, BIS_project, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]'.
+2023-09-04 16:04:04.687 +05:00 [INF] Executed action BIS_project.Controllers.EmployeeController.GetEmployees (BIS_project) in 41.8362ms
+2023-09-04 16:04:04.687 +05:00 [INF] Executed endpoint 'BIS_project.Controllers.EmployeeController.GetEmployees (BIS_project)'
+2023-09-04 16:04:04.688 +05:00 [INF] Request finished HTTP/1.1 GET http://localhost:5279/api/v1/Employee - - - 200 - application/json;+charset=utf-8 43.9533ms
+2023-09-04 16:04:14.632 +05:00 [INF] Request starting HTTP/1.1 OPTIONS http://localhost:5279/api/v1/Employee - -
+2023-09-04 16:04:14.633 +05:00 [INF] CORS policy execution successful.
+2023-09-04 16:04:14.634 +05:00 [INF] Request finished HTTP/1.1 OPTIONS http://localhost:5279/api/v1/Employee - - - 204 - - 2.0546ms
+2023-09-04 16:04:14.635 +05:00 [INF] Request starting HTTP/1.1 GET http://localhost:5279/api/v1/Employee - -
+2023-09-04 16:04:14.636 +05:00 [INF] CORS policy execution successful.
+2023-09-04 16:04:14.636 +05:00 [INF] Executing endpoint 'BIS_project.Controllers.EmployeeController.GetEmployees (BIS_project)'
+2023-09-04 16:04:14.637 +05:00 [INF] Route matched with {action = "GetEmployees", controller = "Employee"}. Executing controller action with signature System.Threading.Tasks.Task`1[System.Collections.Generic.List`1[BIS_project.Models.Employee]] GetEmployees() on controller BIS_project.Controllers.EmployeeController (BIS_project).
+2023-09-04 16:04:14.673 +05:00 [INF] Executing ObjectResult, writing value of type 'System.Collections.Generic.List`1[[BIS_project.Models.Employee, BIS_project, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]'.
+2023-09-04 16:04:14.673 +05:00 [INF] Executed action BIS_project.Controllers.EmployeeController.GetEmployees (BIS_project) in 31.5565ms
+2023-09-04 16:04:14.673 +05:00 [INF] Executed endpoint 'BIS_project.Controllers.EmployeeController.GetEmployees (BIS_project)'
+2023-09-04 16:04:14.673 +05:00 [INF] Request finished HTTP/1.1 GET http://localhost:5279/api/v1/Employee - - - 200 - application/json;+charset=utf-8 38.2367ms
+2023-09-04 16:05:42.873 +05:00 [INF] Request starting HTTP/1.1 OPTIONS http://localhost:5279/api/v1/Employee - -
+2023-09-04 16:05:42.875 +05:00 [INF] CORS policy execution successful.
+2023-09-04 16:05:42.880 +05:00 [INF] Request finished HTTP/1.1 OPTIONS http://localhost:5279/api/v1/Employee - - - 204 - - 7.3025ms
+2023-09-04 16:05:42.883 +05:00 [INF] Request starting HTTP/1.1 GET http://localhost:5279/api/v1/Employee - -
+2023-09-04 16:05:42.895 +05:00 [INF] CORS policy execution successful.
+2023-09-04 16:05:42.895 +05:00 [INF] Executing endpoint 'BIS_project.Controllers.EmployeeController.GetEmployees (BIS_project)'
+2023-09-04 16:05:42.896 +05:00 [INF] Route matched with {action = "GetEmployees", controller = "Employee"}. Executing controller action with signature System.Threading.Tasks.Task`1[System.Collections.Generic.List`1[BIS_project.Models.Employee]] GetEmployees() on controller BIS_project.Controllers.EmployeeController (BIS_project).
+2023-09-04 16:05:42.931 +05:00 [INF] Executing ObjectResult, writing value of type 'System.Collections.Generic.List`1[[BIS_project.Models.Employee, BIS_project, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]'.
+2023-09-04 16:05:42.935 +05:00 [INF] Executed action BIS_project.Controllers.EmployeeController.GetEmployees (BIS_project) in 38.4214ms
+2023-09-04 16:05:42.935 +05:00 [INF] Executed endpoint 'BIS_project.Controllers.EmployeeController.GetEmployees (BIS_project)'
+2023-09-04 16:05:42.936 +05:00 [INF] Request finished HTTP/1.1 GET http://localhost:5279/api/v1/Employee - - - 200 - application/json;+charset=utf-8 53.3464ms
+2023-09-04 16:05:52.967 +05:00 [INF] Request starting HTTP/1.1 OPTIONS http://localhost:5279/api/v1/Employee - -
+2023-09-04 16:05:52.968 +05:00 [INF] CORS policy execution successful.
+2023-09-04 16:05:52.968 +05:00 [INF] Request finished HTTP/1.1 OPTIONS http://localhost:5279/api/v1/Employee - - - 204 - - 1.5269ms
+2023-09-04 16:05:52.969 +05:00 [INF] Request starting HTTP/1.1 GET http://localhost:5279/api/v1/Employee - -
+2023-09-04 16:05:52.971 +05:00 [INF] CORS policy execution successful.
+2023-09-04 16:05:52.971 +05:00 [INF] Executing endpoint 'BIS_project.Controllers.EmployeeController.GetEmployees (BIS_project)'
+2023-09-04 16:05:52.971 +05:00 [INF] Route matched with {action = "GetEmployees", controller = "Employee"}. Executing controller action with signature System.Threading.Tasks.Task`1[System.Collections.Generic.List`1[BIS_project.Models.Employee]] GetEmployees() on controller BIS_project.Controllers.EmployeeController (BIS_project).
+2023-09-04 16:05:53.045 +05:00 [INF] Executing ObjectResult, writing value of type 'System.Collections.Generic.List`1[[BIS_project.Models.Employee, BIS_project, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]'.
+2023-09-04 16:05:53.045 +05:00 [INF] Executed action BIS_project.Controllers.EmployeeController.GetEmployees (BIS_project) in 73.453ms
+2023-09-04 16:05:53.046 +05:00 [INF] Executed endpoint 'BIS_project.Controllers.EmployeeController.GetEmployees (BIS_project)'
+2023-09-04 16:05:53.046 +05:00 [INF] Request finished HTTP/1.1 GET http://localhost:5279/api/v1/Employee - - - 200 - application/json;+charset=utf-8 76.5228ms
+2023-09-04 16:05:54.354 +05:00 [INF] Request starting HTTP/1.1 GET http://localhost:5279/api/v1/Employee - -
+2023-09-04 16:05:54.355 +05:00 [INF] CORS policy execution successful.
+2023-09-04 16:05:54.355 +05:00 [INF] Executing endpoint 'BIS_project.Controllers.EmployeeController.GetEmployees (BIS_project)'
+2023-09-04 16:05:54.355 +05:00 [INF] Route matched with {action = "GetEmployees", controller = "Employee"}. Executing controller action with signature System.Threading.Tasks.Task`1[System.Collections.Generic.List`1[BIS_project.Models.Employee]] GetEmployees() on controller BIS_project.Controllers.EmployeeController (BIS_project).
+2023-09-04 16:05:54.374 +05:00 [INF] Executing ObjectResult, writing value of type 'System.Collections.Generic.List`1[[BIS_project.Models.Employee, BIS_project, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]'.
+2023-09-04 16:05:54.374 +05:00 [INF] Executed action BIS_project.Controllers.EmployeeController.GetEmployees (BIS_project) in 18.8074ms
+2023-09-04 16:05:54.374 +05:00 [INF] Executed endpoint 'BIS_project.Controllers.EmployeeController.GetEmployees (BIS_project)'
+2023-09-04 16:05:54.374 +05:00 [INF] Request finished HTTP/1.1 GET http://localhost:5279/api/v1/Employee - - - 200 - application/json;+charset=utf-8 20.0457ms
+2023-09-04 16:06:37.601 +05:00 [INF] Request starting HTTP/1.1 OPTIONS http://localhost:5279/api/v1/Employee - -
+2023-09-04 16:06:37.602 +05:00 [INF] CORS policy execution successful.
+2023-09-04 16:06:37.603 +05:00 [INF] Request finished HTTP/1.1 OPTIONS http://localhost:5279/api/v1/Employee - - - 204 - - 2.3753ms
+2023-09-04 16:06:37.604 +05:00 [INF] Request starting HTTP/1.1 GET http://localhost:5279/api/v1/Employee - -
+2023-09-04 16:06:37.606 +05:00 [INF] CORS policy execution successful.
+2023-09-04 16:06:37.606 +05:00 [INF] Executing endpoint 'BIS_project.Controllers.EmployeeController.GetEmployees (BIS_project)'
+2023-09-04 16:06:37.606 +05:00 [INF] Route matched with {action = "GetEmployees", controller = "Employee"}. Executing controller action with signature System.Threading.Tasks.Task`1[System.Collections.Generic.List`1[BIS_project.Models.Employee]] GetEmployees() on controller BIS_project.Controllers.EmployeeController (BIS_project).
+2023-09-04 16:06:37.664 +05:00 [INF] Executing ObjectResult, writing value of type 'System.Collections.Generic.List`1[[BIS_project.Models.Employee, BIS_project, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]'.
+2023-09-04 16:06:37.665 +05:00 [INF] Executed action BIS_project.Controllers.EmployeeController.GetEmployees (BIS_project) in 58.2467ms
+2023-09-04 16:06:37.665 +05:00 [INF] Executed endpoint 'BIS_project.Controllers.EmployeeController.GetEmployees (BIS_project)'
+2023-09-04 16:06:37.665 +05:00 [INF] Request finished HTTP/1.1 GET http://localhost:5279/api/v1/Employee - - - 200 - application/json;+charset=utf-8 61.0186ms
+2023-09-04 16:06:53.033 +05:00 [INF] Request starting HTTP/1.1 OPTIONS http://localhost:5279/api/v1/Employee - -
+2023-09-04 16:06:53.034 +05:00 [INF] CORS policy execution successful.
+2023-09-04 16:06:53.034 +05:00 [INF] Request finished HTTP/1.1 OPTIONS http://localhost:5279/api/v1/Employee - - - 204 - - 1.9985ms
+2023-09-04 16:06:53.036 +05:00 [INF] Request starting HTTP/1.1 GET http://localhost:5279/api/v1/Employee - -
+2023-09-04 16:06:53.038 +05:00 [INF] CORS policy execution successful.
+2023-09-04 16:06:53.038 +05:00 [INF] Executing endpoint 'BIS_project.Controllers.EmployeeController.GetEmployees (BIS_project)'
+2023-09-04 16:06:53.038 +05:00 [INF] Route matched with {action = "GetEmployees", controller = "Employee"}. Executing controller action with signature System.Threading.Tasks.Task`1[System.Collections.Generic.List`1[BIS_project.Models.Employee]] GetEmployees() on controller BIS_project.Controllers.EmployeeController (BIS_project).
+2023-09-04 16:06:53.078 +05:00 [INF] Executing ObjectResult, writing value of type 'System.Collections.Generic.List`1[[BIS_project.Models.Employee, BIS_project, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]'.
+2023-09-04 16:06:53.079 +05:00 [INF] Executed action BIS_project.Controllers.EmployeeController.GetEmployees (BIS_project) in 40.3817ms
+2023-09-04 16:06:53.079 +05:00 [INF] Executed endpoint 'BIS_project.Controllers.EmployeeController.GetEmployees (BIS_project)'
+2023-09-04 16:06:53.079 +05:00 [INF] Request finished HTTP/1.1 GET http://localhost:5279/api/v1/Employee - - - 200 - application/json;+charset=utf-8 42.5913ms
+2023-09-04 16:06:54.963 +05:00 [INF] Request starting HTTP/1.1 GET http://localhost:5279/api/v1/Employee - -
+2023-09-04 16:06:54.963 +05:00 [INF] CORS policy execution successful.
+2023-09-04 16:06:54.963 +05:00 [INF] Executing endpoint 'BIS_project.Controllers.EmployeeController.GetEmployees (BIS_project)'
+2023-09-04 16:06:54.964 +05:00 [INF] Route matched with {action = "GetEmployees", controller = "Employee"}. Executing controller action with signature System.Threading.Tasks.Task`1[System.Collections.Generic.List`1[BIS_project.Models.Employee]] GetEmployees() on controller BIS_project.Controllers.EmployeeController (BIS_project).
+2023-09-04 16:06:54.979 +05:00 [INF] Executing ObjectResult, writing value of type 'System.Collections.Generic.List`1[[BIS_project.Models.Employee, BIS_project, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]'.
+2023-09-04 16:06:54.979 +05:00 [INF] Executed action BIS_project.Controllers.EmployeeController.GetEmployees (BIS_project) in 15.3405ms
+2023-09-04 16:06:54.979 +05:00 [INF] Executed endpoint 'BIS_project.Controllers.EmployeeController.GetEmployees (BIS_project)'
+2023-09-04 16:06:54.979 +05:00 [INF] Request finished HTTP/1.1 GET http://localhost:5279/api/v1/Employee - - - 200 - application/json;+charset=utf-8 16.3400ms
+2023-09-04 16:12:04.101 +05:00 [INF] Application is shutting down...
+2023-09-04 21:07:10.093 +05:00 [INF] User profile is available. Using '/Users/azizjonabdugafforov/.aspnet/DataProtection-Keys' as key repository; keys will not be encrypted at rest.
+2023-09-04 21:07:10.142 +05:00 [INF] Now listening on: http://localhost:5279
+2023-09-04 21:07:10.142 +05:00 [INF] Application started. Press Ctrl+C to shut down.
+2023-09-04 21:07:10.142 +05:00 [INF] Hosting environment: Development
+2023-09-04 21:07:10.142 +05:00 [INF] Content root path: /Users/azizjonabdugafforov/Desktop/Code/level 6/BIS_project/BIS_project
+2023-09-04 21:07:10.736 +05:00 [INF] Request starting HTTP/1.1 GET http://localhost:5279/swagger/index.html - -
+2023-09-04 21:07:10.817 +05:00 [INF] Request finished HTTP/1.1 GET http://localhost:5279/swagger/index.html - - - 200 - text/html;charset=utf-8 82.9355ms
+2023-09-04 21:07:10.914 +05:00 [INF] Request starting HTTP/1.1 GET http://localhost:5279/swagger/v1/swagger.json - -
+2023-09-04 21:07:10.998 +05:00 [INF] Request finished HTTP/1.1 GET http://localhost:5279/swagger/v1/swagger.json - - - 200 - application/json;charset=utf-8 84.5345ms
+2023-09-04 21:07:24.586 +05:00 [INF] Request starting HTTP/1.1 GET http://127.0.0.1:5279/ - -
+2023-09-04 21:07:24.633 +05:00 [WRN] Failed to determine the https port for redirect.
+2023-09-04 21:07:24.634 +05:00 [INF] Request finished HTTP/1.1 GET http://127.0.0.1:5279/ - - - 404 0 - 48.0648ms
+2023-09-04 21:07:31.192 +05:00 [INF] Request starting HTTP/1.1 GET http://127.0.0.1:5279/swagger/index.html - -
+2023-09-04 21:07:31.194 +05:00 [INF] Request finished HTTP/1.1 GET http://127.0.0.1:5279/swagger/index.html - - - 200 - text/html;charset=utf-8 1.8217ms
+2023-09-04 21:07:31.245 +05:00 [INF] Request starting HTTP/1.1 GET http://127.0.0.1:5279/swagger/swagger-ui-bundle.js - -
+2023-09-04 21:07:31.247 +05:00 [INF] Request starting HTTP/1.1 GET http://127.0.0.1:5279/swagger/swagger-ui-standalone-preset.js - -
+2023-09-04 21:07:31.247 +05:00 [INF] Request starting HTTP/1.1 GET http://127.0.0.1:5279/swagger/swagger-ui.css - -
+2023-09-04 21:07:31.271 +05:00 [INF] Sending file. Request path: '/swagger-ui.css'. Physical path: 'N/A'
+2023-09-04 21:07:31.272 +05:00 [INF] Sending file. Request path: '/swagger-ui-standalone-preset.js'. Physical path: 'N/A'
+2023-09-04 21:07:31.274 +05:00 [INF] Request finished HTTP/1.1 GET http://127.0.0.1:5279/swagger/swagger-ui.css - - - 200 144929 text/css 27.1845ms
+2023-09-04 21:07:31.274 +05:00 [INF] Request finished HTTP/1.1 GET http://127.0.0.1:5279/swagger/swagger-ui-standalone-preset.js - - - 200 312163 text/javascript 27.2545ms
+2023-09-04 21:07:31.274 +05:00 [INF] Sending file. Request path: '/swagger-ui-bundle.js'. Physical path: 'N/A'
+2023-09-04 21:07:31.274 +05:00 [INF] Request finished HTTP/1.1 GET http://127.0.0.1:5279/swagger/swagger-ui-bundle.js - - - 200 1061536 text/javascript 29.6506ms
+2023-09-04 21:07:31.359 +05:00 [INF] Request starting HTTP/1.1 GET http://127.0.0.1:5279/swagger/v1/swagger.json - -
+2023-09-04 21:07:31.379 +05:00 [INF] Request finished HTTP/1.1 GET http://127.0.0.1:5279/swagger/v1/swagger.json - - - 200 - application/json;charset=utf-8 20.0710ms
+2023-09-04 21:08:39.238 +05:00 [INF] Request starting HTTP/1.1 OPTIONS http://127.0.0.1:5279/api/v1/Auth/Login - -
+2023-09-04 21:08:39.251 +05:00 [INF] CORS policy execution successful.
+2023-09-04 21:08:39.252 +05:00 [INF] Request finished HTTP/1.1 OPTIONS http://127.0.0.1:5279/api/v1/Auth/Login - - - 204 - - 15.3363ms
+2023-09-04 21:08:39.256 +05:00 [INF] Request starting HTTP/1.1 POST http://127.0.0.1:5279/api/v1/Auth/Login application/json 39
+2023-09-04 21:08:39.261 +05:00 [INF] CORS policy execution successful.
+2023-09-04 21:08:39.265 +05:00 [INF] Executing endpoint 'BIS_project.Controllers.AuthController.Login (BIS_project)'
+2023-09-04 21:08:39.298 +05:00 [INF] Route matched with {action = "Login", controller = "Auth"}. Executing controller action with signature System.Threading.Tasks.Task`1[System.Object] Login(BIS_project.Dtos.UserDto) on controller BIS_project.Controllers.AuthController (BIS_project).
+2023-09-04 21:08:40.315 +05:00 [INF] Executing OkObjectResult, writing value of type '<>f__AnonymousType0`3[[BIS_project.Models.User, BIS_project, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null],[BIS_project.Models.Employee, BIS_project, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null],[System.String, System.Private.CoreLib, Version=7.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]'.
+2023-09-04 21:08:40.329 +05:00 [INF] Executed action BIS_project.Controllers.AuthController.Login (BIS_project) in 1028.7684ms
+2023-09-04 21:08:40.331 +05:00 [INF] Executed endpoint 'BIS_project.Controllers.AuthController.Login (BIS_project)'
+2023-09-04 21:08:40.337 +05:00 [INF] Request finished HTTP/1.1 POST http://127.0.0.1:5279/api/v1/Auth/Login application/json 39 - 200 - application/json;+charset=utf-8 1081.1550ms
+2023-09-04 21:08:45.690 +05:00 [INF] Request starting HTTP/1.1 OPTIONS http://127.0.0.1:5279/api/v1/Employee - -
+2023-09-04 21:08:45.690 +05:00 [INF] CORS policy execution successful.
+2023-09-04 21:08:45.691 +05:00 [INF] Request finished HTTP/1.1 OPTIONS http://127.0.0.1:5279/api/v1/Employee - - - 204 - - 1.0525ms
+2023-09-04 21:08:45.692 +05:00 [INF] Request starting HTTP/1.1 GET http://127.0.0.1:5279/api/v1/Employee - -
+2023-09-04 21:08:45.737 +05:00 [INF] CORS policy execution successful.
+2023-09-04 21:08:45.737 +05:00 [INF] Executing endpoint 'BIS_project.Controllers.EmployeeController.GetEmployees (BIS_project)'
+2023-09-04 21:08:45.739 +05:00 [INF] Route matched with {action = "GetEmployees", controller = "Employee"}. Executing controller action with signature System.Threading.Tasks.Task`1[System.Collections.Generic.List`1[BIS_project.Models.Employee]] GetEmployees() on controller BIS_project.Controllers.EmployeeController (BIS_project).
+2023-09-04 21:08:45.808 +05:00 [INF] Executing ObjectResult, writing value of type 'System.Collections.Generic.List`1[[BIS_project.Models.Employee, BIS_project, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]'.
+2023-09-04 21:08:45.813 +05:00 [INF] Executed action BIS_project.Controllers.EmployeeController.GetEmployees (BIS_project) in 74.0245ms
+2023-09-04 21:08:45.813 +05:00 [INF] Executed endpoint 'BIS_project.Controllers.EmployeeController.GetEmployees (BIS_project)'
+2023-09-04 21:08:45.813 +05:00 [INF] Request finished HTTP/1.1 GET http://127.0.0.1:5279/api/v1/Employee - - - 200 - application/json;+charset=utf-8 121.1541ms
+2023-09-04 21:08:49.916 +05:00 [INF] Request starting HTTP/1.1 GET http://127.0.0.1:5279/api/v1/Employee - -
+2023-09-04 21:08:49.921 +05:00 [INF] CORS policy execution successful.
+2023-09-04 21:08:49.921 +05:00 [INF] Executing endpoint 'BIS_project.Controllers.EmployeeController.GetEmployees (BIS_project)'
+2023-09-04 21:08:49.922 +05:00 [INF] Route matched with {action = "GetEmployees", controller = "Employee"}. Executing controller action with signature System.Threading.Tasks.Task`1[System.Collections.Generic.List`1[BIS_project.Models.Employee]] GetEmployees() on controller BIS_project.Controllers.EmployeeController (BIS_project).
+2023-09-04 21:08:49.979 +05:00 [INF] Executing ObjectResult, writing value of type 'System.Collections.Generic.List`1[[BIS_project.Models.Employee, BIS_project, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]'.
+2023-09-04 21:08:49.979 +05:00 [INF] Executed action BIS_project.Controllers.EmployeeController.GetEmployees (BIS_project) in 57.4339ms
+2023-09-04 21:08:49.979 +05:00 [INF] Executed endpoint 'BIS_project.Controllers.EmployeeController.GetEmployees (BIS_project)'
+2023-09-04 21:08:49.979 +05:00 [INF] Request finished HTTP/1.1 GET http://127.0.0.1:5279/api/v1/Employee - - - 200 - application/json;+charset=utf-8 62.8809ms
+2023-09-04 21:08:51.953 +05:00 [INF] Request starting HTTP/1.1 OPTIONS http://127.0.0.1:5279/api/v1/Employee - -
+2023-09-04 21:08:51.954 +05:00 [INF] CORS policy execution successful.
+2023-09-04 21:08:51.954 +05:00 [INF] Request finished HTTP/1.1 OPTIONS http://127.0.0.1:5279/api/v1/Employee - - - 204 - - 1.6001ms
+2023-09-04 21:08:51.955 +05:00 [INF] Request starting HTTP/1.1 GET http://127.0.0.1:5279/api/v1/Employee - -
+2023-09-04 21:08:51.956 +05:00 [INF] CORS policy execution successful.
+2023-09-04 21:08:51.956 +05:00 [INF] Executing endpoint 'BIS_project.Controllers.EmployeeController.GetEmployees (BIS_project)'
+2023-09-04 21:08:51.957 +05:00 [INF] Route matched with {action = "GetEmployees", controller = "Employee"}. Executing controller action with signature System.Threading.Tasks.Task`1[System.Collections.Generic.List`1[BIS_project.Models.Employee]] GetEmployees() on controller BIS_project.Controllers.EmployeeController (BIS_project).
+2023-09-04 21:08:51.969 +05:00 [INF] Executing ObjectResult, writing value of type 'System.Collections.Generic.List`1[[BIS_project.Models.Employee, BIS_project, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]'.
+2023-09-04 21:08:51.969 +05:00 [INF] Executed action BIS_project.Controllers.EmployeeController.GetEmployees (BIS_project) in 12.5732ms
+2023-09-04 21:08:51.969 +05:00 [INF] Executed endpoint 'BIS_project.Controllers.EmployeeController.GetEmployees (BIS_project)'
+2023-09-04 21:08:51.970 +05:00 [INF] Request finished HTTP/1.1 GET http://127.0.0.1:5279/api/v1/Employee - - - 200 - application/json;+charset=utf-8 14.2047ms
+2023-09-04 21:09:19.568 +05:00 [INF] Request starting HTTP/1.1 OPTIONS http://127.0.0.1:5279/api/v1/Employee - -
+2023-09-04 21:09:19.576 +05:00 [INF] CORS policy execution successful.
+2023-09-04 21:09:19.580 +05:00 [INF] Request finished HTTP/1.1 OPTIONS http://127.0.0.1:5279/api/v1/Employee - - - 204 - - 8.6885ms
+2023-09-04 21:09:19.589 +05:00 [INF] Request starting HTTP/1.1 GET http://127.0.0.1:5279/api/v1/Employee - -
+2023-09-04 21:09:19.593 +05:00 [INF] CORS policy execution successful.
+2023-09-04 21:09:19.593 +05:00 [INF] Executing endpoint 'BIS_project.Controllers.EmployeeController.GetEmployees (BIS_project)'
+2023-09-04 21:09:19.594 +05:00 [INF] Route matched with {action = "GetEmployees", controller = "Employee"}. Executing controller action with signature System.Threading.Tasks.Task`1[System.Collections.Generic.List`1[BIS_project.Models.Employee]] GetEmployees() on controller BIS_project.Controllers.EmployeeController (BIS_project).
+2023-09-04 21:09:19.619 +05:00 [INF] Executing ObjectResult, writing value of type 'System.Collections.Generic.List`1[[BIS_project.Models.Employee, BIS_project, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]'.
+2023-09-04 21:09:19.620 +05:00 [INF] Executed action BIS_project.Controllers.EmployeeController.GetEmployees (BIS_project) in 25.8001ms
+2023-09-04 21:09:19.620 +05:00 [INF] Executed endpoint 'BIS_project.Controllers.EmployeeController.GetEmployees (BIS_project)'
+2023-09-04 21:09:19.620 +05:00 [INF] Request finished HTTP/1.1 GET http://127.0.0.1:5279/api/v1/Employee - - - 200 - application/json;+charset=utf-8 30.8570ms
+2023-09-04 21:09:30.932 +05:00 [INF] Request starting HTTP/1.1 OPTIONS http://127.0.0.1:5279/api/v1/Employee - -
+2023-09-04 21:09:30.935 +05:00 [INF] CORS policy execution successful.
+2023-09-04 21:09:30.936 +05:00 [INF] Request finished HTTP/1.1 OPTIONS http://127.0.0.1:5279/api/v1/Employee - - - 204 - - 4.5423ms
+2023-09-04 21:09:30.938 +05:00 [INF] Request starting HTTP/1.1 GET http://127.0.0.1:5279/api/v1/Employee - -
+2023-09-04 21:09:30.948 +05:00 [INF] CORS policy execution successful.
+2023-09-04 21:09:30.948 +05:00 [INF] Executing endpoint 'BIS_project.Controllers.EmployeeController.GetEmployees (BIS_project)'
+2023-09-04 21:09:30.949 +05:00 [INF] Route matched with {action = "GetEmployees", controller = "Employee"}. Executing controller action with signature System.Threading.Tasks.Task`1[System.Collections.Generic.List`1[BIS_project.Models.Employee]] GetEmployees() on controller BIS_project.Controllers.EmployeeController (BIS_project).
+2023-09-04 21:09:30.984 +05:00 [INF] Executing ObjectResult, writing value of type 'System.Collections.Generic.List`1[[BIS_project.Models.Employee, BIS_project, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]'.
+2023-09-04 21:09:30.985 +05:00 [INF] Executed action BIS_project.Controllers.EmployeeController.GetEmployees (BIS_project) in 31.2695ms
+2023-09-04 21:09:30.985 +05:00 [INF] Executed endpoint 'BIS_project.Controllers.EmployeeController.GetEmployees (BIS_project)'
+2023-09-04 21:09:30.985 +05:00 [INF] Request finished HTTP/1.1 GET http://127.0.0.1:5279/api/v1/Employee - - - 200 - application/json;+charset=utf-8 47.0508ms
+2023-09-04 21:10:11.749 +05:00 [INF] Request starting HTTP/1.1 OPTIONS http://127.0.0.1:5279/api/v1/Employee - -
+2023-09-04 21:10:11.753 +05:00 [INF] CORS policy execution successful.
+2023-09-04 21:10:11.761 +05:00 [INF] Request finished HTTP/1.1 OPTIONS http://127.0.0.1:5279/api/v1/Employee - - - 204 - - 12.1312ms
+2023-09-04 21:10:11.763 +05:00 [INF] Request starting HTTP/1.1 GET http://127.0.0.1:5279/api/v1/Employee - -
+2023-09-04 21:10:11.767 +05:00 [INF] CORS policy execution successful.
+2023-09-04 21:10:11.767 +05:00 [INF] Executing endpoint 'BIS_project.Controllers.EmployeeController.GetEmployees (BIS_project)'
+2023-09-04 21:10:11.768 +05:00 [INF] Route matched with {action = "GetEmployees", controller = "Employee"}. Executing controller action with signature System.Threading.Tasks.Task`1[System.Collections.Generic.List`1[BIS_project.Models.Employee]] GetEmployees() on controller BIS_project.Controllers.EmployeeController (BIS_project).
+2023-09-04 21:10:11.816 +05:00 [INF] Executing ObjectResult, writing value of type 'System.Collections.Generic.List`1[[BIS_project.Models.Employee, BIS_project, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]'.
+2023-09-04 21:10:11.817 +05:00 [INF] Executed action BIS_project.Controllers.EmployeeController.GetEmployees (BIS_project) in 48.9449ms
+2023-09-04 21:10:11.817 +05:00 [INF] Executed endpoint 'BIS_project.Controllers.EmployeeController.GetEmployees (BIS_project)'
+2023-09-04 21:10:11.817 +05:00 [INF] Request finished HTTP/1.1 GET http://127.0.0.1:5279/api/v1/Employee - - - 200 - application/json;+charset=utf-8 54.1552ms
+2023-09-04 21:11:04.431 +05:00 [INF] Request starting HTTP/1.1 OPTIONS http://127.0.0.1:5279/api/v1/Employee - -
+2023-09-04 21:11:04.435 +05:00 [INF] CORS policy execution successful.
+2023-09-04 21:11:04.436 +05:00 [INF] Request finished HTTP/1.1 OPTIONS http://127.0.0.1:5279/api/v1/Employee - - - 204 - - 4.8355ms
+2023-09-04 21:11:04.443 +05:00 [INF] Request starting HTTP/1.1 GET http://127.0.0.1:5279/api/v1/Employee - -
+2023-09-04 21:11:04.445 +05:00 [INF] CORS policy execution successful.
+2023-09-04 21:11:04.445 +05:00 [INF] Executing endpoint 'BIS_project.Controllers.EmployeeController.GetEmployees (BIS_project)'
+2023-09-04 21:11:04.450 +05:00 [INF] Route matched with {action = "GetEmployees", controller = "Employee"}. Executing controller action with signature System.Threading.Tasks.Task`1[System.Collections.Generic.List`1[BIS_project.Models.Employee]] GetEmployees() on controller BIS_project.Controllers.EmployeeController (BIS_project).
+2023-09-04 21:11:04.511 +05:00 [INF] Executing ObjectResult, writing value of type 'System.Collections.Generic.List`1[[BIS_project.Models.Employee, BIS_project, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]'.
+2023-09-04 21:11:04.513 +05:00 [INF] Executed action BIS_project.Controllers.EmployeeController.GetEmployees (BIS_project) in 62.6673ms
+2023-09-04 21:11:04.513 +05:00 [INF] Executed endpoint 'BIS_project.Controllers.EmployeeController.GetEmployees (BIS_project)'
+2023-09-04 21:11:04.513 +05:00 [INF] Request finished HTTP/1.1 GET http://127.0.0.1:5279/api/v1/Employee - - - 200 - application/json;+charset=utf-8 70.5337ms
+2023-09-04 21:12:24.621 +05:00 [INF] Request starting HTTP/1.1 OPTIONS http://127.0.0.1:5279/api/v1/Employee - -
+2023-09-04 21:12:24.631 +05:00 [INF] CORS policy execution successful.
+2023-09-04 21:12:24.632 +05:00 [INF] Request finished HTTP/1.1 OPTIONS http://127.0.0.1:5279/api/v1/Employee - - - 204 - - 10.5845ms
+2023-09-04 21:12:24.633 +05:00 [INF] Request starting HTTP/1.1 GET http://127.0.0.1:5279/api/v1/Employee - -
+2023-09-04 21:12:24.636 +05:00 [INF] CORS policy execution successful.
+2023-09-04 21:12:24.636 +05:00 [INF] Executing endpoint 'BIS_project.Controllers.EmployeeController.GetEmployees (BIS_project)'
+2023-09-04 21:12:24.636 +05:00 [INF] Route matched with {action = "GetEmployees", controller = "Employee"}. Executing controller action with signature System.Threading.Tasks.Task`1[System.Collections.Generic.List`1[BIS_project.Models.Employee]] GetEmployees() on controller BIS_project.Controllers.EmployeeController (BIS_project).
+2023-09-04 21:12:24.683 +05:00 [INF] Executing ObjectResult, writing value of type 'System.Collections.Generic.List`1[[BIS_project.Models.Employee, BIS_project, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]'.
+2023-09-04 21:12:24.683 +05:00 [INF] Executed action BIS_project.Controllers.EmployeeController.GetEmployees (BIS_project) in 46.9564ms
+2023-09-04 21:12:24.684 +05:00 [INF] Executed endpoint 'BIS_project.Controllers.EmployeeController.GetEmployees (BIS_project)'
+2023-09-04 21:12:24.684 +05:00 [INF] Request finished HTTP/1.1 GET http://127.0.0.1:5279/api/v1/Employee - - - 200 - application/json;+charset=utf-8 50.7809ms
+2023-09-04 21:12:27.226 +05:00 [INF] Request starting HTTP/1.1 GET http://127.0.0.1:5279/api/v1/Employee - -
+2023-09-04 21:12:27.228 +05:00 [INF] CORS policy execution successful.
+2023-09-04 21:12:27.228 +05:00 [INF] Executing endpoint 'BIS_project.Controllers.EmployeeController.GetEmployees (BIS_project)'
+2023-09-04 21:12:27.228 +05:00 [INF] Route matched with {action = "GetEmployees", controller = "Employee"}. Executing controller action with signature System.Threading.Tasks.Task`1[System.Collections.Generic.List`1[BIS_project.Models.Employee]] GetEmployees() on controller BIS_project.Controllers.EmployeeController (BIS_project).
+2023-09-04 21:12:27.246 +05:00 [INF] Executing ObjectResult, writing value of type 'System.Collections.Generic.List`1[[BIS_project.Models.Employee, BIS_project, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]'.
+2023-09-04 21:12:27.247 +05:00 [INF] Executed action BIS_project.Controllers.EmployeeController.GetEmployees (BIS_project) in 17.9725ms
+2023-09-04 21:12:27.247 +05:00 [INF] Executed endpoint 'BIS_project.Controllers.EmployeeController.GetEmployees (BIS_project)'
+2023-09-04 21:12:27.247 +05:00 [INF] Request finished HTTP/1.1 GET http://127.0.0.1:5279/api/v1/Employee - - - 200 - application/json;+charset=utf-8 20.8201ms
+2023-09-04 21:12:30.564 +05:00 [INF] Request starting HTTP/1.1 OPTIONS http://127.0.0.1:5279/api/v1/Employee - -
+2023-09-04 21:12:30.565 +05:00 [INF] CORS policy execution successful.
+2023-09-04 21:12:30.565 +05:00 [INF] Request finished HTTP/1.1 OPTIONS http://127.0.0.1:5279/api/v1/Employee - - - 204 - - 1.2994ms
+2023-09-04 21:12:30.566 +05:00 [INF] Request starting HTTP/1.1 GET http://127.0.0.1:5279/api/v1/Employee - -
+2023-09-04 21:12:30.567 +05:00 [INF] CORS policy execution successful.
+2023-09-04 21:12:30.567 +05:00 [INF] Executing endpoint 'BIS_project.Controllers.EmployeeController.GetEmployees (BIS_project)'
+2023-09-04 21:12:30.567 +05:00 [INF] Route matched with {action = "GetEmployees", controller = "Employee"}. Executing controller action with signature System.Threading.Tasks.Task`1[System.Collections.Generic.List`1[BIS_project.Models.Employee]] GetEmployees() on controller BIS_project.Controllers.EmployeeController (BIS_project).
+2023-09-04 21:12:30.579 +05:00 [INF] Executing ObjectResult, writing value of type 'System.Collections.Generic.List`1[[BIS_project.Models.Employee, BIS_project, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]'.
+2023-09-04 21:12:30.579 +05:00 [INF] Executed action BIS_project.Controllers.EmployeeController.GetEmployees (BIS_project) in 11.6705ms
+2023-09-04 21:12:30.579 +05:00 [INF] Executed endpoint 'BIS_project.Controllers.EmployeeController.GetEmployees (BIS_project)'
+2023-09-04 21:12:30.579 +05:00 [INF] Request finished HTTP/1.1 GET http://127.0.0.1:5279/api/v1/Employee - - - 200 - application/json;+charset=utf-8 13.2750ms
+2023-09-04 21:14:09.581 +05:00 [INF] Request starting HTTP/1.1 OPTIONS http://127.0.0.1:5279/api/v1/Employee - -
+2023-09-04 21:14:09.584 +05:00 [INF] CORS policy execution successful.
+2023-09-04 21:14:09.585 +05:00 [INF] Request finished HTTP/1.1 OPTIONS http://127.0.0.1:5279/api/v1/Employee - - - 204 - - 3.7870ms
+2023-09-04 21:14:09.590 +05:00 [INF] Request starting HTTP/1.1 GET http://127.0.0.1:5279/api/v1/Employee - -
+2023-09-04 21:14:09.594 +05:00 [INF] CORS policy execution successful.
+2023-09-04 21:14:09.597 +05:00 [INF] Executing endpoint 'BIS_project.Controllers.EmployeeController.GetEmployees (BIS_project)'
+2023-09-04 21:14:09.605 +05:00 [INF] Route matched with {action = "GetEmployees", controller = "Employee"}. Executing controller action with signature System.Threading.Tasks.Task`1[System.Collections.Generic.List`1[BIS_project.Models.Employee]] GetEmployees() on controller BIS_project.Controllers.EmployeeController (BIS_project).
+2023-09-04 21:14:09.664 +05:00 [INF] Executing ObjectResult, writing value of type 'System.Collections.Generic.List`1[[BIS_project.Models.Employee, BIS_project, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]'.
+2023-09-04 21:14:09.665 +05:00 [INF] Executed action BIS_project.Controllers.EmployeeController.GetEmployees (BIS_project) in 58.5795ms
+2023-09-04 21:14:09.665 +05:00 [INF] Executed endpoint 'BIS_project.Controllers.EmployeeController.GetEmployees (BIS_project)'
+2023-09-04 21:14:09.665 +05:00 [INF] Request finished HTTP/1.1 GET http://127.0.0.1:5279/api/v1/Employee - - - 200 - application/json;+charset=utf-8 76.0732ms
+2023-09-04 21:14:36.435 +05:00 [INF] Request starting HTTP/1.1 OPTIONS http://127.0.0.1:5279/api/v1/Employee - -
+2023-09-04 21:14:36.437 +05:00 [INF] CORS policy execution successful.
+2023-09-04 21:14:36.438 +05:00 [INF] Request finished HTTP/1.1 OPTIONS http://127.0.0.1:5279/api/v1/Employee - - - 204 - - 3.0739ms
+2023-09-04 21:14:36.440 +05:00 [INF] Request starting HTTP/1.1 GET http://127.0.0.1:5279/api/v1/Employee - -
+2023-09-04 21:14:36.442 +05:00 [INF] CORS policy execution successful.
+2023-09-04 21:14:36.442 +05:00 [INF] Executing endpoint 'BIS_project.Controllers.EmployeeController.GetEmployees (BIS_project)'
+2023-09-04 21:14:36.443 +05:00 [INF] Route matched with {action = "GetEmployees", controller = "Employee"}. Executing controller action with signature System.Threading.Tasks.Task`1[System.Collections.Generic.List`1[BIS_project.Models.Employee]] GetEmployees() on controller BIS_project.Controllers.EmployeeController (BIS_project).
+2023-09-04 21:14:36.479 +05:00 [INF] Executing ObjectResult, writing value of type 'System.Collections.Generic.List`1[[BIS_project.Models.Employee, BIS_project, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]'.
+2023-09-04 21:14:36.479 +05:00 [INF] Executed action BIS_project.Controllers.EmployeeController.GetEmployees (BIS_project) in 35.8305ms
+2023-09-04 21:14:36.479 +05:00 [INF] Executed endpoint 'BIS_project.Controllers.EmployeeController.GetEmployees (BIS_project)'
+2023-09-04 21:14:36.479 +05:00 [INF] Request finished HTTP/1.1 GET http://127.0.0.1:5279/api/v1/Employee - - - 200 - application/json;+charset=utf-8 39.5286ms
+2023-09-04 21:19:23.013 +05:00 [INF] Request starting HTTP/1.1 OPTIONS http://127.0.0.1:5279/api/v1/Employee - -
+2023-09-04 21:19:23.023 +05:00 [INF] CORS policy execution successful.
+2023-09-04 21:19:23.024 +05:00 [INF] Request finished HTTP/1.1 OPTIONS http://127.0.0.1:5279/api/v1/Employee - - - 204 - - 12.0351ms
+2023-09-04 21:19:23.026 +05:00 [INF] Request starting HTTP/1.1 GET http://127.0.0.1:5279/api/v1/Employee - -
+2023-09-04 21:19:23.028 +05:00 [INF] CORS policy execution successful.
+2023-09-04 21:19:23.028 +05:00 [INF] Executing endpoint 'BIS_project.Controllers.EmployeeController.GetEmployees (BIS_project)'
+2023-09-04 21:19:23.028 +05:00 [INF] Route matched with {action = "GetEmployees", controller = "Employee"}. Executing controller action with signature System.Threading.Tasks.Task`1[System.Collections.Generic.List`1[BIS_project.Models.Employee]] GetEmployees() on controller BIS_project.Controllers.EmployeeController (BIS_project).
+2023-09-04 21:19:23.123 +05:00 [INF] Executing ObjectResult, writing value of type 'System.Collections.Generic.List`1[[BIS_project.Models.Employee, BIS_project, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]'.
+2023-09-04 21:19:23.137 +05:00 [INF] Executed action BIS_project.Controllers.EmployeeController.GetEmployees (BIS_project) in 79.3967ms
+2023-09-04 21:19:23.137 +05:00 [INF] Executed endpoint 'BIS_project.Controllers.EmployeeController.GetEmployees (BIS_project)'
+2023-09-04 21:19:23.137 +05:00 [INF] Request finished HTTP/1.1 GET http://127.0.0.1:5279/api/v1/Employee - - - 0 - application/json;+charset=utf-8 111.5134ms
+2023-09-04 21:19:23.598 +05:00 [INF] Request starting HTTP/1.1 GET http://127.0.0.1:5279/api/v1/Employee - -
+2023-09-04 21:19:23.599 +05:00 [INF] CORS policy execution successful.
+2023-09-04 21:19:23.599 +05:00 [INF] Executing endpoint 'BIS_project.Controllers.EmployeeController.GetEmployees (BIS_project)'
+2023-09-04 21:19:23.600 +05:00 [INF] Route matched with {action = "GetEmployees", controller = "Employee"}. Executing controller action with signature System.Threading.Tasks.Task`1[System.Collections.Generic.List`1[BIS_project.Models.Employee]] GetEmployees() on controller BIS_project.Controllers.EmployeeController (BIS_project).
+2023-09-04 21:19:23.626 +05:00 [INF] Executing ObjectResult, writing value of type 'System.Collections.Generic.List`1[[BIS_project.Models.Employee, BIS_project, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]'.
+2023-09-04 21:19:23.627 +05:00 [INF] Executed action BIS_project.Controllers.EmployeeController.GetEmployees (BIS_project) in 27.272ms
+2023-09-04 21:19:23.627 +05:00 [INF] Executed endpoint 'BIS_project.Controllers.EmployeeController.GetEmployees (BIS_project)'
+2023-09-04 21:19:23.627 +05:00 [INF] Request finished HTTP/1.1 GET http://127.0.0.1:5279/api/v1/Employee - - - 200 - application/json;+charset=utf-8 28.7329ms
+2023-09-04 21:20:08.284 +05:00 [INF] Request starting HTTP/1.1 OPTIONS http://127.0.0.1:5279/api/v1/Employee - -
+2023-09-04 21:20:08.286 +05:00 [INF] CORS policy execution successful.
+2023-09-04 21:20:08.287 +05:00 [INF] Request finished HTTP/1.1 OPTIONS http://127.0.0.1:5279/api/v1/Employee - - - 204 - - 3.2184ms
+2023-09-04 21:20:08.300 +05:00 [INF] Request starting HTTP/1.1 GET http://127.0.0.1:5279/api/v1/Employee - -
+2023-09-04 21:20:08.303 +05:00 [INF] CORS policy execution successful.
+2023-09-04 21:20:08.303 +05:00 [INF] Executing endpoint 'BIS_project.Controllers.EmployeeController.GetEmployees (BIS_project)'
+2023-09-04 21:20:08.304 +05:00 [INF] Route matched with {action = "GetEmployees", controller = "Employee"}. Executing controller action with signature System.Threading.Tasks.Task`1[System.Collections.Generic.List`1[BIS_project.Models.Employee]] GetEmployees() on controller BIS_project.Controllers.EmployeeController (BIS_project).
+2023-09-04 21:20:08.378 +05:00 [INF] Executing ObjectResult, writing value of type 'System.Collections.Generic.List`1[[BIS_project.Models.Employee, BIS_project, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]'.
+2023-09-04 21:20:08.379 +05:00 [INF] Executed action BIS_project.Controllers.EmployeeController.GetEmployees (BIS_project) in 75.2013ms
+2023-09-04 21:20:08.379 +05:00 [INF] Executed endpoint 'BIS_project.Controllers.EmployeeController.GetEmployees (BIS_project)'
+2023-09-04 21:20:08.379 +05:00 [INF] Request finished HTTP/1.1 GET http://127.0.0.1:5279/api/v1/Employee - - - 200 - application/json;+charset=utf-8 79.8133ms
+2023-09-04 21:20:23.125 +05:00 [INF] Request starting HTTP/1.1 OPTIONS http://127.0.0.1:5279/api/v1/Employee - -
+2023-09-04 21:20:23.130 +05:00 [INF] CORS policy execution successful.
+2023-09-04 21:20:23.130 +05:00 [INF] Request finished HTTP/1.1 OPTIONS http://127.0.0.1:5279/api/v1/Employee - - - 204 - - 5.7785ms
+2023-09-04 21:20:23.132 +05:00 [INF] Request starting HTTP/1.1 GET http://127.0.0.1:5279/api/v1/Employee - -
+2023-09-04 21:20:23.135 +05:00 [INF] CORS policy execution successful.
+2023-09-04 21:20:23.139 +05:00 [INF] Executing endpoint 'BIS_project.Controllers.EmployeeController.GetEmployees (BIS_project)'
+2023-09-04 21:20:23.140 +05:00 [INF] Route matched with {action = "GetEmployees", controller = "Employee"}. Executing controller action with signature System.Threading.Tasks.Task`1[System.Collections.Generic.List`1[BIS_project.Models.Employee]] GetEmployees() on controller BIS_project.Controllers.EmployeeController (BIS_project).
+2023-09-04 21:20:23.167 +05:00 [INF] Executing ObjectResult, writing value of type 'System.Collections.Generic.List`1[[BIS_project.Models.Employee, BIS_project, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]'.
+2023-09-04 21:20:23.168 +05:00 [INF] Executed action BIS_project.Controllers.EmployeeController.GetEmployees (BIS_project) in 28.0752ms
+2023-09-04 21:20:23.168 +05:00 [INF] Executed endpoint 'BIS_project.Controllers.EmployeeController.GetEmployees (BIS_project)'
+2023-09-04 21:20:23.168 +05:00 [INF] Request finished HTTP/1.1 GET http://127.0.0.1:5279/api/v1/Employee - - - 200 - application/json;+charset=utf-8 35.7456ms
+2023-09-04 21:24:36.975 +05:00 [INF] Request starting HTTP/1.1 OPTIONS http://127.0.0.1:5279/api/v1/Employee - -
+2023-09-04 21:24:36.983 +05:00 [INF] CORS policy execution successful.
+2023-09-04 21:24:36.984 +05:00 [INF] Request finished HTTP/1.1 OPTIONS http://127.0.0.1:5279/api/v1/Employee - - - 204 - - 8.3751ms
+2023-09-04 21:24:36.987 +05:00 [INF] Request starting HTTP/1.1 GET http://127.0.0.1:5279/api/v1/Employee - -
+2023-09-04 21:24:37.003 +05:00 [INF] CORS policy execution successful.
+2023-09-04 21:24:37.020 +05:00 [INF] Executing endpoint 'BIS_project.Controllers.EmployeeController.GetEmployees (BIS_project)'
+2023-09-04 21:24:37.020 +05:00 [INF] Route matched with {action = "GetEmployees", controller = "Employee"}. Executing controller action with signature System.Threading.Tasks.Task`1[System.Collections.Generic.List`1[BIS_project.Models.Employee]] GetEmployees() on controller BIS_project.Controllers.EmployeeController (BIS_project).
+2023-09-04 21:24:37.065 +05:00 [INF] Executing ObjectResult, writing value of type 'System.Collections.Generic.List`1[[BIS_project.Models.Employee, BIS_project, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]'.
+2023-09-04 21:24:37.066 +05:00 [INF] Executed action BIS_project.Controllers.EmployeeController.GetEmployees (BIS_project) in 45.3752ms
+2023-09-04 21:24:37.066 +05:00 [INF] Executed endpoint 'BIS_project.Controllers.EmployeeController.GetEmployees (BIS_project)'
+2023-09-04 21:24:37.066 +05:00 [INF] Request finished HTTP/1.1 GET http://127.0.0.1:5279/api/v1/Employee - - - 200 - application/json;+charset=utf-8 78.9074ms
+2023-09-04 21:24:40.130 +05:00 [INF] Request starting HTTP/1.1 GET http://127.0.0.1:5279/api/v1/Employee - -
+2023-09-04 21:24:40.131 +05:00 [INF] CORS policy execution successful.
+2023-09-04 21:24:40.131 +05:00 [INF] Executing endpoint 'BIS_project.Controllers.EmployeeController.GetEmployees (BIS_project)'
+2023-09-04 21:24:40.131 +05:00 [INF] Route matched with {action = "GetEmployees", controller = "Employee"}. Executing controller action with signature System.Threading.Tasks.Task`1[System.Collections.Generic.List`1[BIS_project.Models.Employee]] GetEmployees() on controller BIS_project.Controllers.EmployeeController (BIS_project).
+2023-09-04 21:24:40.141 +05:00 [INF] Executing ObjectResult, writing value of type 'System.Collections.Generic.List`1[[BIS_project.Models.Employee, BIS_project, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]'.
+2023-09-04 21:24:40.141 +05:00 [INF] Executed action BIS_project.Controllers.EmployeeController.GetEmployees (BIS_project) in 10.1664ms
+2023-09-04 21:24:40.141 +05:00 [INF] Executed endpoint 'BIS_project.Controllers.EmployeeController.GetEmployees (BIS_project)'
+2023-09-04 21:24:40.141 +05:00 [INF] Request finished HTTP/1.1 GET http://127.0.0.1:5279/api/v1/Employee - - - 200 - application/json;+charset=utf-8 11.4100ms
+2023-09-04 21:25:57.876 +05:00 [INF] Request starting HTTP/1.1 OPTIONS http://127.0.0.1:5279/api/v1/Employee - -
+2023-09-04 21:25:57.878 +05:00 [INF] CORS policy execution successful.
+2023-09-04 21:25:57.883 +05:00 [INF] Request finished HTTP/1.1 OPTIONS http://127.0.0.1:5279/api/v1/Employee - - - 204 - - 7.1019ms
+2023-09-04 21:25:57.893 +05:00 [INF] Request starting HTTP/1.1 GET http://127.0.0.1:5279/api/v1/Employee - -
+2023-09-04 21:25:57.905 +05:00 [INF] CORS policy execution successful.
+2023-09-04 21:25:57.905 +05:00 [INF] Executing endpoint 'BIS_project.Controllers.EmployeeController.GetEmployees (BIS_project)'
+2023-09-04 21:25:57.906 +05:00 [INF] Route matched with {action = "GetEmployees", controller = "Employee"}. Executing controller action with signature System.Threading.Tasks.Task`1[System.Collections.Generic.List`1[BIS_project.Models.Employee]] GetEmployees() on controller BIS_project.Controllers.EmployeeController (BIS_project).
+2023-09-04 21:25:57.947 +05:00 [INF] Executing ObjectResult, writing value of type 'System.Collections.Generic.List`1[[BIS_project.Models.Employee, BIS_project, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]'.
+2023-09-04 21:25:57.948 +05:00 [INF] Executed action BIS_project.Controllers.EmployeeController.GetEmployees (BIS_project) in 41.5955ms
+2023-09-04 21:25:57.948 +05:00 [INF] Executed endpoint 'BIS_project.Controllers.EmployeeController.GetEmployees (BIS_project)'
+2023-09-04 21:25:57.948 +05:00 [INF] Request finished HTTP/1.1 GET http://127.0.0.1:5279/api/v1/Employee - - - 200 - application/json;+charset=utf-8 55.6357ms
+2023-09-04 21:26:48.130 +05:00 [INF] Request starting HTTP/1.1 OPTIONS http://127.0.0.1:5279/api/v1/Employee - -
+2023-09-04 21:26:48.132 +05:00 [INF] CORS policy execution successful.
+2023-09-04 21:26:48.132 +05:00 [INF] Request finished HTTP/1.1 OPTIONS http://127.0.0.1:5279/api/v1/Employee - - - 204 - - 2.2262ms
+2023-09-04 21:26:48.136 +05:00 [INF] Request starting HTTP/1.1 GET http://127.0.0.1:5279/api/v1/Employee - -
+2023-09-04 21:26:48.139 +05:00 [INF] CORS policy execution successful.
+2023-09-04 21:26:48.139 +05:00 [INF] Executing endpoint 'BIS_project.Controllers.EmployeeController.GetEmployees (BIS_project)'
+2023-09-04 21:26:48.139 +05:00 [INF] Route matched with {action = "GetEmployees", controller = "Employee"}. Executing controller action with signature System.Threading.Tasks.Task`1[System.Collections.Generic.List`1[BIS_project.Models.Employee]] GetEmployees() on controller BIS_project.Controllers.EmployeeController (BIS_project).
+2023-09-04 21:26:48.176 +05:00 [INF] Executing ObjectResult, writing value of type 'System.Collections.Generic.List`1[[BIS_project.Models.Employee, BIS_project, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]'.
+2023-09-04 21:26:48.177 +05:00 [INF] Executed action BIS_project.Controllers.EmployeeController.GetEmployees (BIS_project) in 37.3214ms
+2023-09-04 21:26:48.177 +05:00 [INF] Executed endpoint 'BIS_project.Controllers.EmployeeController.GetEmployees (BIS_project)'
+2023-09-04 21:26:48.177 +05:00 [INF] Request finished HTTP/1.1 GET http://127.0.0.1:5279/api/v1/Employee - - - 200 - application/json;+charset=utf-8 40.8556ms
+2023-09-04 21:58:20.730 +05:00 [INF] Request starting HTTP/1.1 OPTIONS http://127.0.0.1:5279/api/v1/Auth/Login - -
+2023-09-04 21:58:20.732 +05:00 [INF] CORS policy execution successful.
+2023-09-04 21:58:20.740 +05:00 [INF] Request finished HTTP/1.1 OPTIONS http://127.0.0.1:5279/api/v1/Auth/Login - - - 204 - - 10.3765ms
+2023-09-04 21:58:20.742 +05:00 [INF] Request starting HTTP/1.1 POST http://127.0.0.1:5279/api/v1/Auth/Login application/json 39
+2023-09-04 21:58:20.747 +05:00 [INF] CORS policy execution successful.
+2023-09-04 21:58:20.753 +05:00 [INF] Executing endpoint 'BIS_project.Controllers.AuthController.Login (BIS_project)'
+2023-09-04 21:58:20.755 +05:00 [INF] Route matched with {action = "Login", controller = "Auth"}. Executing controller action with signature System.Threading.Tasks.Task`1[System.Object] Login(BIS_project.Dtos.UserDto) on controller BIS_project.Controllers.AuthController (BIS_project).
+2023-09-04 21:58:20.881 +05:00 [INF] Executing OkObjectResult, writing value of type '<>f__AnonymousType0`3[[BIS_project.Models.User, BIS_project, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null],[BIS_project.Models.Employee, BIS_project, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null],[System.String, System.Private.CoreLib, Version=7.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]'.
+2023-09-04 21:58:20.882 +05:00 [INF] Executed action BIS_project.Controllers.AuthController.Login (BIS_project) in 127.5252ms
+2023-09-04 21:58:20.882 +05:00 [INF] Executed endpoint 'BIS_project.Controllers.AuthController.Login (BIS_project)'
+2023-09-04 21:58:20.882 +05:00 [INF] Request finished HTTP/1.1 POST http://127.0.0.1:5279/api/v1/Auth/Login application/json 39 - 200 - application/json;+charset=utf-8 140.0157ms
+2023-09-04 22:03:51.503 +05:00 [INF] Request starting HTTP/1.1 GET http://127.0.0.1:5279/ - -
+2023-09-04 22:03:51.508 +05:00 [INF] Request finished HTTP/1.1 GET http://127.0.0.1:5279/ - - - 404 0 - 5.4074ms
+2023-09-04 22:03:58.993 +05:00 [INF] Request starting HTTP/1.1 GET http://127.0.0.1:5279/swagger/index.html - -
+2023-09-04 22:03:59.019 +05:00 [INF] Request finished HTTP/1.1 GET http://127.0.0.1:5279/swagger/index.html - - - 200 - text/html;charset=utf-8 25.9895ms
+2023-09-04 22:03:59.051 +05:00 [INF] Request starting HTTP/1.1 GET http://127.0.0.1:5279/swagger/swagger-ui-standalone-preset.js - -
+2023-09-04 22:03:59.053 +05:00 [INF] Request starting HTTP/1.1 GET http://127.0.0.1:5279/swagger/swagger-ui-bundle.js - -
+2023-09-04 22:03:59.063 +05:00 [INF] Sending file. Request path: '/swagger-ui-standalone-preset.js'. Physical path: 'N/A'
+2023-09-04 22:03:59.064 +05:00 [INF] Request finished HTTP/1.1 GET http://127.0.0.1:5279/swagger/swagger-ui-standalone-preset.js - - - 200 312163 text/javascript 12.8258ms
+2023-09-04 22:03:59.079 +05:00 [INF] Sending file. Request path: '/swagger-ui-bundle.js'. Physical path: 'N/A'
+2023-09-04 22:03:59.079 +05:00 [INF] Request finished HTTP/1.1 GET http://127.0.0.1:5279/swagger/swagger-ui-bundle.js - - - 200 1061536 text/javascript 26.3944ms
+2023-09-04 22:03:59.169 +05:00 [INF] Request starting HTTP/1.1 GET http://127.0.0.1:5279/swagger/v1/swagger.json - -
+2023-09-04 22:03:59.210 +05:00 [INF] Request finished HTTP/1.1 GET http://127.0.0.1:5279/swagger/v1/swagger.json - - - 200 - application/json;charset=utf-8 40.0852ms
+2023-09-04 22:35:41.765 +05:00 [INF] Request starting HTTP/1.1 OPTIONS http://127.0.0.1:5279/api/v1/Employee - -
+2023-09-04 22:35:41.775 +05:00 [INF] CORS policy execution successful.
+2023-09-04 22:35:41.776 +05:00 [INF] Request finished HTTP/1.1 OPTIONS http://127.0.0.1:5279/api/v1/Employee - - - 204 - - 11.4043ms
+2023-09-04 22:35:41.781 +05:00 [INF] Request starting HTTP/1.1 GET http://127.0.0.1:5279/api/v1/Employee - -
+2023-09-04 22:35:41.803 +05:00 [INF] CORS policy execution successful.
+2023-09-04 22:35:41.803 +05:00 [INF] Executing endpoint 'BIS_project.Controllers.EmployeeController.GetEmployees (BIS_project)'
+2023-09-04 22:35:41.806 +05:00 [INF] Route matched with {action = "GetEmployees", controller = "Employee"}. Executing controller action with signature System.Threading.Tasks.Task`1[System.Collections.Generic.List`1[BIS_project.Models.Employee]] GetEmployees() on controller BIS_project.Controllers.EmployeeController (BIS_project).
+2023-09-04 22:35:41.987 +05:00 [INF] Executing ObjectResult, writing value of type 'System.Collections.Generic.List`1[[BIS_project.Models.Employee, BIS_project, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]'.
+2023-09-04 22:35:41.991 +05:00 [INF] Executed action BIS_project.Controllers.EmployeeController.GetEmployees (BIS_project) in 184.4202ms
+2023-09-04 22:35:41.991 +05:00 [INF] Executed endpoint 'BIS_project.Controllers.EmployeeController.GetEmployees (BIS_project)'
+2023-09-04 22:35:41.991 +05:00 [INF] Request finished HTTP/1.1 GET http://127.0.0.1:5279/api/v1/Employee - - - 200 - application/json;+charset=utf-8 210.4407ms

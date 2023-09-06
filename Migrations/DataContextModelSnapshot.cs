@@ -31,12 +31,12 @@ namespace BIS_project.Migrations
 
                     NpgsqlPropertyBuilderExtensions.UseIdentityByDefaultColumn(b.Property<int>("Id"));
 
-                    b.Property<int>("DistrictId")
-                        .HasColumnType("integer");
-
-                    b.Property<string>("Name")
+                    b.Property<string>("BranchName")
                         .IsRequired()
                         .HasColumnType("text");
+
+                    b.Property<int>("DistrictId")
+                        .HasColumnType("integer");
 
                     b.Property<int>("RegionId")
                         .HasColumnType("integer");
@@ -252,22 +252,18 @@ namespace BIS_project.Migrations
                         .HasColumnType("integer");
 
                     b.Property<string>("Comment")
-                        .IsRequired()
                         .HasMaxLength(500)
                         .HasColumnType("character varying(500)");
 
                     b.Property<DateTime>("CreatedAt")
-                        .HasColumnType("timestamp with time zone");
+                        .HasColumnType("timestamptz");
 
-                    b.Property<int>("DriverId")
-                        .HasColumnType("integer");
-
-                    b.Property<string>("EndPoint")
+                    b.Property<List<string>>("EndPoint")
                         .IsRequired()
-                        .HasColumnType("text");
+                        .HasColumnType("text[]");
 
                     b.Property<DateTime>("FinishTime")
-                        .HasColumnType("timestamp with time zone");
+                        .HasColumnType("timestamptz");
 
                     b.Property<int>("FromDistrictId")
                         .HasColumnType("integer");
@@ -297,12 +293,12 @@ namespace BIS_project.Migrations
                         .IsRequired()
                         .HasColumnType("text[]");
 
-                    b.Property<string>("StartPoint")
+                    b.Property<List<string>>("StartPoint")
                         .IsRequired()
-                        .HasColumnType("text");
+                        .HasColumnType("text[]");
 
                     b.Property<DateTime>("StartTime")
-                        .HasColumnType("timestamp with time zone");
+                        .HasColumnType("timestamptz");
 
                     b.Property<string>("Status")
                         .IsRequired()
@@ -323,8 +319,6 @@ namespace BIS_project.Migrations
                     b.HasKey("Id");
 
                     b.HasIndex("ClientId");
-
-                    b.HasIndex("DriverId");
 
                     b.HasIndex("FromDistrictId");
 
@@ -365,12 +359,12 @@ namespace BIS_project.Migrations
 
                     NpgsqlPropertyBuilderExtensions.UseIdentityByDefaultColumn(b.Property<int>("Id"));
 
-                    b.Property<string>("Name")
-                        .IsRequired()
-                        .HasColumnType("text");
-
                     b.Property<int>("NumberOfOrders")
                         .HasColumnType("integer");
+
+                    b.Property<string>("RegionName")
+                        .IsRequired()
+                        .HasColumnType("text");
 
                     b.HasKey("Id");
 
@@ -430,8 +424,16 @@ namespace BIS_project.Migrations
 
                     NpgsqlPropertyBuilderExtensions.UseIdentityByDefaultColumn(b.Property<int>("Id"));
 
+                    b.Property<string>("Firstname")
+                        .IsRequired()
+                        .HasColumnType("text");
+
                     b.Property<bool>("IsActive")
                         .HasColumnType("boolean");
+
+                    b.Property<string>("Lastname")
+                        .IsRequired()
+                        .HasColumnType("text");
 
                     b.Property<string>("Password")
                         .IsRequired()
@@ -566,12 +568,6 @@ namespace BIS_project.Migrations
                         .OnDelete(DeleteBehavior.Cascade)
                         .IsRequired();
 
-                    b.HasOne("BIS_project.Models.Driver", "Driver")
-                        .WithMany()
-                        .HasForeignKey("DriverId")
-                        .OnDelete(DeleteBehavior.Cascade)
-                        .IsRequired();
-
                     b.HasOne("BIS_project.Models.District", "FromDistrict")
                         .WithMany()
                         .HasForeignKey("FromDistrictId")
@@ -597,8 +593,6 @@ namespace BIS_project.Migrations
                         .IsRequired();
 
                     b.Navigation("Client");
-
-                    b.Navigation("Driver");
 
                     b.Navigation("FromDistrict");
 

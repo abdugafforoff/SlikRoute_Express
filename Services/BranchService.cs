@@ -33,7 +33,7 @@ public class BranchService : IGenericService<Branch, BranchDto>
             var b = new Branch()
             {
                 District = await _dataContext.Districts.FindAsync(item.DistrictId),
-                Name = item.Name,
+                BranchName = item.Name,
                 Region = await _dataContext.Regions.FindAsync(item.RegionId)
             };
             await _dataContext.Branches.AddAsync(b);
@@ -70,7 +70,7 @@ public class BranchService : IGenericService<Branch, BranchDto>
             var b = await _dataContext.Branches.FindAsync(id);
             b.District = await _dataContext.Districts.FindAsync(item.DistrictId);
             b.Region = await _dataContext.Regions.FindAsync(item.RegionId);
-            b.Name = item.Name;
+            b.BranchName = item.Name;
             await _dataContext.SaveChangesAsync();
             return b;
         }

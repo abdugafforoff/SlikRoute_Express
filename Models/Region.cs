@@ -8,6 +8,6 @@ public class Region
     [Key]
     [DatabaseGenerated(DatabaseGeneratedOption.Identity)]
     public int Id { get; set; }
-    public string Name { get; set; }
+    public string RegionName { get; set; }
     public int NumberOfOrders { get; set; }
 }

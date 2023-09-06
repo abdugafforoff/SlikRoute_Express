@@ -37,10 +37,10 @@ public class RegionService : IGenericService<Region, RegionDto>
         {
             var region = new Region()
             {
-                Name = item.Name,
+                RegionName = item.Name,
                 NumberOfOrders = CalculateOrders(await _dbContext.Orders
                     .Include(e=> e.FromRegion)
-                    .Where(e=> e.FromRegion.Name == item.Name)
+                    .Where(e=> e.FromRegion.RegionName == item.Name)
                     .ToListAsync())
             };
             var result = await _dbContext.Regions.AddAsync(region);
@@ -79,10 +79,10 @@ public class RegionService : IGenericService<Region, RegionDto>
     public async Task<Region> Update(int id, RegionDto item)
     {
         var e = await _dbContext.Regions.FindAsync(id);
-        e.Name = item.Name;
+        e.RegionName = item.Name;
         e.NumberOfOrders = CalculateOrders(await _dbContext.Orders
             .Include(e => e.FromRegion)
-            .Where(e => e.FromRegion.Name == item.Name)
+            .Where(e => e.FromRegion.RegionName == item.Name)
             .ToListAsync());
         await _dbContext.SaveChangesAsync();
         return e;
