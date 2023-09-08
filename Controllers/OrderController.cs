@@ -5,7 +5,7 @@ using BIS_project.Services;
 using Microsoft.AspNetCore.Mvc;
 
 namespace BIS_project.Controllers;
-[Route("api/v1/user/base-order")]
+[Route("api/v1/base-order")]
 [ApiController]
 public class OrderController : ControllerBase
 {

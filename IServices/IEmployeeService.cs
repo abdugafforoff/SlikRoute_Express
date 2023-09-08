@@ -6,7 +6,7 @@ namespace BIS_project.IServices;
 public interface IEmployeeService
 {
     public Task<bool> CreateEmployee(EmployeeDto emp, Image img);
-    public Task<List<Employee>> GetEmployees();
+    public Task<List<Employee?>> GetEmployees();
     public Task<bool> UpdateEmployee(EmployeeDto emp, Image img, int id);
     public Task<Employee> GetEmployeeById(int id);
 }

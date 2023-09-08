@@ -19,7 +19,7 @@ public class DataContext : DbContext
     public DbSet<Order> Orders { get; set; }
     public DbSet<Role> Roles { get; set; }
     public DbSet<Truck> Trucks { get; set; }
-    public DbSet<Employee> Employees { get; set; }
+    public DbSet<Employee?> Employees { get; set; }
     public DbSet<Region> Regions { get; set; }
     public DbSet<Position> Position { get; set; }
     public DbSet<User> Users { get; set; }

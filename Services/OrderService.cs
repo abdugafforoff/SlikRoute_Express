@@ -6,12 +6,10 @@ using BIS_project.Helper;
 using BIS_project.IServices;
 using BIS_project.Models;
 using MailKit.Net.Smtp;
-using Microsoft.AspNetCore.Mvc.ApiExplorer;
 using Microsoft.EntityFrameworkCore;
 using MimeKit;
 
 namespace BIS_project.Services;
-
 public class OrderService : IOrderService
 {
     private readonly DataContext _dataContext;
@@ -58,7 +56,6 @@ public class OrderService : IOrderService
                 HomeType = order.HomeType,
                 CreatedAt = DateTime.UtcNow,
                 Client = await CreateCredentials(order),
-
             };
             if (o.Client == null)
             {
@@ -80,47 +77,62 @@ public class OrderService : IOrderService
         }
 
     }
-   private async Task<Client> CreateCredentials(BaseOrderDto order)
-{
-    try
+    private async Task<Client> CreateCredentials(BaseOrderDto order)
     {
-        Client client = new Client()
+        try
         {
-            Email = order.Email,
-            Name = order.FullName,
-            PhoneNumber = order.PhoneNumber,
-            TotalSpent = await CalculateTotalSpent(await _dataContext.Orders
-                .Where(e => e.Client.Name == order.FullName)
-                .ToListAsync()),
-            NumberOfOrders = await CalculateOrders(await _dataContext.Orders
-                .Where(e => e.Client.Name == order.FullName)
-                .ToListAsync())
-        };
-        await _dataContext.Client.AddAsync(client);
-        await _dataContext.SaveChangesAsync();
-        User user = new User()
-        {
-            IsActive = true,
-            Firstname = order.FullName,
-            UserName = order.Email,
-            Lastname = order.FullName,
-            Password = GenerateRandomPassword(),
-            Role = await _dataContext.Roles.FirstOrDefaultAsync(e=>e.Role_name == "CLIENT"),
-        };
-       
-        await _dataContext.Users.AddAsync(user);
-        await _dataContext.SaveChangesAsync();
+            var userExists = await _dataContext.Users.FirstOrDefaultAsync(e => e.UserName == order.Email);
 
-        await SendEmail(order.Email, user.UserName, order.FullName, user.Password);
-            return client;
-        
+            if (userExists != null)
+            {
+                var newUser = new User
+                {
+                    IsActive = true,
+                    Firstname = order.FullName,
+                    UserName = order.Email,
+                    Lastname = order.FullName,
+                    Password = GenerateRandomPassword(),
+                    Role = await _dataContext.Roles.FirstOrDefaultAsync(e => e.Role_name == "CLIENT"),
+                };
+
+                await _dataContext.Users.AddAsync(newUser);
+                await _dataContext.SaveChangesAsync();
+                await SendEmail(order.Email, newUser.UserName, order.FullName, newUser.Password);
+            }
+            else
+            {
+                await SendEmail(order.Email, userExists.UserName, order.FullName, userExists.Password);
+            }
+
+            var clientExists = await _dataContext.Client.FirstOrDefaultAsync(e => e.Name == order.FullName);
+
+            if (clientExists != null)
+            {
+                var client = new Client
+                {
+                    Email = order.Email,
+                    Name = order.FullName,
+                    PhoneNumber = order.PhoneNumber,
+                    TotalSpent = await CalculateTotalSpent(await _dataContext.Orders
+                        .Where(e => e.Client.Name == order.FullName)
+                        .ToListAsync()),
+                    NumberOfOrders = await CalculateOrders(await _dataContext.Orders
+                        .Where(e => e.Client.Name == order.FullName)
+                        .ToListAsync())
+                };
+                await _dataContext.Client.AddAsync(client);
+                await _dataContext.SaveChangesAsync();
+                return client;
+            }
+            return clientExists;
+        }
+        catch (Exception e)
+        {
+            Console.WriteLine(e);
+            return new Client();
+        }
     }
-    catch (Exception e)
-    {
-        Console.WriteLine(e);
-        return new Client();
-    }
-}
+
     private async Task<int> CalculateOrders(List<Order> orders)
     {
         return orders.Count();
@@ -145,7 +157,7 @@ public class OrderService : IOrderService
         return password;
     }
 
-    public async Task<string> SendEmail(string toEmail, string username, string Name, string password)
+    public async Task  SendEmail(string toEmail, string username, string Name, string password)
     {
         try
         {
@@ -153,13 +165,10 @@ public class OrderService : IOrderService
             message.From.Add(new MailboxAddress("SilkRoute Express", "abdugafforovazimjon33@gmail.com"));
             message.To.Add(new MailboxAddress(username, toEmail));
             message.Subject = "Account credentials";
-           
-
             var bodyBuilder = new BodyBuilder();
             bodyBuilder.TextBody = $"Dear {Name},\n\nThank you for using our service!\n\nYour login credentials are as follows:\n\n" +
                                    $"Username: **{username}**\nPassword: **{password}**\n\nWe appreciate your trust in our service and are here to assist you with any questions or concerns. If you have any feedback or need assistance, please don't hesitate to contact us.\n\nBest regards,\nThe SilkRoute Express Team";
             message.Body = bodyBuilder.ToMessageBody();
-
             using (var client = new SmtpClient())
             {
                 await client.ConnectAsync("smtp.gmail.com", 587, false);
@@ -167,13 +176,10 @@ public class OrderService : IOrderService
                 await client.SendAsync(message);
                 await client.DisconnectAsync(true);
             }
-
-            return message.Subject;
         }
         catch (Exception e)
         {
             Console.WriteLine(e);
-            return "error";
         }
         
     }

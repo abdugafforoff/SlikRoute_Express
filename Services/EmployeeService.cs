@@ -61,14 +61,14 @@ public class EmployeeService : IEmployeeService
         }
         return false;
     }
-    public async Task<List<Employee>> GetEmployees()
+    public async Task<List<Employee?>> GetEmployees()
     {
         return await _dataContext.Employees
             .Where(e=> e.IsActive)
-            .Include(e => e.Branch.Region)
-            .Include(e => e.Branch.District)
-            .Include(e=> e.Position )
-            .Include(e=> e.Image)
+            .Include(e => e!.Branch.Region)
+            .Include(e => e!.Branch.District)
+            .Include(e=> e!.Position )
+            .Include(e=> e!.Image)
             .ToListAsync();
     }
     public async Task<bool> UpdateEmployee(EmployeeDto emp, Image img, int id)
@@ -129,8 +129,7 @@ public class EmployeeService : IEmployeeService
         await _dataContext.SaveChangesAsync();
         return true;
     }
-
-    public async Task<Employee> GetEmployeeByName(User dto)
+    public async Task<Employee?> GetEmployeeByName(User dto)
     {
         try
         {

@@ -5,6 +5,7 @@ using BIS_project.Models;
 using BIS_project.Response;
 using BIS_project.Services;
 using Microsoft.AspNetCore.Mvc;
+using Microsoft.AspNetCore.Mvc.ApiExplorer;
 using Microsoft.IdentityModel.Tokens;
 
 namespace BIS_project.Controllers;
@@ -30,16 +31,18 @@ public class AuthController : ControllerBase
         {
             return BadRequest("Username or password is missing.");
         }
-
         try
         {
-            User user = await _authService.UserLogin(request);
-            Employee employee = await _employee.GetEmployeeByName(user);
+            var user = await _authService.UserLogin(request);
+            Employee? employee = await _employee.GetEmployeeByName(user);
             if (user == null)
             {
-                return Unauthorized();
+                return Unauthorized("User not found!");
             }
-            
+            if (user.Password != request.Password)
+            {
+                return BadRequest("incorrect password");
+            }
                 var emp = employee != null? new
                 {
                     employee.Firstname,
@@ -51,8 +54,6 @@ public class AuthController : ControllerBase
                     employee.Branch.District.Name,
                     employee.Branch.Region.RegionName,
                 }: null;
-            
-            
             var claims = new List<Claim>
             {
                 new Claim(ClaimTypes.Name, user.UserName),

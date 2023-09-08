@@ -20,19 +20,22 @@ public class AuthService : IAuthService
     
     public async  Task<User> UserLogin(UserDto request)
     {
-        if(request.Password != request.Password)
+        try
         {
-            return null;
-                   
+            var user = await _dbContext.Users
+                .Include(e=> e.Role)
+                .FirstOrDefaultAsync(e =>
+                    e.UserName == request.Username &&
+                    e.IsActive);
+            return user;
         }
-        var user = await _dbContext.Users
-            .Include(e=> e.Role)
-            .FirstOrDefaultAsync(e =>
-            e.UserName == request.Username &&
-            e.Password == request.Password &&
-            e.IsActive);        
-        
-        return user;
+        catch (Exception e)
+        {
+            Console.WriteLine(e);
+            return null;
+        }
+       
+       
     }
 
     public Task<object> RefreshToken()
