@@ -9,6 +9,7 @@ public class Order
     [DatabaseGenerated(DatabaseGeneratedOption.Identity)]
     public int Id { get; set; }
     public List<Employee>? Employees { get; set; }// dispatch sets
+    public Driver? Driver { get; set; } // updates by admin
     public Client? Client { get; set; }// client sets
     public string? Status { get; set; }// pending, active, shipped
     [Column(TypeName = "timestamptz")] // Specify PostgreSQL type

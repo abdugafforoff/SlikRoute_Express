@@ -29,6 +29,7 @@ public class EmployeeService : IEmployeeService
                 DateOfBirth = emp.DateOfBirth,
                 Image = img,
                 IsActive = true,
+                Username = emp.UserName
             };
             var isValid = await ValidateUsername(emp.UserName);
             if (isValid)

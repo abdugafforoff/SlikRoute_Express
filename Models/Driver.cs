@@ -16,4 +16,5 @@ public class Driver
     public  Truck Truck { get; set; }
     public bool IsActive { get; set; }
     public string Status { get; set; } = string.Empty;
+    public Branch Branch { get; set; }
 }

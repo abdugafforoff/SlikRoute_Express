@@ -7,4 +7,5 @@ public class DriverDto
     public DateOnly DateOfBirth { get; set; }
     public string PhoneNumber { get; set; }
     public  int TruckId { get; set; }
+    public int BranchId { get; set; }
 }

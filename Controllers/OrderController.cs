@@ -37,53 +37,26 @@ public class OrderController : ControllerBase
             throw;
         }
     }
-
-    [HttpPut("user", Name = "GenerateOrder")]
+    [HttpPut("user/update", Name = "GenerateOrder")]
     public async Task<IActionResult> GenerateOrder()
     {
         try
         {
-            using (StreamReader reader = new StreamReader(Request.Body))
+            var orderData = JsonConvert.DeserializeObject<UpdateOrderDto>(Request.Form["order"]);
+            List<Image> images = await _fileSaver.UploadFiles(Request.Form.Files, "orders/images");
+            var result = await _orderService.UpdateOrder(orderData, images);
+            if (result == null)
             {
-                Console.WriteLine(Request);
-                var orderData = JsonConvert.DeserializeObject<string>(Request.Form["order"]);
-                List<Image> images = await _fileSaver.UploadFiles(Request.Form.Files, "orders/images");
-                
-                var token = HttpContext.Request.Headers["Authorization"].ToString();
-
-                if (!string.IsNullOrEmpty(token) && token.StartsWith("Bearer "))
-                {
-                    token = token.Substring("Bearer ".Length).Trim();
-                    string[] tokenParts = token.Split(new[] { '|' }, StringSplitOptions.RemoveEmptyEntries);
-
-                    if (tokenParts.Length == 2)
-                    {
-                        string username = tokenParts[0];
-                        Console.WriteLine("Username: " + username);
-                    }
-                    else
-                    {
-                        Console.WriteLine("Invalid token format");
-                    }
-                }
-                else
-                {
-                    // Handle missing or improperly formatted token
-                    Console.WriteLine("Bearer token not found in headers");
-                }
-
-                
-                var result = await _orderService.UpdateOrder(orderData, images);
-                var res = Ok(result);
-                return res;
+                return BadRequest("Orders not found");
             }
+            var res = Ok(result);
+            return res;
         }
         catch (Exception e)
         {
             return BadRequest(e.Message);
         }
     }
-    
 
     [HttpGet("get-all", Name = "GetAllOrders")]
     public async Task<List<Order>> GetAllOrders()

@@ -17,8 +17,7 @@ public class DriverService : IDriverService
     {
         _dataContext = data;
     }
-
-
+    
     public async Task<bool> CreateDriver(DriverDto driver, Image img, Image license )
     {
         try
@@ -32,17 +31,17 @@ public class DriverService : IDriverService
                 DateOfBirth = driver.DateOfBirth,
                 DriverPhoto = img,
                 LicensePhoto = license,
-                PhoneNumber = driver.PhoneNumber
+                PhoneNumber = driver.PhoneNumber, 
+                Branch = await _dataContext.Branches.FindAsync(driver.BranchId)
             };
             await _dataContext.Drivers.AddAsync(d);
             await _dataContext.SaveChangesAsync();
-            
             return true;
         }
         catch (Exception e)
         {
             Console.WriteLine(e);
-            throw;
+            return false;
         }
     }
 

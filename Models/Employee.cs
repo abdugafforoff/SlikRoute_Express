@@ -15,4 +15,5 @@ public class Employee
     public string Lastname { get; set; }
     public DateOnly DateOfBirth { get; set; }
     public bool IsActive { get; set; }
+    public string Username { get; set; }
 }

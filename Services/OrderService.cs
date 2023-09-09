@@ -25,10 +25,11 @@ public class OrderService : IOrderService
         return await _dataContext.Orders
             .Include(e => e.Client)
             .Include(e => e.Employees)
-            .Include(e => e.FromDistrict.Region)
-            .Include(e => e.ToDistrict.Region)
+            .Include(e => e.FromDistrict!.Region)
+            .Include(e => e.ToDistrict!.Region)
             .Include(e => e.ProductImages)
             .Include(e => e.EndImage)
+            .Include(e=> e.ProductImages)
             .ToListAsync();
     }
 
@@ -57,7 +58,7 @@ public class OrderService : IOrderService
                 HomeType = order.HomeType,
                 CreatedAt = DateTime.UtcNow,
                 Client = await CreteClient(order),
-                Status = "CREATED"
+                Status = "CREATED",
             };
             if (o.Client == null)
             {
@@ -115,9 +116,35 @@ public class OrderService : IOrderService
         }
     }
 
-    public async Task<Order> UpdateOrder(string comment, List<Image> imgs)
+    public async Task<Order> UpdateOrder(UpdateOrderDto order, List<Image> imgs)
     {
-        return new Order();
+        try
+        {
+            var foundOrder = await _dataContext.Orders
+                .Where(e=> e.Client != null && e.Client.Email == order.Username)
+                .Include(e => e.Client)
+                .Include(e => e.Employees)
+                .Include(e => e.FromDistrict!.Region)
+                .Include(e => e.ToDistrict!.Region)
+                .Include(e => e.ProductImages)
+                .Include(e => e.EndImage)
+                .Include(e=> e.ProductImages)
+                .Include(e=>e.Driver)
+                .FirstOrDefaultAsync();
+            if (foundOrder != null)
+            {
+                foundOrder.Comment = order.Comment;
+                foundOrder.ProductImages = imgs;
+                await _dataContext.SaveChangesAsync();
+                return foundOrder;
+            }
+            return null;
+        }
+        catch (Exception e)
+        {
+            Console.WriteLine(e.Message);
+            return null;
+        }
     }
     
     private async Task<User> CreateUser(BaseOrderDto order)
@@ -140,7 +167,6 @@ public class OrderService : IOrderService
                 await _dataContext.Users.AddAsync(newUser);
                 await _dataContext.SaveChangesAsync();
                 await SendEmail(order.Email, newUser.UserName, order.FullName, newUser.Password);
-
                 return newUser;
             }
             await SendEmail(order.Email, userExists.UserName, order.FullName, userExists.Password);
@@ -152,7 +178,6 @@ public class OrderService : IOrderService
             return null;
         }
     }
-
     private async Task<int> CalculateOrders(List<Order> orders)
     {
         return orders.Count();
@@ -176,7 +201,6 @@ public class OrderService : IOrderService
             .Select(s => s[random.Next(s.Length)]).ToArray());
         return password;
     }
-
     public async Task  SendEmail(string toEmail, string username, string Name, string password)
     {
         try
@@ -187,7 +211,11 @@ public class OrderService : IOrderService
             message.Subject = "Account credentials";
             var bodyBuilder = new BodyBuilder();
             bodyBuilder.TextBody = $"Dear {Name},\n\nThank you for using our service!\n\nYour login credentials are as follows:\n\n" +
-                                   $"Username: **{username}**\nPassword: **{password}**\n\nWe appreciate your trust in our service and are here to assist you with any questions or concerns. If you have any feedback or need assistance, please don't hesitate to contact us.\n\nBest regards,\nThe SilkRoute Express Team";
+                                   $"Username: **{username}**\nPassword: **{password}**" +
+                                   $"\n\nYou are now all set to proceed your request and now you can log in to the platform and follow the identified steps" +
+                                   $"\n\nWe appreciate your trust in our service and are " +
+                                   $"here to assist you with any questions or concerns. If you have any feedback or need assistance, please don't " +
+                                   $"hesitate to contact us.\n\nBest regards,\nThe SilkRoute Express Team";
             message.Body = bodyBuilder.ToMessageBody();
             using (var client = new SmtpClient())
             {
