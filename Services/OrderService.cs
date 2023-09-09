@@ -7,6 +7,7 @@ using BIS_project.IServices;
 using BIS_project.Models;
 using MailKit.Net.Smtp;
 using Microsoft.EntityFrameworkCore;
+using Microsoft.EntityFrameworkCore.ChangeTracking;
 using MimeKit;
 
 namespace BIS_project.Services;
@@ -31,9 +32,9 @@ public class OrderService : IOrderService
             .ToListAsync();
     }
 
-    public Task<Order> GetOrderById(int id)
+    public async Task<Order> GetOrderById(int id)
     {
-        throw new NotImplementedException();
+        return await _dataContext.Orders.FindAsync(id);
     }
 
     public async Task<APIResponse> CreateBaseOrder(BaseOrderDto order)
@@ -55,7 +56,8 @@ public class OrderService : IOrderService
                 PaymentType = order.PaymentType,
                 HomeType = order.HomeType,
                 CreatedAt = DateTime.UtcNow,
-                Client = await CreateCredentials(order),
+                Client = await CreteClient(order),
+                Status = "CREATED"
             };
             if (o.Client == null)
             {
@@ -64,7 +66,9 @@ public class OrderService : IOrderService
             
             await _dataContext.Orders.AddAsync(o);
             await _dataContext.SaveChangesAsync();
-            return new APIResponse(200, "ok", "");
+            
+            await CreateUser(order);
+            return new APIResponse(200, "Order saved", "");
         }
         catch (Exception e)
         {
@@ -75,38 +79,15 @@ public class OrderService : IOrderService
             }
             return new APIResponse(500, "", e.Message);
         }
-
     }
-    private async Task<Client> CreateCredentials(BaseOrderDto order)
+
+    public async Task<Client> CreteClient(BaseOrderDto order)
     {
         try
         {
-            var userExists = await _dataContext.Users.FirstOrDefaultAsync(e => e.UserName == order.Email);
+            Client clientExists = await _dataContext.Client.FirstOrDefaultAsync(e => e.Name == order.FullName);
 
-            if (userExists != null)
-            {
-                var newUser = new User
-                {
-                    IsActive = true,
-                    Firstname = order.FullName,
-                    UserName = order.Email,
-                    Lastname = order.FullName,
-                    Password = GenerateRandomPassword(),
-                    Role = await _dataContext.Roles.FirstOrDefaultAsync(e => e.Role_name == "CLIENT"),
-                };
-
-                await _dataContext.Users.AddAsync(newUser);
-                await _dataContext.SaveChangesAsync();
-                await SendEmail(order.Email, newUser.UserName, order.FullName, newUser.Password);
-            }
-            else
-            {
-                await SendEmail(order.Email, userExists.UserName, order.FullName, userExists.Password);
-            }
-
-            var clientExists = await _dataContext.Client.FirstOrDefaultAsync(e => e.Name == order.FullName);
-
-            if (clientExists != null)
+            if (clientExists == null)
             {
                 var client = new Client
                 {
@@ -125,11 +106,50 @@ public class OrderService : IOrderService
                 return client;
             }
             return clientExists;
+           
         }
         catch (Exception e)
         {
             Console.WriteLine(e);
-            return new Client();
+            return null;
+        }
+    }
+
+    public async Task<Order> UpdateOrder(string comment, List<Image> imgs)
+    {
+        return new Order();
+    }
+    
+    private async Task<User> CreateUser(BaseOrderDto order)
+    {
+        try
+        {
+            var userExists = await _dataContext.Users.FirstOrDefaultAsync(e => e.UserName == order.Email);
+    
+            if (userExists == null)
+            {
+                var newUser = new User
+                {
+                    IsActive = true,
+                    Firstname = order.FullName,
+                    UserName = order.Email,
+                    Lastname = order.FullName,
+                    Password = GenerateRandomPassword(),
+                    Role = await _dataContext.Roles.FirstOrDefaultAsync(e => e.Role_name == "CLIENT"),
+                };
+                await _dataContext.Users.AddAsync(newUser);
+                await _dataContext.SaveChangesAsync();
+                await SendEmail(order.Email, newUser.UserName, order.FullName, newUser.Password);
+
+                return newUser;
+            }
+            await SendEmail(order.Email, userExists.UserName, order.FullName, userExists.Password);
+            return userExists;
+        }
+        catch (Exception e)
+        {
+            Console.WriteLine(e);
+            return null;
         }
     }
 

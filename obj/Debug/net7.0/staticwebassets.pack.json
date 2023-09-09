@@ -93,6 +93,18 @@
       "PackagePath": "staticwebassets/employees/images/fcb28ddc-e997-4fce-bdf5-97a1edca73bc.jpg"
     },
     {
+      "Id": "/Users/azizjonabdugafforov/Desktop/Code/level 6/BIS_project/BIS_project/wwwroot/orders/images/7103d7d7-0749-46a8-9e93-3659b38b2f28.jpg",
+      "PackagePath": "staticwebassets/orders/images/7103d7d7-0749-46a8-9e93-3659b38b2f28.jpg"
+    },
+    {
+      "Id": "/Users/azizjonabdugafforov/Desktop/Code/level 6/BIS_project/BIS_project/wwwroot/orders/images/878fe774-7f74-4a7e-a094-03c7a25d1293.jpg",
+      "PackagePath": "staticwebassets/orders/images/878fe774-7f74-4a7e-a094-03c7a25d1293.jpg"
+    },
+    {
+      "Id": "/Users/azizjonabdugafforov/Desktop/Code/level 6/BIS_project/BIS_project/wwwroot/orders/images/e2733657-e388-4c3a-bb59-a46ffe74b921.jpg",
+      "PackagePath": "staticwebassets/orders/images/e2733657-e388-4c3a-bb59-a46ffe74b921.jpg"
+    },
+    {
       "Id": "/Users/azizjonabdugafforov/Desktop/Code/level 6/BIS_project/BIS_project/wwwroot/truck/images/0b744b0d-4d89-4f71-bc2f-3cbde47f632b.jpg",
       "PackagePath": "staticwebassets/truck/images/0b744b0d-4d89-4f71-bc2f-3cbde47f632b.jpg"
     },
