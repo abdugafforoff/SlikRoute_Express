@@ -1,0 +1,42 @@
+2023-09-11 14:54:42.899 +05:00 [INF] User profile is available. Using '/Users/azizjonabdugafforov/.aspnet/DataProtection-Keys' as key repository; keys will not be encrypted at rest.
+2023-09-11 14:54:42.952 +05:00 [INF] Now listening on: http://localhost:5279
+2023-09-11 14:54:42.953 +05:00 [INF] Application started. Press Ctrl+C to shut down.
+2023-09-11 14:54:42.953 +05:00 [INF] Hosting environment: Development
+2023-09-11 14:54:42.953 +05:00 [INF] Content root path: /Users/azizjonabdugafforov/Desktop/Code/level 6/BIS_project/BIS_project
+2023-09-11 14:54:43.546 +05:00 [INF] Request starting HTTP/1.1 GET http://localhost:5279/swagger/index.html - -
+2023-09-11 14:54:43.611 +05:00 [INF] Request finished HTTP/1.1 GET http://localhost:5279/swagger/index.html - - - 200 - text/html;charset=utf-8 65.9693ms
+2023-09-11 14:54:43.626 +05:00 [INF] Request starting HTTP/1.1 GET http://localhost:5279/swagger/swagger-ui-bundle.js - -
+2023-09-11 14:54:43.626 +05:00 [INF] Request starting HTTP/1.1 GET http://localhost:5279/swagger/swagger-ui-standalone-preset.js - -
+2023-09-11 14:54:43.629 +05:00 [INF] Request starting HTTP/1.1 GET http://localhost:5279/swagger/swagger-ui.css - -
+2023-09-11 14:54:43.649 +05:00 [INF] Sending file. Request path: '/swagger-ui.css'. Physical path: 'N/A'
+2023-09-11 14:54:43.649 +05:00 [INF] Sending file. Request path: '/swagger-ui-standalone-preset.js'. Physical path: 'N/A'
+2023-09-11 14:54:43.651 +05:00 [INF] Request finished HTTP/1.1 GET http://localhost:5279/swagger/swagger-ui.css - - - 200 144929 text/css 21.7414ms
+2023-09-11 14:54:43.651 +05:00 [INF] Request finished HTTP/1.1 GET http://localhost:5279/swagger/swagger-ui-standalone-preset.js - - - 200 312163 text/javascript 24.7471ms
+2023-09-11 14:54:43.658 +05:00 [INF] Sending file. Request path: '/swagger-ui-bundle.js'. Physical path: 'N/A'
+2023-09-11 14:54:43.661 +05:00 [INF] Request starting HTTP/1.1 GET http://localhost:5279/swagger/swagger-ui-standalone-preset.js - -
+2023-09-11 14:54:43.668 +05:00 [INF] Request starting HTTP/1.1 GET http://localhost:5279/swagger/swagger-ui-bundle.js - -
+2023-09-11 14:54:43.689 +05:00 [INF] Request finished HTTP/1.1 GET http://localhost:5279/swagger/swagger-ui-bundle.js - - - 200 1061536 text/javascript 62.7351ms
+2023-09-11 14:54:43.691 +05:00 [INF] Sending file. Request path: '/swagger-ui-standalone-preset.js'. Physical path: 'N/A'
+2023-09-11 14:54:43.691 +05:00 [INF] Request finished HTTP/1.1 GET http://localhost:5279/swagger/swagger-ui-standalone-preset.js - - - 200 312163 text/javascript 30.6663ms
+2023-09-11 14:54:43.692 +05:00 [INF] Sending file. Request path: '/swagger-ui-bundle.js'. Physical path: 'N/A'
+2023-09-11 14:54:43.693 +05:00 [INF] Request finished HTTP/1.1 GET http://localhost:5279/swagger/swagger-ui-bundle.js - - - 200 1061536 text/javascript 24.6454ms
+2023-09-11 14:54:43.780 +05:00 [INF] Request starting HTTP/1.1 GET http://localhost:5279/swagger/v1/swagger.json - -
+2023-09-11 14:54:43.865 +05:00 [INF] Request finished HTTP/1.1 GET http://localhost:5279/swagger/v1/swagger.json - - - 200 - application/json;charset=utf-8 84.9755ms
+2023-09-11 16:05:25.753 +05:00 [INF] Request starting HTTP/1.1 OPTIONS http://127.0.0.1:5279/api/v1/Employee - -
+2023-09-11 16:05:25.829 +05:00 [WRN] Failed to determine the https port for redirect.
+2023-09-11 16:05:25.834 +05:00 [INF] CORS policy execution successful.
+2023-09-11 16:05:25.838 +05:00 [INF] Request finished HTTP/1.1 OPTIONS http://127.0.0.1:5279/api/v1/Employee - - - 204 - - 89.5562ms
+2023-09-11 16:05:25.841 +05:00 [INF] Request starting HTTP/1.1 GET http://127.0.0.1:5279/api/v1/Employee - -
+2023-09-11 16:05:25.925 +05:00 [INF] Failed to validate the token.
+Microsoft.IdentityModel.Tokens.SecurityTokenExpiredException: IDX10223: Lifetime validation failed. The token is expired. ValidTo: 'System.DateTime', Current time: 'System.DateTime'.
+   at Microsoft.IdentityModel.Tokens.Validators.ValidateLifetime(Nullable`1 notBefore, Nullable`1 expires, SecurityToken securityToken, TokenValidationParameters validationParameters)
+   at System.IdentityModel.Tokens.Jwt.JwtSecurityTokenHandler.ValidateLifetime(Nullable`1 notBefore, Nullable`1 expires, JwtSecurityToken jwtToken, TokenValidationParameters validationParameters)
+   at System.IdentityModel.Tokens.Jwt.JwtSecurityTokenHandler.ValidateTokenPayload(JwtSecurityToken jwtToken, TokenValidationParameters validationParameters)
+   at System.IdentityModel.Tokens.Jwt.JwtSecurityTokenHandler.ValidateToken(String token, TokenValidationParameters validationParameters, SecurityToken& validatedToken)
+   at Microsoft.AspNetCore.Authentication.JwtBearer.JwtBearerHandler.HandleAuthenticateAsync()
+2023-09-11 16:05:25.941 +05:00 [INF] Bearer was not authenticated. Failure message: IDX10223: Lifetime validation failed. The token is expired. ValidTo: 'System.DateTime', Current time: 'System.DateTime'.
+2023-09-11 16:05:25.944 +05:00 [INF] Authorization failed. These requirements were not met:
+RolesAuthorizationRequirement:User.IsInRole must be true for one of the following roles: (ADMIN)
+2023-09-11 16:05:25.947 +05:00 [INF] AuthenticationScheme: Bearer was challenged.
+2023-09-11 16:05:25.947 +05:00 [INF] Request finished HTTP/1.1 GET http://127.0.0.1:5279/api/v1/Employee - - - 401 0 - 106.7415ms
+2023-09-11 16:12:31.747 +05:00 [INF] Application is shutting down...

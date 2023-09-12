@@ -1,5 +1,3 @@
-using System.Diagnostics.CodeAnalysis;
-using System.Text.RegularExpressions;
 using BIS_project.AppData;
 using BIS_project.Dtos;
 using BIS_project.Helper;
@@ -7,7 +5,6 @@ using BIS_project.IServices;
 using BIS_project.Models;
 using MailKit.Net.Smtp;
 using Microsoft.EntityFrameworkCore;
-using Microsoft.EntityFrameworkCore.ChangeTracking;
 using MimeKit;
 
 namespace BIS_project.Services;
@@ -20,20 +17,44 @@ public class OrderService : IOrderService
         _dataContext = data;
     }
     
-    public async Task<List<Order>> GetAllOrders()
+    public async Task<List<Order>?> GetAllOrders()
     {
-        return await _dataContext.Orders
-            .Include(e => e.Client)
-            .Include(e => e.Employees)
-            .Include(e => e.FromDistrict!.Region)
-            .Include(e => e.ToDistrict!.Region)
-            .Include(e => e.ProductImages)
-            .Include(e => e.EndImage)
-            .Include(e=> e.ProductImages)
-            .ToListAsync();
+        try
+        {
+            return await _dataContext.Orders
+                .Include(e => e.Client)
+                .Include(e => e.Employees)
+                .Include(e => e.FromDistrict!.Region)
+                .Include(e => e.ToDistrict!.Region)
+                .Include(e => e.ProductImages)
+                .Include(e => e.EndImage)
+                .Include(e=> e.Driver)
+                .Include(e=> e.ProductImages)
+                .ToListAsync();
+        }
+        catch (Exception e)
+        {
+            Console.WriteLine(e);
+            return null;
+        }
     }
 
-    public async Task<Order> GetOrderById(int id)
+    public async Task<bool> AppendEmployee(int orderId, int driverId, List<int> emps)
+    {
+        try
+        {
+            var order = await _dataContext.Orders.FindAsync(orderId);
+            
+        }
+        catch (Exception e)
+        {
+            Console.WriteLine(e);
+            return false;
+        }
+        
+        return true;
+    }
+    public async Task<Order?> GetOrderById(int id)
     {
         return await _dataContext.Orders.FindAsync(id);
     }
@@ -82,11 +103,11 @@ public class OrderService : IOrderService
         }
     }
 
-    public async Task<Client> CreteClient(BaseOrderDto order)
+    private async Task<Client?> CreteClient(BaseOrderDto order)
     {
         try
         {
-            Client clientExists = await _dataContext.Client.FirstOrDefaultAsync(e => e.Name == order.FullName);
+            Client? clientExists = await _dataContext.Client.FirstOrDefaultAsync(e => e.Name == order.FullName);
 
             if (clientExists == null)
             {
@@ -178,12 +199,12 @@ public class OrderService : IOrderService
             return null;
         }
     }
-    private async Task<int> CalculateOrders(List<Order> orders)
+    private async Task<int> CalculateOrders(List<Order?> orders)
     {
         return orders.Count();
     }
 
-    private async Task<int> CalculateTotalSpent(List<Order> orders)
+    private async Task<int> CalculateTotalSpent(List<Order?> orders)
     {
         int totalSpent = 0;
         foreach (var order in orders)
@@ -201,7 +222,7 @@ public class OrderService : IOrderService
             .Select(s => s[random.Next(s.Length)]).ToArray());
         return password;
     }
-    public async Task  SendEmail(string toEmail, string username, string Name, string password)
+    private async Task  SendEmail(string toEmail, string username, string Name, string password)
     {
         try
         {

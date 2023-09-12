@@ -1,0 +1,203 @@
+2023-09-12 09:11:50.413 +05:00 [INF] User profile is available. Using '/Users/azizjonabdugafforov/.aspnet/DataProtection-Keys' as key repository; keys will not be encrypted at rest.
+2023-09-12 09:11:50.470 +05:00 [INF] Now listening on: http://localhost:5279
+2023-09-12 09:11:50.472 +05:00 [INF] Application started. Press Ctrl+C to shut down.
+2023-09-12 09:11:50.472 +05:00 [INF] Hosting environment: Development
+2023-09-12 09:11:50.472 +05:00 [INF] Content root path: /Users/azizjonabdugafforov/Desktop/Code/level 6/BIS_project/BIS_project
+2023-09-12 09:11:50.980 +05:00 [INF] Request starting HTTP/1.1 GET http://localhost:5279/swagger/index.html - -
+2023-09-12 09:11:51.049 +05:00 [INF] Request finished HTTP/1.1 GET http://localhost:5279/swagger/index.html - - - 200 - text/html;charset=utf-8 70.4972ms
+2023-09-12 09:11:51.061 +05:00 [INF] Request starting HTTP/1.1 GET http://localhost:5279/swagger/swagger-ui-standalone-preset.js - -
+2023-09-12 09:11:51.064 +05:00 [INF] Request starting HTTP/1.1 GET http://localhost:5279/swagger/swagger-ui-bundle.js - -
+2023-09-12 09:11:51.081 +05:00 [INF] Request starting HTTP/1.1 GET http://localhost:5279/swagger/swagger-ui-standalone-preset.js - -
+2023-09-12 09:11:51.082 +05:00 [INF] Sending file. Request path: '/swagger-ui-standalone-preset.js'. Physical path: 'N/A'
+2023-09-12 09:11:51.082 +05:00 [INF] Sending file. Request path: '/swagger-ui-standalone-preset.js'. Physical path: 'N/A'
+2023-09-12 09:11:51.084 +05:00 [INF] Request finished HTTP/1.1 GET http://localhost:5279/swagger/swagger-ui-standalone-preset.js - - - 200 312163 text/javascript 22.9340ms
+2023-09-12 09:11:51.085 +05:00 [INF] Request finished HTTP/1.1 GET http://localhost:5279/swagger/swagger-ui-standalone-preset.js - - - 200 312163 text/javascript 3.7643ms
+2023-09-12 09:11:51.089 +05:00 [INF] Sending file. Request path: '/swagger-ui-bundle.js'. Physical path: 'N/A'
+2023-09-12 09:11:51.090 +05:00 [INF] Request finished HTTP/1.1 GET http://localhost:5279/swagger/swagger-ui-bundle.js - - - 200 1061536 text/javascript 25.2339ms
+2023-09-12 09:11:51.191 +05:00 [INF] Request starting HTTP/1.1 GET http://localhost:5279/swagger/v1/swagger.json - -
+2023-09-12 09:11:51.283 +05:00 [INF] Request finished HTTP/1.1 GET http://localhost:5279/swagger/v1/swagger.json - - - 200 - application/json;charset=utf-8 92.4335ms
+2023-09-12 09:11:51.314 +05:00 [INF] Request starting HTTP/1.1 GET http://localhost:5279/swagger/swagger-ui-bundle.js - -
+2023-09-12 09:11:51.315 +05:00 [INF] Sending file. Request path: '/swagger-ui-bundle.js'. Physical path: 'N/A'
+2023-09-12 09:11:51.315 +05:00 [INF] Request finished HTTP/1.1 GET http://localhost:5279/swagger/swagger-ui-bundle.js - - - 200 1061536 text/javascript 1.8143ms
+2023-09-12 09:21:10.572 +05:00 [INF] Request starting HTTP/1.1 POST http://localhost:5279/api/v1/Auth/Login application/json 75
+2023-09-12 09:21:10.612 +05:00 [WRN] Failed to determine the https port for redirect.
+2023-09-12 09:21:10.614 +05:00 [INF] CORS policy execution successful.
+2023-09-12 09:21:10.616 +05:00 [INF] Executing endpoint 'BIS_project.Controllers.AuthController.Login (BIS_project)'
+2023-09-12 09:21:10.631 +05:00 [INF] Route matched with {action = "Login", controller = "Auth"}. Executing controller action with signature System.Threading.Tasks.Task`1[System.Object] Login(BIS_project.Dtos.UserDto) on controller BIS_project.Controllers.AuthController (BIS_project).
+2023-09-12 09:21:11.625 +05:00 [INF] Executing OkObjectResult, writing value of type '<>f__AnonymousType1`3[[BIS_project.Models.User, BIS_project, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null],[<>f__AnonymousType0`8[[System.String, System.Private.CoreLib, Version=7.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e],[System.String, System.Private.CoreLib, Version=7.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e],[System.String, System.Private.CoreLib, Version=7.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e],[System.DateOnly, System.Private.CoreLib, Version=7.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e],[BIS_project.Models.Image, BIS_project, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null],[System.String, System.Private.CoreLib, Version=7.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e],[System.String, System.Private.CoreLib, Version=7.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e],[System.String, System.Private.CoreLib, Version=7.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]], BIS_project, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null],[System.String, System.Private.CoreLib, Version=7.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]'.
+2023-09-12 09:21:11.633 +05:00 [INF] Executed action BIS_project.Controllers.AuthController.Login (BIS_project) in 999.3879ms
+2023-09-12 09:21:11.636 +05:00 [INF] Executed endpoint 'BIS_project.Controllers.AuthController.Login (BIS_project)'
+2023-09-12 09:21:11.643 +05:00 [INF] Request finished HTTP/1.1 POST http://localhost:5279/api/v1/Auth/Login application/json 75 - 200 - application/json;+charset=utf-8 1071.2068ms
+2023-09-12 09:35:38.205 +05:00 [INF] Request starting HTTP/1.1 POST http://localhost:5279//v1/user/login application/json 50
+2023-09-12 09:35:38.214 +05:00 [INF] Request finished HTTP/1.1 POST http://localhost:5279//v1/user/login application/json 50 - 404 0 - 10.5696ms
+2023-09-12 09:37:13.655 +05:00 [INF] Request starting HTTP/1.1 POST http://localhost:5279//v1/Auth/Login application/json 50
+2023-09-12 09:37:13.662 +05:00 [INF] Request finished HTTP/1.1 POST http://localhost:5279//v1/Auth/Login application/json 50 - 404 0 - 6.7138ms
+2023-09-12 09:38:07.223 +05:00 [INF] Request starting HTTP/1.1 GET http://localhost:5279//v1/Branch/GetAll - -
+2023-09-12 09:38:07.227 +05:00 [INF] Request finished HTTP/1.1 GET http://localhost:5279//v1/Branch/GetAll - - - 404 0 - 3.1354ms
+2023-09-12 09:38:41.554 +05:00 [INF] Request starting HTTP/1.1 GET http://localhost:5279//v1/Branch/GetAll - -
+2023-09-12 09:38:41.555 +05:00 [INF] Request finished HTTP/1.1 GET http://localhost:5279//v1/Branch/GetAll - - - 404 0 - 0.6416ms
+2023-09-12 09:39:03.882 +05:00 [INF] Request starting HTTP/1.1 GET http://localhost:5279//api/v1/Branch/GetAll - -
+2023-09-12 09:39:03.883 +05:00 [INF] Request finished HTTP/1.1 GET http://localhost:5279//api/v1/Branch/GetAll - - - 404 0 - 1.3578ms
+2023-09-12 09:39:29.696 +05:00 [INF] Request starting HTTP/1.1 GET http://localhost:5279/api/v1/Branch/GetAll - -
+2023-09-12 09:39:29.702 +05:00 [INF] Executing endpoint 'BIS_project.Controllers.BranchController.GetAllAsync (BIS_project)'
+2023-09-12 09:39:29.719 +05:00 [INF] Route matched with {action = "GetAll", controller = "Branch"}. Executing controller action with signature System.Threading.Tasks.Task`1[System.Collections.Generic.List`1[BIS_project.Models.Branch]] GetAllAsync() on controller BIS_project.Controllers.BranchController (BIS_project).
+2023-09-12 09:39:29.843 +05:00 [INF] Executing ObjectResult, writing value of type 'System.Collections.Generic.List`1[[BIS_project.Models.Branch, BIS_project, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]'.
+2023-09-12 09:39:29.849 +05:00 [INF] Executed action BIS_project.Controllers.BranchController.GetAllAsync (BIS_project) in 129.8914ms
+2023-09-12 09:39:29.849 +05:00 [INF] Executed endpoint 'BIS_project.Controllers.BranchController.GetAllAsync (BIS_project)'
+2023-09-12 09:39:29.849 +05:00 [INF] Request finished HTTP/1.1 GET http://localhost:5279/api/v1/Branch/GetAll - - - 200 - application/json;+charset=utf-8 153.4758ms
+2023-09-12 09:40:24.166 +05:00 [INF] Request starting HTTP/1.1 POST http://localhost:5279/api/v1/Branch/Insert application/json 58
+2023-09-12 09:40:24.172 +05:00 [INF] Executing endpoint 'BIS_project.Controllers.BranchController.InsertAsync (BIS_project)'
+2023-09-12 09:40:24.178 +05:00 [INF] Route matched with {action = "Insert", controller = "Branch"}. Executing controller action with signature System.Threading.Tasks.Task`1[System.Boolean] InsertAsync(BIS_project.Dtos.BranchDto) on controller BIS_project.Controllers.BranchController (BIS_project).
+2023-09-12 09:40:24.448 +05:00 [INF] Executing ObjectResult, writing value of type 'System.Boolean'.
+2023-09-12 09:40:24.450 +05:00 [INF] Executed action BIS_project.Controllers.BranchController.InsertAsync (BIS_project) in 271.5298ms
+2023-09-12 09:40:24.450 +05:00 [INF] Executed endpoint 'BIS_project.Controllers.BranchController.InsertAsync (BIS_project)'
+2023-09-12 09:40:24.450 +05:00 [INF] Request finished HTTP/1.1 POST http://localhost:5279/api/v1/Branch/Insert application/json 58 - 200 - application/json;+charset=utf-8 286.7159ms
+2023-09-12 09:40:31.289 +05:00 [INF] Request starting HTTP/1.1 POST http://localhost:5279/api/v1/Branch/Insert application/json 58
+2023-09-12 09:40:31.289 +05:00 [INF] Executing endpoint 'BIS_project.Controllers.BranchController.InsertAsync (BIS_project)'
+2023-09-12 09:40:31.290 +05:00 [INF] Route matched with {action = "Insert", controller = "Branch"}. Executing controller action with signature System.Threading.Tasks.Task`1[System.Boolean] InsertAsync(BIS_project.Dtos.BranchDto) on controller BIS_project.Controllers.BranchController (BIS_project).
+2023-09-12 09:40:31.356 +05:00 [INF] Executing ObjectResult, writing value of type 'System.Boolean'.
+2023-09-12 09:40:31.356 +05:00 [INF] Executed action BIS_project.Controllers.BranchController.InsertAsync (BIS_project) in 66.0182ms
+2023-09-12 09:40:31.356 +05:00 [INF] Executed endpoint 'BIS_project.Controllers.BranchController.InsertAsync (BIS_project)'
+2023-09-12 09:40:31.357 +05:00 [INF] Request finished HTTP/1.1 POST http://localhost:5279/api/v1/Branch/Insert application/json 58 - 200 - application/json;+charset=utf-8 67.6388ms
+2023-09-12 09:40:52.636 +05:00 [INF] Request starting HTTP/1.1 POST http://localhost:5279/api/v1/Branch/Insert application/json 58
+2023-09-12 09:40:52.638 +05:00 [INF] Executing endpoint 'BIS_project.Controllers.BranchController.InsertAsync (BIS_project)'
+2023-09-12 09:40:52.638 +05:00 [INF] Route matched with {action = "Insert", controller = "Branch"}. Executing controller action with signature System.Threading.Tasks.Task`1[System.Boolean] InsertAsync(BIS_project.Dtos.BranchDto) on controller BIS_project.Controllers.BranchController (BIS_project).
+2023-09-12 09:40:52.656 +05:00 [INF] Executing ObjectResult, writing value of type 'System.Boolean'.
+2023-09-12 09:40:52.656 +05:00 [INF] Executed action BIS_project.Controllers.BranchController.InsertAsync (BIS_project) in 18.2699ms
+2023-09-12 09:40:52.657 +05:00 [INF] Executed endpoint 'BIS_project.Controllers.BranchController.InsertAsync (BIS_project)'
+2023-09-12 09:40:52.657 +05:00 [INF] Request finished HTTP/1.1 POST http://localhost:5279/api/v1/Branch/Insert application/json 58 - 200 - application/json;+charset=utf-8 20.6170ms
+2023-09-12 09:40:56.332 +05:00 [INF] Request starting HTTP/1.1 GET http://localhost:5279/api/v1/Branch/GetAll - -
+2023-09-12 09:40:56.332 +05:00 [INF] Executing endpoint 'BIS_project.Controllers.BranchController.GetAllAsync (BIS_project)'
+2023-09-12 09:40:56.332 +05:00 [INF] Route matched with {action = "GetAll", controller = "Branch"}. Executing controller action with signature System.Threading.Tasks.Task`1[System.Collections.Generic.List`1[BIS_project.Models.Branch]] GetAllAsync() on controller BIS_project.Controllers.BranchController (BIS_project).
+2023-09-12 09:40:56.344 +05:00 [INF] Executing ObjectResult, writing value of type 'System.Collections.Generic.List`1[[BIS_project.Models.Branch, BIS_project, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]'.
+2023-09-12 09:40:56.345 +05:00 [INF] Executed action BIS_project.Controllers.BranchController.GetAllAsync (BIS_project) in 12.5548ms
+2023-09-12 09:40:56.345 +05:00 [INF] Executed endpoint 'BIS_project.Controllers.BranchController.GetAllAsync (BIS_project)'
+2023-09-12 09:40:56.345 +05:00 [INF] Request finished HTTP/1.1 GET http://localhost:5279/api/v1/Branch/GetAll - - - 200 - application/json;+charset=utf-8 13.4646ms
+2023-09-12 09:42:20.746 +05:00 [INF] Request starting HTTP/1.1 DELETE http://localhost:5279/api/v1/Branch/Delete/${{id}} - -
+2023-09-12 09:42:20.747 +05:00 [INF] Executing endpoint 'BIS_project.Controllers.BranchController.DeleteAsync (BIS_project)'
+2023-09-12 09:42:20.754 +05:00 [INF] Route matched with {action = "Delete", controller = "Branch"}. Executing controller action with signature System.Threading.Tasks.Task`1[System.Boolean] DeleteAsync(Int32) on controller BIS_project.Controllers.BranchController (BIS_project).
+2023-09-12 09:42:20.767 +05:00 [INF] Executing BadRequestObjectResult, writing value of type 'Microsoft.AspNetCore.Mvc.ValidationProblemDetails'.
+2023-09-12 09:42:20.769 +05:00 [INF] Executed action BIS_project.Controllers.BranchController.DeleteAsync (BIS_project) in 14.9256ms
+2023-09-12 09:42:20.769 +05:00 [INF] Executed endpoint 'BIS_project.Controllers.BranchController.DeleteAsync (BIS_project)'
+2023-09-12 09:42:20.770 +05:00 [INF] Request finished HTTP/1.1 DELETE http://localhost:5279/api/v1/Branch/Delete/${{id}} - - - 400 - application/problem+json;+charset=utf-8 23.8354ms
+2023-09-12 09:42:34.375 +05:00 [INF] Request starting HTTP/1.1 DELETE http://localhost:5279/api/v1/Branch/Delete/5 - -
+2023-09-12 09:42:34.375 +05:00 [INF] CORS policy execution successful.
+2023-09-12 09:42:34.375 +05:00 [INF] Executing endpoint 'BIS_project.Controllers.BranchController.DeleteAsync (BIS_project)'
+2023-09-12 09:42:34.376 +05:00 [INF] Route matched with {action = "Delete", controller = "Branch"}. Executing controller action with signature System.Threading.Tasks.Task`1[System.Boolean] DeleteAsync(Int32) on controller BIS_project.Controllers.BranchController (BIS_project).
+2023-09-12 09:42:34.422 +05:00 [INF] Executing ObjectResult, writing value of type 'System.Boolean'.
+2023-09-12 09:42:34.423 +05:00 [INF] Executed action BIS_project.Controllers.BranchController.DeleteAsync (BIS_project) in 47.1411ms
+2023-09-12 09:42:34.423 +05:00 [INF] Executed endpoint 'BIS_project.Controllers.BranchController.DeleteAsync (BIS_project)'
+2023-09-12 09:42:34.423 +05:00 [INF] Request finished HTTP/1.1 DELETE http://localhost:5279/api/v1/Branch/Delete/5 - - - 200 - application/json;+charset=utf-8 48.4717ms
+2023-09-12 09:43:21.174 +05:00 [INF] Request starting HTTP/1.1 DELETE http://localhost:5279/api/v1/Branch/Delete/4 - -
+2023-09-12 09:43:21.175 +05:00 [INF] Executing endpoint 'BIS_project.Controllers.BranchController.DeleteAsync (BIS_project)'
+2023-09-12 09:43:21.175 +05:00 [INF] Route matched with {action = "Delete", controller = "Branch"}. Executing controller action with signature System.Threading.Tasks.Task`1[System.Boolean] DeleteAsync(Int32) on controller BIS_project.Controllers.BranchController (BIS_project).
+2023-09-12 09:43:21.195 +05:00 [INF] Executing ObjectResult, writing value of type 'System.Boolean'.
+2023-09-12 09:43:21.195 +05:00 [INF] Executed action BIS_project.Controllers.BranchController.DeleteAsync (BIS_project) in 19.8522ms
+2023-09-12 09:43:21.196 +05:00 [INF] Executed endpoint 'BIS_project.Controllers.BranchController.DeleteAsync (BIS_project)'
+2023-09-12 09:43:21.196 +05:00 [INF] Request finished HTTP/1.1 DELETE http://localhost:5279/api/v1/Branch/Delete/4 - - - 200 - application/json;+charset=utf-8 22.3095ms
+2023-09-12 09:43:25.335 +05:00 [INF] Request starting HTTP/1.1 GET http://localhost:5279/api/v1/Branch/GetAll - -
+2023-09-12 09:43:25.335 +05:00 [INF] Executing endpoint 'BIS_project.Controllers.BranchController.GetAllAsync (BIS_project)'
+2023-09-12 09:43:25.336 +05:00 [INF] Route matched with {action = "GetAll", controller = "Branch"}. Executing controller action with signature System.Threading.Tasks.Task`1[System.Collections.Generic.List`1[BIS_project.Models.Branch]] GetAllAsync() on controller BIS_project.Controllers.BranchController (BIS_project).
+2023-09-12 09:43:25.349 +05:00 [INF] Executing ObjectResult, writing value of type 'System.Collections.Generic.List`1[[BIS_project.Models.Branch, BIS_project, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]'.
+2023-09-12 09:43:25.350 +05:00 [INF] Executed action BIS_project.Controllers.BranchController.GetAllAsync (BIS_project) in 13.8765ms
+2023-09-12 09:43:25.350 +05:00 [INF] Executed endpoint 'BIS_project.Controllers.BranchController.GetAllAsync (BIS_project)'
+2023-09-12 09:43:25.350 +05:00 [INF] Request finished HTTP/1.1 GET http://localhost:5279/api/v1/Branch/GetAll - - - 200 - application/json;+charset=utf-8 15.4216ms
+2023-09-12 09:44:42.911 +05:00 [INF] Request starting HTTP/1.1 GET http://localhost:5279/api/v1/Branch/GetById/1 - -
+2023-09-12 09:44:42.917 +05:00 [INF] Executing endpoint 'BIS_project.Controllers.BranchController.GetByIdAsync (BIS_project)'
+2023-09-12 09:44:42.925 +05:00 [INF] Route matched with {action = "GetById", controller = "Branch"}. Executing controller action with signature System.Threading.Tasks.Task`1[BIS_project.Models.Branch] GetByIdAsync(Int32) on controller BIS_project.Controllers.BranchController (BIS_project).
+2023-09-12 09:44:42.957 +05:00 [INF] Executing ObjectResult, writing value of type 'BIS_project.Models.Branch'.
+2023-09-12 09:44:42.958 +05:00 [INF] Executed action BIS_project.Controllers.BranchController.GetByIdAsync (BIS_project) in 32.3413ms
+2023-09-12 09:44:42.958 +05:00 [INF] Executed endpoint 'BIS_project.Controllers.BranchController.GetByIdAsync (BIS_project)'
+2023-09-12 09:44:42.958 +05:00 [INF] Request finished HTTP/1.1 GET http://localhost:5279/api/v1/Branch/GetById/1 - - - 200 - application/json;+charset=utf-8 47.2695ms
+2023-09-12 09:46:23.028 +05:00 [INF] Request starting HTTP/1.1 PUT http://localhost:5279/api/v1/Branch/Update/1 application/json 74
+2023-09-12 09:46:23.037 +05:00 [INF] Executing endpoint 'BIS_project.Controllers.BranchController.Update (BIS_project)'
+2023-09-12 09:46:23.047 +05:00 [INF] Route matched with {action = "Update", controller = "Branch"}. Executing controller action with signature System.Threading.Tasks.Task`1[BIS_project.Models.Branch] Update(Int32, BIS_project.Dtos.BranchDto) on controller BIS_project.Controllers.BranchController (BIS_project).
+2023-09-12 09:46:23.075 +05:00 [INF] Executing ObjectResult, writing value of type 'BIS_project.Models.Branch'.
+2023-09-12 09:46:23.079 +05:00 [INF] Executed action BIS_project.Controllers.BranchController.Update (BIS_project) in 31.535ms
+2023-09-12 09:46:23.079 +05:00 [INF] Executed endpoint 'BIS_project.Controllers.BranchController.Update (BIS_project)'
+2023-09-12 09:46:23.079 +05:00 [INF] Request finished HTTP/1.1 PUT http://localhost:5279/api/v1/Branch/Update/1 application/json 74 - 200 - application/json;+charset=utf-8 52.4167ms
+2023-09-12 09:46:54.876 +05:00 [INF] Request starting HTTP/1.1 PUT http://localhost:5279/api/v1/Branch/Update/1 application/json 68
+2023-09-12 09:46:54.878 +05:00 [INF] Executing endpoint 'BIS_project.Controllers.BranchController.Update (BIS_project)'
+2023-09-12 09:46:54.878 +05:00 [INF] Route matched with {action = "Update", controller = "Branch"}. Executing controller action with signature System.Threading.Tasks.Task`1[BIS_project.Models.Branch] Update(Int32, BIS_project.Dtos.BranchDto) on controller BIS_project.Controllers.BranchController (BIS_project).
+2023-09-12 09:46:54.895 +05:00 [INF] Executing ObjectResult, writing value of type 'BIS_project.Models.Branch'.
+2023-09-12 09:46:54.895 +05:00 [INF] Executed action BIS_project.Controllers.BranchController.Update (BIS_project) in 16.7719ms
+2023-09-12 09:46:54.895 +05:00 [INF] Executed endpoint 'BIS_project.Controllers.BranchController.Update (BIS_project)'
+2023-09-12 09:46:54.895 +05:00 [INF] Request finished HTTP/1.1 PUT http://localhost:5279/api/v1/Branch/Update/1 application/json 68 - 200 - application/json;+charset=utf-8 19.1066ms
+2023-09-12 09:47:59.391 +05:00 [INF] Request starting HTTP/1.1 GET http://localhost:5279/api/v1/District/ByRegion/1 - -
+2023-09-12 09:47:59.402 +05:00 [INF] Executing endpoint 'BIS_project.Controllers.DistrictController.GetDistrictById (BIS_project)'
+2023-09-12 09:47:59.409 +05:00 [INF] Route matched with {action = "GetDistrictById", controller = "District"}. Executing controller action with signature System.Threading.Tasks.Task`1[System.Collections.Generic.List`1[BIS_project.Models.District]] GetDistrictById(Int32) on controller BIS_project.Controllers.DistrictController (BIS_project).
+2023-09-12 09:47:59.434 +05:00 [INF] Executing ObjectResult, writing value of type 'System.Collections.Generic.List`1[[BIS_project.Models.District, BIS_project, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]'.
+2023-09-12 09:47:59.435 +05:00 [INF] Executed action BIS_project.Controllers.DistrictController.GetDistrictById (BIS_project) in 26.0614ms
+2023-09-12 09:47:59.435 +05:00 [INF] Executed endpoint 'BIS_project.Controllers.DistrictController.GetDistrictById (BIS_project)'
+2023-09-12 09:47:59.435 +05:00 [INF] Request finished HTTP/1.1 GET http://localhost:5279/api/v1/District/ByRegion/1 - - - 200 - application/json;+charset=utf-8 45.3563ms
+2023-09-12 09:48:55.959 +05:00 [INF] Request starting HTTP/1.1 GET http://localhost:5279/api/v1/District/GetAll - -
+2023-09-12 09:48:55.964 +05:00 [INF] Executing endpoint 'BIS_project.Controllers.DistrictController.GetAllAsync (BIS_project)'
+2023-09-12 09:48:55.969 +05:00 [INF] Route matched with {action = "GetAll", controller = "District"}. Executing controller action with signature System.Threading.Tasks.Task`1[System.Collections.Generic.List`1[BIS_project.Models.District]] GetAllAsync() on controller BIS_project.Controllers.DistrictController (BIS_project).
+2023-09-12 09:48:55.987 +05:00 [INF] Executing ObjectResult, writing value of type 'System.Collections.Generic.List`1[[BIS_project.Models.District, BIS_project, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]'.
+2023-09-12 09:48:55.987 +05:00 [INF] Executed action BIS_project.Controllers.DistrictController.GetAllAsync (BIS_project) in 18.4848ms
+2023-09-12 09:48:55.988 +05:00 [INF] Executed endpoint 'BIS_project.Controllers.DistrictController.GetAllAsync (BIS_project)'
+2023-09-12 09:48:55.988 +05:00 [INF] Request finished HTTP/1.1 GET http://localhost:5279/api/v1/District/GetAll - - - 200 - application/json;+charset=utf-8 28.4133ms
+2023-09-12 09:50:23.366 +05:00 [INF] Request starting HTTP/1.1 GET http://localhost:5279/api/v1/District/GetById/1 - -
+2023-09-12 09:50:23.367 +05:00 [INF] Executing endpoint 'BIS_project.Controllers.DistrictController.GetByIdAsync (BIS_project)'
+2023-09-12 09:50:23.374 +05:00 [INF] Route matched with {action = "GetById", controller = "District"}. Executing controller action with signature System.Threading.Tasks.Task`1[BIS_project.Models.District] GetByIdAsync(Int32) on controller BIS_project.Controllers.DistrictController (BIS_project).
+2023-09-12 09:50:23.391 +05:00 [INF] Executing ObjectResult, writing value of type 'BIS_project.Models.District'.
+2023-09-12 09:50:23.391 +05:00 [INF] Executed action BIS_project.Controllers.DistrictController.GetByIdAsync (BIS_project) in 17.321ms
+2023-09-12 09:50:23.391 +05:00 [INF] Executed endpoint 'BIS_project.Controllers.DistrictController.GetByIdAsync (BIS_project)'
+2023-09-12 09:50:23.392 +05:00 [INF] Request finished HTTP/1.1 GET http://localhost:5279/api/v1/District/GetById/1 - - - 200 - application/json;+charset=utf-8 25.8225ms
+2023-09-12 09:51:42.750 +05:00 [INF] Request starting HTTP/1.1 PUT http://localhost:5279/api/v1/District/Update/1 application/json 37
+2023-09-12 09:51:42.751 +05:00 [INF] Executing endpoint 'BIS_project.Controllers.DistrictController.Update (BIS_project)'
+2023-09-12 09:51:42.760 +05:00 [INF] Route matched with {action = "Update", controller = "District"}. Executing controller action with signature System.Threading.Tasks.Task`1[BIS_project.Models.District] Update(Int32, BIS_project.Dtos.DistrictDto) on controller BIS_project.Controllers.DistrictController (BIS_project).
+2023-09-12 09:51:42.805 +05:00 [INF] Executing ObjectResult, writing value of type 'BIS_project.Models.District'.
+2023-09-12 09:51:42.805 +05:00 [INF] Executed action BIS_project.Controllers.DistrictController.Update (BIS_project) in 45.3356ms
+2023-09-12 09:51:42.805 +05:00 [INF] Executed endpoint 'BIS_project.Controllers.DistrictController.Update (BIS_project)'
+2023-09-12 09:51:42.805 +05:00 [INF] Request finished HTTP/1.1 PUT http://localhost:5279/api/v1/District/Update/1 application/json 37 - 200 - application/json;+charset=utf-8 55.9111ms
+2023-09-12 09:52:07.941 +05:00 [INF] Request starting HTTP/1.1 GET http://localhost:5279/api/v1/Branch/GetAll - -
+2023-09-12 09:52:07.942 +05:00 [INF] Executing endpoint 'BIS_project.Controllers.BranchController.GetAllAsync (BIS_project)'
+2023-09-12 09:52:07.942 +05:00 [INF] Route matched with {action = "GetAll", controller = "Branch"}. Executing controller action with signature System.Threading.Tasks.Task`1[System.Collections.Generic.List`1[BIS_project.Models.Branch]] GetAllAsync() on controller BIS_project.Controllers.BranchController (BIS_project).
+2023-09-12 09:52:07.954 +05:00 [INF] Executing ObjectResult, writing value of type 'System.Collections.Generic.List`1[[BIS_project.Models.Branch, BIS_project, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]'.
+2023-09-12 09:52:07.955 +05:00 [INF] Executed action BIS_project.Controllers.BranchController.GetAllAsync (BIS_project) in 12.2217ms
+2023-09-12 09:52:07.955 +05:00 [INF] Executed endpoint 'BIS_project.Controllers.BranchController.GetAllAsync (BIS_project)'
+2023-09-12 09:52:07.955 +05:00 [INF] Request finished HTTP/1.1 GET http://localhost:5279/api/v1/Branch/GetAll - - - 200 - application/json;+charset=utf-8 14.0797ms
+2023-09-12 09:52:30.114 +05:00 [INF] Request starting HTTP/1.1 PUT http://localhost:5279/api/v1/District/Update/1 application/json 50
+2023-09-12 09:52:30.114 +05:00 [INF] Executing endpoint 'BIS_project.Controllers.DistrictController.Update (BIS_project)'
+2023-09-12 09:52:30.115 +05:00 [INF] Route matched with {action = "Update", controller = "District"}. Executing controller action with signature System.Threading.Tasks.Task`1[BIS_project.Models.District] Update(Int32, BIS_project.Dtos.DistrictDto) on controller BIS_project.Controllers.DistrictController (BIS_project).
+2023-09-12 09:52:30.131 +05:00 [INF] Executing ObjectResult, writing value of type 'BIS_project.Models.District'.
+2023-09-12 09:52:30.132 +05:00 [INF] Executed action BIS_project.Controllers.DistrictController.Update (BIS_project) in 16.7711ms
+2023-09-12 09:52:30.132 +05:00 [INF] Executed endpoint 'BIS_project.Controllers.DistrictController.Update (BIS_project)'
+2023-09-12 09:52:30.132 +05:00 [INF] Request finished HTTP/1.1 PUT http://localhost:5279/api/v1/District/Update/1 application/json 50 - 200 - application/json;+charset=utf-8 18.1450ms
+2023-09-12 09:52:38.277 +05:00 [INF] Request starting HTTP/1.1 PUT http://localhost:5279/api/v1/District/Update/1 application/json 51
+2023-09-12 09:52:38.277 +05:00 [INF] Executing endpoint 'BIS_project.Controllers.DistrictController.Update (BIS_project)'
+2023-09-12 09:52:38.277 +05:00 [INF] Route matched with {action = "Update", controller = "District"}. Executing controller action with signature System.Threading.Tasks.Task`1[BIS_project.Models.District] Update(Int32, BIS_project.Dtos.DistrictDto) on controller BIS_project.Controllers.DistrictController (BIS_project).
+2023-09-12 09:52:38.290 +05:00 [INF] Executing ObjectResult, writing value of type 'BIS_project.Models.District'.
+2023-09-12 09:52:38.290 +05:00 [INF] Executed action BIS_project.Controllers.DistrictController.Update (BIS_project) in 13.052ms
+2023-09-12 09:52:38.291 +05:00 [INF] Executed endpoint 'BIS_project.Controllers.DistrictController.Update (BIS_project)'
+2023-09-12 09:52:38.291 +05:00 [INF] Request finished HTTP/1.1 PUT http://localhost:5279/api/v1/District/Update/1 application/json 51 - 200 - application/json;+charset=utf-8 14.1047ms
+2023-09-12 09:55:56.420 +05:00 [INF] Request starting HTTP/1.1 POST http://localhost:5279/api/v1/Driver multipart/form-data;+boundary=--------------------------660761990960247245727804 161290
+2023-09-12 09:55:56.423 +05:00 [INF] Executing endpoint 'BIS_project.Controllers.DriverController.CreateDriver (BIS_project)'
+2023-09-12 09:55:56.436 +05:00 [INF] Route matched with {action = "CreateDriver", controller = "Driver"}. Executing controller action with signature System.Threading.Tasks.Task`1[BIS_project.Helper.APIResponse] CreateDriver(BIS_project.Request.DriverModel) on controller BIS_project.Controllers.DriverController (BIS_project).
+2023-09-12 09:55:56.491 +05:00 [INF] Executing BadRequestObjectResult, writing value of type 'Microsoft.AspNetCore.Mvc.ValidationProblemDetails'.
+2023-09-12 09:55:56.499 +05:00 [INF] Executed action BIS_project.Controllers.DriverController.CreateDriver (BIS_project) in 63.5505ms
+2023-09-12 09:55:56.499 +05:00 [INF] Executed endpoint 'BIS_project.Controllers.DriverController.CreateDriver (BIS_project)'
+2023-09-12 09:55:56.502 +05:00 [INF] Request finished HTTP/1.1 POST http://localhost:5279/api/v1/Driver multipart/form-data;+boundary=--------------------------660761990960247245727804 161290 - 400 - application/problem+json;+charset=utf-8 82.1545ms
+2023-09-12 09:56:25.840 +05:00 [INF] Request starting HTTP/1.1 POST http://localhost:5279/api/v1/Driver multipart/form-data;+boundary=--------------------------270512915718749948575314 161325
+2023-09-12 09:56:25.841 +05:00 [INF] Executing endpoint 'BIS_project.Controllers.DriverController.CreateDriver (BIS_project)'
+2023-09-12 09:56:25.841 +05:00 [INF] Route matched with {action = "CreateDriver", controller = "Driver"}. Executing controller action with signature System.Threading.Tasks.Task`1[BIS_project.Helper.APIResponse] CreateDriver(BIS_project.Request.DriverModel) on controller BIS_project.Controllers.DriverController (BIS_project).
+2023-09-12 09:56:25.964 +05:00 [INF] Executing ObjectResult, writing value of type 'BIS_project.Helper.APIResponse'.
+2023-09-12 09:56:25.966 +05:00 [INF] Executed action BIS_project.Controllers.DriverController.CreateDriver (BIS_project) in 124.2373ms
+2023-09-12 09:56:25.966 +05:00 [INF] Executed endpoint 'BIS_project.Controllers.DriverController.CreateDriver (BIS_project)'
+2023-09-12 09:56:25.966 +05:00 [INF] Request finished HTTP/1.1 POST http://localhost:5279/api/v1/Driver multipart/form-data;+boundary=--------------------------270512915718749948575314 161325 - 200 - application/json;+charset=utf-8 126.0147ms
+2023-09-12 09:56:45.757 +05:00 [INF] Request starting HTTP/1.1 GET http://localhost:5279/api/v1/Driver - -
+2023-09-12 09:56:45.758 +05:00 [INF] Executing endpoint 'BIS_project.Controllers.DriverController.GetDrivers (BIS_project)'
+2023-09-12 09:56:45.764 +05:00 [INF] Route matched with {action = "GetDrivers", controller = "Driver"}. Executing controller action with signature System.Threading.Tasks.Task`1[BIS_project.Helper.APIResponse] GetDrivers() on controller BIS_project.Controllers.DriverController (BIS_project).
+2023-09-12 09:56:45.863 +05:00 [INF] Executing ObjectResult, writing value of type 'BIS_project.Helper.APIResponse'.
+2023-09-12 09:56:45.872 +05:00 [INF] Executed action BIS_project.Controllers.DriverController.GetDrivers (BIS_project) in 107.4725ms
+2023-09-12 09:56:45.872 +05:00 [INF] Executed endpoint 'BIS_project.Controllers.DriverController.GetDrivers (BIS_project)'
+2023-09-12 09:56:45.872 +05:00 [INF] Request finished HTTP/1.1 GET http://localhost:5279/api/v1/Driver - - - 200 - application/json;+charset=utf-8 114.5907ms
+2023-09-12 09:56:56.292 +05:00 [INF] Request starting HTTP/1.1 GET http://localhost:5279/api/v1/Driver - -
+2023-09-12 09:56:56.293 +05:00 [INF] Executing endpoint 'BIS_project.Controllers.DriverController.GetDrivers (BIS_project)'
+2023-09-12 09:56:56.293 +05:00 [INF] Route matched with {action = "GetDrivers", controller = "Driver"}. Executing controller action with signature System.Threading.Tasks.Task`1[BIS_project.Helper.APIResponse] GetDrivers() on controller BIS_project.Controllers.DriverController (BIS_project).
+2023-09-12 09:56:56.306 +05:00 [INF] Executing ObjectResult, writing value of type 'BIS_project.Helper.APIResponse'.
+2023-09-12 09:56:56.307 +05:00 [INF] Executed action BIS_project.Controllers.DriverController.GetDrivers (BIS_project) in 13.5126ms
+2023-09-12 09:56:56.307 +05:00 [INF] Executed endpoint 'BIS_project.Controllers.DriverController.GetDrivers (BIS_project)'
+2023-09-12 09:56:56.307 +05:00 [INF] Request finished HTTP/1.1 GET http://localhost:5279/api/v1/Driver - - - 200 - application/json;+charset=utf-8 14.5940ms
+2023-09-12 13:14:59.821 +05:00 [INF] Application is shutting down...

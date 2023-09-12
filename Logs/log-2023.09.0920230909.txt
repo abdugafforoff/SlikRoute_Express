@@ -388,3 +388,4 @@
 2023-09-09 22:55:53.580 +05:00 [INF] Executed action BIS_project.Controllers.DriverController.GetDrivers (BIS_project) in 129.2706ms
 2023-09-09 22:55:53.580 +05:00 [INF] Executed endpoint 'BIS_project.Controllers.DriverController.GetDrivers (BIS_project)'
 2023-09-09 22:55:53.581 +05:00 [INF] Request finished HTTP/1.1 GET http://localhost:5279/api/v1/Driver - - - 200 - application/json;+charset=utf-8 142.3270ms
+2023-09-09 23:12:14.822 +05:00 [INF] Application is shutting down...

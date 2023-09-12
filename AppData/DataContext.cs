@@ -12,11 +12,11 @@ public class DataContext : DbContext
     }
 
     public DbSet<Branch> Branches { get; set; }
-    public DbSet<Client> Client { get; set; }
+    public DbSet<Client?> Client { get; set; }
     public DbSet<District> Districts { get; set; }
     public DbSet<Driver> Drivers { get; set; }
     public DbSet<Image>Images { get; set; }
-    public DbSet<Order> Orders { get; set; }
+    public DbSet<Order?> Orders { get; set; }
     public DbSet<Role> Roles { get; set; }
     public DbSet<Truck> Trucks { get; set; }
     public DbSet<Employee?> Employees { get; set; }

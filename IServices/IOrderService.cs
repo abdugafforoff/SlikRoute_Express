@@ -6,7 +6,7 @@ namespace BIS_project.IServices;
 
 public interface IOrderService
 {
-    public Task<List<Order>> GetAllOrders();
-    public Task<Order> GetOrderById(int id);
+    public Task<List<Order>?> GetAllOrders();
+    public Task<Order?> GetOrderById(int id);
     public Task<APIResponse> CreateBaseOrder(BaseOrderDto order);
 }

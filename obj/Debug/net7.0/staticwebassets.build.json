@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "CmxalRwjJCm1ubk/TLCyvNv73+wy4jleVzS04KE+INY=",
+  "Hash": "YuZYF35I6v4kQPsUmqbpxSiNlu01eObAK3Cgjp/G7t0=",
   "Source": "BIS_project",
   "BasePath": "_content/BIS_project",
   "Mode": "Default",
@@ -51,6 +51,23 @@
       "OriginalItemSpec": "wwwroot/Drivers/images/33748cb3-c000-4631-a6a0-b79e6c765406.jpg"
     },
     {
+      "Identity": "/Users/azizjonabdugafforov/Desktop/Code/level 6/BIS_project/BIS_project/wwwroot/Drivers/images/455530af-ecd8-46c1-be4d-84b389c75188.webp",
+      "SourceId": "BIS_project",
+      "SourceType": "Discovered",
+      "ContentRoot": "/Users/azizjonabdugafforov/Desktop/Code/level 6/BIS_project/BIS_project/wwwroot/",
+      "BasePath": "_content/BIS_project",
+      "RelativePath": "Drivers/images/455530af-ecd8-46c1-be4d-84b389c75188.webp",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot/Drivers/images/455530af-ecd8-46c1-be4d-84b389c75188.webp"
+    },
+    {
       "Identity": "/Users/azizjonabdugafforov/Desktop/Code/level 6/BIS_project/BIS_project/wwwroot/Drivers/images/5deff0b4-22ee-4757-87ed-4aebe6bd3a5e.png",
       "SourceId": "BIS_project",
       "SourceType": "Discovered",
@@ -83,6 +100,23 @@
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot/Drivers/images/709b29e8-0116-4595-afe0-a40af81b00fa.jpg"
+    },
+    {
+      "Identity": "/Users/azizjonabdugafforov/Desktop/Code/level 6/BIS_project/BIS_project/wwwroot/Drivers/images/8426acca-6974-420d-aaf5-cd7445e82a3b.webp",
+      "SourceId": "BIS_project",
+      "SourceType": "Discovered",
+      "ContentRoot": "/Users/azizjonabdugafforov/Desktop/Code/level 6/BIS_project/BIS_project/wwwroot/",
+      "BasePath": "_content/BIS_project",
+      "RelativePath": "Drivers/images/8426acca-6974-420d-aaf5-cd7445e82a3b.webp",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot/Drivers/images/8426acca-6974-420d-aaf5-cd7445e82a3b.webp"
     },
     {
       "Identity": "/Users/azizjonabdugafforov/Desktop/Code/level 6/BIS_project/BIS_project/wwwroot/Drivers/images/863b72a4-bb24-4b85-88e3-91a97f3a4fec.png",

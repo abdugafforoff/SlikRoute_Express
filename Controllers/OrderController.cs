@@ -11,7 +11,6 @@ using System;
 namespace BIS_project.Controllers;
 [Route("api/v1/base-order")]
 [ApiController]
-[Authorize]
 public class OrderController : ControllerBase
 {
     public string comment { get; set; } = string.Empty;
@@ -59,7 +58,7 @@ public class OrderController : ControllerBase
     }
 
     [HttpGet("get-all", Name = "GetAllOrders")]
-    public async Task<List<Order>> GetAllOrders()
+    public async Task<List<Order>?> GetAllOrders()
     {
         return await _orderService.GetAllOrders();
     }
