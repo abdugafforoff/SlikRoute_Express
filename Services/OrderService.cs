@@ -39,6 +39,66 @@ public class OrderService : IOrderService
         }
     }
 
+    public async Task<List<Order?>> GetOrderByClient(string username)
+    {
+        try
+        {
+            var client = await _dataContext.Client.FirstOrDefaultAsync(e => e.Email == username);
+
+            var order = await _dataContext.Orders
+                .Where(e=> e.Status == "CREATED")
+                .Where(e => e.Client.Id == client.Id)
+                .Include(e=> e.Employees)
+                .Include(e=> e.ProductImages)
+                .Include(e=> e.Client)
+                .Include(e=> e.Driver)
+                .Include(e=> e.FromDistrict)
+                .Include(e=> e.ToDistrict)
+                .Include(e=> e.ToRegion)
+                .Include(e=> e.FromRegion)
+                .Include(e=> e.StartImage)
+                .Include(e=> e.EndImage)
+                .ToListAsync();
+            return order;
+        }
+        catch (Exception e)
+        {
+            Console.WriteLine(e);
+            return new List<Order?>();
+        }
+    }
+
+    public async Task<bool> AdminUpdateShip(OrderByAdminDto dto, int id)
+    {
+        try
+        {
+            var foundOrder = await _dataContext.Orders.FindAsync(id);
+            if (foundOrder == null)
+            {
+                return false;
+            }
+            List<Employee> emp = new List<Employee>();
+            for (int i = 0; i < dto.Employees.Count; i++)
+            {
+                var found = await _dataContext.Employees.FindAsync(i);
+                if (found != null)
+                {
+                    emp.Add(found);
+                }
+            }
+            foundOrder.Employees = emp;
+            foundOrder.Status = "APPENDED";
+            foundOrder.Driver = await _dataContext.Drivers.FindAsync(dto.DriverId);
+            await _dataContext.SaveChangesAsync();
+            return true;
+        }
+        catch (Exception e)
+        {
+            Console.WriteLine(e);
+            return false;
+        }
+    }
+
     public async Task<bool> AppendEmployee(int orderId, int driverId, List<int> emps)
     {
         try
@@ -107,7 +167,7 @@ public class OrderService : IOrderService
     {
         try
         {
-            Client? clientExists = await _dataContext.Client.FirstOrDefaultAsync(e => e.Name == order.FullName);
+            Client clientExists = await _dataContext.Client.FirstOrDefaultAsync(e => e.Name == order.FullName);
 
             if (clientExists == null)
             {

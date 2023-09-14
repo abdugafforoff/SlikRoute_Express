@@ -7,6 +7,8 @@ using Microsoft.AspNetCore.Mvc;
 using Newtonsoft.Json;
 using Microsoft.AspNetCore.Http;
 using System;
+using System.Diagnostics.CodeAnalysis;
+using Org.BouncyCastle.Crypto.Digests;
 
 namespace BIS_project.Controllers;
 [Route("api/v1/base-order")]
@@ -57,12 +59,41 @@ public class OrderController : ControllerBase
         }
     }
 
+    [HttpPut("admin/append", Name = "AppendEmployees")]
+    public async Task<bool> AppendEmployees(OrderByAdminDto dto, int id)
+    {
+        try
+        {
+            return await _orderService.AdminUpdateShip(dto, id);
+        }
+        catch (Exception e)
+        {
+            Console.WriteLine(e);
+            throw;
+        }
+    }
+
+    [HttpGet(Name = "GetByClient")]
+    public async Task<IActionResult> GetOrderByClient(string username)
+    {
+        try
+        {
+            var order = await _orderService.GetOrderByClient(username);
+            return Ok(order);
+        }
+        catch (Exception e)
+        {
+            Console.WriteLine(e);
+            throw;
+        }
+       
+    }
+
     [HttpGet("get-all", Name = "GetAllOrders")]
     public async Task<List<Order>?> GetAllOrders()
     {
         return await _orderService.GetAllOrders();
     }
 
-   
-
+    
 }
