@@ -1,0 +1,32 @@
+2023-09-24 10:33:30.573 +05:00 [INF] User profile is available. Using '/Users/azizjonabdugafforov/.aspnet/DataProtection-Keys' as key repository; keys will not be encrypted at rest.
+2023-09-24 10:33:30.633 +05:00 [INF] Now listening on: http://localhost:5279
+2023-09-24 10:33:30.634 +05:00 [INF] Application started. Press Ctrl+C to shut down.
+2023-09-24 10:33:30.634 +05:00 [INF] Hosting environment: Development
+2023-09-24 10:33:30.634 +05:00 [INF] Content root path: /Users/azizjonabdugafforov/Desktop/Code/level 6/BIS_project/BIS_project
+2023-09-24 10:33:31.207 +05:00 [INF] Request starting HTTP/1.1 GET http://localhost:5279/swagger/index.html - -
+2023-09-24 10:33:31.289 +05:00 [INF] Request finished HTTP/1.1 GET http://localhost:5279/swagger/index.html - - - 200 - text/html;charset=utf-8 82.8805ms
+2023-09-24 10:33:31.312 +05:00 [INF] Request starting HTTP/1.1 GET http://localhost:5279/swagger/swagger-ui-bundle.js - -
+2023-09-24 10:33:31.318 +05:00 [INF] Request starting HTTP/1.1 GET http://localhost:5279/swagger/swagger-ui.css - -
+2023-09-24 10:33:31.321 +05:00 [INF] Request starting HTTP/1.1 GET http://localhost:5279/swagger/swagger-ui-standalone-preset.js - -
+2023-09-24 10:33:31.341 +05:00 [INF] Sending file. Request path: '/swagger-ui-standalone-preset.js'. Physical path: 'N/A'
+2023-09-24 10:33:31.341 +05:00 [INF] Sending file. Request path: '/swagger-ui.css'. Physical path: 'N/A'
+2023-09-24 10:33:31.343 +05:00 [INF] Request starting HTTP/1.1 GET http://localhost:5279/swagger/swagger-ui-standalone-preset.js - -
+2023-09-24 10:33:31.344 +05:00 [INF] Sending file. Request path: '/swagger-ui-standalone-preset.js'. Physical path: 'N/A'
+2023-09-24 10:33:31.344 +05:00 [INF] Sending file. Request path: '/swagger-ui-bundle.js'. Physical path: 'N/A'
+2023-09-24 10:33:31.347 +05:00 [INF] Request finished HTTP/1.1 GET http://localhost:5279/swagger/swagger-ui-bundle.js - - - 200 1061536 text/javascript 35.0085ms
+2023-09-24 10:33:31.348 +05:00 [INF] Request finished HTTP/1.1 GET http://localhost:5279/swagger/swagger-ui-standalone-preset.js - - - 200 312163 text/javascript 2.6729ms
+2023-09-24 10:33:31.348 +05:00 [INF] Request finished HTTP/1.1 GET http://localhost:5279/swagger/swagger-ui.css - - - 200 144929 text/css 29.4280ms
+2023-09-24 10:33:31.345 +05:00 [INF] Request finished HTTP/1.1 GET http://localhost:5279/swagger/swagger-ui-standalone-preset.js - - - 200 312163 text/javascript 24.0254ms
+2023-09-24 10:33:31.497 +05:00 [INF] Request starting HTTP/1.1 GET http://localhost:5279/swagger/v1/swagger.json - -
+2023-09-24 10:33:31.585 +05:00 [INF] Request starting HTTP/1.1 GET http://localhost:5279/swagger/swagger-ui-bundle.js - -
+2023-09-24 10:33:31.587 +05:00 [INF] Sending file. Request path: '/swagger-ui-bundle.js'. Physical path: 'N/A'
+2023-09-24 10:33:31.587 +05:00 [INF] Request finished HTTP/1.1 GET http://localhost:5279/swagger/swagger-ui-bundle.js - - - 200 1061536 text/javascript 2.3678ms
+2023-09-24 10:33:31.592 +05:00 [INF] Request finished HTTP/1.1 GET http://localhost:5279/swagger/v1/swagger.json - - - 200 - application/json;charset=utf-8 95.0147ms
+2023-09-24 11:00:28.278 +05:00 [INF] Request starting HTTP/1.1 GET http://localhost:5279/api/v1/Driver - -
+2023-09-24 11:00:28.346 +05:00 [WRN] Failed to determine the https port for redirect.
+2023-09-24 11:00:28.351 +05:00 [INF] Executing endpoint 'BIS_project.Controllers.DriverController.GetDrivers (BIS_project)'
+2023-09-24 11:00:28.368 +05:00 [INF] Route matched with {action = "GetDrivers", controller = "Driver"}. Executing controller action with signature System.Threading.Tasks.Task`1[BIS_project.Helper.APIResponse] GetDrivers() on controller BIS_project.Controllers.DriverController (BIS_project).
+2023-09-24 11:00:29.453 +05:00 [INF] Executing ObjectResult, writing value of type 'BIS_project.Helper.APIResponse'.
+2023-09-24 11:00:29.478 +05:00 [INF] Executed action BIS_project.Controllers.DriverController.GetDrivers (BIS_project) in 1107.861ms
+2023-09-24 11:00:29.482 +05:00 [INF] Executed endpoint 'BIS_project.Controllers.DriverController.GetDrivers (BIS_project)'
+2023-09-24 11:00:29.488 +05:00 [INF] Request finished HTTP/1.1 GET http://localhost:5279/api/v1/Driver - - - 200 - application/json;+charset=utf-8 1211.7995ms

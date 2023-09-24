@@ -235,7 +235,7 @@ public class OrderService : IOrderService
             var userExists = await _dataContext.Users.FirstOrDefaultAsync(e => e.UserName == order.Email);
     
             if (userExists == null)
-            {
+            { 
                 var newUser = new User
                 {
                     IsActive = true,
@@ -284,7 +284,7 @@ public class OrderService : IOrderService
     }
     private async Task  SendEmail(string toEmail, string username, string Name, string password)
     {
-        try
+        try 
         {
             var message = new MimeMessage();
             message.From.Add(new MailboxAddress("SilkRoute Express", "abdugafforovazimjon33@gmail.com"));
@@ -310,6 +310,5 @@ public class OrderService : IOrderService
         {
             Console.WriteLine(e);
         }
-        
     }
 }
