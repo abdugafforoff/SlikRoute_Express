@@ -1,0 +1,575 @@
+2023-09-26 11:09:33.570 +05:00 [INF] User profile is available. Using '/Users/azizjonabdugafforov/.aspnet/DataProtection-Keys' as key repository; keys will not be encrypted at rest.
+2023-09-26 11:09:33.628 +05:00 [INF] Now listening on: http://localhost:5279
+2023-09-26 11:09:33.629 +05:00 [INF] Application started. Press Ctrl+C to shut down.
+2023-09-26 11:09:33.629 +05:00 [INF] Hosting environment: Development
+2023-09-26 11:09:33.629 +05:00 [INF] Content root path: /Users/azizjonabdugafforov/Desktop/Code/level 6/BIS_project/BIS_project
+2023-09-26 11:09:34.225 +05:00 [INF] Request starting HTTP/1.1 GET http://localhost:5279/swagger/index.html - -
+2023-09-26 11:09:34.319 +05:00 [INF] Request finished HTTP/1.1 GET http://localhost:5279/swagger/index.html - - - 200 - text/html;charset=utf-8 95.0842ms
+2023-09-26 11:09:34.342 +05:00 [INF] Request starting HTTP/1.1 GET http://localhost:5279/swagger/swagger-ui-bundle.js - -
+2023-09-26 11:09:34.367 +05:00 [INF] Sending file. Request path: '/swagger-ui-bundle.js'. Physical path: 'N/A'
+2023-09-26 11:09:34.368 +05:00 [INF] Request finished HTTP/1.1 GET http://localhost:5279/swagger/swagger-ui-bundle.js - - - 200 1061536 text/javascript 26.2351ms
+2023-09-26 11:09:34.469 +05:00 [INF] Request starting HTTP/1.1 GET http://localhost:5279/swagger/v1/swagger.json - -
+2023-09-26 11:09:34.558 +05:00 [INF] Request finished HTTP/1.1 GET http://localhost:5279/swagger/v1/swagger.json - - - 200 - application/json;charset=utf-8 88.3982ms
+2023-09-26 11:30:04.807 +05:00 [INF] Application is shutting down...
+2023-09-26 11:30:13.523 +05:00 [INF] User profile is available. Using '/Users/azizjonabdugafforov/.aspnet/DataProtection-Keys' as key repository; keys will not be encrypted at rest.
+2023-09-26 11:30:13.606 +05:00 [INF] Now listening on: http://localhost:5279
+2023-09-26 11:30:13.607 +05:00 [INF] Application started. Press Ctrl+C to shut down.
+2023-09-26 11:30:13.607 +05:00 [INF] Hosting environment: Development
+2023-09-26 11:30:13.607 +05:00 [INF] Content root path: /Users/azizjonabdugafforov/Desktop/Code/level 6/BIS_project/BIS_project
+2023-09-26 11:30:13.859 +05:00 [INF] Request starting HTTP/1.1 GET http://localhost:5279/swagger/index.html - -
+2023-09-26 11:30:13.952 +05:00 [INF] Request finished HTTP/1.1 GET http://localhost:5279/swagger/index.html - - - 200 - text/html;charset=utf-8 94.0050ms
+2023-09-26 11:30:14.122 +05:00 [INF] Request starting HTTP/1.1 GET http://localhost:5279/swagger/v1/swagger.json - -
+2023-09-26 11:30:14.265 +05:00 [INF] Request finished HTTP/1.1 GET http://localhost:5279/swagger/v1/swagger.json - - - 200 - application/json;charset=utf-8 142.9067ms
+2023-09-26 11:30:46.554 +05:00 [INF] User profile is available. Using '/Users/azizjonabdugafforov/.aspnet/DataProtection-Keys' as key repository; keys will not be encrypted at rest.
+2023-09-26 11:30:46.632 +05:00 [INF] Now listening on: http://localhost:5279
+2023-09-26 11:30:46.633 +05:00 [INF] Application started. Press Ctrl+C to shut down.
+2023-09-26 11:30:46.633 +05:00 [INF] Hosting environment: Development
+2023-09-26 11:30:46.633 +05:00 [INF] Content root path: /Users/azizjonabdugafforov/Desktop/Code/level 6/BIS_project/BIS_project
+2023-09-26 11:30:46.958 +05:00 [INF] Request starting HTTP/1.1 GET http://localhost:5279/swagger/index.html - -
+2023-09-26 11:30:47.042 +05:00 [INF] Request finished HTTP/1.1 GET http://localhost:5279/swagger/index.html - - - 200 - text/html;charset=utf-8 84.2305ms
+2023-09-26 11:30:47.133 +05:00 [INF] Request starting HTTP/1.1 GET http://localhost:5279/swagger/v1/swagger.json - -
+2023-09-26 11:30:47.222 +05:00 [INF] Request finished HTTP/1.1 GET http://localhost:5279/swagger/v1/swagger.json - - - 200 - application/json;charset=utf-8 88.4686ms
+2023-09-26 11:32:19.354 +05:00 [INF] User profile is available. Using '/Users/azizjonabdugafforov/.aspnet/DataProtection-Keys' as key repository; keys will not be encrypted at rest.
+2023-09-26 11:32:19.439 +05:00 [INF] Now listening on: http://localhost:5279
+2023-09-26 11:32:19.442 +05:00 [INF] Application started. Press Ctrl+C to shut down.
+2023-09-26 11:32:19.442 +05:00 [INF] Hosting environment: Development
+2023-09-26 11:32:19.442 +05:00 [INF] Content root path: /Users/azizjonabdugafforov/Desktop/Code/level 6/BIS_project/BIS_project
+2023-09-26 11:32:19.643 +05:00 [INF] Request starting HTTP/1.1 GET http://localhost:5279/swagger/index.html - -
+2023-09-26 11:32:19.720 +05:00 [INF] Request finished HTTP/1.1 GET http://localhost:5279/swagger/index.html - - - 200 - text/html;charset=utf-8 77.4407ms
+2023-09-26 11:32:19.806 +05:00 [INF] Request starting HTTP/1.1 GET http://localhost:5279/swagger/v1/swagger.json - -
+2023-09-26 11:32:19.884 +05:00 [INF] Request finished HTTP/1.1 GET http://localhost:5279/swagger/v1/swagger.json - - - 200 - application/json;charset=utf-8 77.7985ms
+2023-09-26 11:33:00.901 +05:00 [INF] Request starting HTTP/1.1 PUT http://localhost:5279/api/v1/base-order/upload-start-photos?id=1 multipart/form-data;+boundary=----WebKitFormBoundaryRxKAXY38gFBYueYF 78383
+2023-09-26 11:33:01.014 +05:00 [WRN] Failed to determine the https port for redirect.
+2023-09-26 11:33:01.015 +05:00 [INF] CORS policy execution successful.
+2023-09-26 11:33:01.016 +05:00 [INF] Executing endpoint 'BIS_project.Controllers.OrderController.UploadPhotos (BIS_project)'
+2023-09-26 11:33:01.026 +05:00 [INF] Route matched with {action = "UploadPhotos", controller = "Order"}. Executing controller action with signature System.Threading.Tasks.Task`1[BIS_project.Helper.APIResponse] UploadPhotos(Int32, Microsoft.AspNetCore.Http.IFormFileCollection) on controller BIS_project.Controllers.OrderController (BIS_project).
+2023-09-26 11:34:39.870 +05:00 [INF] Executing ObjectResult, writing value of type 'BIS_project.Helper.APIResponse'.
+2023-09-26 11:34:39.883 +05:00 [INF] Executed action BIS_project.Controllers.OrderController.UploadPhotos (BIS_project) in 98855.1115ms
+2023-09-26 11:34:39.886 +05:00 [INF] Executed endpoint 'BIS_project.Controllers.OrderController.UploadPhotos (BIS_project)'
+2023-09-26 11:34:39.894 +05:00 [INF] Request finished HTTP/1.1 PUT http://localhost:5279/api/v1/base-order/upload-start-photos?id=1 multipart/form-data;+boundary=----WebKitFormBoundaryRxKAXY38gFBYueYF 78383 - 200 - application/json;+charset=utf-8 98994.1551ms
+2023-09-26 11:36:37.540 +05:00 [INF] User profile is available. Using '/Users/azizjonabdugafforov/.aspnet/DataProtection-Keys' as key repository; keys will not be encrypted at rest.
+2023-09-26 11:36:37.611 +05:00 [INF] Now listening on: http://localhost:5279
+2023-09-26 11:36:37.612 +05:00 [INF] Application started. Press Ctrl+C to shut down.
+2023-09-26 11:36:37.612 +05:00 [INF] Hosting environment: Development
+2023-09-26 11:36:37.612 +05:00 [INF] Content root path: /Users/azizjonabdugafforov/Desktop/Code/level 6/BIS_project/BIS_project
+2023-09-26 11:36:38.036 +05:00 [INF] Request starting HTTP/1.1 GET http://localhost:5279/swagger/index.html - -
+2023-09-26 11:36:38.116 +05:00 [INF] Request finished HTTP/1.1 GET http://localhost:5279/swagger/index.html - - - 200 - text/html;charset=utf-8 81.1006ms
+2023-09-26 11:36:38.205 +05:00 [INF] Request starting HTTP/1.1 GET http://localhost:5279/swagger/v1/swagger.json - -
+2023-09-26 11:36:38.301 +05:00 [INF] Request finished HTTP/1.1 GET http://localhost:5279/swagger/v1/swagger.json - - - 200 - application/json;charset=utf-8 95.2652ms
+2023-09-26 11:36:59.654 +05:00 [INF] Request starting HTTP/1.1 PUT http://localhost:5279/api/v1/base-order/upload-start-photos?id=1 multipart/form-data;+boundary=----WebKitFormBoundary8hP4ZQAxu17gAIlq 78383
+2023-09-26 11:36:59.720 +05:00 [WRN] Failed to determine the https port for redirect.
+2023-09-26 11:36:59.721 +05:00 [INF] CORS policy execution successful.
+2023-09-26 11:36:59.723 +05:00 [INF] Executing endpoint 'BIS_project.Controllers.OrderController.UploadPhotos (BIS_project)'
+2023-09-26 11:36:59.736 +05:00 [INF] Route matched with {action = "UploadPhotos", controller = "Order"}. Executing controller action with signature System.Threading.Tasks.Task`1[BIS_project.Helper.APIResponse] UploadPhotos(Int32, Microsoft.AspNetCore.Http.IFormFileCollection) on controller BIS_project.Controllers.OrderController (BIS_project).
+2023-09-26 11:37:37.028 +05:00 [INF] Executing ObjectResult, writing value of type 'BIS_project.Helper.APIResponse'.
+2023-09-26 11:37:37.046 +05:00 [INF] Executed action BIS_project.Controllers.OrderController.UploadPhotos (BIS_project) in 37307.0555ms
+2023-09-26 11:37:37.049 +05:00 [INF] Executed endpoint 'BIS_project.Controllers.OrderController.UploadPhotos (BIS_project)'
+2023-09-26 11:37:37.060 +05:00 [INF] Request finished HTTP/1.1 PUT http://localhost:5279/api/v1/base-order/upload-start-photos?id=1 multipart/form-data;+boundary=----WebKitFormBoundary8hP4ZQAxu17gAIlq 78383 - 200 - application/json;+charset=utf-8 37406.6378ms
+2023-09-26 11:37:53.569 +05:00 [INF] User profile is available. Using '/Users/azizjonabdugafforov/.aspnet/DataProtection-Keys' as key repository; keys will not be encrypted at rest.
+2023-09-26 11:37:53.640 +05:00 [INF] Now listening on: http://localhost:5279
+2023-09-26 11:37:53.641 +05:00 [INF] Application started. Press Ctrl+C to shut down.
+2023-09-26 11:37:53.641 +05:00 [INF] Hosting environment: Development
+2023-09-26 11:37:53.641 +05:00 [INF] Content root path: /Users/azizjonabdugafforov/Desktop/Code/level 6/BIS_project/BIS_project
+2023-09-26 11:37:54.152 +05:00 [INF] Request starting HTTP/1.1 GET http://localhost:5279/swagger/index.html - -
+2023-09-26 11:37:54.252 +05:00 [INF] Request finished HTTP/1.1 GET http://localhost:5279/swagger/index.html - - - 200 - text/html;charset=utf-8 99.1155ms
+2023-09-26 11:37:54.337 +05:00 [INF] Request starting HTTP/1.1 GET http://localhost:5279/swagger/v1/swagger.json - -
+2023-09-26 11:37:54.425 +05:00 [INF] Request finished HTTP/1.1 GET http://localhost:5279/swagger/v1/swagger.json - - - 200 - application/json;charset=utf-8 87.6159ms
+2023-09-26 11:37:56.935 +05:00 [INF] Request starting HTTP/1.1 PUT http://localhost:5279/api/v1/base-order/upload-start-photos?id=1 multipart/form-data;+boundary=----WebKitFormBoundaryLXsyQTAS8Sf9BtKL 78383
+2023-09-26 11:37:56.994 +05:00 [WRN] Failed to determine the https port for redirect.
+2023-09-26 11:37:56.996 +05:00 [INF] CORS policy execution successful.
+2023-09-26 11:37:56.997 +05:00 [INF] Executing endpoint 'BIS_project.Controllers.OrderController.UploadPhotos (BIS_project)'
+2023-09-26 11:37:57.010 +05:00 [INF] Route matched with {action = "UploadPhotos", controller = "Order"}. Executing controller action with signature System.Threading.Tasks.Task`1[BIS_project.Helper.APIResponse] UploadPhotos(Int32, Microsoft.AspNetCore.Http.IFormFileCollection) on controller BIS_project.Controllers.OrderController (BIS_project).
+2023-09-26 11:37:57.770 +05:00 [INF] Executing ObjectResult, writing value of type 'BIS_project.Helper.APIResponse'.
+2023-09-26 11:37:57.776 +05:00 [INF] Executed action BIS_project.Controllers.OrderController.UploadPhotos (BIS_project) in 764.5895ms
+2023-09-26 11:37:57.778 +05:00 [INF] Executed endpoint 'BIS_project.Controllers.OrderController.UploadPhotos (BIS_project)'
+2023-09-26 11:37:57.781 +05:00 [INF] Request finished HTTP/1.1 PUT http://localhost:5279/api/v1/base-order/upload-start-photos?id=1 multipart/form-data;+boundary=----WebKitFormBoundaryLXsyQTAS8Sf9BtKL 78383 - 200 - application/json;+charset=utf-8 851.0599ms
+2023-09-26 11:38:15.693 +05:00 [INF] User profile is available. Using '/Users/azizjonabdugafforov/.aspnet/DataProtection-Keys' as key repository; keys will not be encrypted at rest.
+2023-09-26 11:38:15.763 +05:00 [INF] Now listening on: http://localhost:5279
+2023-09-26 11:38:15.764 +05:00 [INF] Application started. Press Ctrl+C to shut down.
+2023-09-26 11:38:15.764 +05:00 [INF] Hosting environment: Development
+2023-09-26 11:38:15.764 +05:00 [INF] Content root path: /Users/azizjonabdugafforov/Desktop/Code/level 6/BIS_project/BIS_project
+2023-09-26 11:38:16.108 +05:00 [INF] Request starting HTTP/1.1 GET http://localhost:5279/swagger/index.html - -
+2023-09-26 11:38:16.194 +05:00 [INF] Request finished HTTP/1.1 GET http://localhost:5279/swagger/index.html - - - 200 - text/html;charset=utf-8 84.2661ms
+2023-09-26 11:38:16.286 +05:00 [INF] Request starting HTTP/1.1 GET http://localhost:5279/swagger/v1/swagger.json - -
+2023-09-26 11:38:16.374 +05:00 [INF] Request finished HTTP/1.1 GET http://localhost:5279/swagger/v1/swagger.json - - - 200 - application/json;charset=utf-8 87.7766ms
+2023-09-26 11:38:17.830 +05:00 [INF] Request starting HTTP/1.1 PUT http://localhost:5279/api/v1/base-order/upload-start-photos?id=1 multipart/form-data;+boundary=----WebKitFormBoundaryx02IwygQL8TQsAgh 78383
+2023-09-26 11:38:17.869 +05:00 [WRN] Failed to determine the https port for redirect.
+2023-09-26 11:38:17.870 +05:00 [INF] CORS policy execution successful.
+2023-09-26 11:38:17.871 +05:00 [INF] Executing endpoint 'BIS_project.Controllers.OrderController.UploadPhotos (BIS_project)'
+2023-09-26 11:38:17.884 +05:00 [INF] Route matched with {action = "UploadPhotos", controller = "Order"}. Executing controller action with signature System.Threading.Tasks.Task`1[BIS_project.Helper.APIResponse] UploadPhotos(Int32, Microsoft.AspNetCore.Http.IFormFileCollection) on controller BIS_project.Controllers.OrderController (BIS_project).
+2023-09-26 11:38:18.731 +05:00 [INF] Executing ObjectResult, writing value of type 'BIS_project.Helper.APIResponse'.
+2023-09-26 11:38:18.737 +05:00 [INF] Executed action BIS_project.Controllers.OrderController.UploadPhotos (BIS_project) in 850.5486ms
+2023-09-26 11:38:18.739 +05:00 [INF] Executed endpoint 'BIS_project.Controllers.OrderController.UploadPhotos (BIS_project)'
+2023-09-26 11:38:18.741 +05:00 [INF] Request finished HTTP/1.1 PUT http://localhost:5279/api/v1/base-order/upload-start-photos?id=1 multipart/form-data;+boundary=----WebKitFormBoundaryx02IwygQL8TQsAgh 78383 - 200 - application/json;+charset=utf-8 911.6392ms
+2023-09-26 11:51:39.873 +05:00 [INF] Request starting HTTP/1.1 PUT http://localhost:5279/api/v1/base-order/upload-start-photos?id=1 multipart/form-data;+boundary=----WebKitFormBoundaryPhFLQSTBhy5upwcI 78383
+2023-09-26 11:51:39.890 +05:00 [INF] CORS policy execution successful.
+2023-09-26 11:51:39.891 +05:00 [INF] Executing endpoint 'BIS_project.Controllers.OrderController.UploadPhotos (BIS_project)'
+2023-09-26 11:51:39.894 +05:00 [INF] Route matched with {action = "UploadPhotos", controller = "Order"}. Executing controller action with signature System.Threading.Tasks.Task`1[BIS_project.Helper.APIResponse] UploadPhotos(Int32, Microsoft.AspNetCore.Http.IFormFileCollection) on controller BIS_project.Controllers.OrderController (BIS_project).
+2023-09-26 11:51:39.948 +05:00 [INF] Executing ObjectResult, writing value of type 'BIS_project.Helper.APIResponse'.
+2023-09-26 11:51:39.949 +05:00 [INF] Executed action BIS_project.Controllers.OrderController.UploadPhotos (BIS_project) in 55.1964ms
+2023-09-26 11:51:39.949 +05:00 [INF] Executed endpoint 'BIS_project.Controllers.OrderController.UploadPhotos (BIS_project)'
+2023-09-26 11:51:39.949 +05:00 [INF] Request finished HTTP/1.1 PUT http://localhost:5279/api/v1/base-order/upload-start-photos?id=1 multipart/form-data;+boundary=----WebKitFormBoundaryPhFLQSTBhy5upwcI 78383 - 200 - application/json;+charset=utf-8 78.9784ms
+2023-09-26 12:09:52.134 +05:00 [INF] User profile is available. Using '/Users/azizjonabdugafforov/.aspnet/DataProtection-Keys' as key repository; keys will not be encrypted at rest.
+2023-09-26 12:09:52.187 +05:00 [INF] Now listening on: http://localhost:5279
+2023-09-26 12:09:52.196 +05:00 [INF] Application started. Press Ctrl+C to shut down.
+2023-09-26 12:09:52.197 +05:00 [INF] Hosting environment: Development
+2023-09-26 12:09:52.197 +05:00 [INF] Content root path: /Users/azizjonabdugafforov/Desktop/Code/level 6/BIS_project/BIS_project
+2023-09-26 12:09:52.840 +05:00 [INF] Request starting HTTP/1.1 GET http://localhost:5279/swagger/index.html - -
+2023-09-26 12:09:52.942 +05:00 [INF] Request finished HTTP/1.1 GET http://localhost:5279/swagger/index.html - - - 200 - text/html;charset=utf-8 102.5416ms
+2023-09-26 12:09:53.083 +05:00 [INF] Request starting HTTP/1.1 GET http://localhost:5279/swagger/v1/swagger.json - -
+2023-09-26 12:09:53.190 +05:00 [INF] Request finished HTTP/1.1 GET http://localhost:5279/swagger/v1/swagger.json - - - 200 - application/json;charset=utf-8 106.5942ms
+2023-09-26 12:10:24.478 +05:00 [INF] Request starting HTTP/1.1 PUT http://localhost:5279/api/v1/base-order/upload-start-photos?id=1 multipart/form-data;+boundary=----WebKitFormBoundary7TkPDSFIz1TucU5j 78383
+2023-09-26 12:10:24.529 +05:00 [WRN] Failed to determine the https port for redirect.
+2023-09-26 12:10:24.531 +05:00 [INF] CORS policy execution successful.
+2023-09-26 12:10:24.537 +05:00 [INF] Executing endpoint 'BIS_project.Controllers.OrderController.UploadPhotos (BIS_project)'
+2023-09-26 12:10:24.553 +05:00 [INF] Route matched with {action = "UploadPhotos", controller = "Order"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] UploadPhotos(Int32, Microsoft.AspNetCore.Http.IFormFileCollection) on controller BIS_project.Controllers.OrderController (BIS_project).
+2023-09-26 12:10:25.709 +05:00 [INF] Executing OkObjectResult, writing value of type 'System.Boolean'.
+2023-09-26 12:10:25.717 +05:00 [INF] Executed action BIS_project.Controllers.OrderController.UploadPhotos (BIS_project) in 1161.034ms
+2023-09-26 12:10:25.720 +05:00 [INF] Executed endpoint 'BIS_project.Controllers.OrderController.UploadPhotos (BIS_project)'
+2023-09-26 12:10:25.731 +05:00 [INF] Request finished HTTP/1.1 PUT http://localhost:5279/api/v1/base-order/upload-start-photos?id=1 multipart/form-data;+boundary=----WebKitFormBoundary7TkPDSFIz1TucU5j 78383 - 200 - application/json;+charset=utf-8 1254.0647ms
+2023-09-26 12:11:08.274 +05:00 [INF] Request starting HTTP/1.1 PUT http://localhost:5279/api/v1/base-order/start-ship?id=1 - 0
+2023-09-26 12:11:08.283 +05:00 [INF] CORS policy execution successful.
+2023-09-26 12:11:08.283 +05:00 [INF] Executing endpoint 'BIS_project.Controllers.OrderController.StartShipDriver (BIS_project)'
+2023-09-26 12:11:08.293 +05:00 [INF] Route matched with {action = "StartShipDriver", controller = "Order"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] StartShipDriver(Int32) on controller BIS_project.Controllers.OrderController (BIS_project).
+2023-09-26 12:11:08.330 +05:00 [INF] Executing OkObjectResult, writing value of type 'System.String'.
+2023-09-26 12:11:08.331 +05:00 [INF] Executed action BIS_project.Controllers.OrderController.StartShipDriver (BIS_project) in 37.275ms
+2023-09-26 12:11:08.331 +05:00 [INF] Executed endpoint 'BIS_project.Controllers.OrderController.StartShipDriver (BIS_project)'
+2023-09-26 12:11:08.331 +05:00 [INF] Request finished HTTP/1.1 PUT http://localhost:5279/api/v1/base-order/start-ship?id=1 - 0 - 200 - text/plain;+charset=utf-8 56.8649ms
+2023-09-26 12:12:47.021 +05:00 [INF] Request starting HTTP/1.1 PUT http://localhost:5279/api/v1/base-order/upload-start-photos?id=1 multipart/form-data;+boundary=----WebKitFormBoundary0ZuARGPjPP3B2JnB 78383
+2023-09-26 12:12:47.028 +05:00 [INF] CORS policy execution successful.
+2023-09-26 12:12:47.028 +05:00 [INF] Executing endpoint 'BIS_project.Controllers.OrderController.UploadPhotos (BIS_project)'
+2023-09-26 12:12:47.029 +05:00 [INF] Route matched with {action = "UploadPhotos", controller = "Order"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] UploadPhotos(Int32, Microsoft.AspNetCore.Http.IFormFileCollection) on controller BIS_project.Controllers.OrderController (BIS_project).
+2023-09-26 12:12:47.110 +05:00 [INF] Executing OkObjectResult, writing value of type 'System.Boolean'.
+2023-09-26 12:12:47.115 +05:00 [INF] Executed action BIS_project.Controllers.OrderController.UploadPhotos (BIS_project) in 84.6473ms
+2023-09-26 12:12:47.115 +05:00 [INF] Executed endpoint 'BIS_project.Controllers.OrderController.UploadPhotos (BIS_project)'
+2023-09-26 12:12:47.115 +05:00 [INF] Request finished HTTP/1.1 PUT http://localhost:5279/api/v1/base-order/upload-start-photos?id=1 multipart/form-data;+boundary=----WebKitFormBoundary0ZuARGPjPP3B2JnB 78383 - 200 - application/json;+charset=utf-8 99.8012ms
+2023-09-26 12:14:29.293 +05:00 [INF] Application is shutting down...
+2023-09-26 12:14:35.483 +05:00 [INF] User profile is available. Using '/Users/azizjonabdugafforov/.aspnet/DataProtection-Keys' as key repository; keys will not be encrypted at rest.
+2023-09-26 12:14:35.561 +05:00 [INF] Now listening on: http://localhost:5279
+2023-09-26 12:14:35.561 +05:00 [INF] Application started. Press Ctrl+C to shut down.
+2023-09-26 12:14:35.561 +05:00 [INF] Hosting environment: Development
+2023-09-26 12:14:35.561 +05:00 [INF] Content root path: /Users/azizjonabdugafforov/Desktop/Code/level 6/BIS_project/BIS_project
+2023-09-26 12:14:35.740 +05:00 [INF] Request starting HTTP/1.1 GET http://localhost:5279/swagger/index.html - -
+2023-09-26 12:14:35.827 +05:00 [INF] Request finished HTTP/1.1 GET http://localhost:5279/swagger/index.html - - - 200 - text/html;charset=utf-8 86.7062ms
+2023-09-26 12:14:35.944 +05:00 [INF] Request starting HTTP/1.1 GET http://localhost:5279/swagger/v1/swagger.json - -
+2023-09-26 12:14:36.085 +05:00 [INF] Request finished HTTP/1.1 GET http://localhost:5279/swagger/v1/swagger.json - - - 200 - application/json;charset=utf-8 140.5834ms
+2023-09-26 12:14:42.242 +05:00 [INF] Request starting HTTP/1.1 PUT http://localhost:5279/api/v1/base-order/start-ship?id=1 - 0
+2023-09-26 12:14:42.327 +05:00 [WRN] Failed to determine the https port for redirect.
+2023-09-26 12:14:42.328 +05:00 [INF] CORS policy execution successful.
+2023-09-26 12:14:42.330 +05:00 [INF] Executing endpoint 'BIS_project.Controllers.OrderController.StartShipDriver (BIS_project)'
+2023-09-26 12:14:42.342 +05:00 [INF] Route matched with {action = "StartShipDriver", controller = "Order"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] StartShipDriver(Int32) on controller BIS_project.Controllers.OrderController (BIS_project).
+2023-09-26 12:19:35.195 +05:00 [INF] User profile is available. Using '/Users/azizjonabdugafforov/.aspnet/DataProtection-Keys' as key repository; keys will not be encrypted at rest.
+2023-09-26 12:19:35.242 +05:00 [INF] Now listening on: http://localhost:5279
+2023-09-26 12:19:35.243 +05:00 [INF] Application started. Press Ctrl+C to shut down.
+2023-09-26 12:19:35.243 +05:00 [INF] Hosting environment: Development
+2023-09-26 12:19:35.243 +05:00 [INF] Content root path: /Users/azizjonabdugafforov/Desktop/Code/level 6/BIS_project/BIS_project
+2023-09-26 12:19:35.901 +05:00 [INF] Request starting HTTP/1.1 GET http://localhost:5279/swagger/index.html - -
+2023-09-26 12:19:35.986 +05:00 [INF] Request finished HTTP/1.1 GET http://localhost:5279/swagger/index.html - - - 200 - text/html;charset=utf-8 85.6076ms
+2023-09-26 12:19:36.086 +05:00 [INF] Request starting HTTP/1.1 GET http://localhost:5279/swagger/v1/swagger.json - -
+2023-09-26 12:19:36.170 +05:00 [INF] Request finished HTTP/1.1 GET http://localhost:5279/swagger/v1/swagger.json - - - 200 - application/json;charset=utf-8 84.2158ms
+2023-09-26 12:19:41.576 +05:00 [INF] Request starting HTTP/1.1 PUT http://localhost:5279/api/v1/base-order/upload-start-photos?id=1 multipart/form-data;+boundary=----WebKitFormBoundaryWt7SN7tUpFKydtcB 78383
+2023-09-26 12:19:41.629 +05:00 [WRN] Failed to determine the https port for redirect.
+2023-09-26 12:19:41.630 +05:00 [INF] CORS policy execution successful.
+2023-09-26 12:19:41.632 +05:00 [INF] Executing endpoint 'BIS_project.Controllers.OrderController.UploadPhotos (BIS_project)'
+2023-09-26 12:19:41.651 +05:00 [INF] Route matched with {action = "UploadPhotos", controller = "Order"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] UploadPhotos(Int32, Microsoft.AspNetCore.Http.IFormFileCollection) on controller BIS_project.Controllers.OrderController (BIS_project).
+2023-09-26 12:19:42.822 +05:00 [INF] Executing OkObjectResult, writing value of type 'System.Boolean'.
+2023-09-26 12:19:42.829 +05:00 [INF] Executed action BIS_project.Controllers.OrderController.UploadPhotos (BIS_project) in 1175.1607ms
+2023-09-26 12:19:42.832 +05:00 [INF] Executed endpoint 'BIS_project.Controllers.OrderController.UploadPhotos (BIS_project)'
+2023-09-26 12:19:42.842 +05:00 [INF] Request finished HTTP/1.1 PUT http://localhost:5279/api/v1/base-order/upload-start-photos?id=1 multipart/form-data;+boundary=----WebKitFormBoundaryWt7SN7tUpFKydtcB 78383 - 200 - application/json;+charset=utf-8 1270.6996ms
+2023-09-26 12:20:56.865 +05:00 [INF] Request starting HTTP/1.1 PUT http://localhost:5279/api/v1/base-order/start-ship?id=1 - 0
+2023-09-26 12:20:56.885 +05:00 [INF] CORS policy execution successful.
+2023-09-26 12:20:56.885 +05:00 [INF] Executing endpoint 'BIS_project.Controllers.OrderController.StartShipDriver (BIS_project)'
+2023-09-26 12:20:56.892 +05:00 [INF] Route matched with {action = "StartShipDriver", controller = "Order"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] StartShipDriver(Int32) on controller BIS_project.Controllers.OrderController (BIS_project).
+2023-09-26 12:20:56.954 +05:00 [INF] Executing OkObjectResult, writing value of type 'System.String'.
+2023-09-26 12:20:56.955 +05:00 [INF] Executed action BIS_project.Controllers.OrderController.StartShipDriver (BIS_project) in 62.6483ms
+2023-09-26 12:20:56.955 +05:00 [INF] Executed endpoint 'BIS_project.Controllers.OrderController.StartShipDriver (BIS_project)'
+2023-09-26 12:20:56.955 +05:00 [INF] Request finished HTTP/1.1 PUT http://localhost:5279/api/v1/base-order/start-ship?id=1 - 0 - 200 - text/plain;+charset=utf-8 90.5370ms
+2023-09-26 12:21:04.909 +05:00 [INF] Request starting HTTP/1.1 PUT http://localhost:5279/api/v1/base-order/upload-start-photos?id=1 multipart/form-data;+boundary=----WebKitFormBoundaryG8qcBY8RX6RfeLCg 78383
+2023-09-26 12:21:04.923 +05:00 [INF] CORS policy execution successful.
+2023-09-26 12:21:04.923 +05:00 [INF] Executing endpoint 'BIS_project.Controllers.OrderController.UploadPhotos (BIS_project)'
+2023-09-26 12:21:04.923 +05:00 [INF] Route matched with {action = "UploadPhotos", controller = "Order"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] UploadPhotos(Int32, Microsoft.AspNetCore.Http.IFormFileCollection) on controller BIS_project.Controllers.OrderController (BIS_project).
+2023-09-26 12:21:04.980 +05:00 [INF] Executing OkObjectResult, writing value of type 'System.Boolean'.
+2023-09-26 12:21:04.981 +05:00 [INF] Executed action BIS_project.Controllers.OrderController.UploadPhotos (BIS_project) in 57.0552ms
+2023-09-26 12:21:04.981 +05:00 [INF] Executed endpoint 'BIS_project.Controllers.OrderController.UploadPhotos (BIS_project)'
+2023-09-26 12:21:04.981 +05:00 [INF] Request finished HTTP/1.1 PUT http://localhost:5279/api/v1/base-order/upload-start-photos?id=1 multipart/form-data;+boundary=----WebKitFormBoundaryG8qcBY8RX6RfeLCg 78383 - 200 - application/json;+charset=utf-8 72.3299ms
+2023-09-26 12:21:17.434 +05:00 [INF] Application is shutting down...
+2023-09-26 12:21:23.358 +05:00 [INF] User profile is available. Using '/Users/azizjonabdugafforov/.aspnet/DataProtection-Keys' as key repository; keys will not be encrypted at rest.
+2023-09-26 12:21:23.432 +05:00 [INF] Now listening on: http://localhost:5279
+2023-09-26 12:21:23.432 +05:00 [INF] Application started. Press Ctrl+C to shut down.
+2023-09-26 12:21:23.432 +05:00 [INF] Hosting environment: Development
+2023-09-26 12:21:23.432 +05:00 [INF] Content root path: /Users/azizjonabdugafforov/Desktop/Code/level 6/BIS_project/BIS_project
+2023-09-26 12:21:23.678 +05:00 [INF] Request starting HTTP/1.1 GET http://localhost:5279/swagger/index.html - -
+2023-09-26 12:21:23.757 +05:00 [INF] Request finished HTTP/1.1 GET http://localhost:5279/swagger/index.html - - - 200 - text/html;charset=utf-8 79.7624ms
+2023-09-26 12:21:23.837 +05:00 [INF] Request starting HTTP/1.1 GET http://localhost:5279/swagger/v1/swagger.json - -
+2023-09-26 12:21:23.915 +05:00 [INF] Request finished HTTP/1.1 GET http://localhost:5279/swagger/v1/swagger.json - - - 200 - application/json;charset=utf-8 77.7657ms
+2023-09-26 12:21:28.268 +05:00 [INF] Request starting HTTP/1.1 PUT http://localhost:5279/api/v1/base-order/start-ship?id=1 - 0
+2023-09-26 12:21:28.352 +05:00 [WRN] Failed to determine the https port for redirect.
+2023-09-26 12:21:28.359 +05:00 [INF] CORS policy execution successful.
+2023-09-26 12:21:28.361 +05:00 [INF] Executing endpoint 'BIS_project.Controllers.OrderController.StartShipDriver (BIS_project)'
+2023-09-26 12:21:28.375 +05:00 [INF] Route matched with {action = "StartShipDriver", controller = "Order"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] StartShipDriver(Int32) on controller BIS_project.Controllers.OrderController (BIS_project).
+2023-09-26 12:21:51.420 +05:00 [INF] Executing OkObjectResult, writing value of type 'System.String'.
+2023-09-26 12:21:51.426 +05:00 [INF] Executed action BIS_project.Controllers.OrderController.StartShipDriver (BIS_project) in 23047.9091ms
+2023-09-26 12:21:51.431 +05:00 [INF] Executed endpoint 'BIS_project.Controllers.OrderController.StartShipDriver (BIS_project)'
+2023-09-26 12:21:51.447 +05:00 [INF] Request finished HTTP/1.1 PUT http://localhost:5279/api/v1/base-order/start-ship?id=1 - 0 - 200 - text/plain;+charset=utf-8 23179.4717ms
+2023-09-26 12:22:55.068 +05:00 [INF] User profile is available. Using '/Users/azizjonabdugafforov/.aspnet/DataProtection-Keys' as key repository; keys will not be encrypted at rest.
+2023-09-26 12:22:55.142 +05:00 [INF] Now listening on: http://localhost:5279
+2023-09-26 12:22:55.143 +05:00 [INF] Application started. Press Ctrl+C to shut down.
+2023-09-26 12:22:55.143 +05:00 [INF] Hosting environment: Development
+2023-09-26 12:22:55.143 +05:00 [INF] Content root path: /Users/azizjonabdugafforov/Desktop/Code/level 6/BIS_project/BIS_project
+2023-09-26 12:22:55.489 +05:00 [INF] Request starting HTTP/1.1 GET http://localhost:5279/swagger/index.html - -
+2023-09-26 12:22:55.566 +05:00 [INF] Request finished HTTP/1.1 GET http://localhost:5279/swagger/index.html - - - 200 - text/html;charset=utf-8 78.9469ms
+2023-09-26 12:22:55.671 +05:00 [INF] Request starting HTTP/1.1 GET http://localhost:5279/swagger/v1/swagger.json - -
+2023-09-26 12:22:55.768 +05:00 [INF] Request finished HTTP/1.1 GET http://localhost:5279/swagger/v1/swagger.json - - - 200 - application/json;charset=utf-8 96.5190ms
+2023-09-26 12:22:58.498 +05:00 [INF] Request starting HTTP/1.1 PUT http://localhost:5279/api/v1/base-order/start-ship?id=1 - 0
+2023-09-26 12:22:58.603 +05:00 [WRN] Failed to determine the https port for redirect.
+2023-09-26 12:22:58.605 +05:00 [INF] CORS policy execution successful.
+2023-09-26 12:22:58.607 +05:00 [INF] Executing endpoint 'BIS_project.Controllers.OrderController.StartShipDriver (BIS_project)'
+2023-09-26 12:22:58.620 +05:00 [INF] Route matched with {action = "StartShipDriver", controller = "Order"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] StartShipDriver(Int32) on controller BIS_project.Controllers.OrderController (BIS_project).
+2023-09-26 12:23:05.454 +05:00 [INF] Executing OkObjectResult, writing value of type 'System.String'.
+2023-09-26 12:23:05.465 +05:00 [INF] Executed action BIS_project.Controllers.OrderController.StartShipDriver (BIS_project) in 6841.2007ms
+2023-09-26 12:23:05.482 +05:00 [INF] Executed endpoint 'BIS_project.Controllers.OrderController.StartShipDriver (BIS_project)'
+2023-09-26 12:23:05.491 +05:00 [INF] Request finished HTTP/1.1 PUT http://localhost:5279/api/v1/base-order/start-ship?id=1 - 0 - 200 - text/plain;+charset=utf-8 6993.3353ms
+2023-09-26 12:23:59.510 +05:00 [INF] Request starting HTTP/1.1 PUT http://localhost:5279/api/v1/base-order/start-ship?id=1 - 0
+2023-09-26 12:23:59.526 +05:00 [INF] CORS policy execution successful.
+2023-09-26 12:23:59.527 +05:00 [INF] Executing endpoint 'BIS_project.Controllers.OrderController.StartShipDriver (BIS_project)'
+2023-09-26 12:23:59.528 +05:00 [INF] Route matched with {action = "StartShipDriver", controller = "Order"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] StartShipDriver(Int32) on controller BIS_project.Controllers.OrderController (BIS_project).
+2023-09-26 12:25:10.355 +05:00 [INF] User profile is available. Using '/Users/azizjonabdugafforov/.aspnet/DataProtection-Keys' as key repository; keys will not be encrypted at rest.
+2023-09-26 12:25:10.401 +05:00 [INF] Now listening on: http://localhost:5279
+2023-09-26 12:25:10.401 +05:00 [INF] Application started. Press Ctrl+C to shut down.
+2023-09-26 12:25:10.401 +05:00 [INF] Hosting environment: Development
+2023-09-26 12:25:10.401 +05:00 [INF] Content root path: /Users/azizjonabdugafforov/Desktop/Code/level 6/BIS_project/BIS_project
+2023-09-26 12:25:10.925 +05:00 [INF] Request starting HTTP/1.1 GET http://localhost:5279/swagger/index.html - -
+2023-09-26 12:25:11.021 +05:00 [INF] Request finished HTTP/1.1 GET http://localhost:5279/swagger/index.html - - - 200 - text/html;charset=utf-8 96.9447ms
+2023-09-26 12:25:11.119 +05:00 [INF] Request starting HTTP/1.1 GET http://localhost:5279/swagger/v1/swagger.json - -
+2023-09-26 12:25:11.210 +05:00 [INF] Request finished HTTP/1.1 GET http://localhost:5279/swagger/v1/swagger.json - - - 200 - application/json;charset=utf-8 90.4019ms
+2023-09-26 12:25:18.714 +05:00 [INF] Request starting HTTP/1.1 GET http://localhost:5279/api/v1/base-order/get-all - -
+2023-09-26 12:25:18.750 +05:00 [WRN] Failed to determine the https port for redirect.
+2023-09-26 12:25:18.753 +05:00 [INF] Executing endpoint 'BIS_project.Controllers.OrderController.GetAllOrders (BIS_project)'
+2023-09-26 12:25:18.767 +05:00 [INF] Route matched with {action = "GetAllOrders", controller = "Order"}. Executing controller action with signature System.Threading.Tasks.Task`1[System.Collections.Generic.List`1[BIS_project.Models.Order]] GetAllOrders() on controller BIS_project.Controllers.OrderController (BIS_project).
+2023-09-26 12:25:19.820 +05:00 [INF] Executing ObjectResult, writing value of type 'System.Collections.Generic.List`1[[BIS_project.Models.Order, BIS_project, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]'.
+2023-09-26 12:25:19.859 +05:00 [INF] Executed action BIS_project.Controllers.OrderController.GetAllOrders (BIS_project) in 1089.7777ms
+2023-09-26 12:25:19.862 +05:00 [INF] Executed endpoint 'BIS_project.Controllers.OrderController.GetAllOrders (BIS_project)'
+2023-09-26 12:25:19.871 +05:00 [INF] Request finished HTTP/1.1 GET http://localhost:5279/api/v1/base-order/get-all - - - 200 - application/json;+charset=utf-8 1157.3200ms
+2023-09-26 12:27:31.019 +05:00 [INF] Request starting HTTP/1.1 GET http://localhost:5279/api/v1/base-order/get-all - -
+2023-09-26 12:27:31.040 +05:00 [INF] Executing endpoint 'BIS_project.Controllers.OrderController.GetAllOrders (BIS_project)'
+2023-09-26 12:27:31.045 +05:00 [INF] Route matched with {action = "GetAllOrders", controller = "Order"}. Executing controller action with signature System.Threading.Tasks.Task`1[System.Collections.Generic.List`1[BIS_project.Models.Order]] GetAllOrders() on controller BIS_project.Controllers.OrderController (BIS_project).
+2023-09-26 12:27:31.093 +05:00 [INF] Executing ObjectResult, writing value of type 'System.Collections.Generic.List`1[[BIS_project.Models.Order, BIS_project, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]'.
+2023-09-26 12:27:31.093 +05:00 [INF] Executed action BIS_project.Controllers.OrderController.GetAllOrders (BIS_project) in 47.3388ms
+2023-09-26 12:27:31.093 +05:00 [INF] Executed endpoint 'BIS_project.Controllers.OrderController.GetAllOrders (BIS_project)'
+2023-09-26 12:27:31.094 +05:00 [INF] Request finished HTTP/1.1 GET http://localhost:5279/api/v1/base-order/get-all - - - 200 - application/json;+charset=utf-8 74.6766ms
+2023-09-26 12:28:54.651 +05:00 [INF] Request starting HTTP/1.1 GET http://localhost:5279/api/v1/base-order/get-all - -
+2023-09-26 12:28:54.657 +05:00 [INF] Executing endpoint 'BIS_project.Controllers.OrderController.GetAllOrders (BIS_project)'
+2023-09-26 12:28:54.660 +05:00 [INF] Route matched with {action = "GetAllOrders", controller = "Order"}. Executing controller action with signature System.Threading.Tasks.Task`1[System.Collections.Generic.List`1[BIS_project.Models.Order]] GetAllOrders() on controller BIS_project.Controllers.OrderController (BIS_project).
+2023-09-26 12:28:54.756 +05:00 [INF] Executing ObjectResult, writing value of type 'System.Collections.Generic.List`1[[BIS_project.Models.Order, BIS_project, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]'.
+2023-09-26 12:28:54.760 +05:00 [INF] Executed action BIS_project.Controllers.OrderController.GetAllOrders (BIS_project) in 100.1125ms
+2023-09-26 12:28:54.761 +05:00 [INF] Executed endpoint 'BIS_project.Controllers.OrderController.GetAllOrders (BIS_project)'
+2023-09-26 12:28:54.761 +05:00 [INF] Request finished HTTP/1.1 GET http://localhost:5279/api/v1/base-order/get-all - - - 200 - application/json;+charset=utf-8 109.9429ms
+2023-09-26 12:29:11.643 +05:00 [INF] Application is shutting down...
+2023-09-26 12:29:13.541 +05:00 [INF] User profile is available. Using '/Users/azizjonabdugafforov/.aspnet/DataProtection-Keys' as key repository; keys will not be encrypted at rest.
+2023-09-26 12:29:13.586 +05:00 [INF] Now listening on: http://localhost:5279
+2023-09-26 12:29:13.586 +05:00 [INF] Application started. Press Ctrl+C to shut down.
+2023-09-26 12:29:13.586 +05:00 [INF] Hosting environment: Development
+2023-09-26 12:29:13.586 +05:00 [INF] Content root path: /Users/azizjonabdugafforov/Desktop/Code/level 6/BIS_project/BIS_project
+2023-09-26 12:29:14.254 +05:00 [INF] Request starting HTTP/1.1 GET http://localhost:5279/swagger/index.html - -
+2023-09-26 12:29:14.355 +05:00 [INF] Request finished HTTP/1.1 GET http://localhost:5279/swagger/index.html - - - 200 - text/html;charset=utf-8 102.2413ms
+2023-09-26 12:29:14.446 +05:00 [INF] Request starting HTTP/1.1 GET http://localhost:5279/swagger/v1/swagger.json - -
+2023-09-26 12:29:14.528 +05:00 [INF] Request finished HTTP/1.1 GET http://localhost:5279/swagger/v1/swagger.json - - - 200 - application/json;charset=utf-8 82.2672ms
+2023-09-26 12:29:17.676 +05:00 [INF] Request starting HTTP/1.1 GET http://localhost:5279/api/v1/base-order/get-all - -
+2023-09-26 12:29:17.715 +05:00 [WRN] Failed to determine the https port for redirect.
+2023-09-26 12:29:17.719 +05:00 [INF] Executing endpoint 'BIS_project.Controllers.OrderController.GetAllOrders (BIS_project)'
+2023-09-26 12:29:17.732 +05:00 [INF] Route matched with {action = "GetAllOrders", controller = "Order"}. Executing controller action with signature System.Threading.Tasks.Task`1[System.Collections.Generic.List`1[BIS_project.Models.Order]] GetAllOrders() on controller BIS_project.Controllers.OrderController (BIS_project).
+2023-09-26 12:29:18.788 +05:00 [INF] Executing ObjectResult, writing value of type 'System.Collections.Generic.List`1[[BIS_project.Models.Order, BIS_project, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]'.
+2023-09-26 12:29:18.831 +05:00 [INF] Executed action BIS_project.Controllers.OrderController.GetAllOrders (BIS_project) in 1096.0312ms
+2023-09-26 12:29:18.834 +05:00 [INF] Executed endpoint 'BIS_project.Controllers.OrderController.GetAllOrders (BIS_project)'
+2023-09-26 12:29:18.844 +05:00 [INF] Request finished HTTP/1.1 GET http://localhost:5279/api/v1/base-order/get-all - - - 200 - application/json;+charset=utf-8 1167.4638ms
+2023-09-26 12:29:36.556 +05:00 [INF] Application is shutting down...
+2023-09-26 12:29:38.412 +05:00 [INF] User profile is available. Using '/Users/azizjonabdugafforov/.aspnet/DataProtection-Keys' as key repository; keys will not be encrypted at rest.
+2023-09-26 12:29:38.455 +05:00 [INF] Now listening on: http://localhost:5279
+2023-09-26 12:29:38.455 +05:00 [INF] Application started. Press Ctrl+C to shut down.
+2023-09-26 12:29:38.455 +05:00 [INF] Hosting environment: Development
+2023-09-26 12:29:38.455 +05:00 [INF] Content root path: /Users/azizjonabdugafforov/Desktop/Code/level 6/BIS_project/BIS_project
+2023-09-26 12:29:39.131 +05:00 [INF] Request starting HTTP/1.1 GET http://localhost:5279/swagger/index.html - -
+2023-09-26 12:29:39.231 +05:00 [INF] Request finished HTTP/1.1 GET http://localhost:5279/swagger/index.html - - - 200 - text/html;charset=utf-8 101.9231ms
+2023-09-26 12:29:39.317 +05:00 [INF] Request starting HTTP/1.1 GET http://localhost:5279/swagger/v1/swagger.json - -
+2023-09-26 12:29:39.392 +05:00 [INF] Request finished HTTP/1.1 GET http://localhost:5279/swagger/v1/swagger.json - - - 200 - application/json;charset=utf-8 74.7327ms
+2023-09-26 12:29:44.873 +05:00 [INF] Request starting HTTP/1.1 GET http://localhost:5279/swagger/index.html - -
+2023-09-26 12:29:44.879 +05:00 [INF] Request finished HTTP/1.1 GET http://localhost:5279/swagger/index.html - - - 200 - text/html;charset=utf-8 6.3140ms
+2023-09-26 12:29:44.941 +05:00 [INF] Request starting HTTP/1.1 GET http://localhost:5279/swagger/v1/swagger.json - -
+2023-09-26 12:29:44.972 +05:00 [INF] Request finished HTTP/1.1 GET http://localhost:5279/swagger/v1/swagger.json - - - 200 - application/json;charset=utf-8 30.4520ms
+2023-09-26 12:29:47.829 +05:00 [INF] Request starting HTTP/1.1 GET http://localhost:5279/api/v1/base-order/get-all - -
+2023-09-26 12:29:47.872 +05:00 [WRN] Failed to determine the https port for redirect.
+2023-09-26 12:29:47.875 +05:00 [INF] Executing endpoint 'BIS_project.Controllers.OrderController.GetAllOrders (BIS_project)'
+2023-09-26 12:29:47.885 +05:00 [INF] Route matched with {action = "GetAllOrders", controller = "Order"}. Executing controller action with signature System.Threading.Tasks.Task`1[System.Collections.Generic.List`1[BIS_project.Models.Order]] GetAllOrders() on controller BIS_project.Controllers.OrderController (BIS_project).
+2023-09-26 12:29:48.939 +05:00 [INF] Executing ObjectResult, writing value of type 'System.Collections.Generic.List`1[[BIS_project.Models.Order, BIS_project, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]'.
+2023-09-26 12:29:48.979 +05:00 [INF] Executed action BIS_project.Controllers.OrderController.GetAllOrders (BIS_project) in 1091.35ms
+2023-09-26 12:29:48.982 +05:00 [INF] Executed endpoint 'BIS_project.Controllers.OrderController.GetAllOrders (BIS_project)'
+2023-09-26 12:29:48.988 +05:00 [INF] Request finished HTTP/1.1 GET http://localhost:5279/api/v1/base-order/get-all - - - 200 - application/json;+charset=utf-8 1159.7058ms
+2023-09-26 15:31:50.807 +05:00 [INF] Request starting HTTP/1.1 OPTIONS http://127.0.0.1:5279/api/v1/Auth/Login - -
+2023-09-26 15:31:50.856 +05:00 [INF] CORS policy execution successful.
+2023-09-26 15:31:50.865 +05:00 [INF] Request finished HTTP/1.1 OPTIONS http://127.0.0.1:5279/api/v1/Auth/Login - - - 204 - - 62.2375ms
+2023-09-26 15:31:50.870 +05:00 [INF] Request starting HTTP/1.1 POST http://127.0.0.1:5279/api/v1/Auth/Login application/json 72
+2023-09-26 15:31:51.010 +05:00 [INF] Failed to validate the token.
+Microsoft.IdentityModel.Tokens.SecurityTokenExpiredException: IDX10223: Lifetime validation failed. The token is expired. ValidTo: 'System.DateTime', Current time: 'System.DateTime'.
+   at Microsoft.IdentityModel.Tokens.Validators.ValidateLifetime(Nullable`1 notBefore, Nullable`1 expires, SecurityToken securityToken, TokenValidationParameters validationParameters)
+   at System.IdentityModel.Tokens.Jwt.JwtSecurityTokenHandler.ValidateLifetime(Nullable`1 notBefore, Nullable`1 expires, JwtSecurityToken jwtToken, TokenValidationParameters validationParameters)
+   at System.IdentityModel.Tokens.Jwt.JwtSecurityTokenHandler.ValidateTokenPayload(JwtSecurityToken jwtToken, TokenValidationParameters validationParameters)
+   at System.IdentityModel.Tokens.Jwt.JwtSecurityTokenHandler.ValidateToken(String token, TokenValidationParameters validationParameters, SecurityToken& validatedToken)
+   at Microsoft.AspNetCore.Authentication.JwtBearer.JwtBearerHandler.HandleAuthenticateAsync()
+2023-09-26 15:31:51.030 +05:00 [INF] Bearer was not authenticated. Failure message: IDX10223: Lifetime validation failed. The token is expired. ValidTo: 'System.DateTime', Current time: 'System.DateTime'.
+2023-09-26 15:31:51.031 +05:00 [INF] CORS policy execution successful.
+2023-09-26 15:31:51.032 +05:00 [INF] Executing endpoint 'BIS_project.Controllers.AuthController.Login (BIS_project)'
+2023-09-26 15:31:51.046 +05:00 [INF] Route matched with {action = "Login", controller = "Auth"}. Executing controller action with signature System.Threading.Tasks.Task`1[System.Object] Login(BIS_project.Dtos.UserDto) on controller BIS_project.Controllers.AuthController (BIS_project).
+2023-09-26 15:31:51.238 +05:00 [INF] Executing UnauthorizedObjectResult, writing value of type 'System.String'.
+2023-09-26 15:31:51.239 +05:00 [INF] Executed action BIS_project.Controllers.AuthController.Login (BIS_project) in 181.4966ms
+2023-09-26 15:31:51.239 +05:00 [INF] Executed endpoint 'BIS_project.Controllers.AuthController.Login (BIS_project)'
+2023-09-26 15:31:51.239 +05:00 [INF] Request finished HTTP/1.1 POST http://127.0.0.1:5279/api/v1/Auth/Login application/json 72 - 401 - application/json;+charset=utf-8 370.1044ms
+2023-09-26 15:32:42.069 +05:00 [INF] Request starting HTTP/1.1 OPTIONS http://127.0.0.1:5279/api/v1/Auth/Login - -
+2023-09-26 15:32:42.074 +05:00 [INF] CORS policy execution successful.
+2023-09-26 15:32:42.076 +05:00 [INF] Request finished HTTP/1.1 OPTIONS http://127.0.0.1:5279/api/v1/Auth/Login - - - 204 - - 8.6119ms
+2023-09-26 15:32:42.087 +05:00 [INF] Request starting HTTP/1.1 POST http://127.0.0.1:5279/api/v1/Auth/Login application/json 67
+2023-09-26 15:32:42.095 +05:00 [INF] Failed to validate the token.
+Microsoft.IdentityModel.Tokens.SecurityTokenExpiredException: IDX10223: Lifetime validation failed. The token is expired. ValidTo: 'System.DateTime', Current time: 'System.DateTime'.
+   at Microsoft.IdentityModel.Tokens.Validators.ValidateLifetime(Nullable`1 notBefore, Nullable`1 expires, SecurityToken securityToken, TokenValidationParameters validationParameters)
+   at System.IdentityModel.Tokens.Jwt.JwtSecurityTokenHandler.ValidateLifetime(Nullable`1 notBefore, Nullable`1 expires, JwtSecurityToken jwtToken, TokenValidationParameters validationParameters)
+   at System.IdentityModel.Tokens.Jwt.JwtSecurityTokenHandler.ValidateTokenPayload(JwtSecurityToken jwtToken, TokenValidationParameters validationParameters)
+   at System.IdentityModel.Tokens.Jwt.JwtSecurityTokenHandler.ValidateToken(String token, TokenValidationParameters validationParameters, SecurityToken& validatedToken)
+   at Microsoft.AspNetCore.Authentication.JwtBearer.JwtBearerHandler.HandleAuthenticateAsync()
+2023-09-26 15:32:42.097 +05:00 [INF] Bearer was not authenticated. Failure message: IDX10223: Lifetime validation failed. The token is expired. ValidTo: 'System.DateTime', Current time: 'System.DateTime'.
+2023-09-26 15:32:42.097 +05:00 [INF] CORS policy execution successful.
+2023-09-26 15:32:42.098 +05:00 [INF] Executing endpoint 'BIS_project.Controllers.AuthController.Login (BIS_project)'
+2023-09-26 15:32:42.103 +05:00 [INF] Route matched with {action = "Login", controller = "Auth"}. Executing controller action with signature System.Threading.Tasks.Task`1[System.Object] Login(BIS_project.Dtos.UserDto) on controller BIS_project.Controllers.AuthController (BIS_project).
+2023-09-26 15:32:42.277 +05:00 [INF] Executing OkObjectResult, writing value of type '<>f__AnonymousType1`3[[BIS_project.Models.User, BIS_project, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null],[<>f__AnonymousType0`8[[System.String, System.Private.CoreLib, Version=7.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e],[System.String, System.Private.CoreLib, Version=7.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e],[System.String, System.Private.CoreLib, Version=7.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e],[System.DateOnly, System.Private.CoreLib, Version=7.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e],[BIS_project.Models.Image, BIS_project, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null],[System.String, System.Private.CoreLib, Version=7.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e],[System.String, System.Private.CoreLib, Version=7.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e],[System.String, System.Private.CoreLib, Version=7.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]], BIS_project, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null],[System.String, System.Private.CoreLib, Version=7.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]'.
+2023-09-26 15:32:42.283 +05:00 [INF] Executed action BIS_project.Controllers.AuthController.Login (BIS_project) in 179.9897ms
+2023-09-26 15:32:42.283 +05:00 [INF] Executed endpoint 'BIS_project.Controllers.AuthController.Login (BIS_project)'
+2023-09-26 15:32:42.283 +05:00 [INF] Request finished HTTP/1.1 POST http://127.0.0.1:5279/api/v1/Auth/Login application/json 67 - 200 - application/json;+charset=utf-8 197.3804ms
+2023-09-26 15:34:04.699 +05:00 [INF] Request starting HTTP/1.1 OPTIONS http://127.0.0.1:5279/api/v1/Auth/Login - -
+2023-09-26 15:34:04.715 +05:00 [INF] CORS policy execution successful.
+2023-09-26 15:34:04.718 +05:00 [INF] Request finished HTTP/1.1 OPTIONS http://127.0.0.1:5279/api/v1/Auth/Login - - - 204 - - 18.9569ms
+2023-09-26 15:34:04.720 +05:00 [INF] Request starting HTTP/1.1 POST http://127.0.0.1:5279/api/v1/Auth/Login application/json 67
+2023-09-26 15:34:04.742 +05:00 [INF] CORS policy execution successful.
+2023-09-26 15:34:04.742 +05:00 [INF] Executing endpoint 'BIS_project.Controllers.AuthController.Login (BIS_project)'
+2023-09-26 15:34:04.742 +05:00 [INF] Route matched with {action = "Login", controller = "Auth"}. Executing controller action with signature System.Threading.Tasks.Task`1[System.Object] Login(BIS_project.Dtos.UserDto) on controller BIS_project.Controllers.AuthController (BIS_project).
+2023-09-26 15:34:04.767 +05:00 [INF] Executing UnauthorizedObjectResult, writing value of type 'System.String'.
+2023-09-26 15:34:04.769 +05:00 [INF] Executed action BIS_project.Controllers.AuthController.Login (BIS_project) in 26.6115ms
+2023-09-26 15:34:04.769 +05:00 [INF] Executed endpoint 'BIS_project.Controllers.AuthController.Login (BIS_project)'
+2023-09-26 15:34:04.769 +05:00 [INF] Request finished HTTP/1.1 POST http://127.0.0.1:5279/api/v1/Auth/Login application/json 67 - 401 - application/json;+charset=utf-8 49.2509ms
+2023-09-26 15:34:22.571 +05:00 [INF] Request starting HTTP/1.1 OPTIONS http://127.0.0.1:5279/api/v1/Auth/Login - -
+2023-09-26 15:34:22.572 +05:00 [INF] CORS policy execution successful.
+2023-09-26 15:34:22.573 +05:00 [INF] Request finished HTTP/1.1 OPTIONS http://127.0.0.1:5279/api/v1/Auth/Login - - - 204 - - 1.7365ms
+2023-09-26 15:34:22.575 +05:00 [INF] Request starting HTTP/1.1 POST http://127.0.0.1:5279/api/v1/Auth/Login application/json 67
+2023-09-26 15:34:22.577 +05:00 [INF] CORS policy execution successful.
+2023-09-26 15:34:22.577 +05:00 [INF] Executing endpoint 'BIS_project.Controllers.AuthController.Login (BIS_project)'
+2023-09-26 15:34:22.577 +05:00 [INF] Route matched with {action = "Login", controller = "Auth"}. Executing controller action with signature System.Threading.Tasks.Task`1[System.Object] Login(BIS_project.Dtos.UserDto) on controller BIS_project.Controllers.AuthController (BIS_project).
+2023-09-26 15:34:22.608 +05:00 [INF] Executing OkObjectResult, writing value of type '<>f__AnonymousType1`3[[BIS_project.Models.User, BIS_project, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null],[<>f__AnonymousType0`8[[System.String, System.Private.CoreLib, Version=7.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e],[System.String, System.Private.CoreLib, Version=7.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e],[System.String, System.Private.CoreLib, Version=7.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e],[System.DateOnly, System.Private.CoreLib, Version=7.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e],[BIS_project.Models.Image, BIS_project, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null],[System.String, System.Private.CoreLib, Version=7.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e],[System.String, System.Private.CoreLib, Version=7.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e],[System.String, System.Private.CoreLib, Version=7.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]], BIS_project, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null],[System.String, System.Private.CoreLib, Version=7.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]'.
+2023-09-26 15:34:22.608 +05:00 [INF] Executed action BIS_project.Controllers.AuthController.Login (BIS_project) in 31.3075ms
+2023-09-26 15:34:22.608 +05:00 [INF] Executed endpoint 'BIS_project.Controllers.AuthController.Login (BIS_project)'
+2023-09-26 15:34:22.609 +05:00 [INF] Request finished HTTP/1.1 POST http://127.0.0.1:5279/api/v1/Auth/Login application/json 67 - 200 - application/json;+charset=utf-8 33.1706ms
+2023-09-26 15:37:35.165 +05:00 [INF] Request starting HTTP/1.1 OPTIONS http://127.0.0.1:5279/api/v1/Auth/Login - -
+2023-09-26 15:37:35.170 +05:00 [INF] CORS policy execution successful.
+2023-09-26 15:37:35.171 +05:00 [INF] Request finished HTTP/1.1 OPTIONS http://127.0.0.1:5279/api/v1/Auth/Login - - - 204 - - 6.1933ms
+2023-09-26 15:37:35.174 +05:00 [INF] Request starting HTTP/1.1 POST http://127.0.0.1:5279/api/v1/Auth/Login application/json 67
+2023-09-26 15:37:35.177 +05:00 [INF] CORS policy execution successful.
+2023-09-26 15:37:35.177 +05:00 [INF] Executing endpoint 'BIS_project.Controllers.AuthController.Login (BIS_project)'
+2023-09-26 15:37:35.178 +05:00 [INF] Route matched with {action = "Login", controller = "Auth"}. Executing controller action with signature System.Threading.Tasks.Task`1[System.Object] Login(BIS_project.Dtos.UserDto) on controller BIS_project.Controllers.AuthController (BIS_project).
+2023-09-26 15:37:35.219 +05:00 [INF] Executing OkObjectResult, writing value of type '<>f__AnonymousType1`3[[BIS_project.Models.User, BIS_project, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null],[<>f__AnonymousType0`8[[System.String, System.Private.CoreLib, Version=7.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e],[System.String, System.Private.CoreLib, Version=7.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e],[System.String, System.Private.CoreLib, Version=7.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e],[System.DateOnly, System.Private.CoreLib, Version=7.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e],[BIS_project.Models.Image, BIS_project, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null],[System.String, System.Private.CoreLib, Version=7.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e],[System.String, System.Private.CoreLib, Version=7.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e],[System.String, System.Private.CoreLib, Version=7.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]], BIS_project, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null],[System.String, System.Private.CoreLib, Version=7.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]'.
+2023-09-26 15:37:35.220 +05:00 [INF] Executed action BIS_project.Controllers.AuthController.Login (BIS_project) in 41.4664ms
+2023-09-26 15:37:35.220 +05:00 [INF] Executed endpoint 'BIS_project.Controllers.AuthController.Login (BIS_project)'
+2023-09-26 15:37:35.220 +05:00 [INF] Request finished HTTP/1.1 POST http://127.0.0.1:5279/api/v1/Auth/Login application/json 67 - 200 - application/json;+charset=utf-8 45.5169ms
+2023-09-26 15:39:25.627 +05:00 [INF] Request starting HTTP/1.1 OPTIONS http://127.0.0.1:5279/api/v1/Auth/Login - -
+2023-09-26 15:39:25.632 +05:00 [INF] CORS policy execution successful.
+2023-09-26 15:39:25.633 +05:00 [INF] Request finished HTTP/1.1 OPTIONS http://127.0.0.1:5279/api/v1/Auth/Login - - - 204 - - 5.9895ms
+2023-09-26 15:39:25.636 +05:00 [INF] Request starting HTTP/1.1 POST http://127.0.0.1:5279/api/v1/Auth/Login application/json 67
+2023-09-26 15:39:25.639 +05:00 [INF] CORS policy execution successful.
+2023-09-26 15:39:25.639 +05:00 [INF] Executing endpoint 'BIS_project.Controllers.AuthController.Login (BIS_project)'
+2023-09-26 15:39:25.640 +05:00 [INF] Route matched with {action = "Login", controller = "Auth"}. Executing controller action with signature System.Threading.Tasks.Task`1[System.Object] Login(BIS_project.Dtos.UserDto) on controller BIS_project.Controllers.AuthController (BIS_project).
+2023-09-26 15:39:25.691 +05:00 [INF] Executing OkObjectResult, writing value of type '<>f__AnonymousType1`3[[BIS_project.Models.User, BIS_project, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null],[<>f__AnonymousType0`8[[System.String, System.Private.CoreLib, Version=7.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e],[System.String, System.Private.CoreLib, Version=7.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e],[System.String, System.Private.CoreLib, Version=7.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e],[System.DateOnly, System.Private.CoreLib, Version=7.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e],[BIS_project.Models.Image, BIS_project, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null],[System.String, System.Private.CoreLib, Version=7.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e],[System.String, System.Private.CoreLib, Version=7.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e],[System.String, System.Private.CoreLib, Version=7.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]], BIS_project, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null],[System.String, System.Private.CoreLib, Version=7.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]'.
+2023-09-26 15:39:25.692 +05:00 [INF] Executed action BIS_project.Controllers.AuthController.Login (BIS_project) in 51.4257ms
+2023-09-26 15:39:25.692 +05:00 [INF] Executed endpoint 'BIS_project.Controllers.AuthController.Login (BIS_project)'
+2023-09-26 15:39:25.692 +05:00 [INF] Request finished HTTP/1.1 POST http://127.0.0.1:5279/api/v1/Auth/Login application/json 67 - 200 - application/json;+charset=utf-8 55.3809ms
+2023-09-26 15:40:44.100 +05:00 [INF] Request starting HTTP/1.1 OPTIONS http://127.0.0.1:5279/api/v1/Auth/Login - -
+2023-09-26 15:40:44.110 +05:00 [INF] CORS policy execution successful.
+2023-09-26 15:40:44.119 +05:00 [INF] Request finished HTTP/1.1 OPTIONS http://127.0.0.1:5279/api/v1/Auth/Login - - - 204 - - 19.0197ms
+2023-09-26 15:40:44.123 +05:00 [INF] Request starting HTTP/1.1 POST http://127.0.0.1:5279/api/v1/Auth/Login application/json 67
+2023-09-26 15:40:44.125 +05:00 [INF] CORS policy execution successful.
+2023-09-26 15:40:44.126 +05:00 [INF] Executing endpoint 'BIS_project.Controllers.AuthController.Login (BIS_project)'
+2023-09-26 15:40:44.126 +05:00 [INF] Route matched with {action = "Login", controller = "Auth"}. Executing controller action with signature System.Threading.Tasks.Task`1[System.Object] Login(BIS_project.Dtos.UserDto) on controller BIS_project.Controllers.AuthController (BIS_project).
+2023-09-26 15:40:44.160 +05:00 [INF] Executing OkObjectResult, writing value of type '<>f__AnonymousType1`3[[BIS_project.Models.User, BIS_project, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null],[<>f__AnonymousType0`8[[System.String, System.Private.CoreLib, Version=7.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e],[System.String, System.Private.CoreLib, Version=7.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e],[System.String, System.Private.CoreLib, Version=7.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e],[System.DateOnly, System.Private.CoreLib, Version=7.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e],[BIS_project.Models.Image, BIS_project, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null],[System.String, System.Private.CoreLib, Version=7.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e],[System.String, System.Private.CoreLib, Version=7.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e],[System.String, System.Private.CoreLib, Version=7.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]], BIS_project, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null],[System.String, System.Private.CoreLib, Version=7.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]'.
+2023-09-26 15:40:44.160 +05:00 [INF] Executed action BIS_project.Controllers.AuthController.Login (BIS_project) in 33.6465ms
+2023-09-26 15:40:44.160 +05:00 [INF] Executed endpoint 'BIS_project.Controllers.AuthController.Login (BIS_project)'
+2023-09-26 15:40:44.161 +05:00 [INF] Request finished HTTP/1.1 POST http://127.0.0.1:5279/api/v1/Auth/Login application/json 67 - 200 - application/json;+charset=utf-8 37.8937ms
+2023-09-26 15:42:47.804 +05:00 [INF] Request starting HTTP/1.1 OPTIONS http://127.0.0.1:5279/api/v1/Auth/Login - -
+2023-09-26 15:42:47.821 +05:00 [INF] CORS policy execution successful.
+2023-09-26 15:42:47.822 +05:00 [INF] Request finished HTTP/1.1 OPTIONS http://127.0.0.1:5279/api/v1/Auth/Login - - - 204 - - 18.6045ms
+2023-09-26 15:42:47.828 +05:00 [INF] Request starting HTTP/1.1 POST http://127.0.0.1:5279/api/v1/Auth/Login application/json 67
+2023-09-26 15:42:47.831 +05:00 [INF] CORS policy execution successful.
+2023-09-26 15:42:47.832 +05:00 [INF] Executing endpoint 'BIS_project.Controllers.AuthController.Login (BIS_project)'
+2023-09-26 15:42:47.832 +05:00 [INF] Route matched with {action = "Login", controller = "Auth"}. Executing controller action with signature System.Threading.Tasks.Task`1[System.Object] Login(BIS_project.Dtos.UserDto) on controller BIS_project.Controllers.AuthController (BIS_project).
+2023-09-26 15:42:47.874 +05:00 [INF] Executing OkObjectResult, writing value of type '<>f__AnonymousType1`3[[BIS_project.Models.User, BIS_project, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null],[<>f__AnonymousType0`8[[System.String, System.Private.CoreLib, Version=7.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e],[System.String, System.Private.CoreLib, Version=7.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e],[System.String, System.Private.CoreLib, Version=7.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e],[System.DateOnly, System.Private.CoreLib, Version=7.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e],[BIS_project.Models.Image, BIS_project, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null],[System.String, System.Private.CoreLib, Version=7.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e],[System.String, System.Private.CoreLib, Version=7.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e],[System.String, System.Private.CoreLib, Version=7.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]], BIS_project, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null],[System.String, System.Private.CoreLib, Version=7.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]'.
+2023-09-26 15:42:47.876 +05:00 [INF] Executed action BIS_project.Controllers.AuthController.Login (BIS_project) in 43.1515ms
+2023-09-26 15:42:47.876 +05:00 [INF] Executed endpoint 'BIS_project.Controllers.AuthController.Login (BIS_project)'
+2023-09-26 15:42:47.876 +05:00 [INF] Request finished HTTP/1.1 POST http://127.0.0.1:5279/api/v1/Auth/Login application/json 67 - 200 - application/json;+charset=utf-8 48.1563ms
+2023-09-26 15:44:21.188 +05:00 [INF] Request starting HTTP/1.1 OPTIONS http://127.0.0.1:5279/api/v1/Auth/Login - -
+2023-09-26 15:44:21.191 +05:00 [INF] CORS policy execution successful.
+2023-09-26 15:44:21.192 +05:00 [INF] Request finished HTTP/1.1 OPTIONS http://127.0.0.1:5279/api/v1/Auth/Login - - - 204 - - 4.3082ms
+2023-09-26 15:44:21.194 +05:00 [INF] Request starting HTTP/1.1 POST http://127.0.0.1:5279/api/v1/Auth/Login application/json 67
+2023-09-26 15:44:21.196 +05:00 [INF] CORS policy execution successful.
+2023-09-26 15:44:21.197 +05:00 [INF] Executing endpoint 'BIS_project.Controllers.AuthController.Login (BIS_project)'
+2023-09-26 15:44:21.198 +05:00 [INF] Route matched with {action = "Login", controller = "Auth"}. Executing controller action with signature System.Threading.Tasks.Task`1[System.Object] Login(BIS_project.Dtos.UserDto) on controller BIS_project.Controllers.AuthController (BIS_project).
+2023-09-26 15:44:21.223 +05:00 [INF] Executing OkObjectResult, writing value of type '<>f__AnonymousType1`3[[BIS_project.Models.User, BIS_project, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null],[<>f__AnonymousType0`8[[System.String, System.Private.CoreLib, Version=7.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e],[System.String, System.Private.CoreLib, Version=7.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e],[System.String, System.Private.CoreLib, Version=7.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e],[System.DateOnly, System.Private.CoreLib, Version=7.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e],[BIS_project.Models.Image, BIS_project, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null],[System.String, System.Private.CoreLib, Version=7.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e],[System.String, System.Private.CoreLib, Version=7.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e],[System.String, System.Private.CoreLib, Version=7.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]], BIS_project, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null],[System.String, System.Private.CoreLib, Version=7.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]'.
+2023-09-26 15:44:21.224 +05:00 [INF] Executed action BIS_project.Controllers.AuthController.Login (BIS_project) in 26.1272ms
+2023-09-26 15:44:21.224 +05:00 [INF] Executed endpoint 'BIS_project.Controllers.AuthController.Login (BIS_project)'
+2023-09-26 15:44:21.224 +05:00 [INF] Request finished HTTP/1.1 POST http://127.0.0.1:5279/api/v1/Auth/Login application/json 67 - 200 - application/json;+charset=utf-8 29.7017ms
+2023-09-26 15:45:32.292 +05:00 [INF] Request starting HTTP/1.1 OPTIONS http://127.0.0.1:5279/api/v1/Auth/Login - -
+2023-09-26 15:45:32.295 +05:00 [INF] CORS policy execution successful.
+2023-09-26 15:45:32.296 +05:00 [INF] Request finished HTTP/1.1 OPTIONS http://127.0.0.1:5279/api/v1/Auth/Login - - - 204 - - 5.2059ms
+2023-09-26 15:45:32.299 +05:00 [INF] Request starting HTTP/1.1 POST http://127.0.0.1:5279/api/v1/Auth/Login application/json 67
+2023-09-26 15:45:32.302 +05:00 [INF] CORS policy execution successful.
+2023-09-26 15:45:32.303 +05:00 [INF] Executing endpoint 'BIS_project.Controllers.AuthController.Login (BIS_project)'
+2023-09-26 15:45:32.304 +05:00 [INF] Route matched with {action = "Login", controller = "Auth"}. Executing controller action with signature System.Threading.Tasks.Task`1[System.Object] Login(BIS_project.Dtos.UserDto) on controller BIS_project.Controllers.AuthController (BIS_project).
+2023-09-26 15:45:32.356 +05:00 [INF] Executing OkObjectResult, writing value of type '<>f__AnonymousType1`3[[BIS_project.Models.User, BIS_project, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null],[<>f__AnonymousType0`8[[System.String, System.Private.CoreLib, Version=7.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e],[System.String, System.Private.CoreLib, Version=7.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e],[System.String, System.Private.CoreLib, Version=7.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e],[System.DateOnly, System.Private.CoreLib, Version=7.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e],[BIS_project.Models.Image, BIS_project, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null],[System.String, System.Private.CoreLib, Version=7.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e],[System.String, System.Private.CoreLib, Version=7.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e],[System.String, System.Private.CoreLib, Version=7.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]], BIS_project, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null],[System.String, System.Private.CoreLib, Version=7.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]'.
+2023-09-26 15:45:32.357 +05:00 [INF] Executed action BIS_project.Controllers.AuthController.Login (BIS_project) in 53.2522ms
+2023-09-26 15:45:32.357 +05:00 [INF] Executed endpoint 'BIS_project.Controllers.AuthController.Login (BIS_project)'
+2023-09-26 15:45:32.357 +05:00 [INF] Request finished HTTP/1.1 POST http://127.0.0.1:5279/api/v1/Auth/Login application/json 67 - 200 - application/json;+charset=utf-8 58.1132ms
+2023-09-26 15:46:17.292 +05:00 [INF] Request starting HTTP/1.1 OPTIONS http://127.0.0.1:5279/api/v1/Auth/Login - -
+2023-09-26 15:46:17.303 +05:00 [INF] CORS policy execution successful.
+2023-09-26 15:46:17.305 +05:00 [INF] Request finished HTTP/1.1 OPTIONS http://127.0.0.1:5279/api/v1/Auth/Login - - - 204 - - 13.0572ms
+2023-09-26 15:46:17.308 +05:00 [INF] Request starting HTTP/1.1 POST http://127.0.0.1:5279/api/v1/Auth/Login application/json 67
+2023-09-26 15:46:17.311 +05:00 [INF] CORS policy execution successful.
+2023-09-26 15:46:17.313 +05:00 [INF] Executing endpoint 'BIS_project.Controllers.AuthController.Login (BIS_project)'
+2023-09-26 15:46:17.314 +05:00 [INF] Route matched with {action = "Login", controller = "Auth"}. Executing controller action with signature System.Threading.Tasks.Task`1[System.Object] Login(BIS_project.Dtos.UserDto) on controller BIS_project.Controllers.AuthController (BIS_project).
+2023-09-26 15:46:17.365 +05:00 [INF] Executing OkObjectResult, writing value of type '<>f__AnonymousType1`3[[BIS_project.Models.User, BIS_project, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null],[<>f__AnonymousType0`8[[System.String, System.Private.CoreLib, Version=7.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e],[System.String, System.Private.CoreLib, Version=7.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e],[System.String, System.Private.CoreLib, Version=7.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e],[System.DateOnly, System.Private.CoreLib, Version=7.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e],[BIS_project.Models.Image, BIS_project, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null],[System.String, System.Private.CoreLib, Version=7.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e],[System.String, System.Private.CoreLib, Version=7.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e],[System.String, System.Private.CoreLib, Version=7.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]], BIS_project, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null],[System.String, System.Private.CoreLib, Version=7.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]'.
+2023-09-26 15:46:17.365 +05:00 [INF] Executed action BIS_project.Controllers.AuthController.Login (BIS_project) in 51.2151ms
+2023-09-26 15:46:17.366 +05:00 [INF] Executed endpoint 'BIS_project.Controllers.AuthController.Login (BIS_project)'
+2023-09-26 15:46:17.366 +05:00 [INF] Request finished HTTP/1.1 POST http://127.0.0.1:5279/api/v1/Auth/Login application/json 67 - 200 - application/json;+charset=utf-8 57.6252ms
+2023-09-26 15:46:29.453 +05:00 [INF] Request starting HTTP/1.1 OPTIONS http://127.0.0.1:5279/api/v1/Employee - -
+2023-09-26 15:46:29.454 +05:00 [INF] CORS policy execution successful.
+2023-09-26 15:46:29.454 +05:00 [INF] Request finished HTTP/1.1 OPTIONS http://127.0.0.1:5279/api/v1/Employee - - - 204 - - 1.1655ms
+2023-09-26 15:46:29.455 +05:00 [INF] Request starting HTTP/1.1 GET http://127.0.0.1:5279/api/v1/Employee - -
+2023-09-26 15:46:29.465 +05:00 [INF] Authorization failed. These requirements were not met:
+RolesAuthorizationRequirement:User.IsInRole must be true for one of the following roles: (ADMIN)
+2023-09-26 15:46:29.468 +05:00 [INF] AuthenticationScheme: Bearer was forbidden.
+2023-09-26 15:46:29.468 +05:00 [INF] Request finished HTTP/1.1 GET http://127.0.0.1:5279/api/v1/Employee - - - 403 0 - 12.6165ms
+2023-09-26 15:46:42.075 +05:00 [INF] Request starting HTTP/1.1 OPTIONS http://127.0.0.1:5279/api/v1/Employee - -
+2023-09-26 15:46:42.075 +05:00 [INF] CORS policy execution successful.
+2023-09-26 15:46:42.076 +05:00 [INF] Request finished HTTP/1.1 OPTIONS http://127.0.0.1:5279/api/v1/Employee - - - 204 - - 0.9206ms
+2023-09-26 15:46:42.077 +05:00 [INF] Request starting HTTP/1.1 GET http://127.0.0.1:5279/api/v1/Employee - -
+2023-09-26 15:46:42.081 +05:00 [INF] Authorization failed. These requirements were not met:
+RolesAuthorizationRequirement:User.IsInRole must be true for one of the following roles: (ADMIN)
+2023-09-26 15:46:42.082 +05:00 [INF] AuthenticationScheme: Bearer was forbidden.
+2023-09-26 15:46:42.082 +05:00 [INF] Request finished HTTP/1.1 GET http://127.0.0.1:5279/api/v1/Employee - - - 403 0 - 4.8378ms
+2023-09-26 15:47:25.989 +05:00 [INF] Request starting HTTP/1.1 OPTIONS http://127.0.0.1:5279/api/v1/Employee - -
+2023-09-26 15:47:25.998 +05:00 [INF] CORS policy execution successful.
+2023-09-26 15:47:26.007 +05:00 [INF] Request finished HTTP/1.1 OPTIONS http://127.0.0.1:5279/api/v1/Employee - - - 204 - - 17.9796ms
+2023-09-26 15:47:26.009 +05:00 [INF] Request starting HTTP/1.1 GET http://127.0.0.1:5279/api/v1/Employee - -
+2023-09-26 15:47:26.013 +05:00 [INF] Authorization failed. These requirements were not met:
+RolesAuthorizationRequirement:User.IsInRole must be true for one of the following roles: (ADMIN)
+2023-09-26 15:47:26.013 +05:00 [INF] AuthenticationScheme: Bearer was forbidden.
+2023-09-26 15:47:26.014 +05:00 [INF] Request finished HTTP/1.1 GET http://127.0.0.1:5279/api/v1/Employee - - - 403 0 - 4.9693ms
+2023-09-26 15:47:31.339 +05:00 [INF] Request starting HTTP/1.1 OPTIONS http://127.0.0.1:5279/api/v1/Employee - -
+2023-09-26 15:47:31.340 +05:00 [INF] CORS policy execution successful.
+2023-09-26 15:47:31.340 +05:00 [INF] Request finished HTTP/1.1 OPTIONS http://127.0.0.1:5279/api/v1/Employee - - - 204 - - 0.8522ms
+2023-09-26 15:47:31.341 +05:00 [INF] Request starting HTTP/1.1 GET http://127.0.0.1:5279/api/v1/Employee - -
+2023-09-26 15:47:31.342 +05:00 [INF] Authorization failed. These requirements were not met:
+RolesAuthorizationRequirement:User.IsInRole must be true for one of the following roles: (ADMIN)
+2023-09-26 15:47:31.342 +05:00 [INF] AuthenticationScheme: Bearer was forbidden.
+2023-09-26 15:47:31.342 +05:00 [INF] Request finished HTTP/1.1 GET http://127.0.0.1:5279/api/v1/Employee - - - 403 0 - 0.8608ms
+2023-09-26 15:47:54.806 +05:00 [INF] Request starting HTTP/1.1 GET http://localhost:5279/api/v1/base-order?username=abdugafforovazimjon775%40gmail.com - -
+2023-09-26 15:47:54.814 +05:00 [INF] Executing endpoint 'BIS_project.Controllers.OrderController.GetOrderByClient (BIS_project)'
+2023-09-26 15:47:54.830 +05:00 [INF] Route matched with {action = "GetOrderByClient", controller = "Order"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] GetOrderByClient(System.String) on controller BIS_project.Controllers.OrderController (BIS_project).
+2023-09-26 15:47:54.962 +05:00 [INF] Executing OkObjectResult, writing value of type 'System.Collections.Generic.List`1[[BIS_project.Models.Order, BIS_project, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]'.
+2023-09-26 15:47:54.967 +05:00 [INF] Executed action BIS_project.Controllers.OrderController.GetOrderByClient (BIS_project) in 137.3149ms
+2023-09-26 15:47:54.967 +05:00 [INF] Executed endpoint 'BIS_project.Controllers.OrderController.GetOrderByClient (BIS_project)'
+2023-09-26 15:47:54.967 +05:00 [INF] Request finished HTTP/1.1 GET http://localhost:5279/api/v1/base-order?username=abdugafforovazimjon775%40gmail.com - - - 200 - application/json;+charset=utf-8 161.4402ms
+2023-09-26 15:48:30.369 +05:00 [INF] Request starting HTTP/1.1 GET http://localhost:5279/api/v1/base-order?username=azimjonabdugafforov17%40gmail.com - -
+2023-09-26 15:48:30.372 +05:00 [INF] Executing endpoint 'BIS_project.Controllers.OrderController.GetOrderByClient (BIS_project)'
+2023-09-26 15:48:30.373 +05:00 [INF] Route matched with {action = "GetOrderByClient", controller = "Order"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] GetOrderByClient(System.String) on controller BIS_project.Controllers.OrderController (BIS_project).
+2023-09-26 15:48:30.409 +05:00 [INF] Executing OkObjectResult, writing value of type 'System.Collections.Generic.List`1[[BIS_project.Models.Order, BIS_project, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]'.
+2023-09-26 15:48:30.410 +05:00 [INF] Executed action BIS_project.Controllers.OrderController.GetOrderByClient (BIS_project) in 36.8774ms
+2023-09-26 15:48:30.410 +05:00 [INF] Executed endpoint 'BIS_project.Controllers.OrderController.GetOrderByClient (BIS_project)'
+2023-09-26 15:48:30.410 +05:00 [INF] Request finished HTTP/1.1 GET http://localhost:5279/api/v1/base-order?username=azimjonabdugafforov17%40gmail.com - - - 200 - application/json;+charset=utf-8 41.3564ms
+2023-09-26 15:49:07.818 +05:00 [INF] Request starting HTTP/1.1 GET http://localhost:5279/api/v1/base-order?username=azizjonabdugafforov69%40gmail.com - -
+2023-09-26 15:49:07.822 +05:00 [INF] Executing endpoint 'BIS_project.Controllers.OrderController.GetOrderByClient (BIS_project)'
+2023-09-26 15:49:07.824 +05:00 [INF] Route matched with {action = "GetOrderByClient", controller = "Order"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] GetOrderByClient(System.String) on controller BIS_project.Controllers.OrderController (BIS_project).
+2023-09-26 15:49:07.960 +05:00 [INF] Executing OkObjectResult, writing value of type 'System.Collections.Generic.List`1[[BIS_project.Models.Order, BIS_project, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]'.
+2023-09-26 15:49:07.962 +05:00 [INF] Executed action BIS_project.Controllers.OrderController.GetOrderByClient (BIS_project) in 110.7119ms
+2023-09-26 15:49:07.962 +05:00 [INF] Executed endpoint 'BIS_project.Controllers.OrderController.GetOrderByClient (BIS_project)'
+2023-09-26 15:49:07.962 +05:00 [INF] Request finished HTTP/1.1 GET http://localhost:5279/api/v1/base-order?username=azizjonabdugafforov69%40gmail.com - - - 200 - application/json;+charset=utf-8 149.0489ms
+2023-09-26 15:49:49.073 +05:00 [INF] Request starting HTTP/1.1 OPTIONS http://127.0.0.1:5279/api/v1/Employee - -
+2023-09-26 15:49:49.075 +05:00 [INF] CORS policy execution successful.
+2023-09-26 15:49:49.083 +05:00 [INF] Request finished HTTP/1.1 OPTIONS http://127.0.0.1:5279/api/v1/Employee - - - 204 - - 10.0916ms
+2023-09-26 15:49:49.090 +05:00 [INF] Request starting HTTP/1.1 GET http://127.0.0.1:5279/api/v1/Employee - -
+2023-09-26 15:49:49.100 +05:00 [INF] Authorization failed. These requirements were not met:
+RolesAuthorizationRequirement:User.IsInRole must be true for one of the following roles: (ADMIN)
+2023-09-26 15:49:49.100 +05:00 [INF] AuthenticationScheme: Bearer was forbidden.
+2023-09-26 15:49:49.100 +05:00 [INF] Request finished HTTP/1.1 GET http://127.0.0.1:5279/api/v1/Employee - - - 403 0 - 9.7023ms
+2023-09-26 15:53:45.810 +05:00 [INF] Application is shutting down...
+2023-09-26 17:30:43.608 +05:00 [INF] User profile is available. Using '/Users/azizjonabdugafforov/.aspnet/DataProtection-Keys' as key repository; keys will not be encrypted at rest.
+2023-09-26 17:30:43.678 +05:00 [INF] Now listening on: http://localhost:5279
+2023-09-26 17:30:43.679 +05:00 [INF] Application started. Press Ctrl+C to shut down.
+2023-09-26 17:30:43.679 +05:00 [INF] Hosting environment: Development
+2023-09-26 17:30:43.679 +05:00 [INF] Content root path: /Users/azizjonabdugafforov/Desktop/Code/level 6/BIS_project/BIS_project
+2023-09-26 17:30:44.255 +05:00 [INF] Request starting HTTP/1.1 GET http://localhost:5279/swagger/index.html - -
+2023-09-26 17:30:44.369 +05:00 [INF] Request finished HTTP/1.1 GET http://localhost:5279/swagger/index.html - - - 200 - text/html;charset=utf-8 114.5817ms
+2023-09-26 17:30:44.633 +05:00 [INF] Request starting HTTP/1.1 GET http://localhost:5279/swagger/swagger-ui-standalone-preset.js - -
+2023-09-26 17:30:44.636 +05:00 [INF] Request starting HTTP/1.1 GET http://localhost:5279/swagger/swagger-ui-bundle.js - -
+2023-09-26 17:30:44.658 +05:00 [INF] Sending file. Request path: '/swagger-ui-standalone-preset.js'. Physical path: 'N/A'
+2023-09-26 17:30:44.658 +05:00 [INF] Sending file. Request path: '/swagger-ui-bundle.js'. Physical path: 'N/A'
+2023-09-26 17:30:44.660 +05:00 [INF] Request finished HTTP/1.1 GET http://localhost:5279/swagger/swagger-ui-bundle.js - - - 200 1061536 text/javascript 23.8995ms
+2023-09-26 17:30:44.660 +05:00 [INF] Request finished HTTP/1.1 GET http://localhost:5279/swagger/swagger-ui-standalone-preset.js - - - 200 312163 text/javascript 27.8492ms
+2023-09-26 17:30:44.760 +05:00 [INF] Request starting HTTP/1.1 GET http://localhost:5279/swagger/v1/swagger.json - -
+2023-09-26 17:30:44.830 +05:00 [INF] Request finished HTTP/1.1 GET http://localhost:5279/swagger/v1/swagger.json - - - 200 - application/json;charset=utf-8 69.8533ms
+2023-09-26 17:34:29.871 +05:00 [INF] Request starting HTTP/1.1 GET http://localhost:5279/api/v1/Branch/GetAll - -
+2023-09-26 17:34:29.918 +05:00 [WRN] Failed to determine the https port for redirect.
+2023-09-26 17:34:29.921 +05:00 [INF] Executing endpoint 'BIS_project.Controllers.BranchController.GetAllAsync (BIS_project)'
+2023-09-26 17:34:29.933 +05:00 [INF] Route matched with {action = "GetAll", controller = "Branch"}. Executing controller action with signature System.Threading.Tasks.Task`1[System.Collections.Generic.List`1[BIS_project.Models.Branch]] GetAllAsync() on controller BIS_project.Controllers.BranchController (BIS_project).
+2023-09-26 17:34:30.880 +05:00 [INF] Executing ObjectResult, writing value of type 'System.Collections.Generic.List`1[[BIS_project.Models.Branch, BIS_project, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]'.
+2023-09-26 17:34:30.888 +05:00 [INF] Executed action BIS_project.Controllers.BranchController.GetAllAsync (BIS_project) in 952.6051ms
+2023-09-26 17:34:30.891 +05:00 [INF] Executed endpoint 'BIS_project.Controllers.BranchController.GetAllAsync (BIS_project)'
+2023-09-26 17:34:30.897 +05:00 [INF] Request finished HTTP/1.1 GET http://localhost:5279/api/v1/Branch/GetAll - - - 200 - application/json;+charset=utf-8 1025.7081ms
+2023-09-26 17:57:55.659 +05:00 [INF] Application is shutting down...
+ '/Users/azizjonabdugafforov/.aspnet/DataProtection-Keys' as key repository; keys will not be encrypted at rest.
+2023-09-26 17:58:00.308 +05:00 [INF] User profile is available. Using '/Users/azizjonabdugafforov/.aspnet/DataProtection-Keys' as key repository; keys will not be encrypted at rest.
+2023-09-26 17:58:00.519 +05:00 [INF] Now listening on: https://localhost:7255
+2023-09-26 17:58:00.520 +05:00 [INF] Now listening on: http://localhost:5279
+2023-09-26 17:58:00.522 +05:00 [INF] Application started. Press Ctrl+C to shut down.
+2023-09-26 17:58:00.522 +05:00 [INF] Hosting environment: Development
+2023-09-26 17:58:00.522 +05:00 [INF] Content root path: /Users/azizjonabdugafforov/Desktop/Code/level 6/BIS_project copy/BIS_project
+2023-09-26 17:58:02.007 +05:00 [INF] Request starting HTTP/1.1 GET https://localhost:7255/swagger - -
+2023-09-26 17:58:02.036 +05:00 [INF] Request finished HTTP/1.1 GET https://localhost:7255/swagger - - - 301 0 - 29.7422ms
+2023-09-26 17:58:02.044 +05:00 [INF] Request starting HTTP/1.1 GET https://localhost:7255/swagger/index.html - -
+2023-09-26 17:58:02.074 +05:00 [INF] Request finished HTTP/1.1 GET https://localhost:7255/swagger/index.html - - - 200 - text/html;charset=utf-8 29.9262ms
+2023-09-26 17:58:02.155 +05:00 [INF] Request starting HTTP/1.1 GET https://localhost:7255/swagger/swagger-ui.css - -
+2023-09-26 17:58:02.174 +05:00 [INF] Sending file. Request path: '/swagger-ui.css'. Physical path: 'N/A'
+2023-09-26 17:58:02.174 +05:00 [INF] Request finished HTTP/1.1 GET https://localhost:7255/swagger/swagger-ui.css - - - 200 144929 text/css 18.9880ms
+2023-09-26 17:58:02.174 +05:00 [INF] Request starting HTTP/1.1 GET https://localhost:7255/swagger/swagger-ui-bundle.js - -
+2023-09-26 17:58:02.320 +05:00 [INF] Request starting HTTP/1.1 GET https://localhost:7255/swagger/swagger-ui-standalone-preset.js - -
+2023-09-26 17:58:02.372 +05:00 [INF] Sending file. Request path: '/swagger-ui-standalone-preset.js'. Physical path: 'N/A'
+2023-09-26 17:58:02.373 +05:00 [INF] Request finished HTTP/1.1 GET https://localhost:7255/swagger/swagger-ui-standalone-preset.js - - - 200 312163 text/javascript 78.3370ms
+2023-09-26 17:58:02.471 +05:00 [INF] Sending file. Request path: '/swagger-ui-bundle.js'. Physical path: 'N/A'
+2023-09-26 17:58:02.473 +05:00 [INF] Request finished HTTP/1.1 GET https://localhost:7255/swagger/swagger-ui-bundle.js - - - 200 1061536 text/javascript 298.2387ms
+2023-09-26 17:58:02.589 +05:00 [INF] Request starting HTTP/1.1 GET https://localhost:7255/swagger/v1/swagger.json - -
+2023-09-26 17:58:02.619 +05:00 [INF] Request starting HTTP/1.1 GET https://localhost:7255/swagger/favicon-32x32.png - -
+2023-09-26 17:58:02.622 +05:00 [INF] Sending file. Request path: '/favicon-32x32.png'. Physical path: 'N/A'
+2023-09-26 17:58:02.622 +05:00 [INF] Request finished HTTP/1.1 GET https://localhost:7255/swagger/favicon-32x32.png - - - 200 628 image/png 2.7040ms
+2023-09-26 17:58:02.710 +05:00 [INF] Request finished HTTP/1.1 GET https://localhost:7255/swagger/v1/swagger.json - - - 200 - application/json;charset=utf-8 121.0380ms
+2023-09-26 17:58:06.309 +05:00 [INF] Request starting HTTP/1.1 GET https://localhost:7255/api/v1/Branch/GetAll - -
+2023-09-26 17:58:06.451 +05:00 [INF] Executing endpoint 'BIS_project.Controllers.BranchController.GetAllAsync (BIS_project)'
+2023-09-26 17:58:06.462 +05:00 [INF] Route matched with {action = "GetAll", controller = "Branch"}. Executing controller action with signature System.Threading.Tasks.Task`1[System.Collections.Generic.List`1[BIS_project.Models.Branch]] GetAllAsync() on controller BIS_project.Controllers.BranchController (BIS_project).
+2023-09-26 18:11:22.495 +05:00 [INF] User profile is available. Using '/Users/azizjonabdugafforov/.aspnet/DataProtection-Keys' as key repository; keys will not be encrypted at rest.
+2023-09-26 18:11:22.734 +05:00 [INF] Now listening on: https://localhost:7255
+2023-09-26 18:11:22.735 +05:00 [INF] Now listening on: http://localhost:5279
+2023-09-26 18:11:22.758 +05:00 [INF] Application started. Press Ctrl+C to shut down.
+2023-09-26 18:11:22.758 +05:00 [INF] Hosting environment: Development
+2023-09-26 18:11:22.758 +05:00 [INF] Content root path: /Users/azizjonabdugafforov/Desktop/Code/level 6/BIS_project copy/BIS_project
+2023-09-26 18:11:23.955 +05:00 [INF] Request starting HTTP/1.1 GET https://localhost:7255/swagger/index.html - -
+2023-09-26 18:11:24.025 +05:00 [INF] Request finished HTTP/1.1 GET https://localhost:7255/swagger/index.html - - - 200 - text/html;charset=utf-8 70.6702ms
+2023-09-26 18:11:24.172 +05:00 [INF] Request starting HTTP/1.1 GET https://localhost:7255/swagger/v1/swagger.json - -
+2023-09-26 18:11:24.233 +05:00 [INF] Request finished HTTP/1.1 GET https://localhost:7255/swagger/v1/swagger.json - - - 200 - application/json;charset=utf-8 61.0594ms
+2023-09-26 18:11:32.194 +05:00 [INF] Request starting HTTP/1.1 POST https://localhost:7255/api/v1/Auth/Login application/json 48
+2023-09-26 18:11:32.283 +05:00 [INF] CORS policy execution successful.
+2023-09-26 18:11:32.285 +05:00 [INF] Executing endpoint 'BIS_project.Controllers.AuthController.Login (BIS_project)'
+2023-09-26 18:11:32.297 +05:00 [INF] Route matched with {action = "Login", controller = "Auth"}. Executing controller action with signature System.Threading.Tasks.Task`1[System.Object] Login(BIS_project.Dtos.UserDto) on controller BIS_project.Controllers.AuthController (BIS_project).
+2023-09-26 18:11:40.655 +05:00 [INF] Executing OkObjectResult, writing value of type '<>f__AnonymousType1`3[[BIS_project.Models.User, BIS_project, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null],[<>f__AnonymousType0`8[[System.String, System.Private.CoreLib, Version=7.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e],[System.String, System.Private.CoreLib, Version=7.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e],[System.String, System.Private.CoreLib, Version=7.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e],[System.DateOnly, System.Private.CoreLib, Version=7.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e],[BIS_project.Models.Image, BIS_project, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null],[System.String, System.Private.CoreLib, Version=7.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e],[System.String, System.Private.CoreLib, Version=7.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e],[System.String, System.Private.CoreLib, Version=7.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]], BIS_project, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null],[System.String, System.Private.CoreLib, Version=7.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]'.
+2023-09-26 18:11:40.659 +05:00 [INF] Executed action BIS_project.Controllers.AuthController.Login (BIS_project) in 8360.8561ms
+2023-09-26 18:11:40.660 +05:00 [INF] Executed endpoint 'BIS_project.Controllers.AuthController.Login (BIS_project)'
+2023-09-26 18:11:40.662 +05:00 [INF] Request finished HTTP/1.1 POST https://localhost:7255/api/v1/Auth/Login application/json 48 - 200 - application/json;+charset=utf-8 8467.5991ms

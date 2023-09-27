@@ -30,3 +30,11 @@
 2023-09-24 11:00:29.478 +05:00 [INF] Executed action BIS_project.Controllers.DriverController.GetDrivers (BIS_project) in 1107.861ms
 2023-09-24 11:00:29.482 +05:00 [INF] Executed endpoint 'BIS_project.Controllers.DriverController.GetDrivers (BIS_project)'
 2023-09-24 11:00:29.488 +05:00 [INF] Request finished HTTP/1.1 GET http://localhost:5279/api/v1/Driver - - - 200 - application/json;+charset=utf-8 1211.7995ms
+2023-09-24 11:03:14.458 +05:00 [INF] Request starting HTTP/1.1 GET http://localhost:5279/api/v1/District/GetAll - -
+2023-09-24 11:03:14.470 +05:00 [INF] Executing endpoint 'BIS_project.Controllers.DistrictController.GetAllAsync (BIS_project)'
+2023-09-24 11:03:14.481 +05:00 [INF] Route matched with {action = "GetAll", controller = "District"}. Executing controller action with signature System.Threading.Tasks.Task`1[System.Collections.Generic.List`1[BIS_project.Models.District]] GetAllAsync() on controller BIS_project.Controllers.DistrictController (BIS_project).
+2023-09-24 11:03:14.558 +05:00 [INF] Executing ObjectResult, writing value of type 'System.Collections.Generic.List`1[[BIS_project.Models.District, BIS_project, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]'.
+2023-09-24 11:03:14.565 +05:00 [INF] Executed action BIS_project.Controllers.DistrictController.GetAllAsync (BIS_project) in 83.7806ms
+2023-09-24 11:03:14.565 +05:00 [INF] Executed endpoint 'BIS_project.Controllers.DistrictController.GetAllAsync (BIS_project)'
+2023-09-24 11:03:14.565 +05:00 [INF] Request finished HTTP/1.1 GET http://localhost:5279/api/v1/District/GetAll - - - 200 - application/json;+charset=utf-8 107.3997ms
+2023-09-24 17:55:51.570 +05:00 [INF] Application is shutting down...

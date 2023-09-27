@@ -8,6 +8,9 @@ using Newtonsoft.Json;
 using Microsoft.AspNetCore.Http;
 using System;
 using System.Diagnostics.CodeAnalysis;
+using MailKit.Net.Smtp;
+using Microsoft.AspNetCore.Http.HttpResults;
+using OfficeOpenXml.Utils;
 using Org.BouncyCastle.Crypto.Digests;
 
 namespace BIS_project.Controllers;
@@ -88,6 +91,74 @@ public class OrderController : ControllerBase
         }
        
     }
+
+    [HttpPut("upload-start-photos", Name = "UploadPhotos")]
+    public async Task<IActionResult> UploadPhotos(int id, IFormFileCollection files)
+    {
+        try
+        {
+            List<Image> images = await _fileSaver.UploadFiles(files, "orders/images");
+            var result = await _orderService.UploadStartImages(id, images);
+            return Ok(result);
+        }
+        catch (Exception e)
+        {
+            Console.WriteLine(e);
+            return BadRequest("some error occured!");
+        }
+    }
+    [HttpPut("start-ship", Name = "StartShipDriver")]
+    public async Task<IActionResult> StartShipDriver(int id)
+    {
+        try
+        {
+            return Ok(await _orderService.StartShipping(id));
+        }
+        catch (Exception e)
+        {
+            Console.WriteLine(e);
+            throw;
+        }
+    }
+    [HttpPut("finish-ship", Name = "FinishShip")]
+    public async Task<IActionResult> FinishShip(int id)
+    {
+        return Ok(id);
+    }
+
+    [HttpPut("rate-order", Name = "RatingOrder")]
+    public async Task<IActionResult> RatingOrder(int id, int rating)
+    {
+        try
+        {
+            return Ok(rating);
+        }
+        catch (Exception e)
+        {
+            Console.WriteLine(e);
+            throw;
+        }
+    }
+    [HttpPut("upload-finish-photos", Name = "UploadFinishPhotos")]
+    public async Task<IActionResult> UploadFinishPhotos(int id, IFormFile photos)
+    {
+        try
+        {
+            return Ok(id);
+        }
+        catch (Exception e)
+        {
+            Console.WriteLine(e);
+            return BadRequest(e.Message);
+        }
+    }
+
+    [HttpPatch("driver-emergency-report", Name = "DriverEmergency")]
+    public async Task<IActionResult> DriverEmergency(int id, string smth)
+    {
+        return Ok(smth);
+    }
+    
 
     [HttpGet("get-all", Name = "GetAllOrders")]
     public async Task<List<Order>?> GetAllOrders()

@@ -4,8 +4,10 @@ using BIS_project.Helper;
 using BIS_project.IServices;
 using BIS_project.Models;
 using MailKit.Net.Smtp;
+using Microsoft.AspNetCore.Http.HttpResults;
 using Microsoft.EntityFrameworkCore;
 using MimeKit;
+using Org.BouncyCastle.Asn1.Cms;
 
 namespace BIS_project.Services;
 public class OrderService : IOrderService
@@ -28,8 +30,9 @@ public class OrderService : IOrderService
                 .Include(e => e.ToDistrict!.Region)
                 .Include(e => e.ProductImages)
                 .Include(e => e.EndImage)
-                .Include(e=> e.Driver)
+                .Include(e=> e.Driver.Truck.TruckImages)
                 .Include(e=> e.ProductImages)
+                .Include(e=>e.StartImage)
                 .ToListAsync();
         }
         catch (Exception e)
@@ -51,7 +54,7 @@ public class OrderService : IOrderService
                 .Include(e=> e.Employees)
                 .Include(e=> e.ProductImages)
                 .Include(e=> e.Client)
-                .Include(e=> e.Driver)
+                .Include(e=> e.Driver.Truck.TruckImages)
                 .Include(e=> e.FromDistrict)
                 .Include(e=> e.ToDistrict)
                 .Include(e=> e.ToRegion)
@@ -311,4 +314,55 @@ public class OrderService : IOrderService
             Console.WriteLine(e);
         }
     }
+
+    public async Task<bool> UploadStartImages(int id, List<Image> imgs)
+    {
+        try
+        {
+            Order o = await _dataContext.Orders
+                .Include(e=> e.StartImage)
+                .FirstOrDefaultAsync(e=> e.Id == id);
+            if(o.StartImage == null)
+            {
+                return false;
+            }
+            o.StartImage = imgs;
+            await _dataContext.SaveChangesAsync();
+            return true;
+        }
+        catch (Exception e)
+        {
+            Console.WriteLine(e.Message);
+            throw;
+        }
+    }
+
+    public async Task<string> StartShipping(int id)
+    {
+        try
+        {
+            var o = await _dataContext.Orders
+                .Include(e => e.StartImage)
+                .FirstOrDefaultAsync(e => e.Id == id);
+            if (o == null)
+            {
+                return "Invalid order Id";
+            }
+
+            if (o.StartImage == null)
+            {
+                return "Upload start images first!";
+            }
+            o.Status = "SHIPPING";
+            o.StartTime = DateTime.UtcNow;
+            await _dataContext.SaveChangesAsync();
+            return "Ship started";
+        }
+        catch (Exception e)
+        {
+            Console.WriteLine(e.Message);
+            throw;
+        }
+    }
+    
 }
