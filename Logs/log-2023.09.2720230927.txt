@@ -1,0 +1,45 @@
+2023-09-27 11:56:26.533 +05:00 [INF] User profile is available. Using '/Users/azizjonabdugafforov/.aspnet/DataProtection-Keys' as key repository; keys will not be encrypted at rest.
+2023-09-27 11:56:26.593 +05:00 [INF] Now listening on: http://localhost:5279
+2023-09-27 11:56:26.594 +05:00 [INF] Application started. Press Ctrl+C to shut down.
+2023-09-27 11:56:26.594 +05:00 [INF] Hosting environment: Development
+2023-09-27 11:56:26.594 +05:00 [INF] Content root path: /Users/azizjonabdugafforov/Desktop/Code/level 6/BIS_project/BIS_project
+2023-09-27 11:56:27.055 +05:00 [INF] Request starting HTTP/1.1 GET http://localhost:5279/swagger/index.html - -
+2023-09-27 11:56:27.142 +05:00 [INF] Request finished HTTP/1.1 GET http://localhost:5279/swagger/index.html - - - 200 - text/html;charset=utf-8 87.8799ms
+2023-09-27 11:56:27.170 +05:00 [INF] Request starting HTTP/1.1 GET http://localhost:5279/swagger/swagger-ui-bundle.js - -
+2023-09-27 11:56:27.202 +05:00 [INF] Sending file. Request path: '/swagger-ui-bundle.js'. Physical path: 'N/A'
+2023-09-27 11:56:27.204 +05:00 [INF] Request finished HTTP/1.1 GET http://localhost:5279/swagger/swagger-ui-bundle.js - - - 200 1061536 text/javascript 33.7416ms
+2023-09-27 11:56:27.339 +05:00 [INF] Request starting HTTP/1.1 GET http://localhost:5279/swagger/v1/swagger.json - -
+2023-09-27 11:56:27.438 +05:00 [INF] Request finished HTTP/1.1 GET http://localhost:5279/swagger/v1/swagger.json - - - 200 - application/json;charset=utf-8 99.0269ms
+2023-09-27 12:32:27.273 +05:00 [INF] Request starting HTTP/1.1 POST http://localhost:5279/api/v1/Region/Insert application/json 31
+2023-09-27 12:32:27.337 +05:00 [WRN] Failed to determine the https port for redirect.
+2023-09-27 12:32:27.340 +05:00 [INF] CORS policy execution successful.
+2023-09-27 12:32:27.342 +05:00 [INF] Executing endpoint 'BIS_project.Controllers.RegionController.InsertAsync (BIS_project)'
+2023-09-27 12:32:27.363 +05:00 [INF] Route matched with {action = "Insert", controller = "Region"}. Executing controller action with signature System.Threading.Tasks.Task`1[System.Boolean] InsertAsync(BIS_project.Dtos.RegionDto) on controller BIS_project.Controllers.RegionController (BIS_project).
+2023-09-27 12:32:28.512 +05:00 [INF] Executing ObjectResult, writing value of type 'System.Boolean'.
+2023-09-27 12:32:28.517 +05:00 [INF] Executed action BIS_project.Controllers.RegionController.InsertAsync (BIS_project) in 1145.3185ms
+2023-09-27 12:32:28.520 +05:00 [INF] Executed endpoint 'BIS_project.Controllers.RegionController.InsertAsync (BIS_project)'
+2023-09-27 12:32:28.526 +05:00 [INF] Request finished HTTP/1.1 POST http://localhost:5279/api/v1/Region/Insert application/json 31 - 200 - application/json;+charset=utf-8 1255.3302ms
+2023-09-27 12:32:37.520 +05:00 [INF] Request starting HTTP/1.1 GET http://localhost:5279/api/v1/Region/GetAll - -
+2023-09-27 12:32:37.530 +05:00 [INF] Executing endpoint 'BIS_project.Controllers.RegionController.GetAllAsync (BIS_project)'
+2023-09-27 12:32:37.535 +05:00 [INF] Route matched with {action = "GetAll", controller = "Region"}. Executing controller action with signature System.Threading.Tasks.Task`1[System.Collections.Generic.List`1[BIS_project.Models.Region]] GetAllAsync() on controller BIS_project.Controllers.RegionController (BIS_project).
+2023-09-27 12:32:37.574 +05:00 [INF] Executing ObjectResult, writing value of type 'System.Collections.Generic.List`1[[BIS_project.Models.Region, BIS_project, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]'.
+2023-09-27 12:32:37.593 +05:00 [INF] Executed action BIS_project.Controllers.RegionController.GetAllAsync (BIS_project) in 58.4931ms
+2023-09-27 12:32:37.604 +05:00 [INF] Executed endpoint 'BIS_project.Controllers.RegionController.GetAllAsync (BIS_project)'
+2023-09-27 12:32:37.604 +05:00 [INF] Request finished HTTP/1.1 GET http://localhost:5279/api/v1/Region/GetAll - - - 200 - application/json;+charset=utf-8 83.5483ms
+2023-09-27 12:32:47.535 +05:00 [INF] Application is shutting down...
+2023-09-27 12:32:55.674 +05:00 [INF] User profile is available. Using '/Users/azizjonabdugafforov/.aspnet/DataProtection-Keys' as key repository; keys will not be encrypted at rest.
+2023-09-27 12:32:55.923 +05:00 [INF] Now listening on: https://localhost:7255
+2023-09-27 12:32:55.974 +05:00 [INF] Now listening on: http://localhost:5279
+2023-09-27 12:32:56.001 +05:00 [INF] Application started. Press Ctrl+C to shut down.
+2023-09-27 12:32:56.001 +05:00 [INF] Hosting environment: Development
+2023-09-27 12:32:56.001 +05:00 [INF] Content root path: /Users/azizjonabdugafforov/Desktop/Code/level 6/BIS_project copy/BIS_project
+2023-09-27 12:32:57.184 +05:00 [INF] Request starting HTTP/1.1 GET https://localhost:7255/swagger/index.html - -
+2023-09-27 12:32:57.247 +05:00 [INF] Request finished HTTP/1.1 GET https://localhost:7255/swagger/index.html - - - 200 - text/html;charset=utf-8 63.8126ms
+2023-09-27 12:32:57.268 +05:00 [INF] Request starting HTTP/1.1 GET https://localhost:7255/swagger/swagger-ui-bundle.js - -
+2023-09-27 12:32:57.405 +05:00 [INF] Request starting HTTP/1.1 GET https://localhost:7255/swagger/swagger-ui-standalone-preset.js - -
+2023-09-27 12:32:57.408 +05:00 [INF] Sending file. Request path: '/swagger-ui-bundle.js'. Physical path: 'N/A'
+2023-09-27 12:32:57.408 +05:00 [INF] Request finished HTTP/1.1 GET https://localhost:7255/swagger/swagger-ui-bundle.js - - - 200 1061536 text/javascript 140.5773ms
+2023-09-27 12:32:57.490 +05:00 [INF] Sending file. Request path: '/swagger-ui-standalone-preset.js'. Physical path: 'N/A'
+2023-09-27 12:32:57.491 +05:00 [INF] Request finished HTTP/1.1 GET https://localhost:7255/swagger/swagger-ui-standalone-preset.js - - - 200 312163 text/javascript 86.0954ms
+2023-09-27 12:32:57.540 +05:00 [INF] Request starting HTTP/1.1 GET https://localhost:7255/swagger/v1/swagger.json - -
+2023-09-27 12:32:57.629 +05:00 [INF] Request finished HTTP/1.1 GET https://localhost:7255/swagger/v1/swagger.json - - - 200 - application/json;charset=utf-8 88.3421ms

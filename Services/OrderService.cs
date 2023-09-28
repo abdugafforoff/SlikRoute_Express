@@ -348,7 +348,6 @@ public class OrderService : IOrderService
             {
                 return "Invalid order Id";
             }
-
             if (o.StartImage == null)
             {
                 return "Upload start images first!";
@@ -362,6 +361,22 @@ public class OrderService : IOrderService
         {
             Console.WriteLine(e.Message);
             throw;
+        }
+    }
+
+    public async Task<string> RateOrder(int id, int rating)
+    {
+        try
+        {
+            Order o = await _dataContext.Orders.FindAsync(id);
+            o.Rating = rating;
+            await _dataContext.SaveChangesAsync();
+            return "success";
+        }
+        catch (Exception e)
+        {
+            Console.WriteLine(e);
+            return "something went wrong";
         }
     }
     

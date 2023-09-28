@@ -76,7 +76,7 @@ public class OrderController : ControllerBase
         }
     }
 
-    [HttpGet(Name = "GetByClient")]
+    [HttpGet("by-user",Name = "GetByClient")]
     public async Task<IActionResult> GetOrderByClient(string username)
     {
         try
@@ -117,7 +117,7 @@ public class OrderController : ControllerBase
         catch (Exception e)
         {
             Console.WriteLine(e);
-            throw;
+            return BadRequest("error occured");
         }
     }
     [HttpPut("finish-ship", Name = "FinishShip")]
@@ -131,12 +131,12 @@ public class OrderController : ControllerBase
     {
         try
         {
-            return Ok(rating);
+            return Ok(await _orderService.RateOrder(id, rating));
         }
         catch (Exception e)
         {
             Console.WriteLine(e);
-            throw;
+            return BadRequest("Something went wring");
         }
     }
     [HttpPut("upload-finish-photos", Name = "UploadFinishPhotos")]
@@ -161,9 +161,17 @@ public class OrderController : ControllerBase
     
 
     [HttpGet("get-all", Name = "GetAllOrders")]
-    public async Task<List<Order>?> GetAllOrders()
+    public async Task<List<Order?>> GetAllOrders()
     {
-        return await _orderService.GetAllOrders();
+        try
+        {
+            return await _orderService.GetAllOrders();
+        }
+        catch (Exception e)
+        {
+            Console.WriteLine(e);
+            return null;
+        }
     }
 
     
