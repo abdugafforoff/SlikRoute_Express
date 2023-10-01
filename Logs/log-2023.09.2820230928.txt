@@ -26,3 +26,4 @@
 2023-09-28 17:41:25.302 +05:00 [INF] Request finished HTTP/1.1 GET http://localhost:5279/swagger/index.html - - - 200 - text/html;charset=utf-8 17.5070ms
 2023-09-28 17:41:25.426 +05:00 [INF] Request starting HTTP/1.1 GET http://localhost:5279/swagger/v1/swagger.json - -
 2023-09-28 17:41:25.455 +05:00 [INF] Request finished HTTP/1.1 GET http://localhost:5279/swagger/v1/swagger.json - - - 200 - application/json;charset=utf-8 29.2401ms
+2023-09-28 17:57:59.058 +05:00 [INF] Application is shutting down...

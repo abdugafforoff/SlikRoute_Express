@@ -1,0 +1,21 @@
+2023-09-29 11:57:26.837 +05:00 [INF] User profile is available. Using '/Users/azizjonabdugafforov/.aspnet/DataProtection-Keys' as key repository; keys will not be encrypted at rest.
+2023-09-29 11:57:26.921 +05:00 [INF] Now listening on: http://localhost:5279
+2023-09-29 11:57:26.933 +05:00 [INF] Application started. Press Ctrl+C to shut down.
+2023-09-29 11:57:26.934 +05:00 [INF] Hosting environment: Development
+2023-09-29 11:57:26.934 +05:00 [INF] Content root path: /Users/azizjonabdugafforov/Desktop/Code/level 6/BIS_project/BIS_project
+2023-09-29 11:57:27.230 +05:00 [INF] Request starting HTTP/1.1 GET http://localhost:5279/swagger/index.html - -
+2023-09-29 11:57:27.346 +05:00 [INF] Request finished HTTP/1.1 GET http://localhost:5279/swagger/index.html - - - 200 - text/html;charset=utf-8 117.2374ms
+2023-09-29 11:57:27.361 +05:00 [INF] Request starting HTTP/1.1 GET http://localhost:5279/swagger/swagger-ui-bundle.js - -
+2023-09-29 11:57:27.387 +05:00 [INF] Sending file. Request path: '/swagger-ui-bundle.js'. Physical path: 'N/A'
+2023-09-29 11:57:27.389 +05:00 [INF] Request finished HTTP/1.1 GET http://localhost:5279/swagger/swagger-ui-bundle.js - - - 200 1061536 text/javascript 27.3405ms
+2023-09-29 11:57:27.500 +05:00 [INF] Request starting HTTP/1.1 GET http://localhost:5279/swagger/v1/swagger.json - -
+2023-09-29 11:57:27.588 +05:00 [INF] Request finished HTTP/1.1 GET http://localhost:5279/swagger/v1/swagger.json - - - 200 - application/json;charset=utf-8 88.7653ms
+2023-09-29 12:18:42.210 +05:00 [INF] Request starting HTTP/1.1 GET http://localhost:5279/api/v1/Branch/GetAll - -
+2023-09-29 12:18:42.259 +05:00 [WRN] Failed to determine the https port for redirect.
+2023-09-29 12:18:42.263 +05:00 [INF] Executing endpoint 'BIS_project.Controllers.BranchController.GetAllAsync (BIS_project)'
+2023-09-29 12:18:42.279 +05:00 [INF] Route matched with {action = "GetAll", controller = "Branch"}. Executing controller action with signature System.Threading.Tasks.Task`1[System.Collections.Generic.List`1[BIS_project.Models.Branch]] GetAllAsync() on controller BIS_project.Controllers.BranchController (BIS_project).
+2023-09-29 12:18:43.295 +05:00 [INF] Executing ObjectResult, writing value of type 'System.Collections.Generic.List`1[[BIS_project.Models.Branch, BIS_project, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]'.
+2023-09-29 12:18:43.306 +05:00 [INF] Executed action BIS_project.Controllers.BranchController.GetAllAsync (BIS_project) in 1023.8469ms
+2023-09-29 12:18:43.310 +05:00 [INF] Executed endpoint 'BIS_project.Controllers.BranchController.GetAllAsync (BIS_project)'
+2023-09-29 12:18:43.316 +05:00 [INF] Request finished HTTP/1.1 GET http://localhost:5279/api/v1/Branch/GetAll - - - 200 - application/json;+charset=utf-8 1107.1329ms
+2023-09-29 17:56:40.373 +05:00 [INF] Application is shutting down...
