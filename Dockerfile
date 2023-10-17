@@ -3,18 +3,26 @@ FROM mcr.microsoft.com/dotnet/aspnet:7.0 AS base
 WORKDIR /app
 EXPOSE 80
 
+# Use the .NET Core SDK image for building
 FROM mcr.microsoft.com/dotnet/sdk:7.0 AS build
 WORKDIR /src
+
+# Copy the project file and restore dependencies
 COPY ["BIS_project/BIS_project.csproj", "BIS_project/"]
-RUN dotnet restore "YourApp/YourApp.csproj"
+RUN dotnet restore "BIS_project/BIS_project.csproj"
+
+# Copy the application source code
 COPY . .
-WORKDIR "/src/YourApp"
-RUN dotnet build "BIS_project.csproj" -c Release -o /app/build
 
-FROM build AS publish
-RUN dotnet publish "BIS_project.csproj" -c Release -o /app/publish
+# Build the application
+WORKDIR "/src/BIS_project"
+RUN dotnet build -c Release -o /app/build
 
+# Publish the application
+RUN dotnet publish -c Release -o /app/publish
+
+# Create the final image
 FROM base AS final
 WORKDIR /app
-COPY --from=publish /app/publish .
+COPY --from=build /app/publish .
 ENTRYPOINT ["dotnet", "BIS_project.dll"]
