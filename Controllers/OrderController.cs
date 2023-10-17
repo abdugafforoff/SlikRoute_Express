@@ -27,7 +27,6 @@ public class OrderController : ControllerBase
         _orderService = service;
         _fileSaver = saver;
     }
-
     [HttpPost("user", Name = "CreateOrder")]
     public async Task<APIResponse> CreateOrder(BaseOrderDto order)
     {
@@ -89,7 +88,6 @@ public class OrderController : ControllerBase
             Console.WriteLine(e);
             throw;
         }
-       
     }
 
     [HttpPut("upload-start-photos", Name = "UploadPhotos")]
