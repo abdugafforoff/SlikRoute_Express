@@ -113,6 +113,9 @@ namespace BIS_project.Migrations
 
                     NpgsqlPropertyBuilderExtensions.UseIdentityByDefaultColumn(b.Property<int>("Id"));
 
+                    b.Property<int>("BranchId")
+                        .HasColumnType("integer");
+
                     b.Property<DateOnly>("DateOfBirth")
                         .HasColumnType("date");
 
@@ -141,6 +144,8 @@ namespace BIS_project.Migrations
                         .HasColumnType("integer");
 
                     b.HasKey("Id");
+
+                    b.HasIndex("BranchId");
 
                     b.HasIndex("DriverPhotoId");
 
@@ -184,6 +189,10 @@ namespace BIS_project.Migrations
 
                     b.Property<int>("PositionId")
                         .HasColumnType("integer");
+
+                    b.Property<string>("Username")
+                        .IsRequired()
+                        .HasColumnType("text");
 
                     b.HasKey("Id");
 
@@ -257,6 +266,9 @@ namespace BIS_project.Migrations
                     b.Property<DateTime>("CreatedAt")
                         .HasColumnType("timestamptz");
 
+                    b.Property<int?>("DriverId")
+                        .HasColumnType("integer");
+
                     b.Property<List<string>>("EndPoint")
                         .HasColumnType("text[]");
 
@@ -315,6 +327,8 @@ namespace BIS_project.Migrations
                     b.HasKey("Id");
 
                     b.HasIndex("ClientId");
+
+                    b.HasIndex("DriverId");
 
                     b.HasIndex("FromDistrictId");
 
@@ -433,7 +447,7 @@ namespace BIS_project.Migrations
                         .IsRequired()
                         .HasColumnType("text");
 
-                    b.Property<int>("RoleId")
+                    b.Property<int?>("RoleId")
                         .HasColumnType("integer");
 
                     b.Property<string>("UserName")
@@ -479,6 +493,12 @@ namespace BIS_project.Migrations
 
             modelBuilder.Entity("BIS_project.Models.Driver", b =>
                 {
+                    b.HasOne("BIS_project.Models.Branch", "Branch")
+                        .WithMany()
+                        .HasForeignKey("BranchId")
+                        .OnDelete(DeleteBehavior.Cascade)
+                        .IsRequired();
+
                     b.HasOne("BIS_project.Models.Image", "DriverPhoto")
                         .WithMany()
                         .HasForeignKey("DriverPhotoId")
@@ -496,6 +516,8 @@ namespace BIS_project.Migrations
                         .HasForeignKey("TruckId")
                         .OnDelete(DeleteBehavior.Cascade)
                         .IsRequired();
+
+                    b.Navigation("Branch");
 
                     b.Navigation("DriverPhoto");
 
@@ -560,6 +582,10 @@ namespace BIS_project.Migrations
                         .WithMany()
                         .HasForeignKey("ClientId");
 
+                    b.HasOne("BIS_project.Models.Driver", "Driver")
+                        .WithMany()
+                        .HasForeignKey("DriverId");
+
                     b.HasOne("BIS_project.Models.District", "FromDistrict")
                         .WithMany()
                         .HasForeignKey("FromDistrictId");
@@ -578,6 +604,8 @@ namespace BIS_project.Migrations
 
                     b.Navigation("Client");
 
+                    b.Navigation("Driver");
+
                     b.Navigation("FromDistrict");
 
                     b.Navigation("FromRegion");
@@ -591,9 +619,7 @@ namespace BIS_project.Migrations
                 {
                     b.HasOne("BIS_project.Models.Role", "Role")
                         .WithMany()
-                        .HasForeignKey("RoleId")
-                        .OnDelete(DeleteBehavior.Cascade)
-                        .IsRequired();
+                        .HasForeignKey("RoleId");
 
                     b.Navigation("Role");
                 });
