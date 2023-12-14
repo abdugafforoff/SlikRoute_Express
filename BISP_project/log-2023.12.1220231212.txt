@@ -1,0 +1,19 @@
+2023-12-12 14:20:10.192 +05:00 [INF] User profile is available. Using '/Users/azizjonabdugafforov/.aspnet/DataProtection-Keys' as key repository; keys will not be encrypted at rest.
+2023-12-12 14:20:10.249 +05:00 [INF] Now listening on: http://localhost:5279
+2023-12-12 14:20:10.250 +05:00 [INF] Application started. Press Ctrl+C to shut down.
+2023-12-12 14:20:10.250 +05:00 [INF] Hosting environment: Development
+2023-12-12 14:20:10.250 +05:00 [INF] Content root path: /Users/azizjonabdugafforov/Desktop/Code/BISP/SlikRoute_Express/BISP_project
+2023-12-12 14:20:10.823 +05:00 [INF] Request starting HTTP/1.1 GET http://localhost:5279/swagger/index.html - -
+2023-12-12 14:20:10.910 +05:00 [INF] Request finished HTTP/1.1 GET http://localhost:5279/swagger/index.html - - - 200 - text/html;charset=utf-8 87.3886ms
+2023-12-12 14:20:10.966 +05:00 [INF] Request starting HTTP/1.1 GET http://localhost:5279/swagger/swagger-ui-standalone-preset.js - -
+2023-12-12 14:20:10.966 +05:00 [INF] Request starting HTTP/1.1 GET http://localhost:5279/swagger/swagger-ui-bundle.js - -
+2023-12-12 14:20:10.991 +05:00 [INF] Request starting HTTP/1.1 GET http://localhost:5279/swagger/swagger-ui.css - -
+2023-12-12 14:20:11.034 +05:00 [INF] Sending file. Request path: '/swagger-ui.css'. Physical path: 'N/A'
+2023-12-12 14:20:11.035 +05:00 [INF] Sending file. Request path: '/swagger-ui-standalone-preset.js'. Physical path: 'N/A'
+2023-12-12 14:20:11.038 +05:00 [INF] Request finished HTTP/1.1 GET http://localhost:5279/swagger/swagger-ui.css - - - 200 144929 text/css 46.6010ms
+2023-12-12 14:20:11.038 +05:00 [INF] Request finished HTTP/1.1 GET http://localhost:5279/swagger/swagger-ui-standalone-preset.js - - - 200 312163 text/javascript 72.3393ms
+2023-12-12 14:20:11.039 +05:00 [INF] Sending file. Request path: '/swagger-ui-bundle.js'. Physical path: 'N/A'
+2023-12-12 14:20:11.039 +05:00 [INF] Request finished HTTP/1.1 GET http://localhost:5279/swagger/swagger-ui-bundle.js - - - 200 1061536 text/javascript 72.9873ms
+2023-12-12 14:20:11.256 +05:00 [INF] Request starting HTTP/1.1 GET http://localhost:5279/swagger/v1/swagger.json - -
+2023-12-12 14:20:11.421 +05:00 [INF] Request finished HTTP/1.1 GET http://localhost:5279/swagger/v1/swagger.json - - - 200 - application/json;charset=utf-8 165.6719ms
+2023-12-12 16:04:35.814 +05:00 [INF] Application is shutting down...
