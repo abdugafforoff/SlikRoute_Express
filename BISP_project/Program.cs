@@ -12,7 +12,6 @@ using Microsoft.IdentityModel.Tokens;
 using Microsoft.OpenApi.Models;
 using Serilog;
 using Swashbuckle.AspNetCore.Filters;
-
 public class Program
 {
     public static void Main(string[] args)
@@ -104,11 +103,11 @@ public class Program
             })));
         });
         var app = builder.Build();
-        if (app.Environment.IsProduction())
-        {
+        // if (app.Environment.IsProduction())
+        // {
             app.UseSwagger();
             app.UseSwaggerUI(); 
-        }
+        // }
         app.UseStaticFiles();
         app.UseAuthentication();    
         app.UseHttpsRedirection();

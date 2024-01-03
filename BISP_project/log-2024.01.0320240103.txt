@@ -1,0 +1,38 @@
+2024-01-03 17:01:00.672 +05:00 [INF] User profile is available. Using '/Users/azizjonabdugafforov/.aspnet/DataProtection-Keys' as key repository; keys will not be encrypted at rest.
+2024-01-03 17:01:01.134 +05:00 [INF] Now listening on: http://localhost:5279
+2024-01-03 17:01:01.135 +05:00 [INF] Application started. Press Ctrl+C to shut down.
+2024-01-03 17:01:01.135 +05:00 [INF] Hosting environment: Development
+2024-01-03 17:01:01.135 +05:00 [INF] Content root path: /Users/azizjonabdugafforov/Desktop/Code/BISP/SlikRoute_Express/BISP_project
+2024-01-03 17:01:02.245 +05:00 [INF] Request starting HTTP/1.1 GET http://localhost:5279/swagger - -
+2024-01-03 17:01:02.310 +05:00 [WRN] Failed to determine the https port for redirect.
+2024-01-03 17:01:02.314 +05:00 [INF] Request finished HTTP/1.1 GET http://localhost:5279/swagger - - - 404 0 - 70.7198ms
+2024-01-03 17:01:04.883 +05:00 [INF] Request starting HTTP/1.1 GET http://localhost:5279/swagger - -
+2024-01-03 17:01:04.908 +05:00 [INF] Request finished HTTP/1.1 GET http://localhost:5279/swagger - - - 404 0 - 25.0573ms
+2024-01-03 17:01:05.249 +05:00 [INF] Request starting HTTP/1.1 GET http://localhost:5279/swagger - -
+2024-01-03 17:01:05.252 +05:00 [INF] Request finished HTTP/1.1 GET http://localhost:5279/swagger - - - 404 0 - 3.6615ms
+2024-01-03 17:01:13.516 +05:00 [INF] Request starting HTTP/1.1 GET http://localhost:5279/swagger/index.html - -
+2024-01-03 17:01:13.522 +05:00 [INF] Request finished HTTP/1.1 GET http://localhost:5279/swagger/index.html - - - 404 0 - 5.5930ms
+2024-01-03 17:01:27.270 +05:00 [INF] Application is shutting down...
+2024-01-03 17:01:29.580 +05:00 [INF] User profile is available. Using '/Users/azizjonabdugafforov/.aspnet/DataProtection-Keys' as key repository; keys will not be encrypted at rest.
+2024-01-03 17:01:29.641 +05:00 [INF] Now listening on: http://localhost:5279
+2024-01-03 17:01:29.642 +05:00 [INF] Application started. Press Ctrl+C to shut down.
+2024-01-03 17:01:29.642 +05:00 [INF] Hosting environment: Development
+2024-01-03 17:01:29.642 +05:00 [INF] Content root path: /Users/azizjonabdugafforov/Desktop/Code/BISP/SlikRoute_Express/BISP_project
+2024-01-03 17:01:30.216 +05:00 [INF] Request starting HTTP/1.1 GET http://localhost:5279/swagger - -
+2024-01-03 17:01:30.274 +05:00 [INF] Request finished HTTP/1.1 GET http://localhost:5279/swagger - - - 301 0 - 58.5931ms
+2024-01-03 17:01:30.278 +05:00 [INF] Request starting HTTP/1.1 GET http://localhost:5279/swagger/index.html - -
+2024-01-03 17:01:30.331 +05:00 [INF] Request finished HTTP/1.1 GET http://localhost:5279/swagger/index.html - - - 200 - text/html;charset=utf-8 52.1659ms
+2024-01-03 17:01:30.366 +05:00 [INF] Request starting HTTP/1.1 GET http://localhost:5279/swagger/swagger-ui.css - -
+2024-01-03 17:01:30.368 +05:00 [INF] Request starting HTTP/1.1 GET http://localhost:5279/swagger/swagger-ui-standalone-preset.js - -
+2024-01-03 17:01:30.368 +05:00 [INF] Request starting HTTP/1.1 GET http://localhost:5279/swagger/swagger-ui-bundle.js - -
+2024-01-03 17:01:30.392 +05:00 [INF] Sending file. Request path: '/swagger-ui.css'. Physical path: 'N/A'
+2024-01-03 17:01:30.392 +05:00 [INF] Sending file. Request path: '/swagger-ui-standalone-preset.js'. Physical path: 'N/A'
+2024-01-03 17:01:30.393 +05:00 [INF] Request finished HTTP/1.1 GET http://localhost:5279/swagger/swagger-ui-standalone-preset.js - - - 200 312163 text/javascript 25.2090ms
+2024-01-03 17:01:30.394 +05:00 [INF] Request finished HTTP/1.1 GET http://localhost:5279/swagger/swagger-ui.css - - - 200 144929 text/css 27.7556ms
+2024-01-03 17:01:30.401 +05:00 [INF] Sending file. Request path: '/swagger-ui-bundle.js'. Physical path: 'N/A'
+2024-01-03 17:01:30.401 +05:00 [INF] Request finished HTTP/1.1 GET http://localhost:5279/swagger/swagger-ui-bundle.js - - - 200 1061536 text/javascript 32.5898ms
+2024-01-03 17:01:30.569 +05:00 [INF] Request starting HTTP/1.1 GET http://localhost:5279/swagger/v1/swagger.json - -
+2024-01-03 17:01:30.651 +05:00 [INF] Request finished HTTP/1.1 GET http://localhost:5279/swagger/v1/swagger.json - - - 200 - application/json;charset=utf-8 81.7986ms
+2024-01-03 17:01:30.662 +05:00 [INF] Request starting HTTP/1.1 GET http://localhost:5279/swagger/favicon-32x32.png - -
+2024-01-03 17:01:30.663 +05:00 [INF] Sending file. Request path: '/favicon-32x32.png'. Physical path: 'N/A'
+2024-01-03 17:01:30.663 +05:00 [INF] Request finished HTTP/1.1 GET http://localhost:5279/swagger/favicon-32x32.png - - - 200 628 image/png 1.1796ms
