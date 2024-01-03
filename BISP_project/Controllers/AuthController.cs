@@ -1,6 +1,7 @@
 using System.IdentityModel.Tokens.Jwt;
 using System.Security.Claims;
 using BIS_project.Dtos;
+using BIS_project.Helper;
 using BIS_project.Models;
 using BIS_project.Response;
 using BIS_project.Services;
@@ -75,5 +76,47 @@ public class AuthController : ControllerBase
             return StatusCode(500, "An error occurred while processing the login request.");
         }
     }
+    [HttpPost("Register")]
+    public async Task<object> Register(UserRegisterDto request)
+    {
+        if (string.IsNullOrEmpty(request.Username) || string.IsNullOrEmpty(request.Password))
+        {
+            return BadRequest("Username or password is missing.");
+        }
+        try
+        {
+            var user = await _authService.UserRegister(request);
+            if (user == null)
+            {
+                return BadRequest("User already exists!");
+            }
+            return Ok(user);
+        }
+        catch (Exception ex)
+        {
+            return StatusCode(500, "An error occurred while processing the register request.");
+        }
+    }
+  
+    [HttpPut("forgot-password")]
+    public async Task<IActionResult> ForgotPassword(string username)
+    {
+        try
+        {
+            APIResponse result = await _authService.ForgotPassword(username);
+            if (result.ResponseCode == 200)
+            {
+                return Ok(result);
+            }
+          
+            return BadRequest("User not found!");
+        }
+        catch (Exception e)
+        {
+            Console.WriteLine(e);
+            return BadRequest("some error occured!");
+        }
+    }
+    
     
 }
