@@ -10,7 +10,7 @@ using Microsoft.AspNetCore.Mvc.ApiExplorer;
 using Microsoft.IdentityModel.Tokens;
 
 namespace BIS_project.Controllers;
-[Route("api/v1/[controller]")]
+[Route("api/v1/")]
 [ApiController]
 public class AuthController : ControllerBase 
 {
@@ -25,7 +25,7 @@ public class AuthController : ControllerBase
         _configuration = configuration;
     }
 
-    [HttpPost("Login")]
+    [HttpPost("login")]
     public async Task<object> Login(UserDto request)
     {
         if (string.IsNullOrEmpty(request.Username) || string.IsNullOrEmpty(request.Password))
@@ -76,7 +76,7 @@ public class AuthController : ControllerBase
             return StatusCode(500, "An error occurred while processing the login request.");
         }
     }
-    [HttpPost("Register")]
+    [HttpPost("register")]
     public async Task<object> Register(UserRegisterDto request)
     {
         if (string.IsNullOrEmpty(request.Username) || string.IsNullOrEmpty(request.Password))

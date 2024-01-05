@@ -6,7 +6,7 @@ using BIS_project.Services;
 using Microsoft.AspNetCore.Mvc;
 
 namespace BIS_project.Controllers;
-[Route("api/v1/[controller]")]
+[Route("api/v1/district")]
 [ApiController]
 public class DistrictController : GenericController<District, DistrictDto>
 {
@@ -16,7 +16,7 @@ public class DistrictController : GenericController<District, DistrictDto>
         _service = service;
     }
 
-    [HttpGet("ByRegion/{id}", Name = "GetDistrictsById")]
+    [HttpGet("byRegion/{id}", Name = "GetDistrictsById")]
     public async Task<List<District>> GetDistrictById(int id)
     {
         return await _service.GetDistrictsById(id);

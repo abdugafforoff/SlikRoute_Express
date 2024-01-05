@@ -5,7 +5,7 @@ using BIS_project.Services;
 using Microsoft.AspNetCore.Mvc;
 
 namespace BIS_project.Controllers;
-[Route("api/v1/[controller]")]
+[Route("api/v1/role")]
 [ApiController]
 public class RoleController : GenericController<Role, RoleDto>
 {

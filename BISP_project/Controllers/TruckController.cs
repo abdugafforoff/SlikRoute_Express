@@ -5,7 +5,7 @@ using Microsoft.AspNetCore.Mvc;
 using Newtonsoft.Json;
 
 namespace BIS_project.Controllers;
-[Route("api/v1/[controller]")]
+[Route("api/v1/truck")]
 [ApiController]
 public class TruckController : ControllerBase
 {

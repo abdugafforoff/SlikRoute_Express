@@ -5,7 +5,7 @@ using Microsoft.AspNetCore.Mvc;
 
 namespace BIS_project.Controllers;
 
-[Route("api/v1/[controller]")]
+[Route("api/v1/position")]
 [ApiController]
 public class PositionController : GenericController<Position, PositionDto>
 {

@@ -5,7 +5,7 @@ using BIS_project.Services;
 using Microsoft.AspNetCore.Mvc;
 
 namespace BIS_project.Controllers;
-[Route("api/v1/[controller]")]
+[Route("api/v1/driver")]
 [ApiController]
 public class DriverController : ControllerBase
 {
@@ -18,7 +18,7 @@ public class DriverController : ControllerBase
         _saver = save;
     }
 
-    [HttpPost(Name = "CreateDriver")]
+    [HttpPost(Name = "createDriver")]
     public async Task<APIResponse> CreateDriver([FromForm] DriverModel model)
     {
         var img = await _saver.FileSaveAsync(model.Photo, "Drivers/images");
@@ -27,7 +27,7 @@ public class DriverController : ControllerBase
         return new APIResponse(200, result, "");
     }
 
-    [HttpGet(Name = "GetDrivers")]
+    [HttpGet(Name = "getDrivers")]
     public async Task<APIResponse> GetDrivers()
     {
         return await _driverService.GetDrivers();

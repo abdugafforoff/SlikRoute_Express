@@ -342,3 +342,4 @@ Npgsql.NpgsqlException (0x80004005): Failed to connect to 3.131.64.200:5432
 2024-01-03 17:51:50.571 +05:00 [INF] Executed action BIS_project.Controllers.AuthController.ForgotPassword (BIS_project) in 6700.039ms
 2024-01-03 17:51:50.576 +05:00 [INF] Executed endpoint 'BIS_project.Controllers.AuthController.ForgotPassword (BIS_project)'
 2024-01-03 17:51:50.585 +05:00 [INF] Request finished HTTP/1.1 PUT http://localhost:5279/api/v1/Auth/forgot-password?username=efwefwefes - 0 - 400 - text/plain;+charset=utf-8 6773.5662ms
+2024-01-03 17:52:40.384 +05:00 [INF] Application is shutting down...

@@ -5,7 +5,7 @@ using Microsoft.AspNetCore.Mvc;
 using BIS_project.Models;
 
 namespace BIS_project.Controllers;
-[Route("api/v1/[controller]")]
+[Route("api/v1/employee")]
 [ApiController]
 [Authorize(Roles = "ADMIN")]
 public class EmployeeController : ControllerBase
@@ -21,7 +21,7 @@ public class EmployeeController : ControllerBase
         _fileSaver = saver;
     }
     
-    [HttpPost(Name = "CreateEmployee")]
+    [HttpPost(Name = "createEmployee")]
     public async Task<IActionResult> CreateEmployee([FromForm] EmployeeModel model)
     {
         try
@@ -37,7 +37,7 @@ public class EmployeeController : ControllerBase
         }
     }
 
-    [HttpGet(Name = "GetEmployees")]
+    [HttpGet(Name = "getEmployees")]
     public async Task<List<Employee>> GetEmployees()
     {
         try
@@ -50,7 +50,7 @@ public class EmployeeController : ControllerBase
             throw;
         }
     }
-    [HttpGet("{id}",Name = "GetEmployeeById")]
+    [HttpGet("{id}",Name = "getEmployeeById")]
     public async Task<IActionResult> GetEmployeeById(int id)
     {
         try
@@ -70,7 +70,7 @@ public class EmployeeController : ControllerBase
         }
     }
     
-    [HttpPut("{id}",Name = "UpdateEmployee")]
+    [HttpPut("{id}",Name = "updateEmployee")]
     public async Task<bool> UpdateEmployee(int id, [FromForm] EmployeeModel model)
     {
          var img = await _fileSaver.FileSaveAsync(model.File, "employees/images");
@@ -78,7 +78,7 @@ public class EmployeeController : ControllerBase
          return true;
     }
 
-    [HttpDelete("{id}", Name = "DeleteEmployee")]
+    [HttpDelete("{id}", Name = "deleteEmployee")]
     public async Task<IActionResult> DeleteEmployee(int id)
     {
         try
