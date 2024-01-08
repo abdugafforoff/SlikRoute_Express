@@ -171,3 +171,4 @@ Swashbuckle.AspNetCore.SwaggerGen.SwaggerGeneratorException: Conflicting method/
 2024-01-05 14:20:57.305 +05:00 [INF] Executed action BIS_project.Controllers.AuthController.ForgotPassword (BIS_project) in 6498.1802ms
 2024-01-05 14:20:57.305 +05:00 [INF] Executed endpoint 'BIS_project.Controllers.AuthController.ForgotPassword (BIS_project)'
 2024-01-05 14:20:57.306 +05:00 [INF] Request finished HTTP/1.1 PUT http://localhost:5279/api/v1/forgot-password?username=azizgofurov98%40gmail.com - 0 - 200 - application/json;+charset=utf-8 6508.0506ms
+2024-01-05 14:30:03.773 +05:00 [INF] Application is shutting down...

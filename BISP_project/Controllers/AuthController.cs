@@ -26,11 +26,11 @@ public class AuthController : ControllerBase
     }
 
     [HttpPost("login")]
-    public async Task<object> Login(UserDto request)
+    public async Task<IActionResult> Login(UserDto request)
     {
         if (string.IsNullOrEmpty(request.Username) || string.IsNullOrEmpty(request.Password))
         {
-            return BadRequest("Username or password is missing.");
+            return BadRequest( new APIResponse(400, "", "provide the required fields"));
         }
         try
         {
@@ -38,7 +38,7 @@ public class AuthController : ControllerBase
             Employee? employee = await _employee.GetEmployeeByName(user);
             if (user == null)
             {
-                return Unauthorized("User not found!");
+                return Unauthorized(new APIResponse(401, "", "user not found"));
             }
             if (user.Password != request.Password)
             {

@@ -177,6 +177,7 @@ public class OrderService : IOrderService
                 var client = new Client
                 {
                     Email = order.Email,
+                    
                     Name = order.FullName,
                     PhoneNumber = order.PhoneNumber,
                     TotalSpent = await CalculateTotalSpent(await _dataContext.Orders
@@ -246,7 +247,7 @@ public class OrderService : IOrderService
                     UserName = order.Email,
                     Lastname = order.FullName,
                     Password = GenerateRandomPassword(),
-                    Role = await _dataContext.Roles.FirstOrDefaultAsync(e => e.Role_name == "CLIENT"),
+                    Role = await _dataContext.Roles.FirstOrDefaultAsync(e => e.Role_name == "USER"),
                 };
                 await _dataContext.Users.AddAsync(newUser);
                 await _dataContext.SaveChangesAsync();
