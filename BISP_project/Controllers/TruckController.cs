@@ -8,7 +8,6 @@ using Newtonsoft.Json;
 namespace BIS_project.Controllers;
 [Route("api/v1/truck")]
 [ApiController]
-[Authorize]
 public class TruckController : ControllerBase
 {
     private readonly Validator _validation;

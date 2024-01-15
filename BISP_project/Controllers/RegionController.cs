@@ -9,7 +9,6 @@ using Microsoft.EntityFrameworkCore.ChangeTracking;
 namespace BIS_project.Controllers;
 [Route("api/v1/region")]
 [ApiController]
-[Authorize]
 public class RegionController : GenericController<Region, RegionDto>
 {
     public RegionController(IGenericService<Region, RegionDto> genericService) : base(genericService)

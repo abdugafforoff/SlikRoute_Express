@@ -7,7 +7,6 @@ using Microsoft.AspNetCore.Mvc;
 
 namespace BIS_project.Controllers;
 [Route("api/v1/driver")]
-[Authorize(Roles = "ADMIN")]
 [ApiController]
 public class DriverController : ControllerBase
 {

@@ -126,34 +126,46 @@ public class OrderService : IOrderService
     {
         try
         {
-            var o = new Order()
+            var orderExist = await _dataContext.Orders
+                .Where(e=> e.Client.Email == order.Email)
+                .ToListAsync();
+            if (!orderExist.Any(e=>e.Status == "CREATED"))
             {
-                EndPoint = order.EndPoint,
-                StartPoint = order.StartPoint,
-                FromDistrict = await _dataContext.Districts.FindAsync(order.FromDistrict),
-                FromRegion = await _dataContext.Regions.FindAsync(order.FromRegion),
-                ToDistrict = await _dataContext.Districts.FindAsync(order.ToDistrict),
-                ToRegion = await _dataContext.Regions.FindAsync(order.ToRegion),
-                Services = order.Services,
-                LoadDayTime = order.LoadDayTime,
-                FromLoadTime = order.FromLoadTime,
-                ToLoadTime = order.ToLoadTime,
-                PaymentType = order.PaymentType,
-                HomeType = order.HomeType,
-                CreatedAt = DateTime.UtcNow,
-                Client = await CreteClient(order),
-                Status = "CREATED",
-            };
-            if (o.Client == null)
-            {
-                return new APIResponse(500, "", "err");
+                var o = new Order()
+                {
+                    EndPoint = order.EndPoint,
+                    StartPoint = order.StartPoint,
+                    FromDistrict = await _dataContext.Districts.FindAsync(order.FromDistrict),
+                    FromRegion = await _dataContext.Regions.FindAsync(order.FromRegion),
+                    ToDistrict = await _dataContext.Districts.FindAsync(order.ToDistrict),
+                    ToRegion = await _dataContext.Regions.FindAsync(order.ToRegion),
+                    Services = order.Services,
+                    LoadDayTime = order.LoadDayTime,
+                    FromLoadTime = order.FromLoadTime,
+                    ToLoadTime = order.ToLoadTime,
+                    PaymentType = order.PaymentType,
+                    HomeType = order.HomeType,
+                    CreatedAt = DateTime.UtcNow,
+                    Client = await CreteClient(order),
+                    Status = "CREATED",
+                };
+                if (o.Client == null)
+                {
+                    return new APIResponse(500, "", "err");
+                }
+            
+            
+                await _dataContext.Orders.AddAsync(o);
+                await _dataContext.SaveChangesAsync();
+            
+                await CreateUser(order);
+                return new APIResponse(200, "Order saved", "");
             }
-            
-            await _dataContext.Orders.AddAsync(o);
-            await _dataContext.SaveChangesAsync();
-            
-            await CreateUser(order);
-            return new APIResponse(200, "Order saved", "");
+            else
+            {
+                return new APIResponse(400, "", "you already have an order with status of CREATED");
+            }
+     
         }
         catch (Exception e)
         {
@@ -170,7 +182,7 @@ public class OrderService : IOrderService
     {
         try
         {
-            Client clientExists = await _dataContext.Client.FirstOrDefaultAsync(e => e.Name == order.FullName);
+            Client clientExists = await _dataContext.Client.FirstOrDefaultAsync(e => e.Email == order.Email);
 
             if (clientExists == null)
             {

@@ -8,7 +8,6 @@ using Microsoft.AspNetCore.Mvc;
 
 namespace BIS_project.Controllers;
 [Route("api/v1/district")]
-[Authorize(Roles = "ADMIN")]
 [ApiController]
 public class DistrictController : GenericController<District, DistrictDto>
 {
