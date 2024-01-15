@@ -1,12 +1,14 @@
 using BIS_project.Dtos;
 using BIS_project.Helper;
 using BIS_project.Services;
+using Microsoft.AspNetCore.Authorization;
 using Microsoft.AspNetCore.Mvc;
 using Newtonsoft.Json;
 
 namespace BIS_project.Controllers;
 [Route("api/v1/truck")]
 [ApiController]
+[Authorize]
 public class TruckController : ControllerBase
 {
     private readonly Validator _validation;

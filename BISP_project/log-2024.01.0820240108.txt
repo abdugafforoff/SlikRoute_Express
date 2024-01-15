@@ -127,3 +127,4 @@ Npgsql.NpgsqlException (0x80004005): Failed to connect to 3.143.47.40:5432
 2024-01-08 15:26:55.373 +05:00 [INF] Executed action BIS_project.Controllers.AuthController.Login (BIS_project) in 6366.967ms
 2024-01-08 15:26:55.376 +05:00 [INF] Executed endpoint 'BIS_project.Controllers.AuthController.Login (BIS_project)'
 2024-01-08 15:26:55.386 +05:00 [INF] Request finished HTTP/1.1 POST http://localhost:5279/api/v1/login application/json 76 - 200 - application/json;+charset=utf-8 6452.8133ms
+2024-01-08 15:30:00.478 +05:00 [INF] Application is shutting down...

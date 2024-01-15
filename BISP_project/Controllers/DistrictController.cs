@@ -3,10 +3,12 @@ using BIS_project.Dtos;
 using BIS_project.IServices;
 using BIS_project.Models;
 using BIS_project.Services;
+using Microsoft.AspNetCore.Authorization;
 using Microsoft.AspNetCore.Mvc;
 
 namespace BIS_project.Controllers;
 [Route("api/v1/district")]
+[Authorize(Roles = "ADMIN")]
 [ApiController]
 public class DistrictController : GenericController<District, DistrictDto>
 {

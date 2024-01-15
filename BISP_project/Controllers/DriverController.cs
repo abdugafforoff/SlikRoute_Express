@@ -2,10 +2,12 @@ using BIS_project.Helper;
 using BIS_project.Models;
 using BIS_project.Request;
 using BIS_project.Services;
+using Microsoft.AspNetCore.Authorization;
 using Microsoft.AspNetCore.Mvc;
 
 namespace BIS_project.Controllers;
 [Route("api/v1/driver")]
+[Authorize(Roles = "ADMIN")]
 [ApiController]
 public class DriverController : ControllerBase
 {

@@ -16,6 +16,7 @@ using Org.BouncyCastle.Crypto.Digests;
 namespace BIS_project.Controllers;
 [Route("api/v1/base-order")]
 [ApiController]
+[Authorize]
 public class OrderController : ControllerBase
 {
     public string comment { get; set; } = string.Empty;

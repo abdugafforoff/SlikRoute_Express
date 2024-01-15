@@ -1,0 +1,75 @@
+2024-01-15 09:07:45.417 +05:00 [INF] User profile is available. Using '/Users/azizjonabdugafforov/.aspnet/DataProtection-Keys' as key repository; keys will not be encrypted at rest.
+2024-01-15 09:07:45.921 +05:00 [INF] Now listening on: http://localhost:5279
+2024-01-15 09:07:45.922 +05:00 [INF] Application started. Press Ctrl+C to shut down.
+2024-01-15 09:07:45.922 +05:00 [INF] Hosting environment: Development
+2024-01-15 09:07:45.923 +05:00 [INF] Content root path: /Users/azizjonabdugafforov/Desktop/Code/BISP/SlikRoute_Express/BISP_project
+2024-01-15 09:07:46.608 +05:00 [INF] Request starting HTTP/1.1 GET http://localhost:5279/swagger - -
+2024-01-15 09:07:46.696 +05:00 [INF] Request finished HTTP/1.1 GET http://localhost:5279/swagger - - - 301 0 - 89.4896ms
+2024-01-15 09:07:46.702 +05:00 [INF] Request starting HTTP/1.1 GET http://localhost:5279/swagger/index.html - -
+2024-01-15 09:07:46.749 +05:00 [INF] Request finished HTTP/1.1 GET http://localhost:5279/swagger/index.html - - - 200 - text/html;charset=utf-8 46.9605ms
+2024-01-15 09:07:46.787 +05:00 [INF] Request starting HTTP/1.1 GET http://localhost:5279/swagger/swagger-ui.css - -
+2024-01-15 09:07:46.791 +05:00 [INF] Request starting HTTP/1.1 GET http://localhost:5279/swagger/swagger-ui-bundle.js - -
+2024-01-15 09:07:46.791 +05:00 [INF] Request starting HTTP/1.1 GET http://localhost:5279/swagger/swagger-ui-standalone-preset.js - -
+2024-01-15 09:07:46.808 +05:00 [INF] Sending file. Request path: '/swagger-ui-standalone-preset.js'. Physical path: 'N/A'
+2024-01-15 09:07:46.807 +05:00 [INF] Sending file. Request path: '/swagger-ui.css'. Physical path: 'N/A'
+2024-01-15 09:07:46.809 +05:00 [INF] Request finished HTTP/1.1 GET http://localhost:5279/swagger/swagger-ui-standalone-preset.js - - - 200 312163 text/javascript 17.8986ms
+2024-01-15 09:07:46.809 +05:00 [INF] Request finished HTTP/1.1 GET http://localhost:5279/swagger/swagger-ui.css - - - 200 144929 text/css 21.9322ms
+2024-01-15 09:07:46.820 +05:00 [INF] Sending file. Request path: '/swagger-ui-bundle.js'. Physical path: 'N/A'
+2024-01-15 09:07:46.820 +05:00 [INF] Request finished HTTP/1.1 GET http://localhost:5279/swagger/swagger-ui-bundle.js - - - 200 1061536 text/javascript 29.2084ms
+2024-01-15 09:07:46.832 +05:00 [INF] Request starting HTTP/1.1 GET http://localhost:5279/swagger/swagger-ui-standalone-preset.js - -
+2024-01-15 09:07:46.832 +05:00 [INF] Request starting HTTP/1.1 GET http://localhost:5279/swagger/swagger-ui-bundle.js - -
+2024-01-15 09:07:46.833 +05:00 [INF] Sending file. Request path: '/swagger-ui-standalone-preset.js'. Physical path: 'N/A'
+2024-01-15 09:07:46.833 +05:00 [INF] Request finished HTTP/1.1 GET http://localhost:5279/swagger/swagger-ui-standalone-preset.js - - - 200 312163 text/javascript 1.2336ms
+2024-01-15 09:07:46.835 +05:00 [INF] Sending file. Request path: '/swagger-ui-bundle.js'. Physical path: 'N/A'
+2024-01-15 09:07:46.835 +05:00 [INF] Request finished HTTP/1.1 GET http://localhost:5279/swagger/swagger-ui-bundle.js - - - 200 1061536 text/javascript 3.2640ms
+2024-01-15 09:07:47.014 +05:00 [INF] Request starting HTTP/1.1 GET http://localhost:5279/swagger/v1/swagger.json - -
+2024-01-15 09:07:47.083 +05:00 [INF] Request starting HTTP/1.1 GET http://localhost:5279/swagger/favicon-32x32.png - -
+2024-01-15 09:07:47.083 +05:00 [INF] Sending file. Request path: '/favicon-32x32.png'. Physical path: 'N/A'
+2024-01-15 09:07:47.083 +05:00 [INF] Request finished HTTP/1.1 GET http://localhost:5279/swagger/favicon-32x32.png - - - 200 628 image/png 0.5434ms
+2024-01-15 09:07:47.097 +05:00 [INF] Request finished HTTP/1.1 GET http://localhost:5279/swagger/v1/swagger.json - - - 200 - application/json;charset=utf-8 83.3400ms
+2024-01-15 09:08:30.360 +05:00 [INF] Application is shutting down...
+2024-01-15 09:08:32.454 +05:00 [INF] User profile is available. Using '/Users/azizjonabdugafforov/.aspnet/DataProtection-Keys' as key repository; keys will not be encrypted at rest.
+2024-01-15 09:08:32.513 +05:00 [INF] Now listening on: http://localhost:5279
+2024-01-15 09:08:32.513 +05:00 [INF] Application started. Press Ctrl+C to shut down.
+2024-01-15 09:08:32.514 +05:00 [INF] Hosting environment: Development
+2024-01-15 09:08:32.514 +05:00 [INF] Content root path: /Users/azizjonabdugafforov/Desktop/Code/BISP/SlikRoute_Express/BISP_project
+2024-01-15 09:08:33.179 +05:00 [INF] Request starting HTTP/1.1 GET http://localhost:5279/swagger/index.html - -
+2024-01-15 09:08:33.277 +05:00 [INF] Request finished HTTP/1.1 GET http://localhost:5279/swagger/index.html - - - 200 - text/html;charset=utf-8 99.8600ms
+2024-01-15 09:08:33.495 +05:00 [INF] Request starting HTTP/1.1 GET http://localhost:5279/swagger/v1/swagger.json - -
+2024-01-15 09:08:33.584 +05:00 [INF] Request finished HTTP/1.1 GET http://localhost:5279/swagger/v1/swagger.json - - - 200 - application/json;charset=utf-8 88.7309ms
+2024-01-15 09:08:47.067 +05:00 [INF] Request starting HTTP/1.1 GET http://localhost:5279/api/v1/branch/getAll - -
+2024-01-15 09:08:47.107 +05:00 [WRN] Failed to determine the https port for redirect.
+2024-01-15 09:08:47.111 +05:00 [INF] Authorization failed. These requirements were not met:
+RolesAuthorizationRequirement:User.IsInRole must be true for one of the following roles: (ADMIN)
+2024-01-15 09:08:47.115 +05:00 [INF] AuthenticationScheme: Bearer was challenged.
+2024-01-15 09:08:47.115 +05:00 [INF] Request finished HTTP/1.1 GET http://localhost:5279/api/v1/branch/getAll - - - 401 0 - 48.1319ms
+2024-01-15 09:08:59.914 +05:00 [INF] Request starting HTTP/1.1 GET http://localhost:5279/api/v1/district/getAll - -
+2024-01-15 09:08:59.921 +05:00 [INF] Authorization failed. These requirements were not met:
+RolesAuthorizationRequirement:User.IsInRole must be true for one of the following roles: (ADMIN)
+2024-01-15 09:08:59.922 +05:00 [INF] AuthenticationScheme: Bearer was challenged.
+2024-01-15 09:08:59.922 +05:00 [INF] Request finished HTTP/1.1 GET http://localhost:5279/api/v1/district/getAll - - - 401 0 - 8.4757ms
+2024-01-15 09:09:09.300 +05:00 [INF] Request starting HTTP/1.1 GET http://localhost:5279/api/v1/district/getAll - -
+2024-01-15 09:09:09.306 +05:00 [INF] Authorization failed. These requirements were not met:
+RolesAuthorizationRequirement:User.IsInRole must be true for one of the following roles: (ADMIN)
+2024-01-15 09:09:09.306 +05:00 [INF] AuthenticationScheme: Bearer was challenged.
+2024-01-15 09:09:09.307 +05:00 [INF] Request finished HTTP/1.1 GET http://localhost:5279/api/v1/district/getAll - - - 401 0 - 6.5510ms
+2024-01-15 09:09:38.352 +05:00 [INF] Request starting HTTP/1.1 GET http://localhost:5279/api/v1/driver - -
+2024-01-15 09:09:38.357 +05:00 [INF] Authorization failed. These requirements were not met:
+RolesAuthorizationRequirement:User.IsInRole must be true for one of the following roles: (ADMIN)
+2024-01-15 09:09:38.357 +05:00 [INF] AuthenticationScheme: Bearer was challenged.
+2024-01-15 09:09:38.358 +05:00 [INF] Request finished HTTP/1.1 GET http://localhost:5279/api/v1/driver - - - 401 0 - 6.2732ms
+2024-01-15 09:09:46.760 +05:00 [INF] Request starting HTTP/1.1 GET http://localhost:5279/api/v1/base-order/get-all - -
+2024-01-15 09:09:46.762 +05:00 [INF] Authorization failed. These requirements were not met:
+DenyAnonymousAuthorizationRequirement: Requires an authenticated user.
+2024-01-15 09:09:46.762 +05:00 [INF] AuthenticationScheme: Bearer was challenged.
+2024-01-15 09:09:46.762 +05:00 [INF] Request finished HTTP/1.1 GET http://localhost:5279/api/v1/base-order/get-all - - - 401 0 - 1.7743ms
+2024-01-15 09:09:56.022 +05:00 [INF] Request starting HTTP/1.1 GET http://localhost:5279/api/v1/position/getAll - -
+2024-01-15 09:09:56.022 +05:00 [INF] Authorization failed. These requirements were not met:
+DenyAnonymousAuthorizationRequirement: Requires an authenticated user.
+2024-01-15 09:09:56.022 +05:00 [INF] AuthenticationScheme: Bearer was challenged.
+2024-01-15 09:09:56.023 +05:00 [INF] Request finished HTTP/1.1 GET http://localhost:5279/api/v1/position/getAll - - - 401 0 - 0.9917ms
+2024-01-15 09:10:02.214 +05:00 [INF] Request starting HTTP/1.1 GET http://localhost:5279/api/v1/truck - -
+2024-01-15 09:10:02.215 +05:00 [INF] Authorization failed. These requirements were not met:
+DenyAnonymousAuthorizationRequirement: Requires an authenticated user.
+2024-01-15 09:10:02.215 +05:00 [INF] AuthenticationScheme: Bearer was challenged.
+2024-01-15 09:10:02.216 +05:00 [INF] Request finished HTTP/1.1 GET http://localhost:5279/api/v1/truck - - - 401 0 - 1.8916ms
