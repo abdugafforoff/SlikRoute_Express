@@ -1,10 +1,12 @@
 using BIS_project.IServices;
+using Microsoft.AspNetCore.Authorization;
 using Microsoft.AspNetCore.Mvc;
 
 namespace BIS_project.Controllers
 {
     [Route("api/v1/")]
     [ApiController]
+    [Authorize]
     public class GenericController<T, Tdto> : ControllerBase where T : class where Tdto : class
     {
         private readonly IGenericService<T, Tdto> _genericService;

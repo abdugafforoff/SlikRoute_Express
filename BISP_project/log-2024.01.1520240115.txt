@@ -73,3 +73,14 @@ DenyAnonymousAuthorizationRequirement: Requires an authenticated user.
 DenyAnonymousAuthorizationRequirement: Requires an authenticated user.
 2024-01-15 09:10:02.215 +05:00 [INF] AuthenticationScheme: Bearer was challenged.
 2024-01-15 09:10:02.216 +05:00 [INF] Request finished HTTP/1.1 GET http://localhost:5279/api/v1/truck - - - 401 0 - 1.8916ms
+2024-01-15 09:12:43.334 +05:00 [INF] Application is shutting down...
+2024-01-15 09:12:45.904 +05:00 [INF] User profile is available. Using '/Users/azizjonabdugafforov/.aspnet/DataProtection-Keys' as key repository; keys will not be encrypted at rest.
+2024-01-15 09:12:45.977 +05:00 [INF] Now listening on: http://localhost:5279
+2024-01-15 09:12:45.978 +05:00 [INF] Application started. Press Ctrl+C to shut down.
+2024-01-15 09:12:45.979 +05:00 [INF] Hosting environment: Development
+2024-01-15 09:12:45.979 +05:00 [INF] Content root path: /Users/azizjonabdugafforov/Desktop/Code/BISP/SlikRoute_Express/BISP_project
+2024-01-15 09:12:46.474 +05:00 [INF] Request starting HTTP/1.1 GET http://localhost:5279/swagger/index.html - -
+2024-01-15 09:12:46.564 +05:00 [INF] Request finished HTTP/1.1 GET http://localhost:5279/swagger/index.html - - - 200 - text/html;charset=utf-8 91.1700ms
+2024-01-15 09:12:46.708 +05:00 [INF] Request starting HTTP/1.1 GET http://localhost:5279/swagger/v1/swagger.json - -
+2024-01-15 09:12:46.823 +05:00 [INF] Request finished HTTP/1.1 GET http://localhost:5279/swagger/v1/swagger.json - - - 200 - application/json;charset=utf-8 114.7660ms
+2024-01-15 09:12:55.203 +05:00 [INF] Application is shutting down...
