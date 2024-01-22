@@ -151,15 +151,14 @@ public class OrderService : IOrderService
                 };
                 if (o.Client == null)
                 {
-                    return new APIResponse(500, "", "err");
+                    return new APIResponse(500, "", "client cannot be saved");
                 }
-            
             
                 await _dataContext.Orders.AddAsync(o);
                 await _dataContext.SaveChangesAsync();
             
                 await CreateUser(order);
-                return new APIResponse(200, "Order saved", "");
+                return new APIResponse(200, "Order saved successfully!", "");
             }
             else
             {
@@ -177,7 +176,6 @@ public class OrderService : IOrderService
             return new APIResponse(500, "", e.Message);
         }
     }
-
     private async Task<Client?> CreteClient(BaseOrderDto order)
     {
         try
@@ -376,7 +374,6 @@ public class OrderService : IOrderService
             throw;
         }
     }
-
     public async Task<string> RateOrder(int id, int rating)
     {
         try

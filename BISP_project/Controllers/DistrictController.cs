@@ -13,7 +13,7 @@ public class DistrictController : GenericController<District, DistrictDto>
 {
     private readonly DistrictService _service;
     public DistrictController(IGenericService<District, DistrictDto> generService, DistrictService service) : base(generService)
-    {
+    {   
         _service = service;
     }
 
