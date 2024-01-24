@@ -42,7 +42,7 @@ public class AuthController : ControllerBase
             }
             if (user.Password != request.Password)
             {
-                return BadRequest(new APIResponse(400, "", "Password is incorrect!"));
+                return Ok(new APIResponse(400, "", "Password is incorrect!"));
             }
                 var emp = employee != null? new
                 {
