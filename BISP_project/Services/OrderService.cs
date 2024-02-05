@@ -255,7 +255,6 @@ public class OrderService : IOrderService
                     IsActive = true,
                     Firstname = order.FullName,
                     UserName = order.Email,
-                    Lastname = order.FullName,
                     Password = GenerateRandomPassword(),
                     Role = await _dataContext.Roles.FirstOrDefaultAsync(e => e.Role_name == "USER"),
                 };

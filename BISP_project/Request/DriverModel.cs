@@ -14,4 +14,8 @@ public class DriverModel
     
     [FromForm(Name = "license")]
     public IFormFile License { get; set; }
+    
+    [FromForm(Name = "truckImages")]
+    public List<IFormFile> TruckImages { get; set; }
+  
 }

@@ -32,7 +32,7 @@ public class TruckController : ControllerBase
                 bool isValid = await _validation.Validate(new TruckDto(), truckData);
                 if (!isValid)
                 {
-                    var errResponse = new APIResponse(400, "Not valid object", "Parametrlar to'gri berilmagan!");
+                    var errResponse = new APIResponse(400, "Not valid object", "Bad credentials!");
                     return errResponse;
                 }
                 var images = await _fileSaver.UploadFiles(Request.Form.Files, "truck/images");

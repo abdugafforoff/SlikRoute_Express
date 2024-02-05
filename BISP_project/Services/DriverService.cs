@@ -12,19 +12,22 @@ namespace BIS_project.Services;
 public class DriverService : IDriverService
 {
     private readonly DataContext _dataContext;
+    private readonly AuthService _authService;
 
-    public DriverService(DataContext data)
+
+    public DriverService(DataContext data, AuthService auth)
     {
         _dataContext = data;
+        _authService = auth;
     }
     
-    public async Task<bool> CreateDriver(DriverDto driver, Image img, Image license )
+    public async Task<bool> CreateDriver(DriverDto driver, Image img, Image license, int truckId)
     {
         try
         {
             var d = new Driver()
             {
-                Truck = await _dataContext.Trucks.FindAsync(driver.TruckId),
+                Truck = await _dataContext.Trucks.FindAsync(truckId),
                 Status = "Available to ship",
                 DriverFullName = driver.DriverFullName,
                 IsActive = true,
@@ -36,6 +39,13 @@ public class DriverService : IDriverService
             };
             await _dataContext.Drivers.AddAsync(d);
             await _dataContext.SaveChangesAsync();
+            var user = new UserRegisterDto()
+            {
+                Firstname = driver.DriverFullName,
+                Password = GenerateRandomPassword(),
+                Username = driver.Email,
+            };
+            await _authService.DriverRegister(user);
             return true;
         }
         catch (Exception e)
@@ -44,6 +54,16 @@ public class DriverService : IDriverService
             return false;
         }
     }
+    private string GenerateRandomPassword()
+    {
+        const string chars = "ABCDEFGHIJKLMNOPQRSTUVWXYZabcdefghijklmnopqrstuvwxyz0123456789";
+        Random random = new Random();
+        int passwordLength = 6;
+        string password = new string(Enumerable.Repeat(chars, passwordLength)
+            .Select(s => s[random.Next(s.Length)]).ToArray());
+        return password;
+    }
+    
 
     public async Task<APIResponse> GetDrivers()
     {

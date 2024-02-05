@@ -139,8 +139,7 @@ public class EmployeeService : IEmployeeService
                 .Include(e=> e.Position)
                 .Include(e=> e.Image)
                 .FirstOrDefaultAsync(e =>
-                    e.Firstname == dto.Firstname 
-                    && e.Lastname == dto.Lastname);
+                    e.Firstname == dto.Firstname);
         }
         catch (Exception e)
         {

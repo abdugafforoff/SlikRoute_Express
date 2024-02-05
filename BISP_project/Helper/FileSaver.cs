@@ -56,6 +56,57 @@ public class FileSaver
         }
     }
 
+    public async Task<List<Image>> SaveImageListAsync(List<IFormFile> files, string filePath)
+    {
+        try
+        {
+            List<Image> savedImages = new List<Image>();
+
+            foreach (var file in files)
+            {
+                if (file == null || file.Length == 0)
+                {
+                    // Handle the case where a file is null or empty (optional)
+                    continue;
+                }
+
+                string sanitizedFileName = $"{Guid.NewGuid()}{Path.GetExtension(file.FileName)}";
+                string route = Path.Combine(_env.WebRootPath, filePath);
+
+                var img = new Image()
+                {
+                    Name = file.FileName,
+                    Path = $"{filePath}/{sanitizedFileName}"
+                };
+            
+                await _dataContext.Images.AddAsync(img);
+                await _dataContext.SaveChangesAsync();
+
+                // Ensure the directory exists
+                if (!Directory.Exists(route))
+                {
+                    Directory.CreateDirectory(route);
+                }
+
+                string fileRoute = Path.Combine(route, sanitizedFileName);
+
+                using (FileStream fs = File.Create(fileRoute))
+                {
+                    await file.OpenReadStream().CopyToAsync(fs);
+                }
+
+                savedImages.Add(img);
+            }
+
+            return savedImages;
+        }
+        catch (Exception ex)
+        {
+            throw new Exception($"An error occurred: {ex.Message}", ex);
+        }
+    }
+
+
 
     public async Task<Image> GetFile(string filename)
     {
